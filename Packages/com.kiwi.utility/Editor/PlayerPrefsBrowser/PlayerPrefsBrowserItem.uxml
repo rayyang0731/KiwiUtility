@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement focusable="false" name="Item" style="flex-grow: 1; flex-direction: row;">
+        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Key" style="-unity-text-align: middle-left; width: auto; margin-left: 10px; flex-shrink: 0; flex-grow: 0; flex-basis: 30%;" />
+        <ui:EnumField type="PlayerPrefsExtension+ValueType, Assembly-CSharp-Editor" name="Type" style="width: 55px;" />
+        <ui:TextField picking-mode="Ignore" value="filler text" name="Value" style="flex-grow: 1; flex-shrink: 1; flex-basis: auto;" />
+        <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Del" />
+    </ui:VisualElement>
+</ui:UXML>
