@@ -23,7 +23,7 @@ namespace Kiwi.Utility.Editor
 
 		private Type currentType;
 
-		[ MenuItem("Window/PrefabPrefs 浏览器" , false , -1002) ]
+		[ EditorToolbarMenu(EditorToolbarMenuAttribute.Anchor.Right , "工具" , "PrefabPrefs 浏览器") ]
 		public static void ShowExample()
 		{
 			var window = GetWindow<PlayerPrefsBrowser>();
@@ -71,7 +71,7 @@ namespace Kiwi.Utility.Editor
 				var delButton = element.Q<Button>("Del");
 				delButton.userData = i;
 
-				if (element.Q<Label>("Key") is {text : "unity.cloud_userid" or "unity.player_sessionid" or "unity.player_session_count"})
+				if (element.Q<Label>("Key") is {text : "unity.cloud_userid" or "unity.player_sessionid" or "unity.player_session_count" or "UnityGraphicsQuality"})
 				{
 					element.SetEnabled(false);
 				}
@@ -130,7 +130,12 @@ namespace Kiwi.Utility.Editor
 				listView.Rebuild();
 			}));
 
-			var searchField = root.Q<ToolbarSearchField>();
+			var searchField = root.Q<ToolbarPopupSearchField>();
+
+
+			searchField.menu.AppendAction("All" , _ => searchField.userData   = SearchRange.All);
+			searchField.menu.AppendAction("Key" , _ => searchField.userData   = SearchRange.Key);
+			searchField.menu.AppendAction("Value" , _ => searchField.userData = SearchRange.Value);
 
 			searchField.RegisterCallback<ChangeEvent<string>>(evt =>
 			{
@@ -143,7 +148,14 @@ namespace Kiwi.Utility.Editor
 					return;
 				}
 
-				var filteredPlayerPrefs = allPlayerPrefs.Where(pair => pair.Key.Contains(evt.newValue , StringComparison.OrdinalIgnoreCase)).ToArray();
+				var filteredPlayerPrefs = (string) searchField.userData switch
+				                          {
+					                          "All"   => allPlayerPrefs.Where(pair => pair.Key.Contains(evt.newValue , StringComparison.OrdinalIgnoreCase) || pair.Value.ToString().Contains(evt.newValue , StringComparison.OrdinalIgnoreCase)).ToArray() ,
+					                          "Key"   => allPlayerPrefs.Where(pair => pair.Key.Contains(evt.newValue , StringComparison.OrdinalIgnoreCase)).ToArray() ,
+					                          "Value" => allPlayerPrefs.Where(pair => pair.Value.ToString().Contains(evt.newValue , StringComparison.OrdinalIgnoreCase)).ToArray() ,
+					                          _       => null
+				                          };
+
 				listView.itemsSource = filteredPlayerPrefs;
 
 				listView.Rebuild();
@@ -249,6 +261,13 @@ namespace Kiwi.Utility.Editor
 		{
 			Runtime ,
 			Editor ,
+		}
+
+		public enum SearchRange
+		{
+			All ,
+			Key ,
+			Value ,
 		}
 
 		public enum ValueType
