@@ -2,6 +2,9 @@ using System;
 
 namespace Kiwi.Utility.Editor
 {
+	/// <summary>
+	/// Unity 编辑器工具栏扩展属性
+	/// </summary>
 	[ AttributeUsage(AttributeTargets.Method) ]
 	public class EditorToolbarAttribute : Attribute
 	{
