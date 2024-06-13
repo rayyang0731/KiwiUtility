@@ -24,10 +24,11 @@ namespace Kiwi.Utility.Editor
 		private Type currentType;
 
 		[ EditorToolbar(EditorToolbarAttribute.Anchor.Right , "工具" , "PrefabPrefs 浏览器") ]
-		public static void ShowExample()
+		public static void Open()
 		{
-			var window = GetWindow<PlayerPrefsBrowser>();
-			window.titleContent = new("PrefabPrefs 浏览器");
+			var window = CreateWindow<PlayerPrefsBrowser>("PrefabPrefs 浏览器");
+			window.ShowUtility();
+			window.minSize = new(550 , 450);
 		}
 
 		public void CreateGUI()
@@ -164,8 +165,6 @@ namespace Kiwi.Utility.Editor
 
 		public static PlayerPrefPair[ ] GetAll(Type type)
 		{
-			EditorPrefs.SetBool("TestBool" , true);
-
 			return GetAll(type , PlayerSettings.companyName , PlayerSettings.productName);
 		}
 
