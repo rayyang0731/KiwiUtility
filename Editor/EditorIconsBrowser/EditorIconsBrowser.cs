@@ -13,7 +13,7 @@ namespace Kiwi.Utility.Editor
 	/// </summary>
 	public class EditorIconsBrowser : EditorWindow
 	{
-		[ EditorToolbarMenu(EditorToolbarMenuAttribute.Anchor.Right , "工具" , "Editor Icons 浏览器" ) ]
+		[ EditorToolbar(EditorToolbarAttribute.Anchor.Right , "工具" , "Editor Icons 浏览器" ) ]
 		public static void Open()
 		{
 			var window = CreateWindow<EditorIconsBrowser>("Editor Icons 浏览器");

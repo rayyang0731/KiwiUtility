@@ -52,10 +52,10 @@ namespace Kiwi.Utility.Editor
 
 				GetAllToolbarElement();
 
-				CreateButton(EditorToolbarMenuAttribute.Anchor.Left);
-				CreateButton(EditorToolbarMenuAttribute.Anchor.CenterLeft);
-				CreateButton(EditorToolbarMenuAttribute.Anchor.CenterRight);
-				CreateButton(EditorToolbarMenuAttribute.Anchor.Right);
+				CreateButton(EditorToolbarAttribute.Anchor.Left);
+				CreateButton(EditorToolbarAttribute.Anchor.CenterLeft);
+				CreateButton(EditorToolbarAttribute.Anchor.CenterRight);
+				CreateButton(EditorToolbarAttribute.Anchor.Right);
 			}
 		}
 
@@ -63,32 +63,32 @@ namespace Kiwi.Utility.Editor
 		/// 创建指定位置的Toolbar GUI
 		/// </summary>
 		/// <param name="anchor">位置</param>
-		private static void CreateButton(EditorToolbarMenuAttribute.Anchor anchor)
+		private static void CreateButton(EditorToolbarAttribute.Anchor anchor)
 		{
 			VisualElement root;
 			MenuGroup     menuGroup;
 
 			switch (anchor)
 			{
-				case EditorToolbarMenuAttribute.Anchor.Left:
+				case EditorToolbarAttribute.Anchor.Left:
 					root      = mRoot.Q<VisualElement>("ToolbarZoneLeftAlign");
 					menuGroup = LeftMenuGroup;
 
 					break;
 
-				case EditorToolbarMenuAttribute.Anchor.CenterLeft:
+				case EditorToolbarAttribute.Anchor.CenterLeft:
 					root      = mRoot.Q<VisualElement>("ToolbarZonePlayMode");
 					menuGroup = CenterLeftMenuGroup;
 
 					break;
 
-				case EditorToolbarMenuAttribute.Anchor.CenterRight:
+				case EditorToolbarAttribute.Anchor.CenterRight:
 					root      = mRoot.Q<VisualElement>("ToolbarZonePlayMode");
 					menuGroup = CenterRightMenuGroup;
 
 					break;
 
-				case EditorToolbarMenuAttribute.Anchor.Right:
+				case EditorToolbarAttribute.Anchor.Right:
 					root      = mRoot.Q<VisualElement>("ToolbarZoneRightAlign");
 					menuGroup = RightMenuGroup;
 
@@ -111,7 +111,7 @@ namespace Kiwi.Utility.Editor
 					genericMenu.DropDown(button.worldBound);
 				};
 
-				if (anchor == EditorToolbarMenuAttribute.Anchor.CenterLeft)
+				if (anchor == EditorToolbarAttribute.Anchor.CenterLeft)
 					root.Insert(0 , button);
 				else
 					root.Add(button);
@@ -125,7 +125,7 @@ namespace Kiwi.Utility.Editor
 				             };
 				button.clicked += action.Invoke;
 
-				if (anchor == EditorToolbarMenuAttribute.Anchor.CenterLeft)
+				if (anchor == EditorToolbarAttribute.Anchor.CenterLeft)
 					root.Insert(0 , button);
 				else
 					root.Add(button);
@@ -136,7 +136,7 @@ namespace Kiwi.Utility.Editor
 				var imguiContainer = new IMGUIContainer();
 				imguiContainer.onGUIHandler = action;
 
-				if (anchor == EditorToolbarMenuAttribute.Anchor.CenterLeft)
+				if (anchor == EditorToolbarAttribute.Anchor.CenterLeft)
 					root.Insert(0 , imguiContainer);
 				else
 					root.Add(imguiContainer);
@@ -148,22 +148,22 @@ namespace Kiwi.Utility.Editor
 		/// </summary>
 		private static void GetAllToolbarElement()
 		{
-			var methodInfos = TypeCache.GetMethodsWithAttribute<EditorToolbarMenuAttribute>()
+			var methodInfos = TypeCache.GetMethodsWithAttribute<EditorToolbarAttribute>()
 			                           .Where(methodInfo => methodInfo.IsStatic)
-			                           .OrderBy(methodInfo => methodInfo.GetCustomAttribute<EditorToolbarMenuAttribute>().Order)
+			                           .OrderBy(methodInfo => methodInfo.GetCustomAttribute<EditorToolbarAttribute>().Order)
 			                           .ToArray();
 			var orderPrev = -1;
 
 			foreach (var methodInfo in methodInfos)
 			{
-				var attr = methodInfo.GetCustomAttribute<EditorToolbarMenuAttribute>();
+				var attr = methodInfo.GetCustomAttribute<EditorToolbarAttribute>();
 
 				var menuGroup = attr.Position switch
 				                {
-					                EditorToolbarMenuAttribute.Anchor.Left        => LeftMenuGroup ,
-					                EditorToolbarMenuAttribute.Anchor.CenterLeft  => CenterLeftMenuGroup ,
-					                EditorToolbarMenuAttribute.Anchor.CenterRight => CenterRightMenuGroup ,
-					                EditorToolbarMenuAttribute.Anchor.Right       => RightMenuGroup ,
+					                EditorToolbarAttribute.Anchor.Left        => LeftMenuGroup ,
+					                EditorToolbarAttribute.Anchor.CenterLeft  => CenterLeftMenuGroup ,
+					                EditorToolbarAttribute.Anchor.CenterRight => CenterRightMenuGroup ,
+					                EditorToolbarAttribute.Anchor.Right       => RightMenuGroup ,
 					                _                                             => throw new ArgumentOutOfRangeException()
 				                };
 

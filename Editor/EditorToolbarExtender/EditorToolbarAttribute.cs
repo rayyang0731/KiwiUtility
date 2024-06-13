@@ -3,7 +3,7 @@ using System;
 namespace Kiwi.Utility.Editor
 {
 	[ AttributeUsage(AttributeTargets.Method) ]
-	public class EditorToolbarMenuAttribute : Attribute
+	public class EditorToolbarAttribute : Attribute
 	{
 		/// <summary>
 		/// 按钮名称
@@ -35,7 +35,7 @@ namespace Kiwi.Utility.Editor
 		/// </summary>
 		/// <param name="anchor">位置</param>
 		/// <param name="custom">是否是自定义GUI</param>
-		public EditorToolbarMenuAttribute(Anchor anchor , bool custom)
+		public EditorToolbarAttribute(Anchor anchor , bool custom)
 		{
 			Position = anchor;
 			Custom   = custom;
@@ -47,7 +47,7 @@ namespace Kiwi.Utility.Editor
 		/// <param name="anchor">位置</param>
 		/// <param name="custom">是否是自定义GUI</param>
 		/// <param name="order">排序</param>
-		public EditorToolbarMenuAttribute(Anchor anchor , bool custom , int order)
+		public EditorToolbarAttribute(Anchor anchor , bool custom , int order)
 		{
 			Position = anchor;
 			Custom   = custom;
@@ -59,7 +59,7 @@ namespace Kiwi.Utility.Editor
 		/// </summary>
 		/// <param name="anchor">位置</param>
 		/// <param name="category">按钮名称</param>
-		public EditorToolbarMenuAttribute(Anchor anchor , string category)
+		public EditorToolbarAttribute(Anchor anchor , string category)
 		{
 			Position = anchor;
 			Category = category;
@@ -71,7 +71,7 @@ namespace Kiwi.Utility.Editor
 		/// <param name="anchor">位置</param>
 		/// <param name="category">按钮名称</param>
 		/// <param name="order">排序</param>
-		public EditorToolbarMenuAttribute(Anchor anchor , string category , int order)
+		public EditorToolbarAttribute(Anchor anchor , string category , int order)
 		{
 			Position = anchor;
 			Category = category;
@@ -84,7 +84,7 @@ namespace Kiwi.Utility.Editor
 		/// <param name="anchor">位置</param>
 		/// <param name="category">下拉菜单按钮名称</param>
 		/// <param name="path">按钮路径</param>
-		public EditorToolbarMenuAttribute(Anchor anchor , string category , string path)
+		public EditorToolbarAttribute(Anchor anchor , string category , string path)
 		{
 			Position = anchor;
 			Category = category;
@@ -98,7 +98,7 @@ namespace Kiwi.Utility.Editor
 		/// <param name="category">下拉菜单按钮名称</param>
 		/// <param name="path">按钮路径</param>
 		/// <param name="order">排序</param>
-		public EditorToolbarMenuAttribute(Anchor anchor , string category , string path , int order)
+		public EditorToolbarAttribute(Anchor anchor , string category , string path , int order)
 		{
 			Position = anchor;
 			Category = category;

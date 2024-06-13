@@ -23,7 +23,7 @@ namespace Kiwi.Utility.Editor
 
 		private Type currentType;
 
-		[ EditorToolbarMenu(EditorToolbarMenuAttribute.Anchor.Right , "工具" , "PrefabPrefs 浏览器") ]
+		[ EditorToolbar(EditorToolbarAttribute.Anchor.Right , "工具" , "PrefabPrefs 浏览器") ]
 		public static void ShowExample()
 		{
 			var window = GetWindow<PlayerPrefsBrowser>();
