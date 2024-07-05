@@ -36,9 +36,19 @@ namespace Kiwi.Utility.Editor
 		private readonly List<BasePreviewModule> _modules = new();
 
 		/// <summary>
+		/// 预览窗口位置
+		/// </summary>
+		private Vector2 _previewPosition = Vector2.zero;
+
+		/// <summary>
 		/// 预览窗口尺寸
 		/// </summary>
 		private Vector2 _previewSize = new(256 , 256);
+
+		/// <summary>
+		/// 预览窗口位置
+		/// </summary>
+		private Rect _previewRect;
 
 		/// <summary>
 		/// 摄像机渲染清理标记
@@ -188,7 +198,7 @@ namespace Kiwi.Utility.Editor
 				{
 					// 绘制预览窗体
 					GetPreviewSize(rect , extraHeight);
-					_modelPreviewEditor.Draw(_previewSize);
+					_modelPreviewEditor.Draw(_previewPosition , _previewSize);
 				}
 
 				foreach (var module in _modules)
@@ -207,10 +217,11 @@ namespace Kiwi.Utility.Editor
 		/// <param name="type">组件类型</param>
 		/// <param name="label">标签（默认：空字符）</param>
 		/// <returns></returns>
-		public float GetPropertyHeight(SerializedPropertyType type , string label = "")
+		public float GetPropertyHeight(SerializedPropertyType type , GUIContent label = null)
 		{
-			//float height = (EditorGUIUtility.HasObjectThumbnail(typeof(GameObject)) ? 64f : 18f);
-			return EditorGUI.GetPropertyHeight(type , new GUIContent(label)) + 5; // 额外相加数值的原因是底层默认值为18，但 EditorWindow 组件默认高度实际要比18大。
+			label ??= GUIContent.none;
+
+			return EditorGUI.GetPropertyHeight(type , label) + 5; // 额外相加数值的原因是底层默认值为18，但 EditorWindow 组件默认高度实际要比18大。
 		}
 
 
@@ -242,19 +253,11 @@ namespace Kiwi.Utility.Editor
 
 		private void GetPreviewSize(Rect rect , float extraHeight = 0)
 		{
-			// 除预览窗体外每一行的高度 + 行间距总和
-			float h = 3;
-			h += GetPropertyHeight(SerializedPropertyType.ObjectReference);
-			h += GetPropertyHeight(SerializedPropertyType.Color);
+			float h       = 3;
+			var   curRect = EditorGUILayout.GetControlRect();
 
-			// if (m_ClipNames != null && m_ClipNames.Length != 0)
-			// {
-			// 	h += 1;
-			// 	h += GetPropertyHeight(SerializedPropertyType.Enum);
-			// }
-
-			// 设置
-			_previewSize.Set(256 , rect.size.y - h - extraHeight);
+			_previewPosition.Set(curRect.x , curRect.y);
+			_previewSize.Set(curRect.width , rect.size.y - h - extraHeight);
 		}
 	}
 }
