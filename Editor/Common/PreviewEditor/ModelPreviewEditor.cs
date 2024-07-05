@@ -125,39 +125,13 @@ namespace Kiwi.Utility.Editor
 
 					if (_resetCamera)
 					{
-						camTrans.transform.position    = Vector3.zero;
-						camTrans.transform.eulerAngles = Vector3.zero;
-						cam.fieldOfView                = 15;
-						
-						var bounds            = new Bounds(_previewInstance.transform.position , Vector3.zero);
-						var childrenRenderers = _previewInstance.GetComponentsInChildren<Renderer>();
-
-						foreach (var renderer in childrenRenderers)
-						{
-							bounds.Encapsulate(renderer.bounds);
-						}
-
-						var maxExtent = Mathf.Max(bounds.extents.x , bounds.extents.y , bounds.extents.z);
-						_originDistance  = maxExtent / Mathf.Sin(cam.fieldOfView * Mathf.Deg2Rad / 2f);
-						_cameraOriginPos = bounds.center;
+						ResetCameraPosAndRot(camTrans , cam);
 
 						_resetCamera = false;
 					}
 
-					camTrans.rotation = Quaternion.Euler(-_rot.y , -_rot.x , 0);
-					camTrans.position = _cameraOriginPos - camTrans.forward * (_originDistance * _zoom) + _pivotPositionOffset;
-
-					EditorUtility.SetCameraAnimateMaterials(cam , true);
-
-					cam.cameraType      = CameraType.Preview;
-					cam.enabled         = false;
-					cam.clearFlags      = _camClearFlags;
-					cam.backgroundColor = _previewWinBackground;
-					cam.fieldOfView     = 30;
-					cam.farClipPlane    = 1000.0f;
-					cam.nearClipPlane   = 0.01f;
-
-
+					SyncCameraState(camTrans , cam);
+					
 					// 设置光源信息
 					_previewRenderUtility.lights[0].intensity          = 1.4f;
 					_previewRenderUtility.lights[0].transform.rotation = Quaternion.Euler(40f , 40f , 0f);
@@ -170,6 +144,51 @@ namespace Kiwi.Utility.Editor
 					_previewRenderUtility.EndAndDrawPreview(rect);
 				}
 			}
+		}
+
+		/// <summary>
+		/// 同步摄像机状态
+		/// </summary>
+		/// <param name="camTrans"></param>
+		/// <param name="cam"></param>
+		private void SyncCameraState(Transform camTrans , Camera cam)
+		{
+			camTrans.rotation = Quaternion.Euler(-_rot.y , -_rot.x , 0);
+			camTrans.position = _cameraOriginPos - camTrans.forward * (_originDistance * _zoom) + _pivotPositionOffset;
+
+			EditorUtility.SetCameraAnimateMaterials(cam , true);
+
+			cam.cameraType      = CameraType.Preview;
+			cam.enabled         = false;
+			cam.clearFlags      = _camClearFlags;
+			cam.backgroundColor = _previewWinBackground;
+			cam.fieldOfView     = 30;
+			cam.farClipPlane    = 1000.0f;
+			cam.nearClipPlane   = 0.01f;
+		}
+
+		/// <summary>
+		/// 重置摄像机位置和朝向
+		/// </summary>
+		/// <param name="camTrans"></param>
+		/// <param name="cam"></param>
+		private void ResetCameraPosAndRot(Transform camTrans , Camera cam)
+		{
+			camTrans.transform.position    = Vector3.zero;
+			camTrans.transform.eulerAngles = Vector3.zero;
+			cam.fieldOfView                = 15;
+
+			var bounds            = new Bounds(_previewInstance.transform.position , Vector3.zero);
+			var childrenRenderers = _previewInstance.GetComponentsInChildren<Renderer>();
+
+			foreach (var renderer in childrenRenderers)
+			{
+				bounds.Encapsulate(renderer.bounds);
+			}
+
+			var maxExtent = Mathf.Max(bounds.extents.x , bounds.extents.y , bounds.extents.z);
+			_originDistance  = maxExtent / Mathf.Sin(cam.fieldOfView * Mathf.Deg2Rad / 2f);
+			_cameraOriginPos = bounds.center;
 		}
 
 
@@ -192,8 +211,7 @@ namespace Kiwi.Utility.Editor
 		{
 			_previewWinBackground = color;
 		}
-
-
+		
 		/// <summary>
 		/// 绘制
 		/// </summary>
@@ -207,10 +225,41 @@ namespace Kiwi.Utility.Editor
 		/// <summary>
 		/// 绘制
 		/// </summary>
+		/// <param name="x">x坐标 </param>
+		/// <param name="y">y坐标 </param>
+		/// <param name="w">宽度</param>
+		/// <param name="h">高度</param>
+		public void Draw(float x , float y , float w = 256 , float h = 256)
+		{
+			DrawPreview(new Rect(x , y , w , h));
+		}
+
+		/// <summary>
+		/// 绘制
+		/// </summary>
+		/// <param name="rect">位置 </param>
+		public void Draw(Rect rect)
+		{
+			DrawPreview(rect);
+		}
+
+		/// <summary>
+		/// 绘制
+		/// </summary>
 		/// <param name="size">尺寸（x：宽度，y：高度）</param>
 		public void Draw(Vector2 size)
 		{
 			Draw(size.x , size.y);
+		}
+
+		/// <summary>
+		/// 绘制
+		/// </summary>
+		/// <param name="pos">位置 </param>
+		/// <param name="size">尺寸（x：宽度，y：高度）</param>
+		public void Draw(Vector2 pos , Vector2 size)
+		{
+			Draw(pos.x , pos.y , size.x , size.y);
 		}
 
 
@@ -237,16 +286,9 @@ namespace Kiwi.Utility.Editor
 			_previewRenderUtility.AddSingleGO(_previewInstance);
 		}
 
-
 		/// <summary>
 		/// 获取当前的预览实例
 		/// </summary>
-		public GameObject previewInstance { get { return _previewInstance; } }
-
-
-		// /// <summary>
-		// /// 骨骼信息
-		// /// </summary>
-		// public HashSet<Transform> Bones { get { return m_Bones; } }
+		public GameObject previewInstance => _previewInstance;
 	}
 }
