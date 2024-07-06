@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 using UnityEditor;
 
@@ -33,17 +34,12 @@ namespace Kiwi.Utility.Editor
 		/// <summary>
 		/// 模型预览窗体模组
 		/// </summary>
-		private readonly List<BasePreviewModule> _modules = new();
+		private readonly List<IPreviewModule> _modules = new();
 
 		/// <summary>
-		/// 预览窗口位置
+		/// 模型预览窗体模组
 		/// </summary>
-		private Vector2 _previewPosition = Vector2.zero;
-
-		/// <summary>
-		/// 预览窗口尺寸
-		/// </summary>
-		private Vector2 _previewSize = new(256 , 256);
+		private readonly Dictionary<Type , IPreviewModule> _modulesDic = new();
 
 		/// <summary>
 		/// 预览窗口位置
@@ -72,10 +68,48 @@ namespace Kiwi.Utility.Editor
 		/// <summary>
 		/// 添加模块
 		/// </summary>
-		/// <param name="module">要添加的模组实例</param>
-		public void AddModule(BasePreviewModule module)
+		public T AddModule< T >() where T : class , IPreviewModule
 		{
-			_modules.Add(module);
+			var type = typeof(T);
+
+			if (!_modulesDic.ContainsKey(type))
+			{
+				var module = Activator.CreateInstance<T>();
+
+				_modules.Add(module);
+				_modulesDic.Add(type , module);
+			}
+
+			return _modulesDic[type] as T;
+		}
+
+		/// <summary>
+		/// 获取模块
+		/// </summary>
+		/// <typeparam name="T">模块类型</typeparam>
+		/// <returns>如果不存在,返回Null</returns>
+		public T GetModule< T >() where T : class , IPreviewModule
+		{
+			if (_modulesDic.TryGetValue(typeof(T) , out var module))
+			{
+				return module as T;
+			}
+
+			return null;
+		}
+
+		/// <summary>
+		/// 清除全部模块
+		/// </summary>
+		private void ClearModules()
+		{
+			foreach (var module in _modules)
+			{
+				module.Dispose();
+			}
+
+			_modules.Clear();
+			_modulesDic.Clear();
 		}
 
 		/// <summary>
@@ -104,12 +138,7 @@ namespace Kiwi.Utility.Editor
 				_modelPreviewEditor = null;
 			}
 
-			foreach (var module in _modules)
-			{
-				module.Dispose();
-			}
-
-			_modules.Clear();
+			ClearModules();
 
 			_targetObj    = null;
 			_preTargetObj = null;
@@ -197,8 +226,14 @@ namespace Kiwi.Utility.Editor
 				if (_modelPreviewEditor != null)
 				{
 					// 绘制预览窗体
-					GetPreviewSize(rect , extraHeight);
-					_modelPreviewEditor.Draw(_previewPosition , _previewSize);
+					GetPreviewPositionAndSize(rect , extraHeight);
+					_modelPreviewEditor.Draw(_previewRect);
+
+					foreach (var module in _modules)
+					{
+						if (_modelPreviewEditor != null && _modelPreviewEditor.previewInstance != null)
+							module.OnOverlapGUI(_previewRect);
+					}
 				}
 
 				foreach (var module in _modules)
@@ -251,13 +286,15 @@ namespace Kiwi.Utility.Editor
 			}
 		}
 
-		private void GetPreviewSize(Rect rect , float extraHeight = 0)
+		/// <summary>
+		/// 获取预览窗位置和尺寸
+		/// </summary>
+		/// <param name="rect"></param>
+		/// <param name="extraHeight"></param>
+		private void GetPreviewPositionAndSize(Rect rect , float extraHeight = 0)
 		{
-			float h       = 3;
-			var   curRect = EditorGUILayout.GetControlRect();
-
-			_previewPosition.Set(curRect.x , curRect.y);
-			_previewSize.Set(curRect.width , rect.size.y - h - extraHeight);
+			var curRect = EditorGUILayout.GetControlRect();
+			_previewRect.Set(curRect.x , curRect.y , curRect.width , rect.size.y - curRect.y - 5 - extraHeight);
 		}
 	}
 }

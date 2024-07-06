@@ -20,8 +20,9 @@ namespace Kiwi.Utility.Editor
 
 		private void OnEnable()
 		{
-			_avatarEditor = new AvatarEditor(this);
-			_avatarEditor.AddModule(new PreviewAnimationModule(_avatarEditor));
+			_avatarEditor = new(this);
+			_avatarEditor.AddModule<PreviewAnimationModule>();
+			_avatarEditor.AddModule<ModelBonesModule>();
 		}
 
 		private void Update()
@@ -31,7 +32,6 @@ namespace Kiwi.Utility.Editor
 
 		private void OnGUI()
 		{
-			
 			_avatarEditor.Draw(position);
 		}
 

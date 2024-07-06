@@ -38,12 +38,11 @@ namespace Kiwi.Utility.Editor
 					if (flag)
 					{
 						GUIUtility.hotControl = controlID; // 鼠标在屏幕外依然可以继续事件
-						curEvt.Use();
 						EditorGUIUtility.SetWantsMouseJumping(1); // 跳屏开启
 					}
+				}
 
 					break;
-				}
 
 				case EventType.MouseUp:
 				{
@@ -55,9 +54,9 @@ namespace Kiwi.Utility.Editor
 					EditorGUIUtility.SetWantsMouseJumping(0);
 					_cursor = MouseCursor.Arrow;
 					curEvt.Use();
+				}
 
 					break;
-				}
 
 				case EventType.MouseDrag:
 				{
@@ -83,9 +82,9 @@ namespace Kiwi.Utility.Editor
 								break;
 						}
 					}
+				}
 
 					break;
-				}
 
 				case EventType.KeyDown:
 				{

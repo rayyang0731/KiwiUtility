@@ -9,7 +9,7 @@ namespace Kiwi.Utility.Editor
 	/// <summary>
 	/// 预览动画模组
 	/// </summary>
-	public class PreviewAnimationModule : BasePreviewModule
+	public class PreviewAnimationModule : IPreviewModule
 	{
 		/// <summary>
 		/// 动画对象
@@ -77,7 +77,7 @@ namespace Kiwi.Utility.Editor
 		/// </summary>
 		private MultipleSpeed _multipleSpeed = MultipleSpeed.x1;
 
-		public override void Update()
+		void IPreviewModule.Update()
 		{
 			if (_clips == null || _clips.Length == 0) { return; }
 
@@ -115,7 +115,7 @@ namespace Kiwi.Utility.Editor
 			}
 		}
 
-		public override void OnTargetChanged(GameObject target)
+		void IPreviewModule.OnTargetChanged(GameObject target)
 		{
 			if (target)
 			{
@@ -146,12 +146,12 @@ namespace Kiwi.Utility.Editor
 			}
 		}
 
-		public override void Dispose()
+		public void Dispose()
 		{
 			ClearClip();
 		}
 
-		public override void OnTopGUI()
+		void IPreviewModule.OnTopGUI()
 		{
 			if (_clipNames != null && _clipNames.Length != 0)
 			{
@@ -163,7 +163,7 @@ namespace Kiwi.Utility.Editor
 					CreateAnimationControlButton("\u25a0" , Color.red , !_autoClip , false);
 					_clipProgress = EditorGUILayout.Slider(_clipProgress , 0 , 1);
 					_clipLen      = _clips[_clipIndex].length;
-					EditorGUILayout.LabelField($"{TimeFormat(_clipLen * _clipProgress)}/{TimeFormat(_clipLen)}" , GUILayout.Width(100));
+					EditorGUILayout.LabelField($"{TimeConvert.SecondsFormatToClock(_clipLen * _clipProgress)}/{TimeConvert.SecondsFormatToClock(_clipLen)}" , GUILayout.Width(100));
 					_multipleSpeed = (MultipleSpeed) EditorGUILayout.Popup((int) _multipleSpeed , _multipleSpeedNames , GUILayout.Width(66));
 				}
 				EditorGUILayout.EndHorizontal();
@@ -209,19 +209,6 @@ namespace Kiwi.Utility.Editor
 			if (!b) { GUI.backgroundColor = c; }
 
 			EditorGUI.EndDisabledGroup();
-		}
-
-		private string TimeFormat(float len)
-		{
-			int v = (int) len;
-			int m = v / 60;
-			int s = v % 60;
-
-			return string.Format("{0:D2}:{1:D2}" , m , s);
-		}
-
-		public PreviewAnimationModule(AvatarEditor avatarEditor) : base(avatarEditor)
-		{
 		}
 	}
 }
