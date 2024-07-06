@@ -1,6 +1,7 @@
 using UnityEditor;
 
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Kiwi.Utility.Editor
 {
@@ -70,6 +71,11 @@ namespace Kiwi.Utility.Editor
 		/// </summary>
 		private float _originDistance;
 
+		/// <summary>
+		/// 实例对象切换完成
+		/// </summary>
+		private UnityAction<GameObject> _onChangeInstanceCompleted;
+
 		private void OnEnable()
 		{
 			_previewRenderUtility ??= new();
@@ -131,7 +137,7 @@ namespace Kiwi.Utility.Editor
 					}
 
 					SyncCameraState(camTrans , cam);
-					
+
 					// 设置光源信息
 					_previewRenderUtility.lights[0].intensity          = 1.4f;
 					_previewRenderUtility.lights[0].transform.rotation = Quaternion.Euler(40f , 40f , 0f);
@@ -211,7 +217,7 @@ namespace Kiwi.Utility.Editor
 		{
 			_previewWinBackground = color;
 		}
-		
+
 		/// <summary>
 		/// 绘制
 		/// </summary>
@@ -284,11 +290,22 @@ namespace Kiwi.Utility.Editor
 			// 添加物体
 			_previewInstance = Instantiate(_targetObj , Vector3.zero , Quaternion.identity);
 			_previewRenderUtility.AddSingleGO(_previewInstance);
+
+			_onChangeInstanceCompleted?.Invoke(_previewInstance);
 		}
 
 		/// <summary>
 		/// 获取当前的预览实例
 		/// </summary>
 		public GameObject previewInstance => _previewInstance;
+
+		/// <summary>
+		/// 实例对象切换完成
+		/// </summary>
+		public UnityAction<GameObject> OnChangeInstanceCompleted
+		{
+			get => _onChangeInstanceCompleted;
+			set => _onChangeInstanceCompleted = value;
+		}
 	}
 }

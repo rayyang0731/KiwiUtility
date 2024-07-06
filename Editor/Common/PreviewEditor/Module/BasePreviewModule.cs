@@ -7,26 +7,29 @@ namespace Kiwi.Utility.Editor
 	/// <summary>
 	/// 预览窗体模组接口
 	/// </summary>
-	public class BasePreviewModule : IDisposable
+	public interface IPreviewModule : IDisposable
 	{
+		void Update() { }
+
 		/// <summary>
-		/// 模型预览窗体
+		/// 当预览对象发生改变
 		/// </summary>
-		protected ModelPreviewEditor _modelPreviewEditor;
+		/// <param name="target">改变后的对象</param>
+		void OnTargetChanged(GameObject target) { }
 
-		public BasePreviewModule(AvatarEditor avatarEditor)
-		{
- 			_modelPreviewEditor = avatarEditor._modelPreviewEditor;
-		}
+		/// <summary>
+		/// 预览窗口上方
+		/// </summary>
+		void OnTopGUI() { }
 
-		public virtual void Update() { }
+		/// <summary>
+		/// 覆盖预览窗口
+		/// </summary>
+		void OnOverlapGUI(Rect rect) { }
 
-		public virtual void OnTargetChanged(GameObject target) { }
-
-		public virtual void OnTopGUI() { }
-
-		public virtual void OnBottomGUI() { }
-
-		public virtual void Dispose() { }
+		/// <summary>
+		/// 预览窗口下方
+		/// </summary>
+		void OnBottomGUI() { }
 	}
 }
