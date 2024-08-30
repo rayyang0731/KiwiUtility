@@ -497,7 +497,7 @@ namespace Kiwi.Utility
 		public static bool IsAnchorHorizontal(this RectTransform rectTransform, AnchorHorizontal horizontal)
 		{
 			var anchor = GetAnchorHorizontalValue(horizontal);
-			return Math.Approximately(rectTransform.anchorMin.x, anchor.x) && Mathf.Approximately(rectTransform.anchorMax.x, anchor.y);
+			return KiwiMath.Approximately(rectTransform.anchorMin.x, anchor.x) && Mathf.Approximately(rectTransform.anchorMax.x, anchor.y);
 		}
 
 		/// <summary>
@@ -571,7 +571,7 @@ namespace Kiwi.Utility
 		{
 			var pos = rectTransform.anchoredPosition;
 
-			if (!Math.Approximately(pos.x, x))
+			if (!KiwiMath.Approximately(pos.x, x))
 				pos.x = x;
 
 			rectTransform.anchoredPosition = pos;
@@ -586,7 +586,7 @@ namespace Kiwi.Utility
 		{
 			var pos = rectTransform.anchoredPosition;
 
-			if (!Math.Approximately(pos.y, y))
+			if (!KiwiMath.Approximately(pos.y, y))
 				pos.y = y;
 
 			rectTransform.anchoredPosition = pos;
@@ -645,7 +645,7 @@ namespace Kiwi.Utility
 		{
 			var pos = rectTransform.anchoredPosition3D;
 
-			if (!Math.Approximately(pos.x, x))
+			if (!KiwiMath.Approximately(pos.x, x))
 				pos.x = x;
 
 			rectTransform.anchoredPosition3D = pos;
@@ -660,7 +660,7 @@ namespace Kiwi.Utility
 		{
 			var pos = rectTransform.anchoredPosition3D;
 
-			if (!Math.Approximately(pos.y, y))
+			if (!KiwiMath.Approximately(pos.y, y))
 				pos.y = y;
 
 			rectTransform.anchoredPosition3D = pos;
@@ -675,7 +675,7 @@ namespace Kiwi.Utility
 		{
 			var pos = rectTransform.anchoredPosition3D;
 
-			if (!Math.Approximately(pos.z, z))
+			if (!KiwiMath.Approximately(pos.z, z))
 				pos.z = z;
 
 			rectTransform.anchoredPosition3D = pos;

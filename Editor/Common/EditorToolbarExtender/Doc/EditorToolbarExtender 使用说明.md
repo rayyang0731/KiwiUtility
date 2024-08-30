@@ -1,7 +1,6 @@
 Editor Toolbar Extender 使用说明
 ---
-![img.png](src/img.png)
-
+![1.png](src/1.png)
 ## 说明
 
 ### 工具用于扩展 Unity Editor 的工具栏 , 方便添加自定义的按钮或功能. 使用属性标签可以快速实现
