@@ -19,10 +19,10 @@ namespace Kiwi.Utility
 		/// <returns>如果设置成功返回 true,否则返回 false</returns>
 		public static bool SetColor(ref Color currentValue, Color newValue)
 		{
-			if (Math.Approximately(currentValue.r, newValue.r) &&
-			    Math.Approximately(currentValue.g, newValue.g) &&
-			    Math.Approximately(currentValue.b, newValue.b) &&
-			    Math.Approximately(currentValue.a, newValue.a))
+			if (KiwiMath.Approximately(currentValue.r, newValue.r) &&
+			    KiwiMath.Approximately(currentValue.g, newValue.g) &&
+			    KiwiMath.Approximately(currentValue.b, newValue.b) &&
+			    KiwiMath.Approximately(currentValue.a, newValue.a))
 				return false;
 
 			currentValue = newValue;
@@ -40,10 +40,10 @@ namespace Kiwi.Utility
 		/// <returns>如果设置成功返回 true,否则返回 false</returns>
 		public static bool SetColor(ref Color currentValue, float r, float g, float b, float a)
 		{
-			if (Math.Approximately(currentValue.r, r) &&
-			    Math.Approximately(currentValue.g, g) &&
-			    Math.Approximately(currentValue.b, b) &&
-			    Math.Approximately(currentValue.a, a))
+			if (KiwiMath.Approximately(currentValue.r, r) &&
+			    KiwiMath.Approximately(currentValue.g, g) &&
+			    KiwiMath.Approximately(currentValue.b, b) &&
+			    KiwiMath.Approximately(currentValue.a, a))
 				return false;
 
 			currentValue.r = r;
@@ -65,8 +65,8 @@ namespace Kiwi.Utility
 		/// <returns>如果设置成功返回 true,否则返回 false</returns>
 		public static bool SetVector2(ref Vector2 currentValue, Vector2 newValue)
 		{
-			if (Math.Approximately(currentValue.x, newValue.x) &&
-			    Math.Approximately(currentValue.y, newValue.y))
+			if (KiwiMath.Approximately(currentValue.x, newValue.x) &&
+			    KiwiMath.Approximately(currentValue.y, newValue.y))
 				return false;
 
 			currentValue = newValue;
@@ -82,8 +82,8 @@ namespace Kiwi.Utility
 		/// <returns>如果设置成功返回 true,否则返回 false</returns>
 		public static bool SetVector2(ref Vector2 currentValue, float x, float y)
 		{
-			if (Math.Approximately(currentValue.x, x) &&
-			    Math.Approximately(currentValue.y, y))
+			if (KiwiMath.Approximately(currentValue.x, x) &&
+			    KiwiMath.Approximately(currentValue.y, y))
 				return false;
 
 			currentValue.Set(x, y);
@@ -102,9 +102,9 @@ namespace Kiwi.Utility
 		/// <returns>如果设置成功返回 true,否则返回 false</returns>
 		public static bool SetVector3(ref Vector3 currentValue, Vector3 newValue)
 		{
-			if (Math.Approximately(currentValue.x, newValue.x) &&
-			    Math.Approximately(currentValue.y, newValue.y) &&
-			    Math.Approximately(currentValue.z, newValue.z))
+			if (KiwiMath.Approximately(currentValue.x, newValue.x) &&
+			    KiwiMath.Approximately(currentValue.y, newValue.y) &&
+			    KiwiMath.Approximately(currentValue.z, newValue.z))
 				return false;
 
 			currentValue = newValue;
@@ -121,9 +121,9 @@ namespace Kiwi.Utility
 		/// <returns>如果设置成功返回 true,否则返回 false</returns>
 		public static bool SetVector3(ref Vector3 currentValue, float x, float y, float z)
 		{
-			if (Math.Approximately(currentValue.x, x) &&
-			    Math.Approximately(currentValue.y, y) &&
-			    Math.Approximately(currentValue.z, z))
+			if (KiwiMath.Approximately(currentValue.x, x) &&
+			    KiwiMath.Approximately(currentValue.y, y) &&
+			    KiwiMath.Approximately(currentValue.z, z))
 				return false;
 
 			currentValue.Set(x, y, z);
@@ -140,7 +140,7 @@ namespace Kiwi.Utility
 		/// <returns>如果设置成功返回 true,否则返回 false</returns>
 		public static bool SetFloat(ref float currentValue, float newValue)
 		{
-			if (Math.Approximately(currentValue, newValue))
+			if (KiwiMath.Approximately(currentValue, newValue))
 				return false;
 
 			currentValue = newValue;

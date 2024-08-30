@@ -5,11 +5,11 @@ using UnityEngine;
 namespace Kiwi.Utility.Editor
 {
 	/// <summary>
-	/// 复制 GameObject 的父子级路径
+	/// 复制 GameObject 在 Hierarchy 面板中的的父子级路径
 	/// </summary>
-	public static class CopyObjectPath
+	public static class CopyHierarchyPath
 	{
-		[ MenuItem("GameObject/Kiwi/Copy Path" , false , -10) ]
+		[ MenuItem("GameObject/Kiwi/Copy Hierarchy Path" , false , -10) ]
 		public static void Copy()
 		{
 			var path = GetPath(Selection.activeGameObject);
@@ -18,7 +18,7 @@ namespace Kiwi.Utility.Editor
 			Debug.Log($"复制 {Selection.activeGameObject.name} 路径到剪贴板: {path}");
 		}
 
-		[ MenuItem("GameObject/Kiwi/Copy Path" , true) ]
+		[ MenuItem("GameObject/Kiwi/Copy Hierarchy Path" , true) ]
 		public static bool CopyValidate() => Selection.activeGameObject != null;
 
 		/// <summary>
@@ -31,7 +31,7 @@ namespace Kiwi.Utility.Editor
 
 			while (parent != null)
 			{
-				path   = parent.name + "/" + path;
+				path   = $"{parent.name}/{path}";
 				parent = parent.parent;
 			}
 

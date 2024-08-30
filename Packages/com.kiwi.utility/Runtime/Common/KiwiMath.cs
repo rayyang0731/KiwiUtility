@@ -3,7 +3,7 @@
 	/// <summary>
 	/// 数学公式类
 	/// </summary>
-	public static class Math
+	public static class KiwiMath
 	{
 		/// <summary>
 		/// 是否为近似值(主要比较两个 float 值是否一样)

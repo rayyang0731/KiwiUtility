@@ -1,0 +1,17 @@
+{
+    "name": "com.kiwi.utility.test",
+    "rootNamespace": "Kiwi.Utility.Test",
+    "references": [
+        "GUID:27619889b8ba8c24980f49ee34dbb44a",
+        "GUID:a94e13d86116d9b4db8d6e926d523e3a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

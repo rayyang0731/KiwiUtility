@@ -11,9 +11,10 @@ namespace Kiwi.Utility.Editor
 	/// <summary>
 	/// Editor Icons 浏览器
 	/// </summary>
+	/// <remarks>网上找到的代码, 但是忘了原地址了.</remarks>
 	public class EditorIconsBrowser : EditorWindow
 	{
-		[ EditorToolbar(EditorToolbarAttribute.Anchor.Right , "工具" , "Editor Icons 浏览器" ) ]
+		[ EditorToolbar(EditorToolbarAttribute.Anchor.Right , "Kiwi" , "浏览器/Editor Icons 浏览器") ]
 		public static void Open()
 		{
 			var window = CreateWindow<EditorIconsBrowser>("Editor Icons 浏览器");

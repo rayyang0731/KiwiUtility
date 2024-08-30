@@ -1,27 +1,29 @@
-using System;
-
 using UnityEditor;
-
-using UnityEngine;
 
 namespace Kiwi.Utility.Editor
 {
+	/// <summary>
+	/// 模型浏览器
+	/// </summary>
 	public class PreviewEditorWindow : EditorWindow
 	{
 		private AvatarEditor _avatarEditor;
 
-		[ EditorToolbar(EditorToolbarAttribute.Anchor.Right , "工具" , "模型动画预览") ]
+		[ EditorToolbar(EditorToolbarAttribute.Anchor.Right , "Kiwi" , "浏览器/模型浏览器") ]
 		private static void ShowWindow()
 		{
 			var window = GetWindow<PreviewEditorWindow>();
-			window.titleContent = new("模型动画预览");
+			window.titleContent = new("模型浏览器");
 			window.Show();
 		}
 
 		private void OnEnable()
 		{
 			_avatarEditor = new(this);
+			
+			// 添加动画播放模块
 			_avatarEditor.AddModule<PreviewAnimationModule>();
+			// 添加骨骼列表模块
 			_avatarEditor.AddModule<ModelBonesModule>();
 		}
 
