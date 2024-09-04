@@ -62,31 +62,31 @@ namespace Kiwi.Utility.Test.Editor
 		public void Test()
 		{
 			Debug.Log($"Unix 纪元时间 : {TimeUtility.UnixTime}");
-			
-			var utcTime = TimeUtility.GetCurrentUtcTime();
-			var localTime = TimeUtility.GetCurrentLocalTime();
-			var unixTimestampSecond = TimeUtility.GetUnixTimestamp();
-			var unixTimestampMillisecond = TimeUtility.GetUnixTimestampMilliseconds();
-			
+
+			var utcTime                  = TimeUtility.GetCurrentUtcTime();
+			var localTime                = TimeUtility.GetCurrentLocalTime();
+			var unixTimestampSecond      = TimeUtility.GetUnixTimestamp();
+			var unixTimestampMillisecond = TimeUtility.GetUnixTimestamp(true);
+
 			Debug.Log($"UTC 时间 : {utcTime}");
 			Debug.Log($"本地时间 : {localTime}");
-			
+
 			Debug.Log($"Unix 时间戳 : {unixTimestampSecond} 秒");
 			Debug.Log($"Unix 时间戳 : {unixTimestampMillisecond} 毫秒");
-			
+
 			Debug.Log($"UTC 时间转换为本地时间 : {TimeUtility.ConvertUtcToLocal(utcTime)}");
 			Debug.Log($"本地时间转换为 UTC 时间 : {TimeUtility.ConvertLocalToUtc(localTime)}");
-			
+
 			Debug.Log($"将秒级 Unix 时间戳转换为 DateTime : {TimeUtility.ConvertUnixTimestampToDateTime(unixTimestampSecond)}");
-			Debug.Log($"将毫秒级 Unix 时间戳转换为 DateTime : {TimeUtility.ConvertUnixTimestampMillisecondsToDateTime(unixTimestampMillisecond)}");
-			
+			Debug.Log($"将毫秒级 Unix 时间戳转换为 DateTime : {TimeUtility.ConvertUnixTimestampToDateTime(unixTimestampMillisecond , true)}");
+
 			Debug.Log($"将 DateTime 转换为秒级 Unix 时间戳 : {TimeUtility.ConvertDateTimeToUnixTimestamp(utcTime)}");
 			Debug.Log($"将 DateTime 转换为毫秒级 Unix 时间戳 : {TimeUtility.ConvertDateTimeToUnixTimestampMilliseconds(utcTime)}");
-			
-			Debug.Log(utcTime.ToString("yyyy-M-d dddd",new CultureInfo("en-US")));
-			
+
+			Debug.Log(utcTime.ToString("yyyy-M-d dddd" , new CultureInfo("en-US")));
+
 			// Debug.Log($"两个日期之间的天数差 : 开始 - {TimeUtility.UnixTime}");
-			
+
 			foreach (var timezone in TimeZoneInfo.GetSystemTimeZones())
 			{
 				Debug.Log(timezone.Id + " | " + timezone.DisplayName);

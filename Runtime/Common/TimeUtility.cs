@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Globalization;
-using System.Text;
 
 using UnityEngine;
 
@@ -16,7 +15,6 @@ namespace Kiwi.Utility
 		/// <para>1970 年 01 月 01 日 0 时 0 分 0 秒</para>
 		/// </summary>
 		public static DateTime UnixTime { get; } = new(1970 , 1 , 1 , 0 , 0 , 0);
-
 
 		#region 获取当前时间相关函数
 
@@ -42,20 +40,13 @@ namespace Kiwi.Utility
 		/// 获取 Unix 时间戳
 		/// <para>单位 : 秒</para>
 		/// </summary>
-		/// <returns>秒级的 Unix 时间戳</returns>
-		public static long GetUnixTimestamp()
+		/// <param name="isMilliseconds">是否返回毫秒级时间戳</param>
+		/// <returns>Unix 时间戳</returns>
+		public static long GetUnixTimestamp(bool isMilliseconds = false)
 		{
-			return DateTimeOffset.UtcNow.ToUnixTimeSeconds();
-		}
-
-		/// <summary>
-		/// 获取 Unix 时间戳
-		/// <para>单位 : 毫秒</para>
-		/// </summary>
-		/// <returns>毫秒级的 Unix 时间戳</returns>
-		public static long GetUnixTimestampMilliseconds()
-		{
-			return DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
+			return isMilliseconds
+				? DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()
+				: DateTimeOffset.UtcNow.ToUnixTimeSeconds();
 		}
 
 		#endregion
@@ -85,21 +76,14 @@ namespace Kiwi.Utility
 		/// <summary>
 		/// 将 Unix 时间戳转换为 DateTime
 		/// </summary>
-		/// <param name="timestamp">秒级别的时间戳</param>
+		/// <param name="timestamp">Unix 时间戳</param>
+		/// <param name="isMilliseconds">时间戳是否为毫秒级</param>
 		/// <returns>转换后的时间</returns>
-		public static DateTime ConvertUnixTimestampToDateTime(long timestamp)
+		public static DateTime ConvertUnixTimestampToDateTime(long timestamp , bool isMilliseconds = false)
 		{
-			return DateTimeOffset.FromUnixTimeSeconds(timestamp).DateTime;
-		}
-
-		/// <summary>
-		/// 将 Unix 时间戳转换为 DateTime
-		/// </summary>
-		/// <param name="timestamp">毫秒级别的时间戳</param>
-		/// <returns>转换后的时间</returns>
-		public static DateTime ConvertUnixTimestampMillisecondsToDateTime(long timestamp)
-		{
-			return DateTimeOffset.FromUnixTimeMilliseconds(timestamp).DateTime;
+			return isMilliseconds
+				? DateTimeOffset.FromUnixTimeMilliseconds(timestamp).DateTime
+				: DateTimeOffset.FromUnixTimeSeconds(timestamp).DateTime;
 		}
 
 		/// <summary>
@@ -652,6 +636,40 @@ namespace Kiwi.Utility
 			                    currentTime.Second ,
 			                    currentTime.Millisecond)
 				.AddMonths(milliseconds);
+		}
+
+		/// <summary>
+		/// 获取指定时间 N 时间单位之后的时间
+		/// </summary>
+		/// <param name="currentTime">当前时间</param>
+		/// <param name="timeUnit">时间单位</param>
+		/// <param name="value">增加的时间单位值</param>
+		/// <returns>指定时间 N 时间单位之后的时间</returns>
+		public static DateTime GetNextTime(DateTime currentTime , TimeUnit timeUnit , int value)
+		{
+			return timeUnit switch
+			       {
+				       TimeUnit.Months       => GetNextMonths(currentTime , value) ,
+				       TimeUnit.Days         => GetNextDays(currentTime , value) ,
+				       TimeUnit.Hours        => GetNextHours(currentTime , value) ,
+				       TimeUnit.Minutes      => GetNextMinutes(currentTime , value) ,
+				       TimeUnit.Seconds      => GetNextSeconds(currentTime , value) ,
+				       TimeUnit.Milliseconds => GetNextMilliseconds(currentTime , value) ,
+				       _                     => throw new ArgumentOutOfRangeException(nameof(timeUnit) , timeUnit , null)
+			       };
+		}
+
+		/// <summary>
+		/// 时间单位
+		/// </summary>
+		public enum TimeUnit
+		{
+			Months ,
+			Days ,
+			Hours ,
+			Minutes ,
+			Seconds ,
+			Milliseconds
 		}
 
 		#endregion
