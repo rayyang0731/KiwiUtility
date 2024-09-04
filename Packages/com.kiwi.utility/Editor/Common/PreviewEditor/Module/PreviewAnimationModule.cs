@@ -163,7 +163,7 @@ namespace Kiwi.Utility.Editor
 					CreateAnimationControlButton("\u25a0" , Color.red , !_autoClip , false);
 					_clipProgress = EditorGUILayout.Slider(_clipProgress , 0 , 1);
 					_clipLen      = _clips[_clipIndex].length;
-					EditorGUILayout.LabelField($"{TimeUtility.SecondsFormatToClock(_clipLen * _clipProgress)}/{TimeUtility.SecondsFormatToClock(_clipLen)}" , GUILayout.Width(100));
+					EditorGUILayout.LabelField($"{TimeUtility.FormatSeconds((int) (_clipLen * _clipProgress))}/{TimeUtility.FormatSeconds((int) _clipLen)}" , GUILayout.Width(100));
 					_multipleSpeed = (MultipleSpeed) EditorGUILayout.Popup((int) _multipleSpeed , _multipleSpeedNames , GUILayout.Width(66));
 				}
 				EditorGUILayout.EndHorizontal();

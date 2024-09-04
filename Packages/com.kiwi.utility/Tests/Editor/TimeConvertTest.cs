@@ -1,4 +1,6 @@
 using System;
+using System.Collections.ObjectModel;
+using System.Globalization;
 
 using NUnit.Framework;
 
@@ -81,7 +83,14 @@ namespace Kiwi.Utility.Test.Editor
 			Debug.Log($"将 DateTime 转换为秒级 Unix 时间戳 : {TimeUtility.ConvertDateTimeToUnixTimestamp(utcTime)}");
 			Debug.Log($"将 DateTime 转换为毫秒级 Unix 时间戳 : {TimeUtility.ConvertDateTimeToUnixTimestampMilliseconds(utcTime)}");
 			
+			Debug.Log(utcTime.ToString("yyyy-M-d dddd",new CultureInfo("en-US")));
 			
+			// Debug.Log($"两个日期之间的天数差 : 开始 - {TimeUtility.UnixTime}");
+			
+			foreach (var timezone in TimeZoneInfo.GetSystemTimeZones())
+			{
+				Debug.Log(timezone.Id + " | " + timezone.DisplayName);
+			}
 		}
 	}
 }
