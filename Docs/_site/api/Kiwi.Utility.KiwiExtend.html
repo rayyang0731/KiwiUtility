@@ -1,0 +1,3653 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class KiwiExtend | Kiwi Utility </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class KiwiExtend | Kiwi Utility ">
+      
+      <meta name="description" content="RectTransform 类方法扩展">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/rayyang0731/KiwiEditorUtitlity/new/main/apiSpec/new?filename=Kiwi_Utility_KiwiExtend.md&amp;value=---%0Auid%3A%20Kiwi.Utility.KiwiExtend%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Kiwi Utility">
+            Kiwi Utility
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Kiwi.Utility.KiwiExtend">
+
+
+
+  <h1 id="Kiwi_Utility_KiwiExtend" data-uid="Kiwi.Utility.KiwiExtend" class="text-break">
+Class KiwiExtend  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/KiwiExtend.cs/#L3"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Kiwi.html">Kiwi</a>.<a class="xref" href="Kiwi.Utility.html">Utility</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>com.kiwi.utility.runtime.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>RectTransform 类方法扩展</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class KiwiExtend</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">KiwiExtend</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Kiwi_Utility_KiwiExtend_DisableCanvasGroup_" data-uid="Kiwi.Utility.KiwiExtend.DisableCanvasGroup*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_DisableCanvasGroup_UnityEngine_GameObject_" data-uid="Kiwi.Utility.KiwiExtend.DisableCanvasGroup(UnityEngine.GameObject)">
+  DisableCanvasGroup(GameObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/CanvasExtend.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>隐藏 CanvasGroup</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DisableCanvasGroup(this GameObject canvas)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>canvas</code> <span class="xref">GameObject</span></dt>
+    <dd><p>被扩展对象</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_EnableCanvasGroup_" data-uid="Kiwi.Utility.KiwiExtend.EnableCanvasGroup*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_EnableCanvasGroup_UnityEngine_Canvas_" data-uid="Kiwi.Utility.KiwiExtend.EnableCanvasGroup(UnityEngine.Canvas)">
+  EnableCanvasGroup(Canvas)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/CanvasExtend.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>启用 CanvasGroup</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EnableCanvasGroup(this Canvas canvas)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>canvas</code> <span class="xref">Canvas</span></dt>
+    <dd><p>被扩展对象</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_FindChild_" data-uid="Kiwi.Utility.KiwiExtend.FindChild*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_FindChild_UnityEngine_GameObject_System_String_" data-uid="Kiwi.Utility.KiwiExtend.FindChild(UnityEngine.GameObject,System.String)">
+  FindChild(GameObject, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>查找子对象</p>
+<p>若存在多个同名的子对象，则返回第一个</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject FindChild(this GameObject go, string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>go</code> <span class="xref">GameObject</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>子对象名称</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd><p>查找到的子对象</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_FindChildWithTag_" data-uid="Kiwi.Utility.KiwiExtend.FindChildWithTag*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_FindChildWithTag_UnityEngine_GameObject_System_String_UnityEngine_GameObject__" data-uid="Kiwi.Utility.KiwiExtend.FindChildWithTag(UnityEngine.GameObject,System.String,UnityEngine.GameObject@)">
+  FindChildWithTag(GameObject, string, out GameObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>根据指定 tag 查找子对象</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool FindChildWithTag(this GameObject go, string tag, out GameObject targetChild)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>go</code> <span class="xref">GameObject</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>指定的 tag</p>
+</dd>
+    <dt><code>targetChild</code> <span class="xref">GameObject</span></dt>
+    <dd><p>返回查找到的目标子对象</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果查找到指定对象返回 True,否则返回 false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_ForceGetComponent_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_ForceGetComponent_UnityEngine_Component_System_String_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component,System.String)">
+  ForceGetComponent(Component, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Component ForceGetComponent(this Component cp, string type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cp</code> <span class="xref">Component</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>目标组件必须继承自Component,需要带命名空间的完整名称</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Component</span></dt>
+    <dd><p>目标组件</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_ForceGetComponent_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_ForceGetComponent_UnityEngine_Component_System_String_System_Boolean__" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component,System.String,System.Boolean@)">
+  ForceGetComponent(Component, string, out bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Component ForceGetComponent(this Component cp, string type, out bool exist)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cp</code> <span class="xref">Component</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>目标组件必须继承自Component,需要带命名空间的完整名称</p>
+</dd>
+    <dt><code>exist</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>想要获取的组件是否存在</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Component</span></dt>
+    <dd><p>目标组件</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_ForceGetComponent_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_ForceGetComponent_UnityEngine_Component_System_Type_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component,System.Type)">
+  ForceGetComponent(Component, Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Component ForceGetComponent(this Component cp, Type type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cp</code> <span class="xref">Component</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>目标组件必须继承自Component</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Component</span></dt>
+    <dd><p>目标组件</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_ForceGetComponent_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_ForceGetComponent_UnityEngine_Component_System_Type_System_Boolean__" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component,System.Type,System.Boolean@)">
+  ForceGetComponent(Component, Type, out bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Component ForceGetComponent(this Component cp, Type type, out bool exist)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cp</code> <span class="xref">Component</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>目标组件必须继承自Component</p>
+</dd>
+    <dt><code>exist</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>想要获取的组件是否存在</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Component</span></dt>
+    <dd><p>目标组件</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_ForceGetComponent_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_ForceGetComponent_UnityEngine_GameObject_System_String_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject,System.String)">
+  ForceGetComponent(GameObject, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Component ForceGetComponent(this GameObject go, string type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>go</code> <span class="xref">GameObject</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>目标组件必须继承自Component,需要带命名空间的完整名称</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Component</span></dt>
+    <dd><p>目标组件</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_ForceGetComponent_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_ForceGetComponent_UnityEngine_GameObject_System_String_System_Boolean__" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject,System.String,System.Boolean@)">
+  ForceGetComponent(GameObject, string, out bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Component ForceGetComponent(this GameObject go, string type, out bool exist)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>go</code> <span class="xref">GameObject</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>目标组件必须继承自Component,需要带命名空间的完整名称</p>
+</dd>
+    <dt><code>exist</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>想要获取的组件是否存在</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Component</span></dt>
+    <dd><p>目标组件</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_ForceGetComponent_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_ForceGetComponent_UnityEngine_GameObject_System_Type_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject,System.Type)">
+  ForceGetComponent(GameObject, Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Component ForceGetComponent(this GameObject go, Type type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>go</code> <span class="xref">GameObject</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>目标组件必须继承自Component</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Component</span></dt>
+    <dd><p>目标组件</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_ForceGetComponent_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_ForceGetComponent_UnityEngine_GameObject_System_Type_System_Boolean__" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject,System.Type,System.Boolean@)">
+  ForceGetComponent(GameObject, Type, out bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Component ForceGetComponent(this GameObject go, Type type, out bool exist)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>go</code> <span class="xref">GameObject</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>目标组件必须继承自Component</p>
+</dd>
+    <dt><code>exist</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>想要获取的组件是否存在</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Component</span></dt>
+    <dd><p>目标组件</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_ForceGetComponent_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_ForceGetComponent__1_UnityEngine_Component_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent``1(UnityEngine.Component)">
+  ForceGetComponent&lt;T&gt;(Component)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T ForceGetComponent&lt;T&gt;(this Component cp) where T : Component</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cp</code> <span class="xref">Component</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>目标组件</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>目标组件必须继承自 Component</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_ForceGetComponent_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_ForceGetComponent__1_UnityEngine_Component_System_Boolean__" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent``1(UnityEngine.Component,System.Boolean@)">
+  ForceGetComponent&lt;T&gt;(Component, out bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T ForceGetComponent&lt;T&gt;(this Component cp, out bool exist) where T : Component</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cp</code> <span class="xref">Component</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>exist</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>想要获取的组件是否存在</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>目标组件</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>目标组件必须继承自 Component</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_ForceGetComponent_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_ForceGetComponent__1_UnityEngine_GameObject_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent``1(UnityEngine.GameObject)">
+  ForceGetComponent&lt;T&gt;(GameObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T ForceGetComponent&lt;T&gt;(this GameObject go) where T : Component</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>go</code> <span class="xref">GameObject</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>目标组件</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>目标组件必须继承自 Component</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_ForceGetComponent_" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_ForceGetComponent__1_UnityEngine_GameObject_System_Boolean__" data-uid="Kiwi.Utility.KiwiExtend.ForceGetComponent``1(UnityEngine.GameObject,System.Boolean@)">
+  ForceGetComponent&lt;T&gt;(GameObject, out bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T ForceGetComponent&lt;T&gt;(this GameObject go, out bool exist) where T : Component</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>go</code> <span class="xref">GameObject</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>exist</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>想要获取的组件是否存在</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>目标组件</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>目标组件必须继承自 Component</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_GetAllChildren_" data-uid="Kiwi.Utility.KiwiExtend.GetAllChildren*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_GetAllChildren_UnityEngine_Transform_System_Boolean_" data-uid="Kiwi.Utility.KiwiExtend.GetAllChildren(UnityEngine.Transform,System.Boolean)">
+  GetAllChildren(Transform, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获得 Transform 下的所有子物体</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform[] GetAllChildren(this Transform transform, bool includeInactive = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>includeInactive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否获取未激活的子对象</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_GetAnchoredPosition_" data-uid="Kiwi.Utility.KiwiExtend.GetAnchoredPosition*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_GetAnchoredPosition_UnityEngine_RectTransform_System_Single__System_Single__" data-uid="Kiwi.Utility.KiwiExtend.GetAnchoredPosition(UnityEngine.RectTransform,System.Single@,System.Single@)">
+  GetAnchoredPosition(RectTransform, out float, out float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L530"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获得锚点坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetAnchoredPosition(this RectTransform rectTransform, out float x, out float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>x 轴坐标</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>y 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_GetAnchoredPosition3D_" data-uid="Kiwi.Utility.KiwiExtend.GetAnchoredPosition3D*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_GetAnchoredPosition3D_UnityEngine_RectTransform_System_Single__System_Single__System_Single__" data-uid="Kiwi.Utility.KiwiExtend.GetAnchoredPosition3D(UnityEngine.RectTransform,System.Single@,System.Single@,System.Single@)">
+  GetAnchoredPosition3D(RectTransform, out float, out float, out float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L602"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获得3D锚点坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetAnchoredPosition3D(this RectTransform rectTransform, out float x, out float y, out float z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>x 轴坐标</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>y 轴坐标</p>
+</dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>z 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_GetCenterPosition_" data-uid="Kiwi.Utility.KiwiExtend.GetCenterPosition*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_GetCenterPosition_UnityEngine_GameObject_" data-uid="Kiwi.Utility.KiwiExtend.GetCenterPosition(UnityEngine.GameObject)">
+  GetCenterPosition(GameObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取对象的中心位置坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 GetCenterPosition(this GameObject go)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>go</code> <span class="xref">GameObject</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd><p>对象的中心位置坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_GetHeight_" data-uid="Kiwi.Utility.KiwiExtend.GetHeight*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_GetHeight_UnityEngine_RectTransform_" data-uid="Kiwi.Utility.KiwiExtend.GetHeight(UnityEngine.RectTransform)">
+  GetHeight(RectTransform)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L696"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取高度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetHeight(this RectTransform rectTransform)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_GetLocalPosition_" data-uid="Kiwi.Utility.KiwiExtend.GetLocalPosition*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_GetLocalPosition_UnityEngine_Transform_System_Single__System_Single__System_Single__" data-uid="Kiwi.Utility.KiwiExtend.GetLocalPosition(UnityEngine.Transform,System.Single@,System.Single@,System.Single@)">
+  GetLocalPosition(Transform, out float, out float, out float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取 Transform 的本地坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetLocalPosition(this Transform transform, out float x, out float y, out float z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>x 轴坐标</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>y 轴坐标</p>
+</dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>z 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_GetLocalScale_" data-uid="Kiwi.Utility.KiwiExtend.GetLocalScale*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_GetLocalScale_UnityEngine_Transform_System_Single__System_Single__System_Single__" data-uid="Kiwi.Utility.KiwiExtend.GetLocalScale(UnityEngine.Transform,System.Single@,System.Single@,System.Single@)">
+  GetLocalScale(Transform, out float, out float, out float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取 Transform 的缩放比例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetLocalScale(this Transform transform, out float x, out float y, out float z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>x 轴缩放</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>y 轴缩放</p>
+</dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>z 轴缩放</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_GetPath_" data-uid="Kiwi.Utility.KiwiExtend.GetPath*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_GetPath_UnityEngine_Transform_" data-uid="Kiwi.Utility.KiwiExtend.GetPath(UnityEngine.Transform)">
+  GetPath(Transform)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取 Transform 的树结构</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetPath(this Transform transform)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_GetPosition_" data-uid="Kiwi.Utility.KiwiExtend.GetPosition*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_GetPosition_UnityEngine_Transform_System_Single__System_Single__System_Single__" data-uid="Kiwi.Utility.KiwiExtend.GetPosition(UnityEngine.Transform,System.Single@,System.Single@,System.Single@)">
+  GetPosition(Transform, out float, out float, out float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取 Transform 的世界坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetPosition(this Transform transform, out float x, out float y, out float z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>x 轴坐标</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>y 轴坐标</p>
+</dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>z 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_GetSelfChildren_" data-uid="Kiwi.Utility.KiwiExtend.GetSelfChildren*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_GetSelfChildren_UnityEngine_Transform_System_Boolean_" data-uid="Kiwi.Utility.KiwiExtend.GetSelfChildren(UnityEngine.Transform,System.Boolean)">
+  GetSelfChildren(Transform, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获得 Transform 的子物体(仅 Transform 自己的子对象,不进行递归获取)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform[] GetSelfChildren(this Transform transform, bool includeInactive = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>includeInactive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否获取未激活的子对象</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_GetSize_" data-uid="Kiwi.Utility.KiwiExtend.GetSize*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_GetSize_UnityEngine_RectTransform_" data-uid="Kiwi.Utility.KiwiExtend.GetSize(UnityEngine.RectTransform)">
+  GetSize(RectTransform)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L703"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取尺寸</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 GetSize(this RectTransform rectTransform)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_GetSize_" data-uid="Kiwi.Utility.KiwiExtend.GetSize*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_GetSize_UnityEngine_RectTransform_System_Single__System_Single__" data-uid="Kiwi.Utility.KiwiExtend.GetSize(UnityEngine.RectTransform,System.Single@,System.Single@)">
+  GetSize(RectTransform, out float, out float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L711"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取尺寸</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetSize(this RectTransform rectTransform, out float width, out float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>返回的宽度</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>返回的高度</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_GetSizeDelta_" data-uid="Kiwi.Utility.KiwiExtend.GetSizeDelta*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_GetSizeDelta_UnityEngine_RectTransform_System_Single__System_Single__" data-uid="Kiwi.Utility.KiwiExtend.GetSizeDelta(UnityEngine.RectTransform,System.Single@,System.Single@)">
+  GetSizeDelta(RectTransform, out float, out float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L760"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取 Transform 的 SizeDelta</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetSizeDelta(this RectTransform rectTransform, out float x, out float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_GetWidth_" data-uid="Kiwi.Utility.KiwiExtend.GetWidth*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_GetWidth_UnityEngine_RectTransform_" data-uid="Kiwi.Utility.KiwiExtend.GetWidth(UnityEngine.RectTransform)">
+  GetWidth(RectTransform)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L689"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取宽度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetWidth(this RectTransform rectTransform)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_IsAnchorHorizontal_" data-uid="Kiwi.Utility.KiwiExtend.IsAnchorHorizontal*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_IsAnchorHorizontal_UnityEngine_RectTransform_Kiwi_Utility_AnchorHorizontal_" data-uid="Kiwi.Utility.KiwiExtend.IsAnchorHorizontal(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal)">
+  IsAnchorHorizontal(RectTransform, AnchorHorizontal)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L497"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>是否与指定的水平预设锚点相等</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAnchorHorizontal(this RectTransform rectTransform, AnchorHorizontal horizontal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>horizontal</code> <a class="xref" href="Kiwi.Utility.AnchorHorizontal.html">AnchorHorizontal</a></dt>
+    <dd><p>水平锚点位置</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_IsAnchorHorizontal_" data-uid="Kiwi.Utility.KiwiExtend.IsAnchorHorizontal*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_IsAnchorHorizontal_UnityEngine_RectTransform_System_Int32_" data-uid="Kiwi.Utility.KiwiExtend.IsAnchorHorizontal(UnityEngine.RectTransform,System.Int32)">
+  IsAnchorHorizontal(RectTransform, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L488"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>是否与指定的水平预设锚点相等</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAnchorHorizontal(this RectTransform rectTransform, int horizontal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>horizontal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>水平锚点位置 <a class="xref" href="Kiwi.Utility.AnchorHorizontal.html">AnchorHorizontal</a> [0-Left,1-Center,2-Right,3-Stretch]</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_IsAnchorPresets_" data-uid="Kiwi.Utility.KiwiExtend.IsAnchorPresets*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_IsAnchorPresets_UnityEngine_RectTransform_Kiwi_Utility_AnchorHorizontal_Kiwi_Utility_AnchorVertical_" data-uid="Kiwi.Utility.KiwiExtend.IsAnchorPresets(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal,Kiwi.Utility.AnchorVertical)">
+  IsAnchorPresets(RectTransform, AnchorHorizontal, AnchorVertical)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L479"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>是否与指定的预设锚点相等</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAnchorPresets(this RectTransform rectTransform, AnchorHorizontal horizontal, AnchorVertical vertical)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>horizontal</code> <a class="xref" href="Kiwi.Utility.AnchorHorizontal.html">AnchorHorizontal</a></dt>
+    <dd><p>水平锚点位置</p>
+</dd>
+    <dt><code>vertical</code> <a class="xref" href="Kiwi.Utility.AnchorVertical.html">AnchorVertical</a></dt>
+    <dd><p>垂直锚点位置</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_IsAnchorPresets_" data-uid="Kiwi.Utility.KiwiExtend.IsAnchorPresets*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_IsAnchorPresets_UnityEngine_RectTransform_System_Int32_System_Int32_" data-uid="Kiwi.Utility.KiwiExtend.IsAnchorPresets(UnityEngine.RectTransform,System.Int32,System.Int32)">
+  IsAnchorPresets(RectTransform, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L469"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>是否与指定的预设锚点相等</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAnchorPresets(this RectTransform rectTransform, int horizontal, int vertical)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>horizontal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>水平锚点位置 <a class="xref" href="Kiwi.Utility.AnchorHorizontal.html">AnchorHorizontal</a> [0-Left,1-Center,2-Right,3-Stretch]</p>
+</dd>
+    <dt><code>vertical</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>垂直锚点位置 <a class="xref" href="Kiwi.Utility.AnchorVertical.html">AnchorVertical</a> [0-Top,1-Middle,2-Bottom,3-Stretch]</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_IsAnchorVertical_" data-uid="Kiwi.Utility.KiwiExtend.IsAnchorVertical*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_IsAnchorVertical_UnityEngine_RectTransform_Kiwi_Utility_AnchorVertical_" data-uid="Kiwi.Utility.KiwiExtend.IsAnchorVertical(UnityEngine.RectTransform,Kiwi.Utility.AnchorVertical)">
+  IsAnchorVertical(RectTransform, AnchorVertical)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L518"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>是否与指定的垂直预设锚点值相等</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAnchorVertical(this RectTransform rectTransform, AnchorVertical vertical)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>vertical</code> <a class="xref" href="Kiwi.Utility.AnchorVertical.html">AnchorVertical</a></dt>
+    <dd><p>垂直锚点位置</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_IsAnchorVertical_" data-uid="Kiwi.Utility.KiwiExtend.IsAnchorVertical*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_IsAnchorVertical_UnityEngine_RectTransform_System_Int32_" data-uid="Kiwi.Utility.KiwiExtend.IsAnchorVertical(UnityEngine.RectTransform,System.Int32)">
+  IsAnchorVertical(RectTransform, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L509"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>是否与指定的垂直预设锚点相等</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAnchorVertical(this RectTransform rectTransform, int vertical)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>vertical</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>垂直预设锚点位置 <a class="xref" href="Kiwi.Utility.AnchorVertical.html">AnchorVertical</a> [0-Top,1-Middle,2-Bottom,3-Stretch]</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_IsNull_" data-uid="Kiwi.Utility.KiwiExtend.IsNull*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_IsNull_UnityEngine_Object_" data-uid="Kiwi.Utility.KiwiExtend.IsNull(UnityEngine.Object)">
+  IsNull(Object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/KiwiExtend.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>判断是否为 null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNull(this Object obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">Object</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_Overlaps_" data-uid="Kiwi.Utility.KiwiExtend.Overlaps*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_Overlaps_UnityEngine_RectTransform_UnityEngine_RectTransform_" data-uid="Kiwi.Utility.KiwiExtend.Overlaps(UnityEngine.RectTransform,UnityEngine.RectTransform)">
+  Overlaps(RectTransform, RectTransform)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L815"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>判断两个 RectTransform 是否相交(矩形相交)</p>
+<p>主要就是检测 RectTransform 的拐点是否在另一个 RectTransform 中.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Overlaps(this RectTransform rectTransform, RectTransform target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>target</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>要判断的目标对象</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_ResetZero_" data-uid="Kiwi.Utility.KiwiExtend.ResetZero*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_ResetZero_UnityEngine_RectTransform_Kiwi_Utility_AnchorHorizontal_Kiwi_Utility_AnchorVertical_UnityEngine_Transform_" data-uid="Kiwi.Utility.KiwiExtend.ResetZero(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal,Kiwi.Utility.AnchorVertical,UnityEngine.Transform)">
+  ResetZero(RectTransform, AnchorHorizontal, AnchorVertical, Transform)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将位置,宽高,锚点,中心点全部重置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ResetZero(this RectTransform rectTransform, AnchorHorizontal horizontal, AnchorVertical vertical, Transform parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>horizontal</code> <a class="xref" href="Kiwi.Utility.AnchorHorizontal.html">AnchorHorizontal</a></dt>
+    <dd><p>水平锚点位置</p>
+</dd>
+    <dt><code>vertical</code> <a class="xref" href="Kiwi.Utility.AnchorVertical.html">AnchorVertical</a></dt>
+    <dd><p>垂直锚点位置</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd><p>父物体</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_ResetZero_" data-uid="Kiwi.Utility.KiwiExtend.ResetZero*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_ResetZero_UnityEngine_RectTransform_System_Int32_System_Int32_UnityEngine_Transform_" data-uid="Kiwi.Utility.KiwiExtend.ResetZero(UnityEngine.RectTransform,System.Int32,System.Int32,UnityEngine.Transform)">
+  ResetZero(RectTransform, int, int, Transform)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将位置,宽高,锚点,中心点全部重置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ResetZero(this RectTransform rectTransform, int horizontal, int vertical, Transform parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>horizontal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>水平锚点位置 <a class="xref" href="Kiwi.Utility.AnchorHorizontal.html">AnchorHorizontal</a></p>
+</dd>
+    <dt><code>vertical</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>垂直锚点位置 <a class="xref" href="Kiwi.Utility.AnchorVertical.html">AnchorVertical</a></p>
+</dd>
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd><p>父物体</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchor_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchor*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchor_UnityEngine_RectTransform_Kiwi_Utility_AnchorPresets_System_Single_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchor(UnityEngine.RectTransform,Kiwi.Utility.AnchorPresets,System.Single,System.Single)">
+  SetAnchor(RectTransform, AnchorPresets, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L224"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置锚点</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchor(this RectTransform rectTransform, AnchorPresets anchorPresets, float posX = 0, float posY = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>anchorPresets</code> <a class="xref" href="Kiwi.Utility.AnchorPresets.html">AnchorPresets</a></dt>
+    <dd><p>要设置的锚点预设</p>
+</dd>
+    <dt><code>posX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>设置锚点后,要设置的 X 轴坐标</p>
+</dd>
+    <dt><code>posY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>设置锚点后,要设置的 Y 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchor_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchor*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchor_UnityEngine_RectTransform_System_Int32_System_Single_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchor(UnityEngine.RectTransform,System.Int32,System.Single,System.Single)">
+  SetAnchor(RectTransform, int, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置锚点</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchor(this RectTransform rectTransform, int anchorPresets, float posX = 0, float posY = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>anchorPresets</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>要设置的锚点预设 <a class="xref" href="Kiwi.Utility.AnchorPresets.html">AnchorPresets</a></p>
+</dd>
+    <dt><code>posX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>设置锚点后,要设置的 X 轴坐标</p>
+</dd>
+    <dt><code>posY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>设置锚点后,要设置的 Y 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchorHorizontal_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorHorizontal*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchorHorizontal_UnityEngine_RectTransform_Kiwi_Utility_AnchorHorizontal_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorHorizontal(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal)">
+  SetAnchorHorizontal(RectTransform, AnchorHorizontal)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置水平预设锚点</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchorHorizontal(this RectTransform rectTransform, AnchorHorizontal horizontal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>horizontal</code> <a class="xref" href="Kiwi.Utility.AnchorHorizontal.html">AnchorHorizontal</a></dt>
+    <dd><p>水平锚点位置</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchorHorizontal_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorHorizontal*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchorHorizontal_UnityEngine_RectTransform_System_Int32_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorHorizontal(UnityEngine.RectTransform,System.Int32)">
+  SetAnchorHorizontal(RectTransform, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置水平预设锚点</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchorHorizontal(this RectTransform rectTransform, int horizontal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>horizontal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>水平锚点位置 <a class="xref" href="Kiwi.Utility.AnchorHorizontal.html">AnchorHorizontal</a> [0-Left,1-Center,2-Right,3-Stretch]</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchorMax_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorMax*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchorMax_UnityEngine_RectTransform_System_Single_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorMax(UnityEngine.RectTransform,System.Single,System.Single)">
+  SetAnchorMax(RectTransform, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L366"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置锚点最大值</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchorMax(this RectTransform rectTransform, float x, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>锚点 X 轴坐标</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>锚点 Y 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchorMaxX_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorMaxX*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchorMaxX_UnityEngine_RectTransform_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorMaxX(UnityEngine.RectTransform,System.Single)">
+  SetAnchorMaxX(RectTransform, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L378"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置锚点 X 轴最大值</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchorMaxX(this RectTransform rectTransform, float x)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>锚点 X 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchorMaxY_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorMaxY*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchorMaxY_UnityEngine_RectTransform_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorMaxY(UnityEngine.RectTransform,System.Single)">
+  SetAnchorMaxY(RectTransform, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L390"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置锚点 Y 轴最大值</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchorMaxY(this RectTransform rectTransform, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>锚点 Y 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchorMin_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorMin*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchorMin_UnityEngine_RectTransform_System_Single_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorMin(UnityEngine.RectTransform,System.Single,System.Single)">
+  SetAnchorMin(RectTransform, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L329"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置锚点最小值</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchorMin(this RectTransform rectTransform, float x, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>锚点 X 轴坐标</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>锚点 Y 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchorMinX_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorMinX*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchorMinX_UnityEngine_RectTransform_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorMinX(UnityEngine.RectTransform,System.Single)">
+  SetAnchorMinX(RectTransform, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置锚点 X 轴最小值</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchorMinX(this RectTransform rectTransform, float x)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>锚点 X 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchorMinY_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorMinY*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchorMinY_UnityEngine_RectTransform_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorMinY(UnityEngine.RectTransform,System.Single)">
+  SetAnchorMinY(RectTransform, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L353"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置锚点 Y 轴最小值</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchorMinY(this RectTransform rectTransform, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>锚点 Y 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchorPresets_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorPresets*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchorPresets_UnityEngine_RectTransform_Kiwi_Utility_AnchorHorizontal_Kiwi_Utility_AnchorVertical_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorPresets(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal,Kiwi.Utility.AnchorVertical)">
+  SetAnchorPresets(RectTransform, AnchorHorizontal, AnchorVertical)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置预设锚点</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchorPresets(this RectTransform rectTransform, AnchorHorizontal horizontal, AnchorVertical vertical)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>horizontal</code> <a class="xref" href="Kiwi.Utility.AnchorHorizontal.html">AnchorHorizontal</a></dt>
+    <dd><p>水平锚点位置</p>
+</dd>
+    <dt><code>vertical</code> <a class="xref" href="Kiwi.Utility.AnchorVertical.html">AnchorVertical</a></dt>
+    <dd><p>垂直锚点位置</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchorPresets_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorPresets*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchorPresets_UnityEngine_RectTransform_System_Int32_System_Int32_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorPresets(UnityEngine.RectTransform,System.Int32,System.Int32)">
+  SetAnchorPresets(RectTransform, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置预设锚点</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchorPresets(this RectTransform rectTransform, int horizontal, int vertical)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>horizontal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>水平锚点位置 [0-Left,1-Center,2-Right,3-Stretch]</p>
+</dd>
+    <dt><code>vertical</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>垂直锚点位置 [0-Top,1-Middle,2-Bottom,3-Stretch]</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchorVertical_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorVertical*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchorVertical_UnityEngine_RectTransform_Kiwi_Utility_AnchorVertical_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorVertical(UnityEngine.RectTransform,Kiwi.Utility.AnchorVertical)">
+  SetAnchorVertical(RectTransform, AnchorVertical)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置垂直锚点</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchorVertical(this RectTransform rectTransform, AnchorVertical vertical)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>vertical</code> <a class="xref" href="Kiwi.Utility.AnchorVertical.html">AnchorVertical</a></dt>
+    <dd><p>垂直锚点位置</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchorVertical_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorVertical*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchorVertical_UnityEngine_RectTransform_System_Int32_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchorVertical(UnityEngine.RectTransform,System.Int32)">
+  SetAnchorVertical(RectTransform, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置垂直锚点</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchorVertical(this RectTransform rectTransform, int vertical)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>vertical</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>垂直锚点位置 <a class="xref" href="Kiwi.Utility.AnchorVertical.html">AnchorVertical</a> [0-Top,1-Middle,2-Bottom,3-Stretch]</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchoredPosition_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPosition*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchoredPosition_UnityEngine_RectTransform_System_Single_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPosition(UnityEngine.RectTransform,System.Single,System.Single)">
+  SetAnchoredPosition(RectTransform, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L557"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置锚点坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchoredPosition(this RectTransform rectTransform, float x, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>X 轴坐标</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Y 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchoredPosition_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPosition*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchoredPosition_UnityEngine_RectTransform_UnityEngine_Vector2_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPosition(UnityEngine.RectTransform,UnityEngine.Vector2)">
+  SetAnchoredPosition(RectTransform, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L543"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置锚点坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchoredPosition(this RectTransform rectTransform, Vector2 anchoredPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>anchoredPosition</code> <span class="xref">Vector2</span></dt>
+    <dd><p>要设置的锚点坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchoredPosition3D_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchoredPosition3D_UnityEngine_RectTransform_System_Single_System_Single_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D(UnityEngine.RectTransform,System.Single,System.Single,System.Single)">
+  SetAnchoredPosition3D(RectTransform, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L631"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置锚点 3D 坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchoredPosition3D(this RectTransform rectTransform, float x, float y, float z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的 X 轴坐标</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的 Y 轴坐标</p>
+</dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的 Z 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchoredPosition3D_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchoredPosition3D_UnityEngine_RectTransform_UnityEngine_Vector3_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D(UnityEngine.RectTransform,UnityEngine.Vector3)">
+  SetAnchoredPosition3D(RectTransform, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L616"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置锚点 3D 坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchoredPosition3D(this RectTransform rectTransform, Vector3 anchoredPosition3D)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>anchoredPosition3D</code> <span class="xref">Vector3</span></dt>
+    <dd><p>要设置的锚点 3D 坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchoredPosition3DX_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DX*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchoredPosition3DX_UnityEngine_RectTransform_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DX(UnityEngine.RectTransform,System.Single)">
+  SetAnchoredPosition3DX(RectTransform, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L644"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置锚点 X 轴 3D 坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchoredPosition3DX(this RectTransform rectTransform, float x)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的 X 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchoredPosition3DY_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DY*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchoredPosition3DY_UnityEngine_RectTransform_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DY(UnityEngine.RectTransform,System.Single)">
+  SetAnchoredPosition3DY(RectTransform, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L659"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置锚点 Y 轴 3D 坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchoredPosition3DY(this RectTransform rectTransform, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的 Y 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchoredPosition3DZ_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DZ*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchoredPosition3DZ_UnityEngine_RectTransform_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DZ(UnityEngine.RectTransform,System.Single)">
+  SetAnchoredPosition3DZ(RectTransform, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L674"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置锚点 Z 轴 3D 坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchoredPosition3DZ(this RectTransform rectTransform, float z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的 Z 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchoredPositionX_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPositionX*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchoredPositionX_UnityEngine_RectTransform_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPositionX(UnityEngine.RectTransform,System.Single)">
+  SetAnchoredPositionX(RectTransform, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L570"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置锚点 X 轴坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchoredPositionX(this RectTransform rectTransform, float x)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的 X 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetAnchoredPositionY_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPositionY*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetAnchoredPositionY_UnityEngine_RectTransform_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetAnchoredPositionY(UnityEngine.RectTransform,System.Single)">
+  SetAnchoredPositionY(RectTransform, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L585"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置锚点 Y 轴坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAnchoredPositionY(this RectTransform rectTransform, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的 Y 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetDisplay_" data-uid="Kiwi.Utility.KiwiExtend.SetDisplay*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetDisplay_UnityEngine_GameObject_System_Boolean_" data-uid="Kiwi.Utility.KiwiExtend.SetDisplay(UnityEngine.GameObject,System.Boolean)">
+  SetDisplay(GameObject, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>控制对象显隐</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetDisplay(this GameObject go, bool val)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>go</code> <span class="xref">GameObject</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>val</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要显示</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetEuler_" data-uid="Kiwi.Utility.KiwiExtend.SetEuler*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetEuler_UnityEngine_Transform_System_Single_System_Single_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetEuler(UnityEngine.Transform,System.Single,System.Single,System.Single)">
+  SetEuler(Transform, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置 Transform 的欧拉角</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetEuler(this Transform transform, float x, float y, float z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>X轴角度</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Y轴角度</p>
+</dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Z轴角度</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetEuler_" data-uid="Kiwi.Utility.KiwiExtend.SetEuler*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetEuler_UnityEngine_Transform_UnityEngine_Vector3_" data-uid="Kiwi.Utility.KiwiExtend.SetEuler(UnityEngine.Transform,UnityEngine.Vector3)">
+  SetEuler(Transform, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置 Transform 的欧拉角</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetEuler(this Transform transform, Vector3 newLocalEuler)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>newLocalEuler</code> <span class="xref">Vector3</span></dt>
+    <dd><p>要设置的欧拉角</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetFullStretch_" data-uid="Kiwi.Utility.KiwiExtend.SetFullStretch*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetFullStretch_UnityEngine_RectTransform_" data-uid="Kiwi.Utility.KiwiExtend.SetFullStretch(UnityEngine.RectTransform)">
+  SetFullStretch(RectTransform)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L799"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>全延展并轴点居中</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetFullStretch(this RectTransform rectTransform)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetHeight_" data-uid="Kiwi.Utility.KiwiExtend.SetHeight*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetHeight_UnityEngine_RectTransform_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetHeight(UnityEngine.RectTransform,System.Single)">
+  SetHeight(RectTransform, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L731"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置高度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetHeight(this RectTransform rectTransform, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的高度</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetLayer_" data-uid="Kiwi.Utility.KiwiExtend.SetLayer*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetLayer_UnityEngine_GameObject_System_Int32_System_Boolean_System_Boolean_System_Boolean_" data-uid="Kiwi.Utility.KiwiExtend.SetLayer(UnityEngine.GameObject,System.Int32,System.Boolean,System.Boolean,System.Boolean)">
+  SetLayer(GameObject, int, bool, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置 GameObject 的 Layer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetLayer(this GameObject go, int layer, bool syncChildren = false, bool recursion = true, bool includeInactive = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>go</code> <span class="xref">GameObject</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>layer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>要设置的 Layer</p>
+</dd>
+    <dt><code>syncChildren</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否同时设置子对象的 Layer</p>
+</dd>
+    <dt><code>recursion</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否递归获得所有子对象</p>
+</dd>
+    <dt><code>includeInactive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否获取未激活的子对象</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetLocalEuler_" data-uid="Kiwi.Utility.KiwiExtend.SetLocalEuler*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetLocalEuler_UnityEngine_Transform_System_Single_System_Single_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetLocalEuler(UnityEngine.Transform,System.Single,System.Single,System.Single)">
+  SetLocalEuler(Transform, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置 Transform 的本地欧拉角</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetLocalEuler(this Transform transform, float x, float y, float z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>X轴角度</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Y轴角度</p>
+</dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Z轴角度</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetLocalEuler_" data-uid="Kiwi.Utility.KiwiExtend.SetLocalEuler*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetLocalEuler_UnityEngine_Transform_UnityEngine_Vector3_" data-uid="Kiwi.Utility.KiwiExtend.SetLocalEuler(UnityEngine.Transform,UnityEngine.Vector3)">
+  SetLocalEuler(Transform, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置 Transform 的本地欧拉角</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetLocalEuler(this Transform transform, Vector3 newLocalEuler)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>newLocalEuler</code> <span class="xref">Vector3</span></dt>
+    <dd><p>要设置的欧拉角</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetLocalPosition_" data-uid="Kiwi.Utility.KiwiExtend.SetLocalPosition*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetLocalPosition_UnityEngine_Transform_System_Single_System_Single_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetLocalPosition(UnityEngine.Transform,System.Single,System.Single,System.Single)">
+  SetLocalPosition(Transform, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置 Transform 的本地坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetLocalPosition(this Transform transform, float x, float y, float z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>X轴坐标</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Y轴坐标</p>
+</dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Z轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetLocalPosition_" data-uid="Kiwi.Utility.KiwiExtend.SetLocalPosition*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetLocalPosition_UnityEngine_Transform_UnityEngine_Vector3_" data-uid="Kiwi.Utility.KiwiExtend.SetLocalPosition(UnityEngine.Transform,UnityEngine.Vector3)">
+  SetLocalPosition(Transform, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置 Transform 的本地坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetLocalPosition(this Transform transform, Vector3 newLocalPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>newLocalPosition</code> <span class="xref">Vector3</span></dt>
+    <dd><p>要设置的本地坐标位置</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetLocalScale_" data-uid="Kiwi.Utility.KiwiExtend.SetLocalScale*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetLocalScale_UnityEngine_Transform_System_Single_System_Single_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetLocalScale(UnityEngine.Transform,System.Single,System.Single,System.Single)">
+  SetLocalScale(Transform, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置缩放比例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetLocalScale(this Transform transform, float x, float y, float z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>X 轴缩放值</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Y 轴缩放值</p>
+</dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Z 轴缩放值</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetLocalScale_" data-uid="Kiwi.Utility.KiwiExtend.SetLocalScale*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetLocalScale_UnityEngine_Transform_UnityEngine_Vector3_" data-uid="Kiwi.Utility.KiwiExtend.SetLocalScale(UnityEngine.Transform,UnityEngine.Vector3)">
+  SetLocalScale(Transform, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置缩放比例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetLocalScale(this Transform transform, Vector3 scale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>scale</code> <span class="xref">Vector3</span></dt>
+    <dd><p>要设置的缩放比例</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetParentAndPos_" data-uid="Kiwi.Utility.KiwiExtend.SetParentAndPos*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetParentAndPos_UnityEngine_Transform_UnityEngine_Transform_UnityEngine_Vector3_" data-uid="Kiwi.Utility.KiwiExtend.SetParentAndPos(UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Vector3)">
+  SetParentAndPos(Transform, Transform, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置Transform的父物体,并对相对坐标赋值</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetParentAndPos(this Transform transform, Transform parent, Vector3 localPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd><p>父物体目标</p>
+</dd>
+    <dt><code>localPosition</code> <span class="xref">Vector3</span></dt>
+    <dd><p>父物体下的相对坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetPivot_" data-uid="Kiwi.Utility.KiwiExtend.SetPivot*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetPivot_UnityEngine_RectTransform_Kiwi_Utility_PivotPresets_" data-uid="Kiwi.Utility.KiwiExtend.SetPivot(UnityEngine.RectTransform,Kiwi.Utility.PivotPresets)">
+  SetPivot(RectTransform, PivotPresets)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L422"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置中心点</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetPivot(this RectTransform rectTransform, PivotPresets preset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>preset</code> <a class="xref" href="Kiwi.Utility.PivotPresets.html">PivotPresets</a></dt>
+    <dd><p>预设中心点</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetPivot_" data-uid="Kiwi.Utility.KiwiExtend.SetPivot*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetPivot_UnityEngine_RectTransform_System_Int32_" data-uid="Kiwi.Utility.KiwiExtend.SetPivot(UnityEngine.RectTransform,System.Int32)">
+  SetPivot(RectTransform, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L415"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置中心点</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetPivot(this RectTransform rectTransform, int preset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>preset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>预设中心点 <a class="xref" href="Kiwi.Utility.PivotPresets.html">PivotPresets</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetPivot_" data-uid="Kiwi.Utility.KiwiExtend.SetPivot*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetPivot_UnityEngine_RectTransform_System_Single_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetPivot(UnityEngine.RectTransform,System.Single,System.Single)">
+  SetPivot(RectTransform, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L403"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置中心点</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetPivot(this RectTransform rectTransform, float x, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>X 轴坐标</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Y 轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetPosition_" data-uid="Kiwi.Utility.KiwiExtend.SetPosition*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetPosition_UnityEngine_Transform_System_Single_System_Single_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetPosition(UnityEngine.Transform,System.Single,System.Single,System.Single)">
+  SetPosition(Transform, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置 Transform 的世界坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetPosition(this Transform transform, float x, float y, float z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>X轴坐标</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Y轴坐标</p>
+</dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Z轴坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetPosition_" data-uid="Kiwi.Utility.KiwiExtend.SetPosition*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetPosition_UnityEngine_Transform_UnityEngine_Vector3_" data-uid="Kiwi.Utility.KiwiExtend.SetPosition(UnityEngine.Transform,UnityEngine.Vector3)">
+  SetPosition(Transform, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置 Transform 的世界坐标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetPosition(this Transform transform, Vector3 newPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>newPosition</code> <span class="xref">Vector3</span></dt>
+    <dd><p>要设置的坐标位置</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetSize_" data-uid="Kiwi.Utility.KiwiExtend.SetSize*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetSize_UnityEngine_RectTransform_System_Single_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetSize(UnityEngine.RectTransform,System.Single,System.Single)">
+  SetSize(RectTransform, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L740"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置尺寸</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetSize(this RectTransform rectTransform, float width, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的宽度</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的高度</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetSize_" data-uid="Kiwi.Utility.KiwiExtend.SetSize*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetSize_UnityEngine_RectTransform_UnityEngine_Vector2_" data-uid="Kiwi.Utility.KiwiExtend.SetSize(UnityEngine.RectTransform,UnityEngine.Vector2)">
+  SetSize(RectTransform, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L751"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置尺寸</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetSize(this RectTransform rectTransform, Vector2 size)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>size</code> <span class="xref">Vector2</span></dt>
+    <dd><p>要设置的尺寸</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetSizeDelta_" data-uid="Kiwi.Utility.KiwiExtend.SetSizeDelta*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetSizeDelta_UnityEngine_RectTransform_System_Single_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetSizeDelta(UnityEngine.RectTransform,System.Single,System.Single)">
+  SetSizeDelta(RectTransform, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L787"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置 SizeDelta</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetSizeDelta(this RectTransform rectTransform, float x, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetSizeDelta_" data-uid="Kiwi.Utility.KiwiExtend.SetSizeDelta*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetSizeDelta_UnityEngine_RectTransform_UnityEngine_Vector2_" data-uid="Kiwi.Utility.KiwiExtend.SetSizeDelta(UnityEngine.RectTransform,UnityEngine.Vector2)">
+  SetSizeDelta(RectTransform, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L773"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置 SizeDelta</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetSizeDelta(this RectTransform rectTransform, Vector2 sizeDelta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>sizeDelta</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_SetWidth_" data-uid="Kiwi.Utility.KiwiExtend.SetWidth*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_SetWidth_UnityEngine_RectTransform_System_Single_" data-uid="Kiwi.Utility.KiwiExtend.SetWidth(UnityEngine.RectTransform,System.Single)">
+  SetWidth(RectTransform, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs/#L723"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置宽度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetWidth(this RectTransform rectTransform, float width)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectTransform</code> <span class="xref">RectTransform</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的宽度</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_rectTransform_" data-uid="Kiwi.Utility.KiwiExtend.rectTransform*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_rectTransform_UnityEngine_Component_" data-uid="Kiwi.Utility.KiwiExtend.rectTransform(UnityEngine.Component)">
+  rectTransform(Component)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获得 GameObject 的 RectTransform 组件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RectTransform rectTransform(this Component cp)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cp</code> <span class="xref">Component</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RectTransform</span></dt>
+    <dd><p>获取成功返回 RectTransform 组件, 否则返回 null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_KiwiExtend_rectTransform_" data-uid="Kiwi.Utility.KiwiExtend.rectTransform*"></a>
+
+  <h3 id="Kiwi_Utility_KiwiExtend_rectTransform_UnityEngine_GameObject_" data-uid="Kiwi.Utility.KiwiExtend.rectTransform(UnityEngine.GameObject)">
+  rectTransform(GameObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获得 GameObject 的 RectTransform 组件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RectTransform rectTransform(this GameObject go)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>go</code> <span class="xref">GameObject</span></dt>
+    <dd><p>被扩展的对象</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RectTransform</span></dt>
+    <dd><p>获取成功返回 RectTransform 组件, 否则返回 null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Extension/KiwiExtend.cs/#L3" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

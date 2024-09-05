@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.AnchorVertical
+  commentId: T:Kiwi.Utility.AnchorVertical
+  id: AnchorVertical
+  parent: Kiwi.Utility
+  children:
+  - Kiwi.Utility.AnchorVertical.Bottom
+  - Kiwi.Utility.AnchorVertical.Middle
+  - Kiwi.Utility.AnchorVertical.Stretch
+  - Kiwi.Utility.AnchorVertical.Top
+  langs:
+  - csharp
+  - vb
+  name: AnchorVertical
+  nameWithType: AnchorVertical
+  fullName: Kiwi.Utility.AnchorVertical
+  type: Enum
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: AnchorVertical
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 21
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 垂直锚点枚举
+  example: []
+  syntax:
+    content: public enum AnchorVertical
+    content.vb: Public Enum AnchorVertical
+- uid: Kiwi.Utility.AnchorVertical.Top
+  commentId: F:Kiwi.Utility.AnchorVertical.Top
+  id: Top
+  parent: Kiwi.Utility.AnchorVertical
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: AnchorVertical.Top
+  fullName: Kiwi.Utility.AnchorVertical.Top
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Top
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 23
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: Top = 0
+    return:
+      type: Kiwi.Utility.AnchorVertical
+- uid: Kiwi.Utility.AnchorVertical.Middle
+  commentId: F:Kiwi.Utility.AnchorVertical.Middle
+  id: Middle
+  parent: Kiwi.Utility.AnchorVertical
+  langs:
+  - csharp
+  - vb
+  name: Middle
+  nameWithType: AnchorVertical.Middle
+  fullName: Kiwi.Utility.AnchorVertical.Middle
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Middle
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 24
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: Middle = 1
+    return:
+      type: Kiwi.Utility.AnchorVertical
+- uid: Kiwi.Utility.AnchorVertical.Bottom
+  commentId: F:Kiwi.Utility.AnchorVertical.Bottom
+  id: Bottom
+  parent: Kiwi.Utility.AnchorVertical
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: AnchorVertical.Bottom
+  fullName: Kiwi.Utility.AnchorVertical.Bottom
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Bottom
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 25
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: Bottom = 2
+    return:
+      type: Kiwi.Utility.AnchorVertical
+- uid: Kiwi.Utility.AnchorVertical.Stretch
+  commentId: F:Kiwi.Utility.AnchorVertical.Stretch
+  id: Stretch
+  parent: Kiwi.Utility.AnchorVertical
+  langs:
+  - csharp
+  - vb
+  name: Stretch
+  nameWithType: AnchorVertical.Stretch
+  fullName: Kiwi.Utility.AnchorVertical.Stretch
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Stretch
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 26
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: Stretch = 3
+    return:
+      type: Kiwi.Utility.AnchorVertical
+references:
+- uid: Kiwi.Utility
+  commentId: N:Kiwi.Utility
+  href: Kiwi.html
+  name: Kiwi.Utility
+  nameWithType: Kiwi.Utility
+  fullName: Kiwi.Utility
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+- uid: Kiwi.Utility.AnchorVertical
+  commentId: T:Kiwi.Utility.AnchorVertical
+  parent: Kiwi.Utility
+  href: Kiwi.Utility.AnchorVertical.html
+  name: AnchorVertical
+  nameWithType: AnchorVertical
+  fullName: Kiwi.Utility.AnchorVertical

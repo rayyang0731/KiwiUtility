@@ -1,0 +1,300 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.Editor.IPreviewModule
+  commentId: T:Kiwi.Utility.Editor.IPreviewModule
+  id: IPreviewModule
+  parent: Kiwi.Utility.Editor
+  children:
+  - Kiwi.Utility.Editor.IPreviewModule.OnBottomGUI
+  - Kiwi.Utility.Editor.IPreviewModule.OnOverlapGUI(UnityEngine.Rect)
+  - Kiwi.Utility.Editor.IPreviewModule.OnTargetChanged(UnityEngine.GameObject)
+  - Kiwi.Utility.Editor.IPreviewModule.OnTopGUI
+  - Kiwi.Utility.Editor.IPreviewModule.Update
+  langs:
+  - csharp
+  - vb
+  name: IPreviewModule
+  nameWithType: IPreviewModule
+  fullName: Kiwi.Utility.Editor.IPreviewModule
+  type: Interface
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Common/PreviewEditor/Module/IPreviewModule.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: IPreviewModule
+    path: ../Packages/com.kiwi.utility/Editor/Common/PreviewEditor/Module/IPreviewModule.cs
+    startLine: 9
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 预览窗体模组接口
+  example: []
+  syntax:
+    content: 'public interface IPreviewModule : IDisposable'
+    content.vb: Public Interface IPreviewModule Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+- uid: Kiwi.Utility.Editor.IPreviewModule.Update
+  commentId: M:Kiwi.Utility.Editor.IPreviewModule.Update
+  id: Update
+  parent: Kiwi.Utility.Editor.IPreviewModule
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: IPreviewModule.Update()
+  fullName: Kiwi.Utility.Editor.IPreviewModule.Update()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Common/PreviewEditor/Module/IPreviewModule.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Update
+    path: ../Packages/com.kiwi.utility/Editor/Common/PreviewEditor/Module/IPreviewModule.cs
+    startLine: 11
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  syntax:
+    content: void Update()
+    content.vb: Sub Update()
+  overload: Kiwi.Utility.Editor.IPreviewModule.Update*
+- uid: Kiwi.Utility.Editor.IPreviewModule.OnTargetChanged(UnityEngine.GameObject)
+  commentId: M:Kiwi.Utility.Editor.IPreviewModule.OnTargetChanged(UnityEngine.GameObject)
+  id: OnTargetChanged(UnityEngine.GameObject)
+  parent: Kiwi.Utility.Editor.IPreviewModule
+  langs:
+  - csharp
+  - vb
+  name: OnTargetChanged(GameObject)
+  nameWithType: IPreviewModule.OnTargetChanged(GameObject)
+  fullName: Kiwi.Utility.Editor.IPreviewModule.OnTargetChanged(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Common/PreviewEditor/Module/IPreviewModule.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: OnTargetChanged
+    path: ../Packages/com.kiwi.utility/Editor/Common/PreviewEditor/Module/IPreviewModule.cs
+    startLine: 17
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 当预览对象发生改变
+  example: []
+  syntax:
+    content: void OnTargetChanged(GameObject target)
+    parameters:
+    - id: target
+      type: UnityEngine.GameObject
+      description: 改变后的对象
+    content.vb: Sub OnTargetChanged(target As GameObject)
+  overload: Kiwi.Utility.Editor.IPreviewModule.OnTargetChanged*
+- uid: Kiwi.Utility.Editor.IPreviewModule.OnTopGUI
+  commentId: M:Kiwi.Utility.Editor.IPreviewModule.OnTopGUI
+  id: OnTopGUI
+  parent: Kiwi.Utility.Editor.IPreviewModule
+  langs:
+  - csharp
+  - vb
+  name: OnTopGUI()
+  nameWithType: IPreviewModule.OnTopGUI()
+  fullName: Kiwi.Utility.Editor.IPreviewModule.OnTopGUI()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Common/PreviewEditor/Module/IPreviewModule.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: OnTopGUI
+    path: ../Packages/com.kiwi.utility/Editor/Common/PreviewEditor/Module/IPreviewModule.cs
+    startLine: 22
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 预览窗口上方
+  example: []
+  syntax:
+    content: void OnTopGUI()
+    content.vb: Sub OnTopGUI()
+  overload: Kiwi.Utility.Editor.IPreviewModule.OnTopGUI*
+- uid: Kiwi.Utility.Editor.IPreviewModule.OnOverlapGUI(UnityEngine.Rect)
+  commentId: M:Kiwi.Utility.Editor.IPreviewModule.OnOverlapGUI(UnityEngine.Rect)
+  id: OnOverlapGUI(UnityEngine.Rect)
+  parent: Kiwi.Utility.Editor.IPreviewModule
+  langs:
+  - csharp
+  - vb
+  name: OnOverlapGUI(Rect)
+  nameWithType: IPreviewModule.OnOverlapGUI(Rect)
+  fullName: Kiwi.Utility.Editor.IPreviewModule.OnOverlapGUI(UnityEngine.Rect)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Common/PreviewEditor/Module/IPreviewModule.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: OnOverlapGUI
+    path: ../Packages/com.kiwi.utility/Editor/Common/PreviewEditor/Module/IPreviewModule.cs
+    startLine: 27
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 覆盖预览窗口
+  example: []
+  syntax:
+    content: void OnOverlapGUI(Rect rect)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    content.vb: Sub OnOverlapGUI(rect As Rect)
+  overload: Kiwi.Utility.Editor.IPreviewModule.OnOverlapGUI*
+- uid: Kiwi.Utility.Editor.IPreviewModule.OnBottomGUI
+  commentId: M:Kiwi.Utility.Editor.IPreviewModule.OnBottomGUI
+  id: OnBottomGUI
+  parent: Kiwi.Utility.Editor.IPreviewModule
+  langs:
+  - csharp
+  - vb
+  name: OnBottomGUI()
+  nameWithType: IPreviewModule.OnBottomGUI()
+  fullName: Kiwi.Utility.Editor.IPreviewModule.OnBottomGUI()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Common/PreviewEditor/Module/IPreviewModule.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: OnBottomGUI
+    path: ../Packages/com.kiwi.utility/Editor/Common/PreviewEditor/Module/IPreviewModule.cs
+    startLine: 32
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 预览窗口下方
+  example: []
+  syntax:
+    content: void OnBottomGUI()
+    content.vb: Sub OnBottomGUI()
+  overload: Kiwi.Utility.Editor.IPreviewModule.OnBottomGUI*
+references:
+- uid: Kiwi.Utility.Editor
+  commentId: N:Kiwi.Utility.Editor
+  href: Kiwi.html
+  name: Kiwi.Utility.Editor
+  nameWithType: Kiwi.Utility.Editor
+  fullName: Kiwi.Utility.Editor
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Editor
+    name: Editor
+    href: Kiwi.Utility.Editor.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Editor
+    name: Editor
+    href: Kiwi.Utility.Editor.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Kiwi.Utility.Editor.IPreviewModule.Update*
+  commentId: Overload:Kiwi.Utility.Editor.IPreviewModule.Update
+  href: Kiwi.Utility.Editor.IPreviewModule.html#Kiwi_Utility_Editor_IPreviewModule_Update
+  name: Update
+  nameWithType: IPreviewModule.Update
+  fullName: Kiwi.Utility.Editor.IPreviewModule.Update
+- uid: Kiwi.Utility.Editor.IPreviewModule.OnTargetChanged*
+  commentId: Overload:Kiwi.Utility.Editor.IPreviewModule.OnTargetChanged
+  href: Kiwi.Utility.Editor.IPreviewModule.html#Kiwi_Utility_Editor_IPreviewModule_OnTargetChanged_UnityEngine_GameObject_
+  name: OnTargetChanged
+  nameWithType: IPreviewModule.OnTargetChanged
+  fullName: Kiwi.Utility.Editor.IPreviewModule.OnTargetChanged
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Kiwi.Utility.Editor.IPreviewModule.OnTopGUI*
+  commentId: Overload:Kiwi.Utility.Editor.IPreviewModule.OnTopGUI
+  href: Kiwi.Utility.Editor.IPreviewModule.html#Kiwi_Utility_Editor_IPreviewModule_OnTopGUI
+  name: OnTopGUI
+  nameWithType: IPreviewModule.OnTopGUI
+  fullName: Kiwi.Utility.Editor.IPreviewModule.OnTopGUI
+- uid: Kiwi.Utility.Editor.IPreviewModule.OnOverlapGUI*
+  commentId: Overload:Kiwi.Utility.Editor.IPreviewModule.OnOverlapGUI
+  href: Kiwi.Utility.Editor.IPreviewModule.html#Kiwi_Utility_Editor_IPreviewModule_OnOverlapGUI_UnityEngine_Rect_
+  name: OnOverlapGUI
+  nameWithType: IPreviewModule.OnOverlapGUI
+  fullName: Kiwi.Utility.Editor.IPreviewModule.OnOverlapGUI
+- uid: UnityEngine.Rect
+  commentId: T:UnityEngine.Rect
+  parent: UnityEngine
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: UnityEngine.Rect
+- uid: Kiwi.Utility.Editor.IPreviewModule.OnBottomGUI*
+  commentId: Overload:Kiwi.Utility.Editor.IPreviewModule.OnBottomGUI
+  href: Kiwi.Utility.Editor.IPreviewModule.html#Kiwi_Utility_Editor_IPreviewModule_OnBottomGUI
+  name: OnBottomGUI
+  nameWithType: IPreviewModule.OnBottomGUI
+  fullName: Kiwi.Utility.Editor.IPreviewModule.OnBottomGUI

@@ -1,0 +1,277 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility
+  commentId: N:Kiwi.Utility
+  id: Kiwi.Utility
+  children:
+  - Kiwi.Utility.AnchorHorizontal
+  - Kiwi.Utility.AnchorPresets
+  - Kiwi.Utility.AnchorVertical
+  - Kiwi.Utility.ColorTween
+  - Kiwi.Utility.ColorTween.ColorTweenCallback
+  - Kiwi.Utility.ColorTween.ColorTweenMode
+  - Kiwi.Utility.FloatTween
+  - Kiwi.Utility.FloatTween.FloatTweenCallback
+  - Kiwi.Utility.ITweenValue
+  - Kiwi.Utility.KiwiExtend
+  - Kiwi.Utility.KiwiMath
+  - Kiwi.Utility.KiwiPath
+  - Kiwi.Utility.PivotPresets
+  - Kiwi.Utility.SetPropertyUtility
+  - Kiwi.Utility.Stopwatch
+  - Kiwi.Utility.TimeUtility
+  - Kiwi.Utility.TimeUtility.CulturePreset
+  - Kiwi.Utility.TimeUtility.TimeUnit
+  - Kiwi.Utility.TweenRunner`1
+  langs:
+  - csharp
+  - vb
+  name: Kiwi.Utility
+  nameWithType: Kiwi.Utility
+  fullName: Kiwi.Utility
+  type: Namespace
+  assemblies:
+  - com.kiwi.utility.runtime
+references:
+- uid: Kiwi.Utility.SetPropertyUtility
+  commentId: T:Kiwi.Utility.SetPropertyUtility
+  href: Kiwi.Utility.SetPropertyUtility.html
+  name: SetPropertyUtility
+  nameWithType: SetPropertyUtility
+  fullName: Kiwi.Utility.SetPropertyUtility
+- uid: Kiwi.Utility.ITweenValue
+  commentId: T:Kiwi.Utility.ITweenValue
+  parent: Kiwi.Utility
+  href: Kiwi.Utility.ITweenValue.html
+  name: ITweenValue
+  nameWithType: ITweenValue
+  fullName: Kiwi.Utility.ITweenValue
+- uid: Kiwi.Utility.ColorTween
+  commentId: T:Kiwi.Utility.ColorTween
+  href: Kiwi.Utility.ColorTween.html
+  name: ColorTween
+  nameWithType: ColorTween
+  fullName: Kiwi.Utility.ColorTween
+- uid: Kiwi.Utility.ColorTween.ColorTweenMode
+  commentId: T:Kiwi.Utility.ColorTween.ColorTweenMode
+  parent: Kiwi.Utility
+  href: Kiwi.Utility.ColorTween.html
+  name: ColorTween.ColorTweenMode
+  nameWithType: ColorTween.ColorTweenMode
+  fullName: Kiwi.Utility.ColorTween.ColorTweenMode
+  spec.csharp:
+  - uid: Kiwi.Utility.ColorTween
+    name: ColorTween
+    href: Kiwi.Utility.ColorTween.html
+  - name: .
+  - uid: Kiwi.Utility.ColorTween.ColorTweenMode
+    name: ColorTweenMode
+    href: Kiwi.Utility.ColorTween.ColorTweenMode.html
+  spec.vb:
+  - uid: Kiwi.Utility.ColorTween
+    name: ColorTween
+    href: Kiwi.Utility.ColorTween.html
+  - name: .
+  - uid: Kiwi.Utility.ColorTween.ColorTweenMode
+    name: ColorTweenMode
+    href: Kiwi.Utility.ColorTween.ColorTweenMode.html
+- uid: Kiwi.Utility.ColorTween.ColorTweenCallback
+  commentId: T:Kiwi.Utility.ColorTween.ColorTweenCallback
+  href: Kiwi.Utility.ColorTween.html
+  name: ColorTween.ColorTweenCallback
+  nameWithType: ColorTween.ColorTweenCallback
+  fullName: Kiwi.Utility.ColorTween.ColorTweenCallback
+  spec.csharp:
+  - uid: Kiwi.Utility.ColorTween
+    name: ColorTween
+    href: Kiwi.Utility.ColorTween.html
+  - name: .
+  - uid: Kiwi.Utility.ColorTween.ColorTweenCallback
+    name: ColorTweenCallback
+    href: Kiwi.Utility.ColorTween.ColorTweenCallback.html
+  spec.vb:
+  - uid: Kiwi.Utility.ColorTween
+    name: ColorTween
+    href: Kiwi.Utility.ColorTween.html
+  - name: .
+  - uid: Kiwi.Utility.ColorTween.ColorTweenCallback
+    name: ColorTweenCallback
+    href: Kiwi.Utility.ColorTween.ColorTweenCallback.html
+- uid: Kiwi.Utility.FloatTween
+  commentId: T:Kiwi.Utility.FloatTween
+  href: Kiwi.Utility.FloatTween.html
+  name: FloatTween
+  nameWithType: FloatTween
+  fullName: Kiwi.Utility.FloatTween
+- uid: Kiwi.Utility.FloatTween.FloatTweenCallback
+  commentId: T:Kiwi.Utility.FloatTween.FloatTweenCallback
+  href: Kiwi.Utility.FloatTween.html
+  name: FloatTween.FloatTweenCallback
+  nameWithType: FloatTween.FloatTweenCallback
+  fullName: Kiwi.Utility.FloatTween.FloatTweenCallback
+  spec.csharp:
+  - uid: Kiwi.Utility.FloatTween
+    name: FloatTween
+    href: Kiwi.Utility.FloatTween.html
+  - name: .
+  - uid: Kiwi.Utility.FloatTween.FloatTweenCallback
+    name: FloatTweenCallback
+    href: Kiwi.Utility.FloatTween.FloatTweenCallback.html
+  spec.vb:
+  - uid: Kiwi.Utility.FloatTween
+    name: FloatTween
+    href: Kiwi.Utility.FloatTween.html
+  - name: .
+  - uid: Kiwi.Utility.FloatTween.FloatTweenCallback
+    name: FloatTweenCallback
+    href: Kiwi.Utility.FloatTween.FloatTweenCallback.html
+- uid: Kiwi.Utility.TweenRunner`1
+  commentId: T:Kiwi.Utility.TweenRunner`1
+  href: Kiwi.Utility.TweenRunner-1.html
+  name: TweenRunner<T>
+  nameWithType: TweenRunner<T>
+  fullName: Kiwi.Utility.TweenRunner<T>
+  nameWithType.vb: TweenRunner(Of T)
+  fullName.vb: Kiwi.Utility.TweenRunner(Of T)
+  name.vb: TweenRunner(Of T)
+  spec.csharp:
+  - uid: Kiwi.Utility.TweenRunner`1
+    name: TweenRunner
+    href: Kiwi.Utility.TweenRunner-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Kiwi.Utility.TweenRunner`1
+    name: TweenRunner
+    href: Kiwi.Utility.TweenRunner-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Kiwi.Utility.TimeUtility
+  commentId: T:Kiwi.Utility.TimeUtility
+  href: Kiwi.Utility.TimeUtility.html
+  name: TimeUtility
+  nameWithType: TimeUtility
+  fullName: Kiwi.Utility.TimeUtility
+- uid: Kiwi.Utility.TimeUtility.CulturePreset
+  commentId: T:Kiwi.Utility.TimeUtility.CulturePreset
+  href: Kiwi.Utility.TimeUtility.html
+  name: TimeUtility.CulturePreset
+  nameWithType: TimeUtility.CulturePreset
+  fullName: Kiwi.Utility.TimeUtility.CulturePreset
+  spec.csharp:
+  - uid: Kiwi.Utility.TimeUtility
+    name: TimeUtility
+    href: Kiwi.Utility.TimeUtility.html
+  - name: .
+  - uid: Kiwi.Utility.TimeUtility.CulturePreset
+    name: CulturePreset
+    href: Kiwi.Utility.TimeUtility.CulturePreset.html
+  spec.vb:
+  - uid: Kiwi.Utility.TimeUtility
+    name: TimeUtility
+    href: Kiwi.Utility.TimeUtility.html
+  - name: .
+  - uid: Kiwi.Utility.TimeUtility.CulturePreset
+    name: CulturePreset
+    href: Kiwi.Utility.TimeUtility.CulturePreset.html
+- uid: Kiwi.Utility.TimeUtility.TimeUnit
+  commentId: T:Kiwi.Utility.TimeUtility.TimeUnit
+  parent: Kiwi.Utility
+  href: Kiwi.Utility.TimeUtility.html
+  name: TimeUtility.TimeUnit
+  nameWithType: TimeUtility.TimeUnit
+  fullName: Kiwi.Utility.TimeUtility.TimeUnit
+  spec.csharp:
+  - uid: Kiwi.Utility.TimeUtility
+    name: TimeUtility
+    href: Kiwi.Utility.TimeUtility.html
+  - name: .
+  - uid: Kiwi.Utility.TimeUtility.TimeUnit
+    name: TimeUnit
+    href: Kiwi.Utility.TimeUtility.TimeUnit.html
+  spec.vb:
+  - uid: Kiwi.Utility.TimeUtility
+    name: TimeUtility
+    href: Kiwi.Utility.TimeUtility.html
+  - name: .
+  - uid: Kiwi.Utility.TimeUtility.TimeUnit
+    name: TimeUnit
+    href: Kiwi.Utility.TimeUtility.TimeUnit.html
+- uid: Kiwi.Utility.AnchorHorizontal
+  commentId: T:Kiwi.Utility.AnchorHorizontal
+  parent: Kiwi.Utility
+  href: Kiwi.Utility.AnchorHorizontal.html
+  name: AnchorHorizontal
+  nameWithType: AnchorHorizontal
+  fullName: Kiwi.Utility.AnchorHorizontal
+- uid: Kiwi.Utility.AnchorVertical
+  commentId: T:Kiwi.Utility.AnchorVertical
+  parent: Kiwi.Utility
+  href: Kiwi.Utility.AnchorVertical.html
+  name: AnchorVertical
+  nameWithType: AnchorVertical
+  fullName: Kiwi.Utility.AnchorVertical
+- uid: Kiwi.Utility.AnchorPresets
+  commentId: T:Kiwi.Utility.AnchorPresets
+  parent: Kiwi.Utility
+  href: Kiwi.Utility.AnchorPresets.html
+  name: AnchorPresets
+  nameWithType: AnchorPresets
+  fullName: Kiwi.Utility.AnchorPresets
+- uid: Kiwi.Utility.PivotPresets
+  commentId: T:Kiwi.Utility.PivotPresets
+  parent: Kiwi.Utility
+  href: Kiwi.Utility.PivotPresets.html
+  name: PivotPresets
+  nameWithType: PivotPresets
+  fullName: Kiwi.Utility.PivotPresets
+- uid: Kiwi.Utility.KiwiExtend
+  commentId: T:Kiwi.Utility.KiwiExtend
+  href: Kiwi.Utility.KiwiExtend.html
+  name: KiwiExtend
+  nameWithType: KiwiExtend
+  fullName: Kiwi.Utility.KiwiExtend
+- uid: Kiwi.Utility.KiwiMath
+  commentId: T:Kiwi.Utility.KiwiMath
+  href: Kiwi.Utility.KiwiMath.html
+  name: KiwiMath
+  nameWithType: KiwiMath
+  fullName: Kiwi.Utility.KiwiMath
+- uid: Kiwi.Utility.Stopwatch
+  commentId: T:Kiwi.Utility.Stopwatch
+  href: Kiwi.Utility.Stopwatch.html
+  name: Stopwatch
+  nameWithType: Stopwatch
+  fullName: Kiwi.Utility.Stopwatch
+- uid: Kiwi.Utility.KiwiPath
+  commentId: T:Kiwi.Utility.KiwiPath
+  href: Kiwi.Utility.KiwiPath.html
+  name: KiwiPath
+  nameWithType: KiwiPath
+  fullName: Kiwi.Utility.KiwiPath
+- uid: Kiwi.Utility
+  commentId: N:Kiwi.Utility
+  href: Kiwi.html
+  name: Kiwi.Utility
+  nameWithType: Kiwi.Utility
+  fullName: Kiwi.Utility
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html

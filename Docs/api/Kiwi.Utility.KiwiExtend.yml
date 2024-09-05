@@ -1,0 +1,4454 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.KiwiExtend
+  commentId: T:Kiwi.Utility.KiwiExtend
+  id: KiwiExtend
+  parent: Kiwi.Utility
+  children:
+  - Kiwi.Utility.KiwiExtend.DisableCanvasGroup(UnityEngine.GameObject)
+  - Kiwi.Utility.KiwiExtend.EnableCanvasGroup(UnityEngine.Canvas)
+  - Kiwi.Utility.KiwiExtend.FindChild(UnityEngine.GameObject,System.String)
+  - Kiwi.Utility.KiwiExtend.FindChildWithTag(UnityEngine.GameObject,System.String,UnityEngine.GameObject@)
+  - Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component,System.String)
+  - Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component,System.String,System.Boolean@)
+  - Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component,System.Type)
+  - Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component,System.Type,System.Boolean@)
+  - Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject,System.String)
+  - Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject,System.String,System.Boolean@)
+  - Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject,System.Type)
+  - Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject,System.Type,System.Boolean@)
+  - Kiwi.Utility.KiwiExtend.ForceGetComponent``1(UnityEngine.Component)
+  - Kiwi.Utility.KiwiExtend.ForceGetComponent``1(UnityEngine.Component,System.Boolean@)
+  - Kiwi.Utility.KiwiExtend.ForceGetComponent``1(UnityEngine.GameObject)
+  - Kiwi.Utility.KiwiExtend.ForceGetComponent``1(UnityEngine.GameObject,System.Boolean@)
+  - Kiwi.Utility.KiwiExtend.GetAllChildren(UnityEngine.Transform,System.Boolean)
+  - Kiwi.Utility.KiwiExtend.GetAnchoredPosition(UnityEngine.RectTransform,System.Single@,System.Single@)
+  - Kiwi.Utility.KiwiExtend.GetAnchoredPosition3D(UnityEngine.RectTransform,System.Single@,System.Single@,System.Single@)
+  - Kiwi.Utility.KiwiExtend.GetCenterPosition(UnityEngine.GameObject)
+  - Kiwi.Utility.KiwiExtend.GetHeight(UnityEngine.RectTransform)
+  - Kiwi.Utility.KiwiExtend.GetLocalPosition(UnityEngine.Transform,System.Single@,System.Single@,System.Single@)
+  - Kiwi.Utility.KiwiExtend.GetLocalScale(UnityEngine.Transform,System.Single@,System.Single@,System.Single@)
+  - Kiwi.Utility.KiwiExtend.GetPath(UnityEngine.Transform)
+  - Kiwi.Utility.KiwiExtend.GetPosition(UnityEngine.Transform,System.Single@,System.Single@,System.Single@)
+  - Kiwi.Utility.KiwiExtend.GetSelfChildren(UnityEngine.Transform,System.Boolean)
+  - Kiwi.Utility.KiwiExtend.GetSize(UnityEngine.RectTransform)
+  - Kiwi.Utility.KiwiExtend.GetSize(UnityEngine.RectTransform,System.Single@,System.Single@)
+  - Kiwi.Utility.KiwiExtend.GetSizeDelta(UnityEngine.RectTransform,System.Single@,System.Single@)
+  - Kiwi.Utility.KiwiExtend.GetWidth(UnityEngine.RectTransform)
+  - Kiwi.Utility.KiwiExtend.IsAnchorHorizontal(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal)
+  - Kiwi.Utility.KiwiExtend.IsAnchorHorizontal(UnityEngine.RectTransform,System.Int32)
+  - Kiwi.Utility.KiwiExtend.IsAnchorPresets(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal,Kiwi.Utility.AnchorVertical)
+  - Kiwi.Utility.KiwiExtend.IsAnchorPresets(UnityEngine.RectTransform,System.Int32,System.Int32)
+  - Kiwi.Utility.KiwiExtend.IsAnchorVertical(UnityEngine.RectTransform,Kiwi.Utility.AnchorVertical)
+  - Kiwi.Utility.KiwiExtend.IsAnchorVertical(UnityEngine.RectTransform,System.Int32)
+  - Kiwi.Utility.KiwiExtend.IsNull(UnityEngine.Object)
+  - Kiwi.Utility.KiwiExtend.Overlaps(UnityEngine.RectTransform,UnityEngine.RectTransform)
+  - Kiwi.Utility.KiwiExtend.ResetZero(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal,Kiwi.Utility.AnchorVertical,UnityEngine.Transform)
+  - Kiwi.Utility.KiwiExtend.ResetZero(UnityEngine.RectTransform,System.Int32,System.Int32,UnityEngine.Transform)
+  - Kiwi.Utility.KiwiExtend.SetAnchor(UnityEngine.RectTransform,Kiwi.Utility.AnchorPresets,System.Single,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetAnchor(UnityEngine.RectTransform,System.Int32,System.Single,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetAnchorHorizontal(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal)
+  - Kiwi.Utility.KiwiExtend.SetAnchorHorizontal(UnityEngine.RectTransform,System.Int32)
+  - Kiwi.Utility.KiwiExtend.SetAnchorMax(UnityEngine.RectTransform,System.Single,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetAnchorMaxX(UnityEngine.RectTransform,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetAnchorMaxY(UnityEngine.RectTransform,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetAnchorMin(UnityEngine.RectTransform,System.Single,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetAnchorMinX(UnityEngine.RectTransform,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetAnchorMinY(UnityEngine.RectTransform,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetAnchorPresets(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal,Kiwi.Utility.AnchorVertical)
+  - Kiwi.Utility.KiwiExtend.SetAnchorPresets(UnityEngine.RectTransform,System.Int32,System.Int32)
+  - Kiwi.Utility.KiwiExtend.SetAnchorVertical(UnityEngine.RectTransform,Kiwi.Utility.AnchorVertical)
+  - Kiwi.Utility.KiwiExtend.SetAnchorVertical(UnityEngine.RectTransform,System.Int32)
+  - Kiwi.Utility.KiwiExtend.SetAnchoredPosition(UnityEngine.RectTransform,System.Single,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetAnchoredPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  - Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D(UnityEngine.RectTransform,System.Single,System.Single,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D(UnityEngine.RectTransform,UnityEngine.Vector3)
+  - Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DX(UnityEngine.RectTransform,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DY(UnityEngine.RectTransform,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DZ(UnityEngine.RectTransform,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetAnchoredPositionX(UnityEngine.RectTransform,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetAnchoredPositionY(UnityEngine.RectTransform,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetDisplay(UnityEngine.GameObject,System.Boolean)
+  - Kiwi.Utility.KiwiExtend.SetEuler(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetEuler(UnityEngine.Transform,UnityEngine.Vector3)
+  - Kiwi.Utility.KiwiExtend.SetFullStretch(UnityEngine.RectTransform)
+  - Kiwi.Utility.KiwiExtend.SetHeight(UnityEngine.RectTransform,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetLayer(UnityEngine.GameObject,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  - Kiwi.Utility.KiwiExtend.SetLocalEuler(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetLocalEuler(UnityEngine.Transform,UnityEngine.Vector3)
+  - Kiwi.Utility.KiwiExtend.SetLocalPosition(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetLocalPosition(UnityEngine.Transform,UnityEngine.Vector3)
+  - Kiwi.Utility.KiwiExtend.SetLocalScale(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetLocalScale(UnityEngine.Transform,UnityEngine.Vector3)
+  - Kiwi.Utility.KiwiExtend.SetParentAndPos(UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Vector3)
+  - Kiwi.Utility.KiwiExtend.SetPivot(UnityEngine.RectTransform,Kiwi.Utility.PivotPresets)
+  - Kiwi.Utility.KiwiExtend.SetPivot(UnityEngine.RectTransform,System.Int32)
+  - Kiwi.Utility.KiwiExtend.SetPivot(UnityEngine.RectTransform,System.Single,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetPosition(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetPosition(UnityEngine.Transform,UnityEngine.Vector3)
+  - Kiwi.Utility.KiwiExtend.SetSize(UnityEngine.RectTransform,System.Single,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetSize(UnityEngine.RectTransform,UnityEngine.Vector2)
+  - Kiwi.Utility.KiwiExtend.SetSizeDelta(UnityEngine.RectTransform,System.Single,System.Single)
+  - Kiwi.Utility.KiwiExtend.SetSizeDelta(UnityEngine.RectTransform,UnityEngine.Vector2)
+  - Kiwi.Utility.KiwiExtend.SetWidth(UnityEngine.RectTransform,System.Single)
+  - Kiwi.Utility.KiwiExtend.rectTransform(UnityEngine.Component)
+  - Kiwi.Utility.KiwiExtend.rectTransform(UnityEngine.GameObject)
+  langs:
+  - csharp
+  - vb
+  name: KiwiExtend
+  nameWithType: KiwiExtend
+  fullName: Kiwi.Utility.KiwiExtend
+  type: Class
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/KiwiExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: KiwiExtend
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/KiwiExtend.cs
+    startLine: 2
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: RectTransform 类方法扩展
+  example: []
+  syntax:
+    content: public static class KiwiExtend
+    content.vb: Public Module KiwiExtend
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Kiwi.Utility.KiwiExtend.ResetZero(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal,Kiwi.Utility.AnchorVertical,UnityEngine.Transform)
+  commentId: M:Kiwi.Utility.KiwiExtend.ResetZero(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal,Kiwi.Utility.AnchorVertical,UnityEngine.Transform)
+  id: ResetZero(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal,Kiwi.Utility.AnchorVertical,UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: ResetZero(RectTransform, AnchorHorizontal, AnchorVertical, Transform)
+  nameWithType: KiwiExtend.ResetZero(RectTransform, AnchorHorizontal, AnchorVertical, Transform)
+  fullName: Kiwi.Utility.KiwiExtend.ResetZero(UnityEngine.RectTransform, Kiwi.Utility.AnchorHorizontal, Kiwi.Utility.AnchorVertical, UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ResetZero
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 87
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 将位置,宽高,锚点,中心点全部重置
+  example: []
+  syntax:
+    content: public static void ResetZero(this RectTransform rectTransform, AnchorHorizontal horizontal, AnchorVertical vertical, Transform parent = null)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: horizontal
+      type: Kiwi.Utility.AnchorHorizontal
+      description: 水平锚点位置
+    - id: vertical
+      type: Kiwi.Utility.AnchorVertical
+      description: 垂直锚点位置
+    - id: parent
+      type: UnityEngine.Transform
+      description: 父物体
+    content.vb: Public Shared Sub ResetZero(rectTransform As RectTransform, horizontal As AnchorHorizontal, vertical As AnchorVertical, parent As Transform = Nothing)
+  overload: Kiwi.Utility.KiwiExtend.ResetZero*
+- uid: Kiwi.Utility.KiwiExtend.ResetZero(UnityEngine.RectTransform,System.Int32,System.Int32,UnityEngine.Transform)
+  commentId: M:Kiwi.Utility.KiwiExtend.ResetZero(UnityEngine.RectTransform,System.Int32,System.Int32,UnityEngine.Transform)
+  id: ResetZero(UnityEngine.RectTransform,System.Int32,System.Int32,UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: ResetZero(RectTransform, int, int, Transform)
+  nameWithType: KiwiExtend.ResetZero(RectTransform, int, int, Transform)
+  fullName: Kiwi.Utility.KiwiExtend.ResetZero(UnityEngine.RectTransform, int, int, UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ResetZero
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 113
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 将位置,宽高,锚点,中心点全部重置
+  example: []
+  syntax:
+    content: public static void ResetZero(this RectTransform rectTransform, int horizontal, int vertical, Transform parent = null)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: horizontal
+      type: System.Int32
+      description: 水平锚点位置 <xref href="Kiwi.Utility.AnchorHorizontal" data-throw-if-not-resolved="false"></xref>
+    - id: vertical
+      type: System.Int32
+      description: 垂直锚点位置 <xref href="Kiwi.Utility.AnchorVertical" data-throw-if-not-resolved="false"></xref>
+    - id: parent
+      type: UnityEngine.Transform
+      description: 父物体
+    content.vb: Public Shared Sub ResetZero(rectTransform As RectTransform, horizontal As Integer, vertical As Integer, parent As Transform = Nothing)
+  overload: Kiwi.Utility.KiwiExtend.ResetZero*
+  nameWithType.vb: KiwiExtend.ResetZero(RectTransform, Integer, Integer, Transform)
+  fullName.vb: Kiwi.Utility.KiwiExtend.ResetZero(UnityEngine.RectTransform, Integer, Integer, UnityEngine.Transform)
+  name.vb: ResetZero(RectTransform, Integer, Integer, Transform)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorPresets(UnityEngine.RectTransform,System.Int32,System.Int32)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchorPresets(UnityEngine.RectTransform,System.Int32,System.Int32)
+  id: SetAnchorPresets(UnityEngine.RectTransform,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchorPresets(RectTransform, int, int)
+  nameWithType: KiwiExtend.SetAnchorPresets(RectTransform, int, int)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorPresets(UnityEngine.RectTransform, int, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchorPresets
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 122
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置预设锚点
+  example: []
+  syntax:
+    content: public static void SetAnchorPresets(this RectTransform rectTransform, int horizontal, int vertical)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: horizontal
+      type: System.Int32
+      description: 水平锚点位置 [0-Left,1-Center,2-Right,3-Stretch]
+    - id: vertical
+      type: System.Int32
+      description: 垂直锚点位置 [0-Top,1-Middle,2-Bottom,3-Stretch]
+    content.vb: Public Shared Sub SetAnchorPresets(rectTransform As RectTransform, horizontal As Integer, vertical As Integer)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchorPresets*
+  nameWithType.vb: KiwiExtend.SetAnchorPresets(RectTransform, Integer, Integer)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchorPresets(UnityEngine.RectTransform, Integer, Integer)
+  name.vb: SetAnchorPresets(RectTransform, Integer, Integer)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorPresets(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal,Kiwi.Utility.AnchorVertical)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchorPresets(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal,Kiwi.Utility.AnchorVertical)
+  id: SetAnchorPresets(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal,Kiwi.Utility.AnchorVertical)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchorPresets(RectTransform, AnchorHorizontal, AnchorVertical)
+  nameWithType: KiwiExtend.SetAnchorPresets(RectTransform, AnchorHorizontal, AnchorVertical)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorPresets(UnityEngine.RectTransform, Kiwi.Utility.AnchorHorizontal, Kiwi.Utility.AnchorVertical)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchorPresets
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 131
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置预设锚点
+  example: []
+  syntax:
+    content: public static void SetAnchorPresets(this RectTransform rectTransform, AnchorHorizontal horizontal, AnchorVertical vertical)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: horizontal
+      type: Kiwi.Utility.AnchorHorizontal
+      description: 水平锚点位置
+    - id: vertical
+      type: Kiwi.Utility.AnchorVertical
+      description: 垂直锚点位置
+    content.vb: Public Shared Sub SetAnchorPresets(rectTransform As RectTransform, horizontal As AnchorHorizontal, vertical As AnchorVertical)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchorPresets*
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorHorizontal(UnityEngine.RectTransform,System.Int32)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchorHorizontal(UnityEngine.RectTransform,System.Int32)
+  id: SetAnchorHorizontal(UnityEngine.RectTransform,System.Int32)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchorHorizontal(RectTransform, int)
+  nameWithType: KiwiExtend.SetAnchorHorizontal(RectTransform, int)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorHorizontal(UnityEngine.RectTransform, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchorHorizontal
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 157
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置水平预设锚点
+  example: []
+  syntax:
+    content: public static void SetAnchorHorizontal(this RectTransform rectTransform, int horizontal)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: horizontal
+      type: System.Int32
+      description: 水平锚点位置 <xref href="Kiwi.Utility.AnchorHorizontal" data-throw-if-not-resolved="false"></xref> [0-Left,1-Center,2-Right,3-Stretch]
+    content.vb: Public Shared Sub SetAnchorHorizontal(rectTransform As RectTransform, horizontal As Integer)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchorHorizontal*
+  nameWithType.vb: KiwiExtend.SetAnchorHorizontal(RectTransform, Integer)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchorHorizontal(UnityEngine.RectTransform, Integer)
+  name.vb: SetAnchorHorizontal(RectTransform, Integer)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorHorizontal(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchorHorizontal(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal)
+  id: SetAnchorHorizontal(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchorHorizontal(RectTransform, AnchorHorizontal)
+  nameWithType: KiwiExtend.SetAnchorHorizontal(RectTransform, AnchorHorizontal)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorHorizontal(UnityEngine.RectTransform, Kiwi.Utility.AnchorHorizontal)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchorHorizontal
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 165
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置水平预设锚点
+  example: []
+  syntax:
+    content: public static void SetAnchorHorizontal(this RectTransform rectTransform, AnchorHorizontal horizontal)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: horizontal
+      type: Kiwi.Utility.AnchorHorizontal
+      description: 水平锚点位置
+    content.vb: Public Shared Sub SetAnchorHorizontal(rectTransform As RectTransform, horizontal As AnchorHorizontal)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchorHorizontal*
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorVertical(UnityEngine.RectTransform,System.Int32)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchorVertical(UnityEngine.RectTransform,System.Int32)
+  id: SetAnchorVertical(UnityEngine.RectTransform,System.Int32)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchorVertical(RectTransform, int)
+  nameWithType: KiwiExtend.SetAnchorVertical(RectTransform, int)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorVertical(UnityEngine.RectTransform, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchorVertical
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 184
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置垂直锚点
+  example: []
+  syntax:
+    content: public static void SetAnchorVertical(this RectTransform rectTransform, int vertical)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: vertical
+      type: System.Int32
+      description: 垂直锚点位置 <xref href="Kiwi.Utility.AnchorVertical" data-throw-if-not-resolved="false"></xref> [0-Top,1-Middle,2-Bottom,3-Stretch]
+    content.vb: Public Shared Sub SetAnchorVertical(rectTransform As RectTransform, vertical As Integer)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchorVertical*
+  nameWithType.vb: KiwiExtend.SetAnchorVertical(RectTransform, Integer)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchorVertical(UnityEngine.RectTransform, Integer)
+  name.vb: SetAnchorVertical(RectTransform, Integer)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorVertical(UnityEngine.RectTransform,Kiwi.Utility.AnchorVertical)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchorVertical(UnityEngine.RectTransform,Kiwi.Utility.AnchorVertical)
+  id: SetAnchorVertical(UnityEngine.RectTransform,Kiwi.Utility.AnchorVertical)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchorVertical(RectTransform, AnchorVertical)
+  nameWithType: KiwiExtend.SetAnchorVertical(RectTransform, AnchorVertical)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorVertical(UnityEngine.RectTransform, Kiwi.Utility.AnchorVertical)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchorVertical
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 192
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置垂直锚点
+  example: []
+  syntax:
+    content: public static void SetAnchorVertical(this RectTransform rectTransform, AnchorVertical vertical)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: vertical
+      type: Kiwi.Utility.AnchorVertical
+      description: 垂直锚点位置
+    content.vb: Public Shared Sub SetAnchorVertical(rectTransform As RectTransform, vertical As AnchorVertical)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchorVertical*
+- uid: Kiwi.Utility.KiwiExtend.SetAnchor(UnityEngine.RectTransform,System.Int32,System.Single,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchor(UnityEngine.RectTransform,System.Int32,System.Single,System.Single)
+  id: SetAnchor(UnityEngine.RectTransform,System.Int32,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchor(RectTransform, int, float, float)
+  nameWithType: KiwiExtend.SetAnchor(RectTransform, int, float, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchor(UnityEngine.RectTransform, int, float, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchor
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 213
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置锚点
+  example: []
+  syntax:
+    content: public static void SetAnchor(this RectTransform rectTransform, int anchorPresets, float posX = 0, float posY = 0)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: anchorPresets
+      type: System.Int32
+      description: 要设置的锚点预设 <xref href="Kiwi.Utility.AnchorPresets" data-throw-if-not-resolved="false"></xref>
+    - id: posX
+      type: System.Single
+      description: 设置锚点后,要设置的 X 轴坐标
+    - id: posY
+      type: System.Single
+      description: 设置锚点后,要设置的 Y 轴坐标
+    content.vb: Public Shared Sub SetAnchor(rectTransform As RectTransform, anchorPresets As Integer, posX As Single = 0, posY As Single = 0)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchor*
+  nameWithType.vb: KiwiExtend.SetAnchor(RectTransform, Integer, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchor(UnityEngine.RectTransform, Integer, Single, Single)
+  name.vb: SetAnchor(RectTransform, Integer, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchor(UnityEngine.RectTransform,Kiwi.Utility.AnchorPresets,System.Single,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchor(UnityEngine.RectTransform,Kiwi.Utility.AnchorPresets,System.Single,System.Single)
+  id: SetAnchor(UnityEngine.RectTransform,Kiwi.Utility.AnchorPresets,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchor(RectTransform, AnchorPresets, float, float)
+  nameWithType: KiwiExtend.SetAnchor(RectTransform, AnchorPresets, float, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchor(UnityEngine.RectTransform, Kiwi.Utility.AnchorPresets, float, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchor
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 223
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置锚点
+  example: []
+  syntax:
+    content: public static void SetAnchor(this RectTransform rectTransform, AnchorPresets anchorPresets, float posX = 0, float posY = 0)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: anchorPresets
+      type: Kiwi.Utility.AnchorPresets
+      description: 要设置的锚点预设
+    - id: posX
+      type: System.Single
+      description: 设置锚点后,要设置的 X 轴坐标
+    - id: posY
+      type: System.Single
+      description: 设置锚点后,要设置的 Y 轴坐标
+    content.vb: Public Shared Sub SetAnchor(rectTransform As RectTransform, anchorPresets As AnchorPresets, posX As Single = 0, posY As Single = 0)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchor*
+  nameWithType.vb: KiwiExtend.SetAnchor(RectTransform, AnchorPresets, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchor(UnityEngine.RectTransform, Kiwi.Utility.AnchorPresets, Single, Single)
+  name.vb: SetAnchor(RectTransform, AnchorPresets, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorMin(UnityEngine.RectTransform,System.Single,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchorMin(UnityEngine.RectTransform,System.Single,System.Single)
+  id: SetAnchorMin(UnityEngine.RectTransform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchorMin(RectTransform, float, float)
+  nameWithType: KiwiExtend.SetAnchorMin(RectTransform, float, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorMin(UnityEngine.RectTransform, float, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchorMin
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 328
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置锚点最小值
+  example: []
+  syntax:
+    content: public static void SetAnchorMin(this RectTransform rectTransform, float x, float y)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: 锚点 X 轴坐标
+    - id: y
+      type: System.Single
+      description: 锚点 Y 轴坐标
+    content.vb: Public Shared Sub SetAnchorMin(rectTransform As RectTransform, x As Single, y As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchorMin*
+  nameWithType.vb: KiwiExtend.SetAnchorMin(RectTransform, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchorMin(UnityEngine.RectTransform, Single, Single)
+  name.vb: SetAnchorMin(RectTransform, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorMinX(UnityEngine.RectTransform,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchorMinX(UnityEngine.RectTransform,System.Single)
+  id: SetAnchorMinX(UnityEngine.RectTransform,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchorMinX(RectTransform, float)
+  nameWithType: KiwiExtend.SetAnchorMinX(RectTransform, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorMinX(UnityEngine.RectTransform, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchorMinX
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 340
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置锚点 X 轴最小值
+  example: []
+  syntax:
+    content: public static void SetAnchorMinX(this RectTransform rectTransform, float x)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: 锚点 X 轴坐标
+    content.vb: Public Shared Sub SetAnchorMinX(rectTransform As RectTransform, x As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchorMinX*
+  nameWithType.vb: KiwiExtend.SetAnchorMinX(RectTransform, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchorMinX(UnityEngine.RectTransform, Single)
+  name.vb: SetAnchorMinX(RectTransform, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorMinY(UnityEngine.RectTransform,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchorMinY(UnityEngine.RectTransform,System.Single)
+  id: SetAnchorMinY(UnityEngine.RectTransform,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchorMinY(RectTransform, float)
+  nameWithType: KiwiExtend.SetAnchorMinY(RectTransform, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorMinY(UnityEngine.RectTransform, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchorMinY
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 352
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置锚点 Y 轴最小值
+  example: []
+  syntax:
+    content: public static void SetAnchorMinY(this RectTransform rectTransform, float y)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: y
+      type: System.Single
+      description: 锚点 Y 轴坐标
+    content.vb: Public Shared Sub SetAnchorMinY(rectTransform As RectTransform, y As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchorMinY*
+  nameWithType.vb: KiwiExtend.SetAnchorMinY(RectTransform, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchorMinY(UnityEngine.RectTransform, Single)
+  name.vb: SetAnchorMinY(RectTransform, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorMax(UnityEngine.RectTransform,System.Single,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchorMax(UnityEngine.RectTransform,System.Single,System.Single)
+  id: SetAnchorMax(UnityEngine.RectTransform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchorMax(RectTransform, float, float)
+  nameWithType: KiwiExtend.SetAnchorMax(RectTransform, float, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorMax(UnityEngine.RectTransform, float, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchorMax
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 365
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置锚点最大值
+  example: []
+  syntax:
+    content: public static void SetAnchorMax(this RectTransform rectTransform, float x, float y)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: 锚点 X 轴坐标
+    - id: y
+      type: System.Single
+      description: 锚点 Y 轴坐标
+    content.vb: Public Shared Sub SetAnchorMax(rectTransform As RectTransform, x As Single, y As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchorMax*
+  nameWithType.vb: KiwiExtend.SetAnchorMax(RectTransform, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchorMax(UnityEngine.RectTransform, Single, Single)
+  name.vb: SetAnchorMax(RectTransform, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorMaxX(UnityEngine.RectTransform,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchorMaxX(UnityEngine.RectTransform,System.Single)
+  id: SetAnchorMaxX(UnityEngine.RectTransform,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchorMaxX(RectTransform, float)
+  nameWithType: KiwiExtend.SetAnchorMaxX(RectTransform, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorMaxX(UnityEngine.RectTransform, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchorMaxX
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 377
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置锚点 X 轴最大值
+  example: []
+  syntax:
+    content: public static void SetAnchorMaxX(this RectTransform rectTransform, float x)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: 锚点 X 轴坐标
+    content.vb: Public Shared Sub SetAnchorMaxX(rectTransform As RectTransform, x As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchorMaxX*
+  nameWithType.vb: KiwiExtend.SetAnchorMaxX(RectTransform, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchorMaxX(UnityEngine.RectTransform, Single)
+  name.vb: SetAnchorMaxX(RectTransform, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorMaxY(UnityEngine.RectTransform,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchorMaxY(UnityEngine.RectTransform,System.Single)
+  id: SetAnchorMaxY(UnityEngine.RectTransform,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchorMaxY(RectTransform, float)
+  nameWithType: KiwiExtend.SetAnchorMaxY(RectTransform, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorMaxY(UnityEngine.RectTransform, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchorMaxY
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 389
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置锚点 Y 轴最大值
+  example: []
+  syntax:
+    content: public static void SetAnchorMaxY(this RectTransform rectTransform, float y)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: y
+      type: System.Single
+      description: 锚点 Y 轴坐标
+    content.vb: Public Shared Sub SetAnchorMaxY(rectTransform As RectTransform, y As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchorMaxY*
+  nameWithType.vb: KiwiExtend.SetAnchorMaxY(RectTransform, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchorMaxY(UnityEngine.RectTransform, Single)
+  name.vb: SetAnchorMaxY(RectTransform, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetPivot(UnityEngine.RectTransform,System.Single,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetPivot(UnityEngine.RectTransform,System.Single,System.Single)
+  id: SetPivot(UnityEngine.RectTransform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetPivot(RectTransform, float, float)
+  nameWithType: KiwiExtend.SetPivot(RectTransform, float, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetPivot(UnityEngine.RectTransform, float, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetPivot
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 402
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置中心点
+  example: []
+  syntax:
+    content: public static void SetPivot(this RectTransform rectTransform, float x, float y)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: X 轴坐标
+    - id: y
+      type: System.Single
+      description: Y 轴坐标
+    content.vb: Public Shared Sub SetPivot(rectTransform As RectTransform, x As Single, y As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetPivot*
+  nameWithType.vb: KiwiExtend.SetPivot(RectTransform, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetPivot(UnityEngine.RectTransform, Single, Single)
+  name.vb: SetPivot(RectTransform, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetPivot(UnityEngine.RectTransform,System.Int32)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetPivot(UnityEngine.RectTransform,System.Int32)
+  id: SetPivot(UnityEngine.RectTransform,System.Int32)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetPivot(RectTransform, int)
+  nameWithType: KiwiExtend.SetPivot(RectTransform, int)
+  fullName: Kiwi.Utility.KiwiExtend.SetPivot(UnityEngine.RectTransform, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetPivot
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 414
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置中心点
+  example: []
+  syntax:
+    content: public static void SetPivot(this RectTransform rectTransform, int preset)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: preset
+      type: System.Int32
+      description: 预设中心点 <xref href="Kiwi.Utility.PivotPresets" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Shared Sub SetPivot(rectTransform As RectTransform, preset As Integer)
+  overload: Kiwi.Utility.KiwiExtend.SetPivot*
+  nameWithType.vb: KiwiExtend.SetPivot(RectTransform, Integer)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetPivot(UnityEngine.RectTransform, Integer)
+  name.vb: SetPivot(RectTransform, Integer)
+- uid: Kiwi.Utility.KiwiExtend.SetPivot(UnityEngine.RectTransform,Kiwi.Utility.PivotPresets)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetPivot(UnityEngine.RectTransform,Kiwi.Utility.PivotPresets)
+  id: SetPivot(UnityEngine.RectTransform,Kiwi.Utility.PivotPresets)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetPivot(RectTransform, PivotPresets)
+  nameWithType: KiwiExtend.SetPivot(RectTransform, PivotPresets)
+  fullName: Kiwi.Utility.KiwiExtend.SetPivot(UnityEngine.RectTransform, Kiwi.Utility.PivotPresets)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetPivot
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 421
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置中心点
+  example: []
+  syntax:
+    content: public static void SetPivot(this RectTransform rectTransform, PivotPresets preset)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: preset
+      type: Kiwi.Utility.PivotPresets
+      description: 预设中心点
+    content.vb: Public Shared Sub SetPivot(rectTransform As RectTransform, preset As PivotPresets)
+  overload: Kiwi.Utility.KiwiExtend.SetPivot*
+- uid: Kiwi.Utility.KiwiExtend.IsAnchorPresets(UnityEngine.RectTransform,System.Int32,System.Int32)
+  commentId: M:Kiwi.Utility.KiwiExtend.IsAnchorPresets(UnityEngine.RectTransform,System.Int32,System.Int32)
+  id: IsAnchorPresets(UnityEngine.RectTransform,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: IsAnchorPresets(RectTransform, int, int)
+  nameWithType: KiwiExtend.IsAnchorPresets(RectTransform, int, int)
+  fullName: Kiwi.Utility.KiwiExtend.IsAnchorPresets(UnityEngine.RectTransform, int, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: IsAnchorPresets
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 468
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 是否与指定的预设锚点相等
+  example: []
+  syntax:
+    content: public static bool IsAnchorPresets(this RectTransform rectTransform, int horizontal, int vertical)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: horizontal
+      type: System.Int32
+      description: 水平锚点位置 <xref href="Kiwi.Utility.AnchorHorizontal" data-throw-if-not-resolved="false"></xref> [0-Left,1-Center,2-Right,3-Stretch]
+    - id: vertical
+      type: System.Int32
+      description: 垂直锚点位置 <xref href="Kiwi.Utility.AnchorVertical" data-throw-if-not-resolved="false"></xref> [0-Top,1-Middle,2-Bottom,3-Stretch]
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function IsAnchorPresets(rectTransform As RectTransform, horizontal As Integer, vertical As Integer) As Boolean
+  overload: Kiwi.Utility.KiwiExtend.IsAnchorPresets*
+  nameWithType.vb: KiwiExtend.IsAnchorPresets(RectTransform, Integer, Integer)
+  fullName.vb: Kiwi.Utility.KiwiExtend.IsAnchorPresets(UnityEngine.RectTransform, Integer, Integer)
+  name.vb: IsAnchorPresets(RectTransform, Integer, Integer)
+- uid: Kiwi.Utility.KiwiExtend.IsAnchorPresets(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal,Kiwi.Utility.AnchorVertical)
+  commentId: M:Kiwi.Utility.KiwiExtend.IsAnchorPresets(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal,Kiwi.Utility.AnchorVertical)
+  id: IsAnchorPresets(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal,Kiwi.Utility.AnchorVertical)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: IsAnchorPresets(RectTransform, AnchorHorizontal, AnchorVertical)
+  nameWithType: KiwiExtend.IsAnchorPresets(RectTransform, AnchorHorizontal, AnchorVertical)
+  fullName: Kiwi.Utility.KiwiExtend.IsAnchorPresets(UnityEngine.RectTransform, Kiwi.Utility.AnchorHorizontal, Kiwi.Utility.AnchorVertical)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: IsAnchorPresets
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 478
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 是否与指定的预设锚点相等
+  example: []
+  syntax:
+    content: public static bool IsAnchorPresets(this RectTransform rectTransform, AnchorHorizontal horizontal, AnchorVertical vertical)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: horizontal
+      type: Kiwi.Utility.AnchorHorizontal
+      description: 水平锚点位置
+    - id: vertical
+      type: Kiwi.Utility.AnchorVertical
+      description: 垂直锚点位置
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function IsAnchorPresets(rectTransform As RectTransform, horizontal As AnchorHorizontal, vertical As AnchorVertical) As Boolean
+  overload: Kiwi.Utility.KiwiExtend.IsAnchorPresets*
+- uid: Kiwi.Utility.KiwiExtend.IsAnchorHorizontal(UnityEngine.RectTransform,System.Int32)
+  commentId: M:Kiwi.Utility.KiwiExtend.IsAnchorHorizontal(UnityEngine.RectTransform,System.Int32)
+  id: IsAnchorHorizontal(UnityEngine.RectTransform,System.Int32)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: IsAnchorHorizontal(RectTransform, int)
+  nameWithType: KiwiExtend.IsAnchorHorizontal(RectTransform, int)
+  fullName: Kiwi.Utility.KiwiExtend.IsAnchorHorizontal(UnityEngine.RectTransform, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: IsAnchorHorizontal
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 487
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 是否与指定的水平预设锚点相等
+  example: []
+  syntax:
+    content: public static bool IsAnchorHorizontal(this RectTransform rectTransform, int horizontal)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: horizontal
+      type: System.Int32
+      description: 水平锚点位置 <xref href="Kiwi.Utility.AnchorHorizontal" data-throw-if-not-resolved="false"></xref> [0-Left,1-Center,2-Right,3-Stretch]
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function IsAnchorHorizontal(rectTransform As RectTransform, horizontal As Integer) As Boolean
+  overload: Kiwi.Utility.KiwiExtend.IsAnchorHorizontal*
+  nameWithType.vb: KiwiExtend.IsAnchorHorizontal(RectTransform, Integer)
+  fullName.vb: Kiwi.Utility.KiwiExtend.IsAnchorHorizontal(UnityEngine.RectTransform, Integer)
+  name.vb: IsAnchorHorizontal(RectTransform, Integer)
+- uid: Kiwi.Utility.KiwiExtend.IsAnchorHorizontal(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal)
+  commentId: M:Kiwi.Utility.KiwiExtend.IsAnchorHorizontal(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal)
+  id: IsAnchorHorizontal(UnityEngine.RectTransform,Kiwi.Utility.AnchorHorizontal)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: IsAnchorHorizontal(RectTransform, AnchorHorizontal)
+  nameWithType: KiwiExtend.IsAnchorHorizontal(RectTransform, AnchorHorizontal)
+  fullName: Kiwi.Utility.KiwiExtend.IsAnchorHorizontal(UnityEngine.RectTransform, Kiwi.Utility.AnchorHorizontal)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: IsAnchorHorizontal
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 496
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 是否与指定的水平预设锚点相等
+  example: []
+  syntax:
+    content: public static bool IsAnchorHorizontal(this RectTransform rectTransform, AnchorHorizontal horizontal)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: horizontal
+      type: Kiwi.Utility.AnchorHorizontal
+      description: 水平锚点位置
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function IsAnchorHorizontal(rectTransform As RectTransform, horizontal As AnchorHorizontal) As Boolean
+  overload: Kiwi.Utility.KiwiExtend.IsAnchorHorizontal*
+- uid: Kiwi.Utility.KiwiExtend.IsAnchorVertical(UnityEngine.RectTransform,System.Int32)
+  commentId: M:Kiwi.Utility.KiwiExtend.IsAnchorVertical(UnityEngine.RectTransform,System.Int32)
+  id: IsAnchorVertical(UnityEngine.RectTransform,System.Int32)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: IsAnchorVertical(RectTransform, int)
+  nameWithType: KiwiExtend.IsAnchorVertical(RectTransform, int)
+  fullName: Kiwi.Utility.KiwiExtend.IsAnchorVertical(UnityEngine.RectTransform, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: IsAnchorVertical
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 508
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 是否与指定的垂直预设锚点相等
+  example: []
+  syntax:
+    content: public static bool IsAnchorVertical(this RectTransform rectTransform, int vertical)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: vertical
+      type: System.Int32
+      description: 垂直预设锚点位置 <xref href="Kiwi.Utility.AnchorVertical" data-throw-if-not-resolved="false"></xref> [0-Top,1-Middle,2-Bottom,3-Stretch]
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function IsAnchorVertical(rectTransform As RectTransform, vertical As Integer) As Boolean
+  overload: Kiwi.Utility.KiwiExtend.IsAnchorVertical*
+  nameWithType.vb: KiwiExtend.IsAnchorVertical(RectTransform, Integer)
+  fullName.vb: Kiwi.Utility.KiwiExtend.IsAnchorVertical(UnityEngine.RectTransform, Integer)
+  name.vb: IsAnchorVertical(RectTransform, Integer)
+- uid: Kiwi.Utility.KiwiExtend.IsAnchorVertical(UnityEngine.RectTransform,Kiwi.Utility.AnchorVertical)
+  commentId: M:Kiwi.Utility.KiwiExtend.IsAnchorVertical(UnityEngine.RectTransform,Kiwi.Utility.AnchorVertical)
+  id: IsAnchorVertical(UnityEngine.RectTransform,Kiwi.Utility.AnchorVertical)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: IsAnchorVertical(RectTransform, AnchorVertical)
+  nameWithType: KiwiExtend.IsAnchorVertical(RectTransform, AnchorVertical)
+  fullName: Kiwi.Utility.KiwiExtend.IsAnchorVertical(UnityEngine.RectTransform, Kiwi.Utility.AnchorVertical)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: IsAnchorVertical
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 517
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 是否与指定的垂直预设锚点值相等
+  example: []
+  syntax:
+    content: public static bool IsAnchorVertical(this RectTransform rectTransform, AnchorVertical vertical)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: vertical
+      type: Kiwi.Utility.AnchorVertical
+      description: 垂直锚点位置
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function IsAnchorVertical(rectTransform As RectTransform, vertical As AnchorVertical) As Boolean
+  overload: Kiwi.Utility.KiwiExtend.IsAnchorVertical*
+- uid: Kiwi.Utility.KiwiExtend.GetAnchoredPosition(UnityEngine.RectTransform,System.Single@,System.Single@)
+  commentId: M:Kiwi.Utility.KiwiExtend.GetAnchoredPosition(UnityEngine.RectTransform,System.Single@,System.Single@)
+  id: GetAnchoredPosition(UnityEngine.RectTransform,System.Single@,System.Single@)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: GetAnchoredPosition(RectTransform, out float, out float)
+  nameWithType: KiwiExtend.GetAnchoredPosition(RectTransform, out float, out float)
+  fullName: Kiwi.Utility.KiwiExtend.GetAnchoredPosition(UnityEngine.RectTransform, out float, out float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetAnchoredPosition
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 529
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获得锚点坐标
+  example: []
+  syntax:
+    content: public static void GetAnchoredPosition(this RectTransform rectTransform, out float x, out float y)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: x 轴坐标
+    - id: y
+      type: System.Single
+      description: y 轴坐标
+    content.vb: Public Shared Sub GetAnchoredPosition(rectTransform As RectTransform, x As Single, y As Single)
+  overload: Kiwi.Utility.KiwiExtend.GetAnchoredPosition*
+  nameWithType.vb: KiwiExtend.GetAnchoredPosition(RectTransform, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.GetAnchoredPosition(UnityEngine.RectTransform, Single, Single)
+  name.vb: GetAnchoredPosition(RectTransform, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchoredPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchoredPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  id: SetAnchoredPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchoredPosition(RectTransform, Vector2)
+  nameWithType: KiwiExtend.SetAnchoredPosition(RectTransform, Vector2)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchoredPosition(UnityEngine.RectTransform, UnityEngine.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchoredPosition
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 542
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置锚点坐标
+  example: []
+  syntax:
+    content: public static void SetAnchoredPosition(this RectTransform rectTransform, Vector2 anchoredPosition)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: anchoredPosition
+      type: UnityEngine.Vector2
+      description: 要设置的锚点坐标
+    content.vb: Public Shared Sub SetAnchoredPosition(rectTransform As RectTransform, anchoredPosition As Vector2)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchoredPosition*
+- uid: Kiwi.Utility.KiwiExtend.SetAnchoredPosition(UnityEngine.RectTransform,System.Single,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchoredPosition(UnityEngine.RectTransform,System.Single,System.Single)
+  id: SetAnchoredPosition(UnityEngine.RectTransform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchoredPosition(RectTransform, float, float)
+  nameWithType: KiwiExtend.SetAnchoredPosition(RectTransform, float, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchoredPosition(UnityEngine.RectTransform, float, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchoredPosition
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 556
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置锚点坐标
+  example: []
+  syntax:
+    content: public static void SetAnchoredPosition(this RectTransform rectTransform, float x, float y)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: X 轴坐标
+    - id: y
+      type: System.Single
+      description: Y 轴坐标
+    content.vb: Public Shared Sub SetAnchoredPosition(rectTransform As RectTransform, x As Single, y As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchoredPosition*
+  nameWithType.vb: KiwiExtend.SetAnchoredPosition(RectTransform, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchoredPosition(UnityEngine.RectTransform, Single, Single)
+  name.vb: SetAnchoredPosition(RectTransform, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchoredPositionX(UnityEngine.RectTransform,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchoredPositionX(UnityEngine.RectTransform,System.Single)
+  id: SetAnchoredPositionX(UnityEngine.RectTransform,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchoredPositionX(RectTransform, float)
+  nameWithType: KiwiExtend.SetAnchoredPositionX(RectTransform, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchoredPositionX(UnityEngine.RectTransform, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchoredPositionX
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 569
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置锚点 X 轴坐标
+  example: []
+  syntax:
+    content: public static void SetAnchoredPositionX(this RectTransform rectTransform, float x)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: 要设置的 X 轴坐标
+    content.vb: Public Shared Sub SetAnchoredPositionX(rectTransform As RectTransform, x As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchoredPositionX*
+  nameWithType.vb: KiwiExtend.SetAnchoredPositionX(RectTransform, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchoredPositionX(UnityEngine.RectTransform, Single)
+  name.vb: SetAnchoredPositionX(RectTransform, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchoredPositionY(UnityEngine.RectTransform,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchoredPositionY(UnityEngine.RectTransform,System.Single)
+  id: SetAnchoredPositionY(UnityEngine.RectTransform,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchoredPositionY(RectTransform, float)
+  nameWithType: KiwiExtend.SetAnchoredPositionY(RectTransform, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchoredPositionY(UnityEngine.RectTransform, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchoredPositionY
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 584
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置锚点 Y 轴坐标
+  example: []
+  syntax:
+    content: public static void SetAnchoredPositionY(this RectTransform rectTransform, float y)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: y
+      type: System.Single
+      description: 要设置的 Y 轴坐标
+    content.vb: Public Shared Sub SetAnchoredPositionY(rectTransform As RectTransform, y As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchoredPositionY*
+  nameWithType.vb: KiwiExtend.SetAnchoredPositionY(RectTransform, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchoredPositionY(UnityEngine.RectTransform, Single)
+  name.vb: SetAnchoredPositionY(RectTransform, Single)
+- uid: Kiwi.Utility.KiwiExtend.GetAnchoredPosition3D(UnityEngine.RectTransform,System.Single@,System.Single@,System.Single@)
+  commentId: M:Kiwi.Utility.KiwiExtend.GetAnchoredPosition3D(UnityEngine.RectTransform,System.Single@,System.Single@,System.Single@)
+  id: GetAnchoredPosition3D(UnityEngine.RectTransform,System.Single@,System.Single@,System.Single@)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: GetAnchoredPosition3D(RectTransform, out float, out float, out float)
+  nameWithType: KiwiExtend.GetAnchoredPosition3D(RectTransform, out float, out float, out float)
+  fullName: Kiwi.Utility.KiwiExtend.GetAnchoredPosition3D(UnityEngine.RectTransform, out float, out float, out float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetAnchoredPosition3D
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 601
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获得3D锚点坐标
+  example: []
+  syntax:
+    content: public static void GetAnchoredPosition3D(this RectTransform rectTransform, out float x, out float y, out float z)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: x 轴坐标
+    - id: y
+      type: System.Single
+      description: y 轴坐标
+    - id: z
+      type: System.Single
+      description: z 轴坐标
+    content.vb: Public Shared Sub GetAnchoredPosition3D(rectTransform As RectTransform, x As Single, y As Single, z As Single)
+  overload: Kiwi.Utility.KiwiExtend.GetAnchoredPosition3D*
+  nameWithType.vb: KiwiExtend.GetAnchoredPosition3D(RectTransform, Single, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.GetAnchoredPosition3D(UnityEngine.RectTransform, Single, Single, Single)
+  name.vb: GetAnchoredPosition3D(RectTransform, Single, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D(UnityEngine.RectTransform,UnityEngine.Vector3)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D(UnityEngine.RectTransform,UnityEngine.Vector3)
+  id: SetAnchoredPosition3D(UnityEngine.RectTransform,UnityEngine.Vector3)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchoredPosition3D(RectTransform, Vector3)
+  nameWithType: KiwiExtend.SetAnchoredPosition3D(RectTransform, Vector3)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D(UnityEngine.RectTransform, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchoredPosition3D
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 615
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置锚点 3D 坐标
+  example: []
+  syntax:
+    content: public static void SetAnchoredPosition3D(this RectTransform rectTransform, Vector3 anchoredPosition3D)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: anchoredPosition3D
+      type: UnityEngine.Vector3
+      description: 要设置的锚点 3D 坐标
+    content.vb: Public Shared Sub SetAnchoredPosition3D(rectTransform As RectTransform, anchoredPosition3D As Vector3)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D*
+- uid: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D(UnityEngine.RectTransform,System.Single,System.Single,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D(UnityEngine.RectTransform,System.Single,System.Single,System.Single)
+  id: SetAnchoredPosition3D(UnityEngine.RectTransform,System.Single,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchoredPosition3D(RectTransform, float, float, float)
+  nameWithType: KiwiExtend.SetAnchoredPosition3D(RectTransform, float, float, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D(UnityEngine.RectTransform, float, float, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchoredPosition3D
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 630
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置锚点 3D 坐标
+  example: []
+  syntax:
+    content: public static void SetAnchoredPosition3D(this RectTransform rectTransform, float x, float y, float z)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: 要设置的 X 轴坐标
+    - id: y
+      type: System.Single
+      description: 要设置的 Y 轴坐标
+    - id: z
+      type: System.Single
+      description: 要设置的 Z 轴坐标
+    content.vb: Public Shared Sub SetAnchoredPosition3D(rectTransform As RectTransform, x As Single, y As Single, z As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D*
+  nameWithType.vb: KiwiExtend.SetAnchoredPosition3D(RectTransform, Single, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D(UnityEngine.RectTransform, Single, Single, Single)
+  name.vb: SetAnchoredPosition3D(RectTransform, Single, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DX(UnityEngine.RectTransform,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DX(UnityEngine.RectTransform,System.Single)
+  id: SetAnchoredPosition3DX(UnityEngine.RectTransform,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchoredPosition3DX(RectTransform, float)
+  nameWithType: KiwiExtend.SetAnchoredPosition3DX(RectTransform, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DX(UnityEngine.RectTransform, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchoredPosition3DX
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 643
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置锚点 X 轴 3D 坐标
+  example: []
+  syntax:
+    content: public static void SetAnchoredPosition3DX(this RectTransform rectTransform, float x)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: 要设置的 X 轴坐标
+    content.vb: Public Shared Sub SetAnchoredPosition3DX(rectTransform As RectTransform, x As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DX*
+  nameWithType.vb: KiwiExtend.SetAnchoredPosition3DX(RectTransform, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DX(UnityEngine.RectTransform, Single)
+  name.vb: SetAnchoredPosition3DX(RectTransform, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DY(UnityEngine.RectTransform,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DY(UnityEngine.RectTransform,System.Single)
+  id: SetAnchoredPosition3DY(UnityEngine.RectTransform,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchoredPosition3DY(RectTransform, float)
+  nameWithType: KiwiExtend.SetAnchoredPosition3DY(RectTransform, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DY(UnityEngine.RectTransform, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchoredPosition3DY
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 658
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置锚点 Y 轴 3D 坐标
+  example: []
+  syntax:
+    content: public static void SetAnchoredPosition3DY(this RectTransform rectTransform, float y)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: y
+      type: System.Single
+      description: 要设置的 Y 轴坐标
+    content.vb: Public Shared Sub SetAnchoredPosition3DY(rectTransform As RectTransform, y As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DY*
+  nameWithType.vb: KiwiExtend.SetAnchoredPosition3DY(RectTransform, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DY(UnityEngine.RectTransform, Single)
+  name.vb: SetAnchoredPosition3DY(RectTransform, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DZ(UnityEngine.RectTransform,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DZ(UnityEngine.RectTransform,System.Single)
+  id: SetAnchoredPosition3DZ(UnityEngine.RectTransform,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetAnchoredPosition3DZ(RectTransform, float)
+  nameWithType: KiwiExtend.SetAnchoredPosition3DZ(RectTransform, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DZ(UnityEngine.RectTransform, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetAnchoredPosition3DZ
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 673
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置锚点 Z 轴 3D 坐标
+  example: []
+  syntax:
+    content: public static void SetAnchoredPosition3DZ(this RectTransform rectTransform, float z)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: z
+      type: System.Single
+      description: 要设置的 Z 轴坐标
+    content.vb: Public Shared Sub SetAnchoredPosition3DZ(rectTransform As RectTransform, z As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DZ*
+  nameWithType.vb: KiwiExtend.SetAnchoredPosition3DZ(RectTransform, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DZ(UnityEngine.RectTransform, Single)
+  name.vb: SetAnchoredPosition3DZ(RectTransform, Single)
+- uid: Kiwi.Utility.KiwiExtend.GetWidth(UnityEngine.RectTransform)
+  commentId: M:Kiwi.Utility.KiwiExtend.GetWidth(UnityEngine.RectTransform)
+  id: GetWidth(UnityEngine.RectTransform)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: GetWidth(RectTransform)
+  nameWithType: KiwiExtend.GetWidth(RectTransform)
+  fullName: Kiwi.Utility.KiwiExtend.GetWidth(UnityEngine.RectTransform)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetWidth
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 688
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取宽度
+  example: []
+  syntax:
+    content: public static float GetWidth(this RectTransform rectTransform)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function GetWidth(rectTransform As RectTransform) As Single
+  overload: Kiwi.Utility.KiwiExtend.GetWidth*
+- uid: Kiwi.Utility.KiwiExtend.GetHeight(UnityEngine.RectTransform)
+  commentId: M:Kiwi.Utility.KiwiExtend.GetHeight(UnityEngine.RectTransform)
+  id: GetHeight(UnityEngine.RectTransform)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: GetHeight(RectTransform)
+  nameWithType: KiwiExtend.GetHeight(RectTransform)
+  fullName: Kiwi.Utility.KiwiExtend.GetHeight(UnityEngine.RectTransform)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetHeight
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 695
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取高度
+  example: []
+  syntax:
+    content: public static float GetHeight(this RectTransform rectTransform)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function GetHeight(rectTransform As RectTransform) As Single
+  overload: Kiwi.Utility.KiwiExtend.GetHeight*
+- uid: Kiwi.Utility.KiwiExtend.GetSize(UnityEngine.RectTransform)
+  commentId: M:Kiwi.Utility.KiwiExtend.GetSize(UnityEngine.RectTransform)
+  id: GetSize(UnityEngine.RectTransform)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: GetSize(RectTransform)
+  nameWithType: KiwiExtend.GetSize(RectTransform)
+  fullName: Kiwi.Utility.KiwiExtend.GetSize(UnityEngine.RectTransform)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetSize
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 702
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取尺寸
+  example: []
+  syntax:
+    content: public static Vector2 GetSize(this RectTransform rectTransform)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    return:
+      type: UnityEngine.Vector2
+      description: ''
+    content.vb: Public Shared Function GetSize(rectTransform As RectTransform) As Vector2
+  overload: Kiwi.Utility.KiwiExtend.GetSize*
+- uid: Kiwi.Utility.KiwiExtend.GetSize(UnityEngine.RectTransform,System.Single@,System.Single@)
+  commentId: M:Kiwi.Utility.KiwiExtend.GetSize(UnityEngine.RectTransform,System.Single@,System.Single@)
+  id: GetSize(UnityEngine.RectTransform,System.Single@,System.Single@)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: GetSize(RectTransform, out float, out float)
+  nameWithType: KiwiExtend.GetSize(RectTransform, out float, out float)
+  fullName: Kiwi.Utility.KiwiExtend.GetSize(UnityEngine.RectTransform, out float, out float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetSize
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 710
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取尺寸
+  example: []
+  syntax:
+    content: public static void GetSize(this RectTransform rectTransform, out float width, out float height)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: width
+      type: System.Single
+      description: 返回的宽度
+    - id: height
+      type: System.Single
+      description: 返回的高度
+    content.vb: Public Shared Sub GetSize(rectTransform As RectTransform, width As Single, height As Single)
+  overload: Kiwi.Utility.KiwiExtend.GetSize*
+  nameWithType.vb: KiwiExtend.GetSize(RectTransform, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.GetSize(UnityEngine.RectTransform, Single, Single)
+  name.vb: GetSize(RectTransform, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetWidth(UnityEngine.RectTransform,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetWidth(UnityEngine.RectTransform,System.Single)
+  id: SetWidth(UnityEngine.RectTransform,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetWidth(RectTransform, float)
+  nameWithType: KiwiExtend.SetWidth(RectTransform, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetWidth(UnityEngine.RectTransform, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetWidth
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 722
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置宽度
+  example: []
+  syntax:
+    content: public static void SetWidth(this RectTransform rectTransform, float width)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: width
+      type: System.Single
+      description: 要设置的宽度
+    content.vb: Public Shared Sub SetWidth(rectTransform As RectTransform, width As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetWidth*
+  nameWithType.vb: KiwiExtend.SetWidth(RectTransform, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetWidth(UnityEngine.RectTransform, Single)
+  name.vb: SetWidth(RectTransform, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetHeight(UnityEngine.RectTransform,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetHeight(UnityEngine.RectTransform,System.Single)
+  id: SetHeight(UnityEngine.RectTransform,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetHeight(RectTransform, float)
+  nameWithType: KiwiExtend.SetHeight(RectTransform, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetHeight(UnityEngine.RectTransform, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetHeight
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 730
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置高度
+  example: []
+  syntax:
+    content: public static void SetHeight(this RectTransform rectTransform, float height)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: height
+      type: System.Single
+      description: 要设置的高度
+    content.vb: Public Shared Sub SetHeight(rectTransform As RectTransform, height As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetHeight*
+  nameWithType.vb: KiwiExtend.SetHeight(RectTransform, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetHeight(UnityEngine.RectTransform, Single)
+  name.vb: SetHeight(RectTransform, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetSize(UnityEngine.RectTransform,System.Single,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetSize(UnityEngine.RectTransform,System.Single,System.Single)
+  id: SetSize(UnityEngine.RectTransform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetSize(RectTransform, float, float)
+  nameWithType: KiwiExtend.SetSize(RectTransform, float, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetSize(UnityEngine.RectTransform, float, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetSize
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 739
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置尺寸
+  example: []
+  syntax:
+    content: public static void SetSize(this RectTransform rectTransform, float width, float height)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: width
+      type: System.Single
+      description: 要设置的宽度
+    - id: height
+      type: System.Single
+      description: 要设置的高度
+    content.vb: Public Shared Sub SetSize(rectTransform As RectTransform, width As Single, height As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetSize*
+  nameWithType.vb: KiwiExtend.SetSize(RectTransform, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetSize(UnityEngine.RectTransform, Single, Single)
+  name.vb: SetSize(RectTransform, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetSize(UnityEngine.RectTransform,UnityEngine.Vector2)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetSize(UnityEngine.RectTransform,UnityEngine.Vector2)
+  id: SetSize(UnityEngine.RectTransform,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetSize(RectTransform, Vector2)
+  nameWithType: KiwiExtend.SetSize(RectTransform, Vector2)
+  fullName: Kiwi.Utility.KiwiExtend.SetSize(UnityEngine.RectTransform, UnityEngine.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetSize
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 750
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置尺寸
+  example: []
+  syntax:
+    content: public static void SetSize(this RectTransform rectTransform, Vector2 size)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: size
+      type: UnityEngine.Vector2
+      description: 要设置的尺寸
+    content.vb: Public Shared Sub SetSize(rectTransform As RectTransform, size As Vector2)
+  overload: Kiwi.Utility.KiwiExtend.SetSize*
+- uid: Kiwi.Utility.KiwiExtend.GetSizeDelta(UnityEngine.RectTransform,System.Single@,System.Single@)
+  commentId: M:Kiwi.Utility.KiwiExtend.GetSizeDelta(UnityEngine.RectTransform,System.Single@,System.Single@)
+  id: GetSizeDelta(UnityEngine.RectTransform,System.Single@,System.Single@)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: GetSizeDelta(RectTransform, out float, out float)
+  nameWithType: KiwiExtend.GetSizeDelta(RectTransform, out float, out float)
+  fullName: Kiwi.Utility.KiwiExtend.GetSizeDelta(UnityEngine.RectTransform, out float, out float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetSizeDelta
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 759
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取 Transform 的 SizeDelta
+  example: []
+  syntax:
+    content: public static void GetSizeDelta(this RectTransform rectTransform, out float x, out float y)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: ''
+    - id: y
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Sub GetSizeDelta(rectTransform As RectTransform, x As Single, y As Single)
+  overload: Kiwi.Utility.KiwiExtend.GetSizeDelta*
+  nameWithType.vb: KiwiExtend.GetSizeDelta(RectTransform, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.GetSizeDelta(UnityEngine.RectTransform, Single, Single)
+  name.vb: GetSizeDelta(RectTransform, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetSizeDelta(UnityEngine.RectTransform,UnityEngine.Vector2)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetSizeDelta(UnityEngine.RectTransform,UnityEngine.Vector2)
+  id: SetSizeDelta(UnityEngine.RectTransform,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetSizeDelta(RectTransform, Vector2)
+  nameWithType: KiwiExtend.SetSizeDelta(RectTransform, Vector2)
+  fullName: Kiwi.Utility.KiwiExtend.SetSizeDelta(UnityEngine.RectTransform, UnityEngine.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetSizeDelta
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 772
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置 SizeDelta
+  example: []
+  syntax:
+    content: public static void SetSizeDelta(this RectTransform rectTransform, Vector2 sizeDelta)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: sizeDelta
+      type: UnityEngine.Vector2
+      description: ''
+    content.vb: Public Shared Sub SetSizeDelta(rectTransform As RectTransform, sizeDelta As Vector2)
+  overload: Kiwi.Utility.KiwiExtend.SetSizeDelta*
+- uid: Kiwi.Utility.KiwiExtend.SetSizeDelta(UnityEngine.RectTransform,System.Single,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetSizeDelta(UnityEngine.RectTransform,System.Single,System.Single)
+  id: SetSizeDelta(UnityEngine.RectTransform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetSizeDelta(RectTransform, float, float)
+  nameWithType: KiwiExtend.SetSizeDelta(RectTransform, float, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetSizeDelta(UnityEngine.RectTransform, float, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetSizeDelta
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 786
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置 SizeDelta
+  example: []
+  syntax:
+    content: public static void SetSizeDelta(this RectTransform rectTransform, float x, float y)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: ''
+    - id: y
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Sub SetSizeDelta(rectTransform As RectTransform, x As Single, y As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetSizeDelta*
+  nameWithType.vb: KiwiExtend.SetSizeDelta(RectTransform, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetSizeDelta(UnityEngine.RectTransform, Single, Single)
+  name.vb: SetSizeDelta(RectTransform, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetFullStretch(UnityEngine.RectTransform)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetFullStretch(UnityEngine.RectTransform)
+  id: SetFullStretch(UnityEngine.RectTransform)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetFullStretch(RectTransform)
+  nameWithType: KiwiExtend.SetFullStretch(RectTransform)
+  fullName: Kiwi.Utility.KiwiExtend.SetFullStretch(UnityEngine.RectTransform)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetFullStretch
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 798
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 全延展并轴点居中
+  example: []
+  syntax:
+    content: public static void SetFullStretch(this RectTransform rectTransform)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    content.vb: Public Shared Sub SetFullStretch(rectTransform As RectTransform)
+  overload: Kiwi.Utility.KiwiExtend.SetFullStretch*
+- uid: Kiwi.Utility.KiwiExtend.Overlaps(UnityEngine.RectTransform,UnityEngine.RectTransform)
+  commentId: M:Kiwi.Utility.KiwiExtend.Overlaps(UnityEngine.RectTransform,UnityEngine.RectTransform)
+  id: Overlaps(UnityEngine.RectTransform,UnityEngine.RectTransform)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: Overlaps(RectTransform, RectTransform)
+  nameWithType: KiwiExtend.Overlaps(RectTransform, RectTransform)
+  fullName: Kiwi.Utility.KiwiExtend.Overlaps(UnityEngine.RectTransform, UnityEngine.RectTransform)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Overlaps
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 814
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: >-
+    判断两个 RectTransform 是否相交(矩形相交)
+
+    <p>主要就是检测 RectTransform 的拐点是否在另一个 RectTransform 中.</p>
+  example: []
+  syntax:
+    content: public static bool Overlaps(this RectTransform rectTransform, RectTransform target)
+    parameters:
+    - id: rectTransform
+      type: UnityEngine.RectTransform
+      description: 被扩展的对象
+    - id: target
+      type: UnityEngine.RectTransform
+      description: 要判断的目标对象
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function Overlaps(rectTransform As RectTransform, target As RectTransform) As Boolean
+  overload: Kiwi.Utility.KiwiExtend.Overlaps*
+- uid: Kiwi.Utility.KiwiExtend.rectTransform(UnityEngine.GameObject)
+  commentId: M:Kiwi.Utility.KiwiExtend.rectTransform(UnityEngine.GameObject)
+  id: rectTransform(UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: rectTransform(GameObject)
+  nameWithType: KiwiExtend.rectTransform(GameObject)
+  fullName: Kiwi.Utility.KiwiExtend.rectTransform(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: rectTransform
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+    startLine: 11
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获得 GameObject 的 RectTransform 组件
+  example: []
+  syntax:
+    content: public static RectTransform rectTransform(this GameObject go)
+    parameters:
+    - id: go
+      type: UnityEngine.GameObject
+      description: 被扩展的对象
+    return:
+      type: UnityEngine.RectTransform
+      description: 获取成功返回 RectTransform 组件, 否则返回 null.
+    content.vb: Public Shared Function rectTransform(go As GameObject) As RectTransform
+  overload: Kiwi.Utility.KiwiExtend.rectTransform*
+- uid: Kiwi.Utility.KiwiExtend.ForceGetComponent``1(UnityEngine.GameObject,System.Boolean@)
+  commentId: M:Kiwi.Utility.KiwiExtend.ForceGetComponent``1(UnityEngine.GameObject,System.Boolean@)
+  id: ForceGetComponent``1(UnityEngine.GameObject,System.Boolean@)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: ForceGetComponent<T>(GameObject, out bool)
+  nameWithType: KiwiExtend.ForceGetComponent<T>(GameObject, out bool)
+  fullName: Kiwi.Utility.KiwiExtend.ForceGetComponent<T>(UnityEngine.GameObject, out bool)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ForceGetComponent
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+    startLine: 20
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件
+  example: []
+  syntax:
+    content: 'public static T ForceGetComponent<T>(this GameObject go, out bool exist) where T : Component'
+    parameters:
+    - id: go
+      type: UnityEngine.GameObject
+      description: 被扩展的对象
+    - id: exist
+      type: System.Boolean
+      description: 想要获取的组件是否存在
+    typeParameters:
+    - id: T
+      description: 目标组件必须继承自 Component
+    return:
+      type: '{T}'
+      description: 目标组件
+    content.vb: Public Shared Function ForceGetComponent(Of T As Component)(go As GameObject, exist As Boolean) As T
+  overload: Kiwi.Utility.KiwiExtend.ForceGetComponent*
+  nameWithType.vb: KiwiExtend.ForceGetComponent(Of T)(GameObject, Boolean)
+  fullName.vb: Kiwi.Utility.KiwiExtend.ForceGetComponent(Of T)(UnityEngine.GameObject, Boolean)
+  name.vb: ForceGetComponent(Of T)(GameObject, Boolean)
+- uid: Kiwi.Utility.KiwiExtend.ForceGetComponent``1(UnityEngine.GameObject)
+  commentId: M:Kiwi.Utility.KiwiExtend.ForceGetComponent``1(UnityEngine.GameObject)
+  id: ForceGetComponent``1(UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: ForceGetComponent<T>(GameObject)
+  nameWithType: KiwiExtend.ForceGetComponent<T>(GameObject)
+  fullName: Kiwi.Utility.KiwiExtend.ForceGetComponent<T>(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ForceGetComponent
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+    startLine: 50
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件
+  example: []
+  syntax:
+    content: 'public static T ForceGetComponent<T>(this GameObject go) where T : Component'
+    parameters:
+    - id: go
+      type: UnityEngine.GameObject
+      description: 被扩展的对象
+    typeParameters:
+    - id: T
+      description: 目标组件必须继承自 Component
+    return:
+      type: '{T}'
+      description: 目标组件
+    content.vb: Public Shared Function ForceGetComponent(Of T As Component)(go As GameObject) As T
+  overload: Kiwi.Utility.KiwiExtend.ForceGetComponent*
+  nameWithType.vb: KiwiExtend.ForceGetComponent(Of T)(GameObject)
+  fullName.vb: Kiwi.Utility.KiwiExtend.ForceGetComponent(Of T)(UnityEngine.GameObject)
+  name.vb: ForceGetComponent(Of T)(GameObject)
+- uid: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject,System.String,System.Boolean@)
+  commentId: M:Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject,System.String,System.Boolean@)
+  id: ForceGetComponent(UnityEngine.GameObject,System.String,System.Boolean@)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: ForceGetComponent(GameObject, string, out bool)
+  nameWithType: KiwiExtend.ForceGetComponent(GameObject, string, out bool)
+  fullName: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject, string, out bool)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ForceGetComponent
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+    startLine: 59
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件
+  example: []
+  syntax:
+    content: public static Component ForceGetComponent(this GameObject go, string type, out bool exist)
+    parameters:
+    - id: go
+      type: UnityEngine.GameObject
+      description: 被扩展的对象
+    - id: type
+      type: System.String
+      description: 目标组件必须继承自Component,需要带命名空间的完整名称
+    - id: exist
+      type: System.Boolean
+      description: 想要获取的组件是否存在
+    return:
+      type: UnityEngine.Component
+      description: 目标组件
+    content.vb: Public Shared Function ForceGetComponent(go As GameObject, type As String, exist As Boolean) As Component
+  overload: Kiwi.Utility.KiwiExtend.ForceGetComponent*
+  nameWithType.vb: KiwiExtend.ForceGetComponent(GameObject, String, Boolean)
+  fullName.vb: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject, String, Boolean)
+  name.vb: ForceGetComponent(GameObject, String, Boolean)
+- uid: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject,System.String)
+  commentId: M:Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject,System.String)
+  id: ForceGetComponent(UnityEngine.GameObject,System.String)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: ForceGetComponent(GameObject, string)
+  nameWithType: KiwiExtend.ForceGetComponent(GameObject, string)
+  fullName: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject, string)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ForceGetComponent
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+    startLine: 91
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件
+  example: []
+  syntax:
+    content: public static Component ForceGetComponent(this GameObject go, string type)
+    parameters:
+    - id: go
+      type: UnityEngine.GameObject
+      description: 被扩展的对象
+    - id: type
+      type: System.String
+      description: 目标组件必须继承自Component,需要带命名空间的完整名称
+    return:
+      type: UnityEngine.Component
+      description: 目标组件
+    content.vb: Public Shared Function ForceGetComponent(go As GameObject, type As String) As Component
+  overload: Kiwi.Utility.KiwiExtend.ForceGetComponent*
+  nameWithType.vb: KiwiExtend.ForceGetComponent(GameObject, String)
+  fullName.vb: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject, String)
+  name.vb: ForceGetComponent(GameObject, String)
+- uid: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject,System.Type,System.Boolean@)
+  commentId: M:Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject,System.Type,System.Boolean@)
+  id: ForceGetComponent(UnityEngine.GameObject,System.Type,System.Boolean@)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: ForceGetComponent(GameObject, Type, out bool)
+  nameWithType: KiwiExtend.ForceGetComponent(GameObject, Type, out bool)
+  fullName: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject, System.Type, out bool)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ForceGetComponent
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+    startLine: 100
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件
+  example: []
+  syntax:
+    content: public static Component ForceGetComponent(this GameObject go, Type type, out bool exist)
+    parameters:
+    - id: go
+      type: UnityEngine.GameObject
+      description: 被扩展的对象
+    - id: type
+      type: System.Type
+      description: 目标组件必须继承自Component
+    - id: exist
+      type: System.Boolean
+      description: 想要获取的组件是否存在
+    return:
+      type: UnityEngine.Component
+      description: 目标组件
+    content.vb: Public Shared Function ForceGetComponent(go As GameObject, type As Type, exist As Boolean) As Component
+  overload: Kiwi.Utility.KiwiExtend.ForceGetComponent*
+  nameWithType.vb: KiwiExtend.ForceGetComponent(GameObject, Type, Boolean)
+  fullName.vb: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject, System.Type, Boolean)
+  name.vb: ForceGetComponent(GameObject, Type, Boolean)
+- uid: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject,System.Type)
+  commentId: M:Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject,System.Type)
+  id: ForceGetComponent(UnityEngine.GameObject,System.Type)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: ForceGetComponent(GameObject, Type)
+  nameWithType: KiwiExtend.ForceGetComponent(GameObject, Type)
+  fullName: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.GameObject, System.Type)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ForceGetComponent
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+    startLine: 130
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件
+  example: []
+  syntax:
+    content: public static Component ForceGetComponent(this GameObject go, Type type)
+    parameters:
+    - id: go
+      type: UnityEngine.GameObject
+      description: 被扩展的对象
+    - id: type
+      type: System.Type
+      description: 目标组件必须继承自Component
+    return:
+      type: UnityEngine.Component
+      description: 目标组件
+    content.vb: Public Shared Function ForceGetComponent(go As GameObject, type As Type) As Component
+  overload: Kiwi.Utility.KiwiExtend.ForceGetComponent*
+- uid: Kiwi.Utility.KiwiExtend.SetLayer(UnityEngine.GameObject,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetLayer(UnityEngine.GameObject,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  id: SetLayer(UnityEngine.GameObject,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetLayer(GameObject, int, bool, bool, bool)
+  nameWithType: KiwiExtend.SetLayer(GameObject, int, bool, bool, bool)
+  fullName: Kiwi.Utility.KiwiExtend.SetLayer(UnityEngine.GameObject, int, bool, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetLayer
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+    startLine: 140
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置 GameObject 的 Layer
+  example: []
+  syntax:
+    content: public static void SetLayer(this GameObject go, int layer, bool syncChildren = false, bool recursion = true, bool includeInactive = true)
+    parameters:
+    - id: go
+      type: UnityEngine.GameObject
+      description: 被扩展的对象
+    - id: layer
+      type: System.Int32
+      description: 要设置的 Layer
+    - id: syncChildren
+      type: System.Boolean
+      description: 是否同时设置子对象的 Layer
+    - id: recursion
+      type: System.Boolean
+      description: 是否递归获得所有子对象
+    - id: includeInactive
+      type: System.Boolean
+      description: 是否获取未激活的子对象
+    content.vb: Public Shared Sub SetLayer(go As GameObject, layer As Integer, syncChildren As Boolean = False, recursion As Boolean = True, includeInactive As Boolean = True)
+  overload: Kiwi.Utility.KiwiExtend.SetLayer*
+  nameWithType.vb: KiwiExtend.SetLayer(GameObject, Integer, Boolean, Boolean, Boolean)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetLayer(UnityEngine.GameObject, Integer, Boolean, Boolean, Boolean)
+  name.vb: SetLayer(GameObject, Integer, Boolean, Boolean, Boolean)
+- uid: Kiwi.Utility.KiwiExtend.SetDisplay(UnityEngine.GameObject,System.Boolean)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetDisplay(UnityEngine.GameObject,System.Boolean)
+  id: SetDisplay(UnityEngine.GameObject,System.Boolean)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetDisplay(GameObject, bool)
+  nameWithType: KiwiExtend.SetDisplay(GameObject, bool)
+  fullName: Kiwi.Utility.KiwiExtend.SetDisplay(UnityEngine.GameObject, bool)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetDisplay
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+    startLine: 161
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 控制对象显隐
+  example: []
+  syntax:
+    content: public static void SetDisplay(this GameObject go, bool val)
+    parameters:
+    - id: go
+      type: UnityEngine.GameObject
+      description: 被扩展的对象
+    - id: val
+      type: System.Boolean
+      description: 是否要显示
+    content.vb: Public Shared Sub SetDisplay(go As GameObject, val As Boolean)
+  overload: Kiwi.Utility.KiwiExtend.SetDisplay*
+  nameWithType.vb: KiwiExtend.SetDisplay(GameObject, Boolean)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetDisplay(UnityEngine.GameObject, Boolean)
+  name.vb: SetDisplay(GameObject, Boolean)
+- uid: Kiwi.Utility.KiwiExtend.FindChildWithTag(UnityEngine.GameObject,System.String,UnityEngine.GameObject@)
+  commentId: M:Kiwi.Utility.KiwiExtend.FindChildWithTag(UnityEngine.GameObject,System.String,UnityEngine.GameObject@)
+  id: FindChildWithTag(UnityEngine.GameObject,System.String,UnityEngine.GameObject@)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: FindChildWithTag(GameObject, string, out GameObject)
+  nameWithType: KiwiExtend.FindChildWithTag(GameObject, string, out GameObject)
+  fullName: Kiwi.Utility.KiwiExtend.FindChildWithTag(UnityEngine.GameObject, string, out UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: FindChildWithTag
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+    startLine: 180
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 根据指定 tag 查找子对象
+  example: []
+  syntax:
+    content: public static bool FindChildWithTag(this GameObject go, string tag, out GameObject targetChild)
+    parameters:
+    - id: go
+      type: UnityEngine.GameObject
+      description: 被扩展的对象
+    - id: tag
+      type: System.String
+      description: 指定的 tag
+    - id: targetChild
+      type: UnityEngine.GameObject
+      description: 返回查找到的目标子对象
+    return:
+      type: System.Boolean
+      description: 如果查找到指定对象返回 True,否则返回 false
+    content.vb: Public Shared Function FindChildWithTag(go As GameObject, tag As String, targetChild As GameObject) As Boolean
+  overload: Kiwi.Utility.KiwiExtend.FindChildWithTag*
+  nameWithType.vb: KiwiExtend.FindChildWithTag(GameObject, String, GameObject)
+  fullName.vb: Kiwi.Utility.KiwiExtend.FindChildWithTag(UnityEngine.GameObject, String, UnityEngine.GameObject)
+  name.vb: FindChildWithTag(GameObject, String, GameObject)
+- uid: Kiwi.Utility.KiwiExtend.FindChild(UnityEngine.GameObject,System.String)
+  commentId: M:Kiwi.Utility.KiwiExtend.FindChild(UnityEngine.GameObject,System.String)
+  id: FindChild(UnityEngine.GameObject,System.String)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: FindChild(GameObject, string)
+  nameWithType: KiwiExtend.FindChild(GameObject, string)
+  fullName: Kiwi.Utility.KiwiExtend.FindChild(UnityEngine.GameObject, string)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: FindChild
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+    startLine: 212
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: >-
+    查找子对象
+
+    <p>若存在多个同名的子对象，则返回第一个</p>
+  example: []
+  syntax:
+    content: public static GameObject FindChild(this GameObject go, string name)
+    parameters:
+    - id: go
+      type: UnityEngine.GameObject
+      description: 被扩展的对象
+    - id: name
+      type: System.String
+      description: 子对象名称
+    return:
+      type: UnityEngine.GameObject
+      description: 查找到的子对象
+    content.vb: Public Shared Function FindChild(go As GameObject, name As String) As GameObject
+  overload: Kiwi.Utility.KiwiExtend.FindChild*
+  nameWithType.vb: KiwiExtend.FindChild(GameObject, String)
+  fullName.vb: Kiwi.Utility.KiwiExtend.FindChild(UnityEngine.GameObject, String)
+  name.vb: FindChild(GameObject, String)
+- uid: Kiwi.Utility.KiwiExtend.GetCenterPosition(UnityEngine.GameObject)
+  commentId: M:Kiwi.Utility.KiwiExtend.GetCenterPosition(UnityEngine.GameObject)
+  id: GetCenterPosition(UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: GetCenterPosition(GameObject)
+  nameWithType: KiwiExtend.GetCenterPosition(GameObject)
+  fullName: Kiwi.Utility.KiwiExtend.GetCenterPosition(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetCenterPosition
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/GameObjectExtend.cs
+    startLine: 235
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取对象的中心位置坐标
+  example: []
+  syntax:
+    content: public static Vector3 GetCenterPosition(this GameObject go)
+    parameters:
+    - id: go
+      type: UnityEngine.GameObject
+      description: 被扩展的对象
+    return:
+      type: UnityEngine.Vector3
+      description: 对象的中心位置坐标
+    content.vb: Public Shared Function GetCenterPosition(go As GameObject) As Vector3
+  overload: Kiwi.Utility.KiwiExtend.GetCenterPosition*
+- uid: Kiwi.Utility.KiwiExtend.GetPosition(UnityEngine.Transform,System.Single@,System.Single@,System.Single@)
+  commentId: M:Kiwi.Utility.KiwiExtend.GetPosition(UnityEngine.Transform,System.Single@,System.Single@,System.Single@)
+  id: GetPosition(UnityEngine.Transform,System.Single@,System.Single@,System.Single@)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: GetPosition(Transform, out float, out float, out float)
+  nameWithType: KiwiExtend.GetPosition(Transform, out float, out float, out float)
+  fullName: Kiwi.Utility.KiwiExtend.GetPosition(UnityEngine.Transform, out float, out float, out float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetPosition
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+    startLine: 19
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取 Transform 的世界坐标
+  example: []
+  syntax:
+    content: public static void GetPosition(this Transform transform, out float x, out float y, out float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: x 轴坐标
+    - id: y
+      type: System.Single
+      description: y 轴坐标
+    - id: z
+      type: System.Single
+      description: z 轴坐标
+    content.vb: Public Shared Sub GetPosition(transform As Transform, x As Single, y As Single, z As Single)
+  overload: Kiwi.Utility.KiwiExtend.GetPosition*
+  nameWithType.vb: KiwiExtend.GetPosition(Transform, Single, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.GetPosition(UnityEngine.Transform, Single, Single, Single)
+  name.vb: GetPosition(Transform, Single, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetPosition(UnityEngine.Transform,UnityEngine.Vector3)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetPosition(UnityEngine.Transform,UnityEngine.Vector3)
+  id: SetPosition(UnityEngine.Transform,UnityEngine.Vector3)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetPosition(Transform, Vector3)
+  nameWithType: KiwiExtend.SetPosition(Transform, Vector3)
+  fullName: Kiwi.Utility.KiwiExtend.SetPosition(UnityEngine.Transform, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetPosition
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+    startLine: 33
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置 Transform 的世界坐标
+  example: []
+  syntax:
+    content: public static void SetPosition(this Transform transform, Vector3 newPosition)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: 被扩展的对象
+    - id: newPosition
+      type: UnityEngine.Vector3
+      description: 要设置的坐标位置
+    content.vb: Public Shared Sub SetPosition(transform As Transform, newPosition As Vector3)
+  overload: Kiwi.Utility.KiwiExtend.SetPosition*
+- uid: Kiwi.Utility.KiwiExtend.SetPosition(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetPosition(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  id: SetPosition(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetPosition(Transform, float, float, float)
+  nameWithType: KiwiExtend.SetPosition(Transform, float, float, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetPosition(UnityEngine.Transform, float, float, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetPosition
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+    startLine: 47
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置 Transform 的世界坐标
+  example: []
+  syntax:
+    content: public static void SetPosition(this Transform transform, float x, float y, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: X轴坐标
+    - id: y
+      type: System.Single
+      description: Y轴坐标
+    - id: z
+      type: System.Single
+      description: Z轴坐标
+    content.vb: Public Shared Sub SetPosition(transform As Transform, x As Single, y As Single, z As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetPosition*
+  nameWithType.vb: KiwiExtend.SetPosition(Transform, Single, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetPosition(UnityEngine.Transform, Single, Single, Single)
+  name.vb: SetPosition(Transform, Single, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.GetLocalPosition(UnityEngine.Transform,System.Single@,System.Single@,System.Single@)
+  commentId: M:Kiwi.Utility.KiwiExtend.GetLocalPosition(UnityEngine.Transform,System.Single@,System.Single@,System.Single@)
+  id: GetLocalPosition(UnityEngine.Transform,System.Single@,System.Single@,System.Single@)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: GetLocalPosition(Transform, out float, out float, out float)
+  nameWithType: KiwiExtend.GetLocalPosition(Transform, out float, out float, out float)
+  fullName: Kiwi.Utility.KiwiExtend.GetLocalPosition(UnityEngine.Transform, out float, out float, out float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetLocalPosition
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+    startLine: 62
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取 Transform 的本地坐标
+  example: []
+  syntax:
+    content: public static void GetLocalPosition(this Transform transform, out float x, out float y, out float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: x 轴坐标
+    - id: y
+      type: System.Single
+      description: y 轴坐标
+    - id: z
+      type: System.Single
+      description: z 轴坐标
+    content.vb: Public Shared Sub GetLocalPosition(transform As Transform, x As Single, y As Single, z As Single)
+  overload: Kiwi.Utility.KiwiExtend.GetLocalPosition*
+  nameWithType.vb: KiwiExtend.GetLocalPosition(Transform, Single, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.GetLocalPosition(UnityEngine.Transform, Single, Single, Single)
+  name.vb: GetLocalPosition(Transform, Single, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetLocalPosition(UnityEngine.Transform,UnityEngine.Vector3)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetLocalPosition(UnityEngine.Transform,UnityEngine.Vector3)
+  id: SetLocalPosition(UnityEngine.Transform,UnityEngine.Vector3)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetLocalPosition(Transform, Vector3)
+  nameWithType: KiwiExtend.SetLocalPosition(Transform, Vector3)
+  fullName: Kiwi.Utility.KiwiExtend.SetLocalPosition(UnityEngine.Transform, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetLocalPosition
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+    startLine: 76
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置 Transform 的本地坐标
+  example: []
+  syntax:
+    content: public static void SetLocalPosition(this Transform transform, Vector3 newLocalPosition)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: 被扩展的对象
+    - id: newLocalPosition
+      type: UnityEngine.Vector3
+      description: 要设置的本地坐标位置
+    content.vb: Public Shared Sub SetLocalPosition(transform As Transform, newLocalPosition As Vector3)
+  overload: Kiwi.Utility.KiwiExtend.SetLocalPosition*
+- uid: Kiwi.Utility.KiwiExtend.SetLocalPosition(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetLocalPosition(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  id: SetLocalPosition(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetLocalPosition(Transform, float, float, float)
+  nameWithType: KiwiExtend.SetLocalPosition(Transform, float, float, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetLocalPosition(UnityEngine.Transform, float, float, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetLocalPosition
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+    startLine: 90
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置 Transform 的本地坐标
+  example: []
+  syntax:
+    content: public static void SetLocalPosition(this Transform transform, float x, float y, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: X轴坐标
+    - id: y
+      type: System.Single
+      description: Y轴坐标
+    - id: z
+      type: System.Single
+      description: Z轴坐标
+    content.vb: Public Shared Sub SetLocalPosition(transform As Transform, x As Single, y As Single, z As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetLocalPosition*
+  nameWithType.vb: KiwiExtend.SetLocalPosition(Transform, Single, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetLocalPosition(UnityEngine.Transform, Single, Single, Single)
+  name.vb: SetLocalPosition(Transform, Single, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetEuler(UnityEngine.Transform,UnityEngine.Vector3)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetEuler(UnityEngine.Transform,UnityEngine.Vector3)
+  id: SetEuler(UnityEngine.Transform,UnityEngine.Vector3)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetEuler(Transform, Vector3)
+  nameWithType: KiwiExtend.SetEuler(Transform, Vector3)
+  fullName: Kiwi.Utility.KiwiExtend.SetEuler(UnityEngine.Transform, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetEuler
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+    startLine: 102
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置 Transform 的欧拉角
+  example: []
+  syntax:
+    content: public static void SetEuler(this Transform transform, Vector3 newLocalEuler)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: 被扩展的对象
+    - id: newLocalEuler
+      type: UnityEngine.Vector3
+      description: 要设置的欧拉角
+    content.vb: Public Shared Sub SetEuler(transform As Transform, newLocalEuler As Vector3)
+  overload: Kiwi.Utility.KiwiExtend.SetEuler*
+- uid: Kiwi.Utility.KiwiExtend.SetEuler(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetEuler(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  id: SetEuler(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetEuler(Transform, float, float, float)
+  nameWithType: KiwiExtend.SetEuler(Transform, float, float, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetEuler(UnityEngine.Transform, float, float, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetEuler
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+    startLine: 117
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置 Transform 的欧拉角
+  example: []
+  syntax:
+    content: public static void SetEuler(this Transform transform, float x, float y, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: X轴角度
+    - id: y
+      type: System.Single
+      description: Y轴角度
+    - id: z
+      type: System.Single
+      description: Z轴角度
+    content.vb: Public Shared Sub SetEuler(transform As Transform, x As Single, y As Single, z As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetEuler*
+  nameWithType.vb: KiwiExtend.SetEuler(Transform, Single, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetEuler(UnityEngine.Transform, Single, Single, Single)
+  name.vb: SetEuler(Transform, Single, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetLocalEuler(UnityEngine.Transform,UnityEngine.Vector3)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetLocalEuler(UnityEngine.Transform,UnityEngine.Vector3)
+  id: SetLocalEuler(UnityEngine.Transform,UnityEngine.Vector3)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetLocalEuler(Transform, Vector3)
+  nameWithType: KiwiExtend.SetLocalEuler(Transform, Vector3)
+  fullName: Kiwi.Utility.KiwiExtend.SetLocalEuler(UnityEngine.Transform, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetLocalEuler
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+    startLine: 130
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置 Transform 的本地欧拉角
+  example: []
+  syntax:
+    content: public static void SetLocalEuler(this Transform transform, Vector3 newLocalEuler)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: 被扩展的对象
+    - id: newLocalEuler
+      type: UnityEngine.Vector3
+      description: 要设置的欧拉角
+    content.vb: Public Shared Sub SetLocalEuler(transform As Transform, newLocalEuler As Vector3)
+  overload: Kiwi.Utility.KiwiExtend.SetLocalEuler*
+- uid: Kiwi.Utility.KiwiExtend.SetLocalEuler(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetLocalEuler(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  id: SetLocalEuler(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetLocalEuler(Transform, float, float, float)
+  nameWithType: KiwiExtend.SetLocalEuler(Transform, float, float, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetLocalEuler(UnityEngine.Transform, float, float, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetLocalEuler
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+    startLine: 145
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置 Transform 的本地欧拉角
+  example: []
+  syntax:
+    content: public static void SetLocalEuler(this Transform transform, float x, float y, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: X轴角度
+    - id: y
+      type: System.Single
+      description: Y轴角度
+    - id: z
+      type: System.Single
+      description: Z轴角度
+    content.vb: Public Shared Sub SetLocalEuler(transform As Transform, x As Single, y As Single, z As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetLocalEuler*
+  nameWithType.vb: KiwiExtend.SetLocalEuler(Transform, Single, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetLocalEuler(UnityEngine.Transform, Single, Single, Single)
+  name.vb: SetLocalEuler(Transform, Single, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.GetLocalScale(UnityEngine.Transform,System.Single@,System.Single@,System.Single@)
+  commentId: M:Kiwi.Utility.KiwiExtend.GetLocalScale(UnityEngine.Transform,System.Single@,System.Single@,System.Single@)
+  id: GetLocalScale(UnityEngine.Transform,System.Single@,System.Single@,System.Single@)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: GetLocalScale(Transform, out float, out float, out float)
+  nameWithType: KiwiExtend.GetLocalScale(Transform, out float, out float, out float)
+  fullName: Kiwi.Utility.KiwiExtend.GetLocalScale(UnityEngine.Transform, out float, out float, out float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetLocalScale
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+    startLine: 160
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取 Transform 的缩放比例
+  example: []
+  syntax:
+    content: public static void GetLocalScale(this Transform transform, out float x, out float y, out float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: x 轴缩放
+    - id: y
+      type: System.Single
+      description: y 轴缩放
+    - id: z
+      type: System.Single
+      description: z 轴缩放
+    content.vb: Public Shared Sub GetLocalScale(transform As Transform, x As Single, y As Single, z As Single)
+  overload: Kiwi.Utility.KiwiExtend.GetLocalScale*
+  nameWithType.vb: KiwiExtend.GetLocalScale(Transform, Single, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.GetLocalScale(UnityEngine.Transform, Single, Single, Single)
+  name.vb: GetLocalScale(Transform, Single, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetLocalScale(UnityEngine.Transform,UnityEngine.Vector3)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetLocalScale(UnityEngine.Transform,UnityEngine.Vector3)
+  id: SetLocalScale(UnityEngine.Transform,UnityEngine.Vector3)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetLocalScale(Transform, Vector3)
+  nameWithType: KiwiExtend.SetLocalScale(Transform, Vector3)
+  fullName: Kiwi.Utility.KiwiExtend.SetLocalScale(UnityEngine.Transform, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetLocalScale
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+    startLine: 174
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置缩放比例
+  example: []
+  syntax:
+    content: public static void SetLocalScale(this Transform transform, Vector3 scale)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: 被扩展的对象
+    - id: scale
+      type: UnityEngine.Vector3
+      description: 要设置的缩放比例
+    content.vb: Public Shared Sub SetLocalScale(transform As Transform, scale As Vector3)
+  overload: Kiwi.Utility.KiwiExtend.SetLocalScale*
+- uid: Kiwi.Utility.KiwiExtend.SetLocalScale(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetLocalScale(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  id: SetLocalScale(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetLocalScale(Transform, float, float, float)
+  nameWithType: KiwiExtend.SetLocalScale(Transform, float, float, float)
+  fullName: Kiwi.Utility.KiwiExtend.SetLocalScale(UnityEngine.Transform, float, float, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetLocalScale
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+    startLine: 189
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置缩放比例
+  example: []
+  syntax:
+    content: public static void SetLocalScale(this Transform transform, float x, float y, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: 被扩展的对象
+    - id: x
+      type: System.Single
+      description: X 轴缩放值
+    - id: y
+      type: System.Single
+      description: Y 轴缩放值
+    - id: z
+      type: System.Single
+      description: Z 轴缩放值
+    content.vb: Public Shared Sub SetLocalScale(transform As Transform, x As Single, y As Single, z As Single)
+  overload: Kiwi.Utility.KiwiExtend.SetLocalScale*
+  nameWithType.vb: KiwiExtend.SetLocalScale(Transform, Single, Single, Single)
+  fullName.vb: Kiwi.Utility.KiwiExtend.SetLocalScale(UnityEngine.Transform, Single, Single, Single)
+  name.vb: SetLocalScale(Transform, Single, Single, Single)
+- uid: Kiwi.Utility.KiwiExtend.SetParentAndPos(UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Vector3)
+  commentId: M:Kiwi.Utility.KiwiExtend.SetParentAndPos(UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Vector3)
+  id: SetParentAndPos(UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Vector3)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: SetParentAndPos(Transform, Transform, Vector3)
+  nameWithType: KiwiExtend.SetParentAndPos(Transform, Transform, Vector3)
+  fullName: Kiwi.Utility.KiwiExtend.SetParentAndPos(UnityEngine.Transform, UnityEngine.Transform, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SetParentAndPos
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+    startLine: 203
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 设置Transform的父物体,并对相对坐标赋值
+  example: []
+  syntax:
+    content: public static void SetParentAndPos(this Transform transform, Transform parent, Vector3 localPosition)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: 被扩展的对象
+    - id: parent
+      type: UnityEngine.Transform
+      description: 父物体目标
+    - id: localPosition
+      type: UnityEngine.Vector3
+      description: 父物体下的相对坐标
+    content.vb: Public Shared Sub SetParentAndPos(transform As Transform, parent As Transform, localPosition As Vector3)
+  overload: Kiwi.Utility.KiwiExtend.SetParentAndPos*
+- uid: Kiwi.Utility.KiwiExtend.GetSelfChildren(UnityEngine.Transform,System.Boolean)
+  commentId: M:Kiwi.Utility.KiwiExtend.GetSelfChildren(UnityEngine.Transform,System.Boolean)
+  id: GetSelfChildren(UnityEngine.Transform,System.Boolean)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: GetSelfChildren(Transform, bool)
+  nameWithType: KiwiExtend.GetSelfChildren(Transform, bool)
+  fullName: Kiwi.Utility.KiwiExtend.GetSelfChildren(UnityEngine.Transform, bool)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetSelfChildren
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+    startLine: 220
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获得 Transform 的子物体(仅 Transform 自己的子对象,不进行递归获取)
+  example: []
+  syntax:
+    content: public static Transform[] GetSelfChildren(this Transform transform, bool includeInactive = false)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: 被扩展的对象
+    - id: includeInactive
+      type: System.Boolean
+      description: 是否获取未激活的子对象
+    return:
+      type: UnityEngine.Transform[]
+      description: ''
+    content.vb: Public Shared Function GetSelfChildren(transform As Transform, includeInactive As Boolean = False) As Transform()
+  overload: Kiwi.Utility.KiwiExtend.GetSelfChildren*
+  nameWithType.vb: KiwiExtend.GetSelfChildren(Transform, Boolean)
+  fullName.vb: Kiwi.Utility.KiwiExtend.GetSelfChildren(UnityEngine.Transform, Boolean)
+  name.vb: GetSelfChildren(Transform, Boolean)
+- uid: Kiwi.Utility.KiwiExtend.GetAllChildren(UnityEngine.Transform,System.Boolean)
+  commentId: M:Kiwi.Utility.KiwiExtend.GetAllChildren(UnityEngine.Transform,System.Boolean)
+  id: GetAllChildren(UnityEngine.Transform,System.Boolean)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: GetAllChildren(Transform, bool)
+  nameWithType: KiwiExtend.GetAllChildren(Transform, bool)
+  fullName: Kiwi.Utility.KiwiExtend.GetAllChildren(UnityEngine.Transform, bool)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetAllChildren
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+    startLine: 243
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获得 Transform 下的所有子物体
+  example: []
+  syntax:
+    content: public static Transform[] GetAllChildren(this Transform transform, bool includeInactive = false)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: 被扩展的对象
+    - id: includeInactive
+      type: System.Boolean
+      description: 是否获取未激活的子对象
+    return:
+      type: UnityEngine.Transform[]
+      description: ''
+    content.vb: Public Shared Function GetAllChildren(transform As Transform, includeInactive As Boolean = False) As Transform()
+  overload: Kiwi.Utility.KiwiExtend.GetAllChildren*
+  nameWithType.vb: KiwiExtend.GetAllChildren(Transform, Boolean)
+  fullName.vb: Kiwi.Utility.KiwiExtend.GetAllChildren(UnityEngine.Transform, Boolean)
+  name.vb: GetAllChildren(Transform, Boolean)
+- uid: Kiwi.Utility.KiwiExtend.GetPath(UnityEngine.Transform)
+  commentId: M:Kiwi.Utility.KiwiExtend.GetPath(UnityEngine.Transform)
+  id: GetPath(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: GetPath(Transform)
+  nameWithType: KiwiExtend.GetPath(Transform)
+  fullName: Kiwi.Utility.KiwiExtend.GetPath(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetPath
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/TransformExtend.cs
+    startLine: 251
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取 Transform 的树结构
+  example: []
+  syntax:
+    content: public static string GetPath(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: 被扩展的对象
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetPath(transform As Transform) As String
+  overload: Kiwi.Utility.KiwiExtend.GetPath*
+- uid: Kiwi.Utility.KiwiExtend.rectTransform(UnityEngine.Component)
+  commentId: M:Kiwi.Utility.KiwiExtend.rectTransform(UnityEngine.Component)
+  id: rectTransform(UnityEngine.Component)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: rectTransform(Component)
+  nameWithType: KiwiExtend.rectTransform(Component)
+  fullName: Kiwi.Utility.KiwiExtend.rectTransform(UnityEngine.Component)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: rectTransform
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs
+    startLine: 14
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获得 GameObject 的 RectTransform 组件
+  example: []
+  syntax:
+    content: public static RectTransform rectTransform(this Component cp)
+    parameters:
+    - id: cp
+      type: UnityEngine.Component
+      description: 被扩展的对象
+    return:
+      type: UnityEngine.RectTransform
+      description: 获取成功返回 RectTransform 组件, 否则返回 null.
+    content.vb: Public Shared Function rectTransform(cp As Component) As RectTransform
+  overload: Kiwi.Utility.KiwiExtend.rectTransform*
+- uid: Kiwi.Utility.KiwiExtend.ForceGetComponent``1(UnityEngine.Component,System.Boolean@)
+  commentId: M:Kiwi.Utility.KiwiExtend.ForceGetComponent``1(UnityEngine.Component,System.Boolean@)
+  id: ForceGetComponent``1(UnityEngine.Component,System.Boolean@)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: ForceGetComponent<T>(Component, out bool)
+  nameWithType: KiwiExtend.ForceGetComponent<T>(Component, out bool)
+  fullName: Kiwi.Utility.KiwiExtend.ForceGetComponent<T>(UnityEngine.Component, out bool)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ForceGetComponent
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs
+    startLine: 23
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件
+  example: []
+  syntax:
+    content: 'public static T ForceGetComponent<T>(this Component cp, out bool exist) where T : Component'
+    parameters:
+    - id: cp
+      type: UnityEngine.Component
+      description: 被扩展的对象
+    - id: exist
+      type: System.Boolean
+      description: 想要获取的组件是否存在
+    typeParameters:
+    - id: T
+      description: 目标组件必须继承自 Component
+    return:
+      type: '{T}'
+      description: 目标组件
+    content.vb: Public Shared Function ForceGetComponent(Of T As Component)(cp As Component, exist As Boolean) As T
+  overload: Kiwi.Utility.KiwiExtend.ForceGetComponent*
+  nameWithType.vb: KiwiExtend.ForceGetComponent(Of T)(Component, Boolean)
+  fullName.vb: Kiwi.Utility.KiwiExtend.ForceGetComponent(Of T)(UnityEngine.Component, Boolean)
+  name.vb: ForceGetComponent(Of T)(Component, Boolean)
+- uid: Kiwi.Utility.KiwiExtend.ForceGetComponent``1(UnityEngine.Component)
+  commentId: M:Kiwi.Utility.KiwiExtend.ForceGetComponent``1(UnityEngine.Component)
+  id: ForceGetComponent``1(UnityEngine.Component)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: ForceGetComponent<T>(Component)
+  nameWithType: KiwiExtend.ForceGetComponent<T>(Component)
+  fullName: Kiwi.Utility.KiwiExtend.ForceGetComponent<T>(UnityEngine.Component)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ForceGetComponent
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs
+    startLine: 43
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件
+  example: []
+  syntax:
+    content: 'public static T ForceGetComponent<T>(this Component cp) where T : Component'
+    parameters:
+    - id: cp
+      type: UnityEngine.Component
+      description: 被扩展的对象
+    typeParameters:
+    - id: T
+      description: 目标组件必须继承自 Component
+    return:
+      type: '{T}'
+      description: 目标组件
+    content.vb: Public Shared Function ForceGetComponent(Of T As Component)(cp As Component) As T
+  overload: Kiwi.Utility.KiwiExtend.ForceGetComponent*
+  nameWithType.vb: KiwiExtend.ForceGetComponent(Of T)(Component)
+  fullName.vb: Kiwi.Utility.KiwiExtend.ForceGetComponent(Of T)(UnityEngine.Component)
+  name.vb: ForceGetComponent(Of T)(Component)
+- uid: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component,System.String,System.Boolean@)
+  commentId: M:Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component,System.String,System.Boolean@)
+  id: ForceGetComponent(UnityEngine.Component,System.String,System.Boolean@)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: ForceGetComponent(Component, string, out bool)
+  nameWithType: KiwiExtend.ForceGetComponent(Component, string, out bool)
+  fullName: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component, string, out bool)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ForceGetComponent
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs
+    startLine: 53
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件
+  example: []
+  syntax:
+    content: public static Component ForceGetComponent(this Component cp, string type, out bool exist)
+    parameters:
+    - id: cp
+      type: UnityEngine.Component
+      description: 被扩展的对象
+    - id: type
+      type: System.String
+      description: 目标组件必须继承自Component,需要带命名空间的完整名称
+    - id: exist
+      type: System.Boolean
+      description: 想要获取的组件是否存在
+    return:
+      type: UnityEngine.Component
+      description: 目标组件
+    content.vb: Public Shared Function ForceGetComponent(cp As Component, type As String, exist As Boolean) As Component
+  overload: Kiwi.Utility.KiwiExtend.ForceGetComponent*
+  nameWithType.vb: KiwiExtend.ForceGetComponent(Component, String, Boolean)
+  fullName.vb: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component, String, Boolean)
+  name.vb: ForceGetComponent(Component, String, Boolean)
+- uid: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component,System.String)
+  commentId: M:Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component,System.String)
+  id: ForceGetComponent(UnityEngine.Component,System.String)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: ForceGetComponent(Component, string)
+  nameWithType: KiwiExtend.ForceGetComponent(Component, string)
+  fullName: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component, string)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ForceGetComponent
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs
+    startLine: 62
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件
+  example: []
+  syntax:
+    content: public static Component ForceGetComponent(this Component cp, string type)
+    parameters:
+    - id: cp
+      type: UnityEngine.Component
+      description: 被扩展的对象
+    - id: type
+      type: System.String
+      description: 目标组件必须继承自Component,需要带命名空间的完整名称
+    return:
+      type: UnityEngine.Component
+      description: 目标组件
+    content.vb: Public Shared Function ForceGetComponent(cp As Component, type As String) As Component
+  overload: Kiwi.Utility.KiwiExtend.ForceGetComponent*
+  nameWithType.vb: KiwiExtend.ForceGetComponent(Component, String)
+  fullName.vb: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component, String)
+  name.vb: ForceGetComponent(Component, String)
+- uid: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component,System.Type,System.Boolean@)
+  commentId: M:Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component,System.Type,System.Boolean@)
+  id: ForceGetComponent(UnityEngine.Component,System.Type,System.Boolean@)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: ForceGetComponent(Component, Type, out bool)
+  nameWithType: KiwiExtend.ForceGetComponent(Component, Type, out bool)
+  fullName: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component, System.Type, out bool)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ForceGetComponent
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs
+    startLine: 72
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件
+  example: []
+  syntax:
+    content: public static Component ForceGetComponent(this Component cp, Type type, out bool exist)
+    parameters:
+    - id: cp
+      type: UnityEngine.Component
+      description: 被扩展的对象
+    - id: type
+      type: System.Type
+      description: 目标组件必须继承自Component
+    - id: exist
+      type: System.Boolean
+      description: 想要获取的组件是否存在
+    return:
+      type: UnityEngine.Component
+      description: 目标组件
+    content.vb: Public Shared Function ForceGetComponent(cp As Component, type As Type, exist As Boolean) As Component
+  overload: Kiwi.Utility.KiwiExtend.ForceGetComponent*
+  nameWithType.vb: KiwiExtend.ForceGetComponent(Component, Type, Boolean)
+  fullName.vb: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component, System.Type, Boolean)
+  name.vb: ForceGetComponent(Component, Type, Boolean)
+- uid: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component,System.Type)
+  commentId: M:Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component,System.Type)
+  id: ForceGetComponent(UnityEngine.Component,System.Type)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: ForceGetComponent(Component, Type)
+  nameWithType: KiwiExtend.ForceGetComponent(Component, Type)
+  fullName: Kiwi.Utility.KiwiExtend.ForceGetComponent(UnityEngine.Component, System.Type)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ForceGetComponent
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/ComponentExtend.cs
+    startLine: 97
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 强制获得对象组件,如果对象未挂载目标组件,则为该对象添加组件
+  example: []
+  syntax:
+    content: public static Component ForceGetComponent(this Component cp, Type type)
+    parameters:
+    - id: cp
+      type: UnityEngine.Component
+      description: 被扩展的对象
+    - id: type
+      type: System.Type
+      description: 目标组件必须继承自Component
+    return:
+      type: UnityEngine.Component
+      description: 目标组件
+    content.vb: Public Shared Function ForceGetComponent(cp As Component, type As Type) As Component
+  overload: Kiwi.Utility.KiwiExtend.ForceGetComponent*
+- uid: Kiwi.Utility.KiwiExtend.EnableCanvasGroup(UnityEngine.Canvas)
+  commentId: M:Kiwi.Utility.KiwiExtend.EnableCanvasGroup(UnityEngine.Canvas)
+  id: EnableCanvasGroup(UnityEngine.Canvas)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: EnableCanvasGroup(Canvas)
+  nameWithType: KiwiExtend.EnableCanvasGroup(Canvas)
+  fullName: Kiwi.Utility.KiwiExtend.EnableCanvasGroup(UnityEngine.Canvas)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/CanvasExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: EnableCanvasGroup
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/CanvasExtend.cs
+    startLine: 13
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 启用 CanvasGroup
+  example: []
+  syntax:
+    content: public static void EnableCanvasGroup(this Canvas canvas)
+    parameters:
+    - id: canvas
+      type: UnityEngine.Canvas
+      description: 被扩展对象
+    content.vb: Public Shared Sub EnableCanvasGroup(canvas As Canvas)
+  overload: Kiwi.Utility.KiwiExtend.EnableCanvasGroup*
+- uid: Kiwi.Utility.KiwiExtend.DisableCanvasGroup(UnityEngine.GameObject)
+  commentId: M:Kiwi.Utility.KiwiExtend.DisableCanvasGroup(UnityEngine.GameObject)
+  id: DisableCanvasGroup(UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: DisableCanvasGroup(GameObject)
+  nameWithType: KiwiExtend.DisableCanvasGroup(GameObject)
+  fullName: Kiwi.Utility.KiwiExtend.DisableCanvasGroup(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/CanvasExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: DisableCanvasGroup
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/CanvasExtend.cs
+    startLine: 26
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 隐藏 CanvasGroup
+  example: []
+  syntax:
+    content: public static void DisableCanvasGroup(this GameObject canvas)
+    parameters:
+    - id: canvas
+      type: UnityEngine.GameObject
+      description: 被扩展对象
+    content.vb: Public Shared Sub DisableCanvasGroup(canvas As GameObject)
+  overload: Kiwi.Utility.KiwiExtend.DisableCanvasGroup*
+- uid: Kiwi.Utility.KiwiExtend.IsNull(UnityEngine.Object)
+  commentId: M:Kiwi.Utility.KiwiExtend.IsNull(UnityEngine.Object)
+  id: IsNull(UnityEngine.Object)
+  isExtensionMethod: true
+  parent: Kiwi.Utility.KiwiExtend
+  langs:
+  - csharp
+  - vb
+  name: IsNull(Object)
+  nameWithType: KiwiExtend.IsNull(Object)
+  fullName: Kiwi.Utility.KiwiExtend.IsNull(UnityEngine.Object)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/KiwiExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: IsNull
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/KiwiExtend.cs
+    startLine: 9
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 判断是否为 null
+  example: []
+  syntax:
+    content: public static bool IsNull(this Object obj)
+    parameters:
+    - id: obj
+      type: UnityEngine.Object
+      description: 被扩展的对象
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function IsNull(obj As [Object]) As Boolean
+  overload: Kiwi.Utility.KiwiExtend.IsNull*
+references:
+- uid: Kiwi.Utility
+  commentId: N:Kiwi.Utility
+  href: Kiwi.html
+  name: Kiwi.Utility
+  nameWithType: Kiwi.Utility
+  fullName: Kiwi.Utility
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Kiwi.Utility.KiwiExtend.ResetZero*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.ResetZero
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_ResetZero_UnityEngine_RectTransform_Kiwi_Utility_AnchorHorizontal_Kiwi_Utility_AnchorVertical_UnityEngine_Transform_
+  name: ResetZero
+  nameWithType: KiwiExtend.ResetZero
+  fullName: Kiwi.Utility.KiwiExtend.ResetZero
+- uid: UnityEngine.RectTransform
+  commentId: T:UnityEngine.RectTransform
+  parent: UnityEngine
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: UnityEngine.RectTransform
+- uid: Kiwi.Utility.AnchorHorizontal
+  commentId: T:Kiwi.Utility.AnchorHorizontal
+  parent: Kiwi.Utility
+  href: Kiwi.Utility.AnchorHorizontal.html
+  name: AnchorHorizontal
+  nameWithType: AnchorHorizontal
+  fullName: Kiwi.Utility.AnchorHorizontal
+- uid: Kiwi.Utility.AnchorVertical
+  commentId: T:Kiwi.Utility.AnchorVertical
+  parent: Kiwi.Utility
+  href: Kiwi.Utility.AnchorVertical.html
+  name: AnchorVertical
+  nameWithType: AnchorVertical
+  fullName: Kiwi.Utility.AnchorVertical
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorPresets*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetAnchorPresets
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetAnchorPresets_UnityEngine_RectTransform_System_Int32_System_Int32_
+  name: SetAnchorPresets
+  nameWithType: KiwiExtend.SetAnchorPresets
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorPresets
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorHorizontal*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetAnchorHorizontal
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetAnchorHorizontal_UnityEngine_RectTransform_System_Int32_
+  name: SetAnchorHorizontal
+  nameWithType: KiwiExtend.SetAnchorHorizontal
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorHorizontal
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorVertical*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetAnchorVertical
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetAnchorVertical_UnityEngine_RectTransform_System_Int32_
+  name: SetAnchorVertical
+  nameWithType: KiwiExtend.SetAnchorVertical
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorVertical
+- uid: Kiwi.Utility.AnchorPresets
+  commentId: T:Kiwi.Utility.AnchorPresets
+  parent: Kiwi.Utility
+  href: Kiwi.Utility.AnchorPresets.html
+  name: AnchorPresets
+  nameWithType: AnchorPresets
+  fullName: Kiwi.Utility.AnchorPresets
+- uid: Kiwi.Utility.KiwiExtend.SetAnchor*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetAnchor
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetAnchor_UnityEngine_RectTransform_System_Int32_System_Single_System_Single_
+  name: SetAnchor
+  nameWithType: KiwiExtend.SetAnchor
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchor
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorMin*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetAnchorMin
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetAnchorMin_UnityEngine_RectTransform_System_Single_System_Single_
+  name: SetAnchorMin
+  nameWithType: KiwiExtend.SetAnchorMin
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorMin
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorMinX*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetAnchorMinX
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetAnchorMinX_UnityEngine_RectTransform_System_Single_
+  name: SetAnchorMinX
+  nameWithType: KiwiExtend.SetAnchorMinX
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorMinX
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorMinY*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetAnchorMinY
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetAnchorMinY_UnityEngine_RectTransform_System_Single_
+  name: SetAnchorMinY
+  nameWithType: KiwiExtend.SetAnchorMinY
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorMinY
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorMax*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetAnchorMax
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetAnchorMax_UnityEngine_RectTransform_System_Single_System_Single_
+  name: SetAnchorMax
+  nameWithType: KiwiExtend.SetAnchorMax
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorMax
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorMaxX*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetAnchorMaxX
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetAnchorMaxX_UnityEngine_RectTransform_System_Single_
+  name: SetAnchorMaxX
+  nameWithType: KiwiExtend.SetAnchorMaxX
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorMaxX
+- uid: Kiwi.Utility.KiwiExtend.SetAnchorMaxY*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetAnchorMaxY
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetAnchorMaxY_UnityEngine_RectTransform_System_Single_
+  name: SetAnchorMaxY
+  nameWithType: KiwiExtend.SetAnchorMaxY
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchorMaxY
+- uid: Kiwi.Utility.KiwiExtend.SetPivot*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetPivot
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetPivot_UnityEngine_RectTransform_System_Single_System_Single_
+  name: SetPivot
+  nameWithType: KiwiExtend.SetPivot
+  fullName: Kiwi.Utility.KiwiExtend.SetPivot
+- uid: Kiwi.Utility.PivotPresets
+  commentId: T:Kiwi.Utility.PivotPresets
+  parent: Kiwi.Utility
+  href: Kiwi.Utility.PivotPresets.html
+  name: PivotPresets
+  nameWithType: PivotPresets
+  fullName: Kiwi.Utility.PivotPresets
+- uid: Kiwi.Utility.KiwiExtend.IsAnchorPresets*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.IsAnchorPresets
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_IsAnchorPresets_UnityEngine_RectTransform_System_Int32_System_Int32_
+  name: IsAnchorPresets
+  nameWithType: KiwiExtend.IsAnchorPresets
+  fullName: Kiwi.Utility.KiwiExtend.IsAnchorPresets
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Kiwi.Utility.KiwiExtend.IsAnchorHorizontal*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.IsAnchorHorizontal
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_IsAnchorHorizontal_UnityEngine_RectTransform_System_Int32_
+  name: IsAnchorHorizontal
+  nameWithType: KiwiExtend.IsAnchorHorizontal
+  fullName: Kiwi.Utility.KiwiExtend.IsAnchorHorizontal
+- uid: Kiwi.Utility.KiwiExtend.IsAnchorVertical*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.IsAnchorVertical
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_IsAnchorVertical_UnityEngine_RectTransform_System_Int32_
+  name: IsAnchorVertical
+  nameWithType: KiwiExtend.IsAnchorVertical
+  fullName: Kiwi.Utility.KiwiExtend.IsAnchorVertical
+- uid: Kiwi.Utility.KiwiExtend.GetAnchoredPosition*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.GetAnchoredPosition
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_GetAnchoredPosition_UnityEngine_RectTransform_System_Single__System_Single__
+  name: GetAnchoredPosition
+  nameWithType: KiwiExtend.GetAnchoredPosition
+  fullName: Kiwi.Utility.KiwiExtend.GetAnchoredPosition
+- uid: Kiwi.Utility.KiwiExtend.SetAnchoredPosition*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetAnchoredPosition
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetAnchoredPosition_UnityEngine_RectTransform_UnityEngine_Vector2_
+  name: SetAnchoredPosition
+  nameWithType: KiwiExtend.SetAnchoredPosition
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchoredPosition
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: Kiwi.Utility.KiwiExtend.SetAnchoredPositionX*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetAnchoredPositionX
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetAnchoredPositionX_UnityEngine_RectTransform_System_Single_
+  name: SetAnchoredPositionX
+  nameWithType: KiwiExtend.SetAnchoredPositionX
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchoredPositionX
+- uid: Kiwi.Utility.KiwiExtend.SetAnchoredPositionY*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetAnchoredPositionY
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetAnchoredPositionY_UnityEngine_RectTransform_System_Single_
+  name: SetAnchoredPositionY
+  nameWithType: KiwiExtend.SetAnchoredPositionY
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchoredPositionY
+- uid: Kiwi.Utility.KiwiExtend.GetAnchoredPosition3D*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.GetAnchoredPosition3D
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_GetAnchoredPosition3D_UnityEngine_RectTransform_System_Single__System_Single__System_Single__
+  name: GetAnchoredPosition3D
+  nameWithType: KiwiExtend.GetAnchoredPosition3D
+  fullName: Kiwi.Utility.KiwiExtend.GetAnchoredPosition3D
+- uid: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetAnchoredPosition3D_UnityEngine_RectTransform_UnityEngine_Vector3_
+  name: SetAnchoredPosition3D
+  nameWithType: KiwiExtend.SetAnchoredPosition3D
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3D
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DX*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DX
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetAnchoredPosition3DX_UnityEngine_RectTransform_System_Single_
+  name: SetAnchoredPosition3DX
+  nameWithType: KiwiExtend.SetAnchoredPosition3DX
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DX
+- uid: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DY*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DY
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetAnchoredPosition3DY_UnityEngine_RectTransform_System_Single_
+  name: SetAnchoredPosition3DY
+  nameWithType: KiwiExtend.SetAnchoredPosition3DY
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DY
+- uid: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DZ*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DZ
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetAnchoredPosition3DZ_UnityEngine_RectTransform_System_Single_
+  name: SetAnchoredPosition3DZ
+  nameWithType: KiwiExtend.SetAnchoredPosition3DZ
+  fullName: Kiwi.Utility.KiwiExtend.SetAnchoredPosition3DZ
+- uid: Kiwi.Utility.KiwiExtend.GetWidth*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.GetWidth
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_GetWidth_UnityEngine_RectTransform_
+  name: GetWidth
+  nameWithType: KiwiExtend.GetWidth
+  fullName: Kiwi.Utility.KiwiExtend.GetWidth
+- uid: Kiwi.Utility.KiwiExtend.GetHeight*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.GetHeight
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_GetHeight_UnityEngine_RectTransform_
+  name: GetHeight
+  nameWithType: KiwiExtend.GetHeight
+  fullName: Kiwi.Utility.KiwiExtend.GetHeight
+- uid: Kiwi.Utility.KiwiExtend.GetSize*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.GetSize
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_GetSize_UnityEngine_RectTransform_
+  name: GetSize
+  nameWithType: KiwiExtend.GetSize
+  fullName: Kiwi.Utility.KiwiExtend.GetSize
+- uid: Kiwi.Utility.KiwiExtend.SetWidth*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetWidth
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetWidth_UnityEngine_RectTransform_System_Single_
+  name: SetWidth
+  nameWithType: KiwiExtend.SetWidth
+  fullName: Kiwi.Utility.KiwiExtend.SetWidth
+- uid: Kiwi.Utility.KiwiExtend.SetHeight*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetHeight
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetHeight_UnityEngine_RectTransform_System_Single_
+  name: SetHeight
+  nameWithType: KiwiExtend.SetHeight
+  fullName: Kiwi.Utility.KiwiExtend.SetHeight
+- uid: Kiwi.Utility.KiwiExtend.SetSize*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetSize
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetSize_UnityEngine_RectTransform_System_Single_System_Single_
+  name: SetSize
+  nameWithType: KiwiExtend.SetSize
+  fullName: Kiwi.Utility.KiwiExtend.SetSize
+- uid: Kiwi.Utility.KiwiExtend.GetSizeDelta*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.GetSizeDelta
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_GetSizeDelta_UnityEngine_RectTransform_System_Single__System_Single__
+  name: GetSizeDelta
+  nameWithType: KiwiExtend.GetSizeDelta
+  fullName: Kiwi.Utility.KiwiExtend.GetSizeDelta
+- uid: Kiwi.Utility.KiwiExtend.SetSizeDelta*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetSizeDelta
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetSizeDelta_UnityEngine_RectTransform_UnityEngine_Vector2_
+  name: SetSizeDelta
+  nameWithType: KiwiExtend.SetSizeDelta
+  fullName: Kiwi.Utility.KiwiExtend.SetSizeDelta
+- uid: Kiwi.Utility.KiwiExtend.SetFullStretch*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetFullStretch
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetFullStretch_UnityEngine_RectTransform_
+  name: SetFullStretch
+  nameWithType: KiwiExtend.SetFullStretch
+  fullName: Kiwi.Utility.KiwiExtend.SetFullStretch
+- uid: Kiwi.Utility.KiwiExtend.Overlaps*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.Overlaps
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_Overlaps_UnityEngine_RectTransform_UnityEngine_RectTransform_
+  name: Overlaps
+  nameWithType: KiwiExtend.Overlaps
+  fullName: Kiwi.Utility.KiwiExtend.Overlaps
+- uid: Kiwi.Utility.KiwiExtend.rectTransform*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.rectTransform
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_rectTransform_UnityEngine_GameObject_
+  name: rectTransform
+  nameWithType: KiwiExtend.rectTransform
+  fullName: Kiwi.Utility.KiwiExtend.rectTransform
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: Kiwi.Utility.KiwiExtend.ForceGetComponent*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.ForceGetComponent
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_ForceGetComponent__1_UnityEngine_GameObject_System_Boolean__
+  name: ForceGetComponent
+  nameWithType: KiwiExtend.ForceGetComponent
+  fullName: Kiwi.Utility.KiwiExtend.ForceGetComponent
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Kiwi.Utility.KiwiExtend.SetLayer*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetLayer
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetLayer_UnityEngine_GameObject_System_Int32_System_Boolean_System_Boolean_System_Boolean_
+  name: SetLayer
+  nameWithType: KiwiExtend.SetLayer
+  fullName: Kiwi.Utility.KiwiExtend.SetLayer
+- uid: Kiwi.Utility.KiwiExtend.SetDisplay*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetDisplay
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetDisplay_UnityEngine_GameObject_System_Boolean_
+  name: SetDisplay
+  nameWithType: KiwiExtend.SetDisplay
+  fullName: Kiwi.Utility.KiwiExtend.SetDisplay
+- uid: Kiwi.Utility.KiwiExtend.FindChildWithTag*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.FindChildWithTag
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_FindChildWithTag_UnityEngine_GameObject_System_String_UnityEngine_GameObject__
+  name: FindChildWithTag
+  nameWithType: KiwiExtend.FindChildWithTag
+  fullName: Kiwi.Utility.KiwiExtend.FindChildWithTag
+- uid: Kiwi.Utility.KiwiExtend.FindChild*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.FindChild
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_FindChild_UnityEngine_GameObject_System_String_
+  name: FindChild
+  nameWithType: KiwiExtend.FindChild
+  fullName: Kiwi.Utility.KiwiExtend.FindChild
+- uid: Kiwi.Utility.KiwiExtend.GetCenterPosition*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.GetCenterPosition
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_GetCenterPosition_UnityEngine_GameObject_
+  name: GetCenterPosition
+  nameWithType: KiwiExtend.GetCenterPosition
+  fullName: Kiwi.Utility.KiwiExtend.GetCenterPosition
+- uid: Kiwi.Utility.KiwiExtend.GetPosition*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.GetPosition
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_GetPosition_UnityEngine_Transform_System_Single__System_Single__System_Single__
+  name: GetPosition
+  nameWithType: KiwiExtend.GetPosition
+  fullName: Kiwi.Utility.KiwiExtend.GetPosition
+- uid: Kiwi.Utility.KiwiExtend.SetPosition*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetPosition
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetPosition_UnityEngine_Transform_UnityEngine_Vector3_
+  name: SetPosition
+  nameWithType: KiwiExtend.SetPosition
+  fullName: Kiwi.Utility.KiwiExtend.SetPosition
+- uid: Kiwi.Utility.KiwiExtend.GetLocalPosition*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.GetLocalPosition
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_GetLocalPosition_UnityEngine_Transform_System_Single__System_Single__System_Single__
+  name: GetLocalPosition
+  nameWithType: KiwiExtend.GetLocalPosition
+  fullName: Kiwi.Utility.KiwiExtend.GetLocalPosition
+- uid: Kiwi.Utility.KiwiExtend.SetLocalPosition*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetLocalPosition
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetLocalPosition_UnityEngine_Transform_UnityEngine_Vector3_
+  name: SetLocalPosition
+  nameWithType: KiwiExtend.SetLocalPosition
+  fullName: Kiwi.Utility.KiwiExtend.SetLocalPosition
+- uid: Kiwi.Utility.KiwiExtend.SetEuler*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetEuler
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetEuler_UnityEngine_Transform_UnityEngine_Vector3_
+  name: SetEuler
+  nameWithType: KiwiExtend.SetEuler
+  fullName: Kiwi.Utility.KiwiExtend.SetEuler
+- uid: Kiwi.Utility.KiwiExtend.SetLocalEuler*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetLocalEuler
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetLocalEuler_UnityEngine_Transform_UnityEngine_Vector3_
+  name: SetLocalEuler
+  nameWithType: KiwiExtend.SetLocalEuler
+  fullName: Kiwi.Utility.KiwiExtend.SetLocalEuler
+- uid: Kiwi.Utility.KiwiExtend.GetLocalScale*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.GetLocalScale
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_GetLocalScale_UnityEngine_Transform_System_Single__System_Single__System_Single__
+  name: GetLocalScale
+  nameWithType: KiwiExtend.GetLocalScale
+  fullName: Kiwi.Utility.KiwiExtend.GetLocalScale
+- uid: Kiwi.Utility.KiwiExtend.SetLocalScale*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetLocalScale
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetLocalScale_UnityEngine_Transform_UnityEngine_Vector3_
+  name: SetLocalScale
+  nameWithType: KiwiExtend.SetLocalScale
+  fullName: Kiwi.Utility.KiwiExtend.SetLocalScale
+- uid: Kiwi.Utility.KiwiExtend.SetParentAndPos*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.SetParentAndPos
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_SetParentAndPos_UnityEngine_Transform_UnityEngine_Transform_UnityEngine_Vector3_
+  name: SetParentAndPos
+  nameWithType: KiwiExtend.SetParentAndPos
+  fullName: Kiwi.Utility.KiwiExtend.SetParentAndPos
+- uid: Kiwi.Utility.KiwiExtend.GetSelfChildren*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.GetSelfChildren
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_GetSelfChildren_UnityEngine_Transform_System_Boolean_
+  name: GetSelfChildren
+  nameWithType: KiwiExtend.GetSelfChildren
+  fullName: Kiwi.Utility.KiwiExtend.GetSelfChildren
+- uid: UnityEngine.Transform[]
+  isExternal: true
+  name: Transform[]
+  nameWithType: Transform[]
+  fullName: UnityEngine.Transform[]
+  nameWithType.vb: Transform()
+  fullName.vb: UnityEngine.Transform()
+  name.vb: Transform()
+  spec.csharp:
+  - uid: UnityEngine.Transform
+    name: Transform
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: UnityEngine.Transform
+    name: Transform
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Kiwi.Utility.KiwiExtend.GetAllChildren*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.GetAllChildren
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_GetAllChildren_UnityEngine_Transform_System_Boolean_
+  name: GetAllChildren
+  nameWithType: KiwiExtend.GetAllChildren
+  fullName: Kiwi.Utility.KiwiExtend.GetAllChildren
+- uid: Kiwi.Utility.KiwiExtend.GetPath*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.GetPath
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_GetPath_UnityEngine_Transform_
+  name: GetPath
+  nameWithType: KiwiExtend.GetPath
+  fullName: Kiwi.Utility.KiwiExtend.GetPath
+- uid: Kiwi.Utility.KiwiExtend.EnableCanvasGroup*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.EnableCanvasGroup
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_EnableCanvasGroup_UnityEngine_Canvas_
+  name: EnableCanvasGroup
+  nameWithType: KiwiExtend.EnableCanvasGroup
+  fullName: Kiwi.Utility.KiwiExtend.EnableCanvasGroup
+- uid: UnityEngine.Canvas
+  commentId: T:UnityEngine.Canvas
+  parent: UnityEngine
+  isExternal: true
+  name: Canvas
+  nameWithType: Canvas
+  fullName: UnityEngine.Canvas
+- uid: Kiwi.Utility.KiwiExtend.DisableCanvasGroup*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.DisableCanvasGroup
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_DisableCanvasGroup_UnityEngine_GameObject_
+  name: DisableCanvasGroup
+  nameWithType: KiwiExtend.DisableCanvasGroup
+  fullName: Kiwi.Utility.KiwiExtend.DisableCanvasGroup
+- uid: Kiwi.Utility.KiwiExtend.IsNull*
+  commentId: Overload:Kiwi.Utility.KiwiExtend.IsNull
+  href: Kiwi.Utility.KiwiExtend.html#Kiwi_Utility_KiwiExtend_IsNull_UnityEngine_Object_
+  name: IsNull
+  nameWithType: KiwiExtend.IsNull
+  fullName: Kiwi.Utility.KiwiExtend.IsNull
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object

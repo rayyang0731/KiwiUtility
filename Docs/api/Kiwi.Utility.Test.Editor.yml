@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.Test.Editor
+  commentId: N:Kiwi.Utility.Test.Editor
+  id: Kiwi.Utility.Test.Editor
+  children:
+  - Kiwi.Utility.Test.Editor.TimeConvertTest
+  langs:
+  - csharp
+  - vb
+  name: Kiwi.Utility.Test.Editor
+  nameWithType: Kiwi.Utility.Test.Editor
+  fullName: Kiwi.Utility.Test.Editor
+  type: Namespace
+  assemblies:
+  - com.kiwi.utility.editor.test
+references:
+- uid: Kiwi.Utility.Test.Editor.TimeConvertTest
+  commentId: T:Kiwi.Utility.Test.Editor.TimeConvertTest
+  href: Kiwi.Utility.Test.Editor.TimeConvertTest.html
+  name: TimeConvertTest
+  nameWithType: TimeConvertTest
+  fullName: Kiwi.Utility.Test.Editor.TimeConvertTest

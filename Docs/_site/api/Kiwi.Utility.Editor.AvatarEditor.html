@@ -1,0 +1,495 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AvatarEditor | Kiwi Utility </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AvatarEditor | Kiwi Utility ">
+      
+      <meta name="description" content="模型预览编辑窗体 fork from Graphi">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/rayyang0731/KiwiEditorUtitlity/new/main/apiSpec/new?filename=Kiwi_Utility_Editor_AvatarEditor.md&amp;value=---%0Auid%3A%20Kiwi.Utility.Editor.AvatarEditor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Kiwi Utility">
+            Kiwi Utility
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Kiwi.Utility.Editor.AvatarEditor">
+
+
+
+  <h1 id="Kiwi_Utility_Editor_AvatarEditor" data-uid="Kiwi.Utility.Editor.AvatarEditor" class="text-break">
+Class AvatarEditor  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Kiwi.html">Kiwi</a>.<a class="xref" href="Kiwi.Utility.html">Utility</a>.<a class="xref" href="Kiwi.Utility.Editor.html">Editor</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>com.kiwi.utility.editor.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>模型预览编辑窗体</p>
+<p>fork from Graphi</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AvatarEditor</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AvatarEditor</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Kiwi_Utility_Editor_AvatarEditor__ctor_" data-uid="Kiwi.Utility.Editor.AvatarEditor.#ctor*"></a>
+
+  <h3 id="Kiwi_Utility_Editor_AvatarEditor__ctor_UnityEditor_EditorWindow_" data-uid="Kiwi.Utility.Editor.AvatarEditor.#ctor(UnityEditor.EditorWindow)">
+  AvatarEditor(EditorWindow)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>构造</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AvatarEditor(EditorWindow editor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>editor</code> <span class="xref">EditorWindow</span></dt>
+    <dd><p>父窗体</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Kiwi_Utility_Editor_AvatarEditor_PreviewInstance_" data-uid="Kiwi.Utility.Editor.AvatarEditor.PreviewInstance*"></a>
+
+  <h3 id="Kiwi_Utility_Editor_AvatarEditor_PreviewInstance" data-uid="Kiwi.Utility.Editor.AvatarEditor.PreviewInstance">
+  PreviewInstance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取预览对象实例（可对实例进行相关操作）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject PreviewInstance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Kiwi_Utility_Editor_AvatarEditor_AddModule_" data-uid="Kiwi.Utility.Editor.AvatarEditor.AddModule*"></a>
+
+  <h3 id="Kiwi_Utility_Editor_AvatarEditor_AddModule__1" data-uid="Kiwi.Utility.Editor.AvatarEditor.AddModule``1">
+  AddModule&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加模块</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T AddModule&lt;T&gt;() where T : class, IPreviewModule</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_Editor_AvatarEditor_Dispose_" data-uid="Kiwi.Utility.Editor.AvatarEditor.Dispose*"></a>
+
+  <h3 id="Kiwi_Utility_Editor_AvatarEditor_Dispose" data-uid="Kiwi.Utility.Editor.AvatarEditor.Dispose">
+  Dispose()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>释放（在父窗体被关闭时，必须在 OnDestroy 内调用）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_Editor_AvatarEditor_Draw_" data-uid="Kiwi.Utility.Editor.AvatarEditor.Draw*"></a>
+
+  <h3 id="Kiwi_Utility_Editor_AvatarEditor_Draw_UnityEngine_Rect_System_Single_" data-uid="Kiwi.Utility.Editor.AvatarEditor.Draw(UnityEngine.Rect,System.Single)">
+  Draw(Rect, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>绘制（在父类的 OnGUI 中调用）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Draw(Rect rect, float extraHeight = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <span class="xref">Rect</span></dt>
+    <dd><p>预览窗体所在的父窗体尺寸 <span class="xref">(详情请查看 EditorWindow.position)</span></p>
+</dd>
+    <dt><code>extraHeight</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>父窗体纵向排布的组件高度总和（也就是除此预览窗体外每一行的行高总和）<a class="xref" href="Kiwi.Utility.Editor.AvatarEditor.html#Kiwi_Utility_Editor_AvatarEditor_GetPropertyHeight_UnityEditor_SerializedPropertyType_UnityEngine_GUIContent_">(可使用此类的 GetPropertyHeight 函数获取组件高度)</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_Editor_AvatarEditor_GetModule_" data-uid="Kiwi.Utility.Editor.AvatarEditor.GetModule*"></a>
+
+  <h3 id="Kiwi_Utility_Editor_AvatarEditor_GetModule__1" data-uid="Kiwi.Utility.Editor.AvatarEditor.GetModule``1">
+  GetModule&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取模块</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetModule&lt;T&gt;() where T : class, IPreviewModule</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>如果不存在,返回Null</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>模块类型</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_Editor_AvatarEditor_GetPropertyHeight_" data-uid="Kiwi.Utility.Editor.AvatarEditor.GetPropertyHeight*"></a>
+
+  <h3 id="Kiwi_Utility_Editor_AvatarEditor_GetPropertyHeight_UnityEditor_SerializedPropertyType_UnityEngine_GUIContent_" data-uid="Kiwi.Utility.Editor.AvatarEditor.GetPropertyHeight(UnityEditor.SerializedPropertyType,UnityEngine.GUIContent)">
+  GetPropertyHeight(SerializedPropertyType, GUIContent)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取 EditorWindow 内组件的高度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetPropertyHeight(SerializedPropertyType type, GUIContent label = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <span class="xref">SerializedPropertyType</span></dt>
+    <dd><p>组件类型</p>
+</dd>
+    <dt><code>label</code> <span class="xref">GUIContent</span></dt>
+    <dd><p>标签（默认：空字符）</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_Editor_AvatarEditor_ResetPreviewObj_" data-uid="Kiwi.Utility.Editor.AvatarEditor.ResetPreviewObj*"></a>
+
+  <h3 id="Kiwi_Utility_Editor_AvatarEditor_ResetPreviewObj_UnityEngine_GameObject_" data-uid="Kiwi.Utility.Editor.AvatarEditor.ResetPreviewObj(UnityEngine.GameObject)">
+  ResetPreviewObj(GameObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs/#L267"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>重置预览对象</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetPreviewObj(GameObject obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_Editor_AvatarEditor_Update_" data-uid="Kiwi.Utility.Editor.AvatarEditor.Update*"></a>
+
+  <h3 id="Kiwi_Utility_Editor_AvatarEditor_Update" data-uid="Kiwi.Utility.Editor.AvatarEditor.Update">
+  Update()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>刷新（在父窗体的 Update 中调用）</p>
+<p>包含动画等</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Update()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs/#L16" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

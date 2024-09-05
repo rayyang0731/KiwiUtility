@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+  commentId: T:Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+  id: PlayerPrefsBrowser.ValueType
+  parent: Kiwi.Utility.Editor
+  children:
+  - Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.Bool
+  - Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.Float
+  - Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.Int
+  - Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.String
+  langs:
+  - csharp
+  - vb
+  name: PlayerPrefsBrowser.ValueType
+  nameWithType: PlayerPrefsBrowser.ValueType
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+  type: Enum
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ValueType
+    path: ../Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+    startLine: 507
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: Value 类型
+  example: []
+  syntax:
+    content: public enum PlayerPrefsBrowser.ValueType
+    content.vb: Public Enum PlayerPrefsBrowser.ValueType
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.String
+  commentId: F:Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.String
+  id: String
+  parent: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: PlayerPrefsBrowser.ValueType.String
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.String
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: String
+    path: ../Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+    startLine: 509
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  syntax:
+    content: String = 0
+    return:
+      type: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.Int
+  commentId: F:Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.Int
+  id: Int
+  parent: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+  langs:
+  - csharp
+  - vb
+  name: Int
+  nameWithType: PlayerPrefsBrowser.ValueType.Int
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.Int
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Int
+    path: ../Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+    startLine: 510
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  syntax:
+    content: Int = 1
+    return:
+      type: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.Float
+  commentId: F:Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.Float
+  id: Float
+  parent: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+  langs:
+  - csharp
+  - vb
+  name: Float
+  nameWithType: PlayerPrefsBrowser.ValueType.Float
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.Float
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Float
+    path: ../Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+    startLine: 511
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  syntax:
+    content: Float = 2
+    return:
+      type: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.Bool
+  commentId: F:Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.Bool
+  id: Bool
+  parent: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+  langs:
+  - csharp
+  - vb
+  name: Bool
+  nameWithType: PlayerPrefsBrowser.ValueType.Bool
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.Bool
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Bool
+    path: ../Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+    startLine: 512
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  syntax:
+    content: Bool = 3
+    return:
+      type: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+references:
+- uid: Kiwi.Utility.Editor
+  commentId: N:Kiwi.Utility.Editor
+  href: Kiwi.html
+  name: Kiwi.Utility.Editor
+  nameWithType: Kiwi.Utility.Editor
+  fullName: Kiwi.Utility.Editor
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Editor
+    name: Editor
+    href: Kiwi.Utility.Editor.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Editor
+    name: Editor
+    href: Kiwi.Utility.Editor.html
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+  commentId: T:Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+  parent: Kiwi.Utility.Editor
+  href: Kiwi.Utility.Editor.PlayerPrefsBrowser.html
+  name: PlayerPrefsBrowser.ValueType
+  nameWithType: PlayerPrefsBrowser.ValueType
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+  spec.csharp:
+  - uid: Kiwi.Utility.Editor.PlayerPrefsBrowser
+    name: PlayerPrefsBrowser
+    href: Kiwi.Utility.Editor.PlayerPrefsBrowser.html
+  - name: .
+  - uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+    name: ValueType
+    href: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.html
+  spec.vb:
+  - uid: Kiwi.Utility.Editor.PlayerPrefsBrowser
+    name: PlayerPrefsBrowser
+    href: Kiwi.Utility.Editor.PlayerPrefsBrowser.html
+  - name: .
+  - uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+    name: ValueType
+    href: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.html

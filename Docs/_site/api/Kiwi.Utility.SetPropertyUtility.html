@@ -1,0 +1,587 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SetPropertyUtility | Kiwi Utility </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SetPropertyUtility | Kiwi Utility ">
+      
+      <meta name="description" content="属性设置工具集">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/rayyang0731/KiwiEditorUtitlity/new/main/apiSpec/new?filename=Kiwi_Utility_SetPropertyUtility.md&amp;value=---%0Auid%3A%20Kiwi.Utility.SetPropertyUtility%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Kiwi Utility">
+            Kiwi Utility
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Kiwi.Utility.SetPropertyUtility">
+
+
+
+  <h1 id="Kiwi_Utility_SetPropertyUtility" data-uid="Kiwi.Utility.SetPropertyUtility" class="text-break">
+Class SetPropertyUtility  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/SetPropertyUtil.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Kiwi.html">Kiwi</a>.<a class="xref" href="Kiwi.Utility.html">Utility</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>com.kiwi.utility.runtime.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>属性设置工具集</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class SetPropertyUtility</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">SetPropertyUtility</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Kiwi_Utility_SetPropertyUtility_SetClass_" data-uid="Kiwi.Utility.SetPropertyUtility.SetClass*"></a>
+
+  <h3 id="Kiwi_Utility_SetPropertyUtility_SetClass__1___0____0_" data-uid="Kiwi.Utility.SetPropertyUtility.SetClass``1(``0@,``0)">
+  SetClass&lt;T&gt;(ref T, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/SetPropertyUtil.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置类数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SetClass&lt;T&gt;(ref T currentValue, T newValue) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentValue</code> <span class="xref">T</span></dt>
+    <dd><p>当前类数据</p>
+</dd>
+    <dt><code>newValue</code> <span class="xref">T</span></dt>
+    <dd><p>要设置的类数据</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果设置成功返回 true,否则返回 false</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_SetPropertyUtility_SetColor_" data-uid="Kiwi.Utility.SetPropertyUtility.SetColor*"></a>
+
+  <h3 id="Kiwi_Utility_SetPropertyUtility_SetColor_UnityEngine_Color__System_Single_System_Single_System_Single_System_Single_" data-uid="Kiwi.Utility.SetPropertyUtility.SetColor(UnityEngine.Color@,System.Single,System.Single,System.Single,System.Single)">
+  SetColor(ref Color, float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/SetPropertyUtil.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置颜色</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SetColor(ref Color currentValue, float r, float g, float b, float a)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentValue</code> <span class="xref">Color</span></dt>
+    <dd><p>当前颜色值</p>
+</dd>
+    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的红色色值</p>
+</dd>
+    <dt><code>g</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的绿色色值</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的蓝色色值</p>
+</dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的透明度</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果设置成功返回 true,否则返回 false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_SetPropertyUtility_SetColor_" data-uid="Kiwi.Utility.SetPropertyUtility.SetColor*"></a>
+
+  <h3 id="Kiwi_Utility_SetPropertyUtility_SetColor_UnityEngine_Color__UnityEngine_Color_" data-uid="Kiwi.Utility.SetPropertyUtility.SetColor(UnityEngine.Color@,UnityEngine.Color)">
+  SetColor(ref Color, Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/SetPropertyUtil.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置颜色</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SetColor(ref Color currentValue, Color newValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentValue</code> <span class="xref">Color</span></dt>
+    <dd><p>当前颜色值</p>
+</dd>
+    <dt><code>newValue</code> <span class="xref">Color</span></dt>
+    <dd><p>要设置的颜色值</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果设置成功返回 true,否则返回 false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_SetPropertyUtility_SetFloat_" data-uid="Kiwi.Utility.SetPropertyUtility.SetFloat*"></a>
+
+  <h3 id="Kiwi_Utility_SetPropertyUtility_SetFloat_System_Single__System_Single_" data-uid="Kiwi.Utility.SetPropertyUtility.SetFloat(System.Single@,System.Single)">
+  SetFloat(ref float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/SetPropertyUtil.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置 Float</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SetFloat(ref float currentValue, float newValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>当前 Float 值</p>
+</dd>
+    <dt><code>newValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的 Float 值</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果设置成功返回 true,否则返回 false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_SetPropertyUtility_SetStruct_" data-uid="Kiwi.Utility.SetPropertyUtility.SetStruct*"></a>
+
+  <h3 id="Kiwi_Utility_SetPropertyUtility_SetStruct__1___0____0_" data-uid="Kiwi.Utility.SetPropertyUtility.SetStruct``1(``0@,``0)">
+  SetStruct&lt;T&gt;(ref T, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/SetPropertyUtil.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置结构体数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SetStruct&lt;T&gt;(ref T currentValue, T newValue) where T : struct</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentValue</code> <span class="xref">T</span></dt>
+    <dd><p>当前结构体数据</p>
+</dd>
+    <dt><code>newValue</code> <span class="xref">T</span></dt>
+    <dd><p>要设置的结构体数据</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果设置成功返回 true,否则返回 false</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_SetPropertyUtility_SetVector2_" data-uid="Kiwi.Utility.SetPropertyUtility.SetVector2*"></a>
+
+  <h3 id="Kiwi_Utility_SetPropertyUtility_SetVector2_UnityEngine_Vector2__System_Single_System_Single_" data-uid="Kiwi.Utility.SetPropertyUtility.SetVector2(UnityEngine.Vector2@,System.Single,System.Single)">
+  SetVector2(ref Vector2, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/SetPropertyUtil.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置 Vector2</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SetVector2(ref Vector2 currentValue, float x, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentValue</code> <span class="xref">Vector2</span></dt>
+    <dd><p>当前 Vector2 值</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的 x 值</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的 y 值</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果设置成功返回 true,否则返回 false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_SetPropertyUtility_SetVector2_" data-uid="Kiwi.Utility.SetPropertyUtility.SetVector2*"></a>
+
+  <h3 id="Kiwi_Utility_SetPropertyUtility_SetVector2_UnityEngine_Vector2__UnityEngine_Vector2_" data-uid="Kiwi.Utility.SetPropertyUtility.SetVector2(UnityEngine.Vector2@,UnityEngine.Vector2)">
+  SetVector2(ref Vector2, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/SetPropertyUtil.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置 Vector2</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SetVector2(ref Vector2 currentValue, Vector2 newValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentValue</code> <span class="xref">Vector2</span></dt>
+    <dd><p>当前 Vector2 值</p>
+</dd>
+    <dt><code>newValue</code> <span class="xref">Vector2</span></dt>
+    <dd><p>要设置的 Vector2 值</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果设置成功返回 true,否则返回 false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_SetPropertyUtility_SetVector3_" data-uid="Kiwi.Utility.SetPropertyUtility.SetVector3*"></a>
+
+  <h3 id="Kiwi_Utility_SetPropertyUtility_SetVector3_UnityEngine_Vector3__System_Single_System_Single_System_Single_" data-uid="Kiwi.Utility.SetPropertyUtility.SetVector3(UnityEngine.Vector3@,System.Single,System.Single,System.Single)">
+  SetVector3(ref Vector3, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/SetPropertyUtil.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置 Vector3</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SetVector3(ref Vector3 currentValue, float x, float y, float z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentValue</code> <span class="xref">Vector3</span></dt>
+    <dd><p>当前 Vector3 值</p>
+</dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的 x 值</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的 y 值</p>
+</dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>要设置的 z 值</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果设置成功返回 true,否则返回 false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_SetPropertyUtility_SetVector3_" data-uid="Kiwi.Utility.SetPropertyUtility.SetVector3*"></a>
+
+  <h3 id="Kiwi_Utility_SetPropertyUtility_SetVector3_UnityEngine_Vector3__UnityEngine_Vector3_" data-uid="Kiwi.Utility.SetPropertyUtility.SetVector3(UnityEngine.Vector3@,UnityEngine.Vector3)">
+  SetVector3(ref Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/SetPropertyUtil.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置 Vector3</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SetVector3(ref Vector3 currentValue, Vector3 newValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentValue</code> <span class="xref">Vector3</span></dt>
+    <dd><p>当前 Vector3 值</p>
+</dd>
+    <dt><code>newValue</code> <span class="xref">Vector3</span></dt>
+    <dd><p>要设置的 Vector3 值</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果设置成功返回 true,否则返回 false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/SetPropertyUtil.cs/#L10" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

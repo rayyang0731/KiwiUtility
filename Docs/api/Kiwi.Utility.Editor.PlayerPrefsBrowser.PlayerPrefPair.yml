@@ -1,0 +1,437 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair
+  commentId: T:Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair
+  id: PlayerPrefsBrowser.PlayerPrefPair
+  parent: Kiwi.Utility.Editor
+  children:
+  - Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Key
+  - Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Type
+  - Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Value
+  langs:
+  - csharp
+  - vb
+  name: PlayerPrefsBrowser.PlayerPrefPair
+  nameWithType: PlayerPrefsBrowser.PlayerPrefPair
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair
+  type: Struct
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: PlayerPrefPair
+    path: ../Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+    startLine: 518
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 键值对数据
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct PlayerPrefsBrowser.PlayerPrefPair
+    content.vb: >-
+      <Serializable>
+
+      Public Structure PlayerPrefsBrowser.PlayerPrefPair
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Key
+  commentId: P:Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Key
+  id: Key
+  parent: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: PlayerPrefsBrowser.PlayerPrefPair.Key
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Key
+  type: Property
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Key
+    path: ../Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+    startLine: 521
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  syntax:
+    content: public string Key { readonly get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Key As String
+  overload: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Key*
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Type
+  commentId: P:Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Type
+  id: Type
+  parent: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: PlayerPrefsBrowser.PlayerPrefPair.Type
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Type
+  type: Property
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Type
+    path: ../Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+    startLine: 523
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  syntax:
+    content: public PlayerPrefsBrowser.ValueType Type { readonly get; set; }
+    parameters: []
+    return:
+      type: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+    content.vb: Public Property Type As PlayerPrefsBrowser.ValueType
+  overload: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Type*
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Value
+  commentId: P:Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Value
+  id: Value
+  parent: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: PlayerPrefsBrowser.PlayerPrefPair.Value
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Value
+  type: Property
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Value
+    path: ../Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+    startLine: 525
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  syntax:
+    content: public object Value { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Value As Object
+  overload: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Value*
+references:
+- uid: Kiwi.Utility.Editor
+  commentId: N:Kiwi.Utility.Editor
+  href: Kiwi.html
+  name: Kiwi.Utility.Editor
+  nameWithType: Kiwi.Utility.Editor
+  fullName: Kiwi.Utility.Editor
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Editor
+    name: Editor
+    href: Kiwi.Utility.Editor.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Editor
+    name: Editor
+    href: Kiwi.Utility.Editor.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Key*
+  commentId: Overload:Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Key
+  href: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.html#Kiwi_Utility_Editor_PlayerPrefsBrowser_PlayerPrefPair_Key
+  name: Key
+  nameWithType: PlayerPrefsBrowser.PlayerPrefPair.Key
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Key
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Type*
+  commentId: Overload:Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Type
+  href: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.html#Kiwi_Utility_Editor_PlayerPrefsBrowser_PlayerPrefPair_Type
+  name: Type
+  nameWithType: PlayerPrefsBrowser.PlayerPrefPair.Type
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Type
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+  commentId: T:Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+  parent: Kiwi.Utility.Editor
+  href: Kiwi.Utility.Editor.PlayerPrefsBrowser.html
+  name: PlayerPrefsBrowser.ValueType
+  nameWithType: PlayerPrefsBrowser.ValueType
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+  spec.csharp:
+  - uid: Kiwi.Utility.Editor.PlayerPrefsBrowser
+    name: PlayerPrefsBrowser
+    href: Kiwi.Utility.Editor.PlayerPrefsBrowser.html
+  - name: .
+  - uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+    name: ValueType
+    href: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.html
+  spec.vb:
+  - uid: Kiwi.Utility.Editor.PlayerPrefsBrowser
+    name: PlayerPrefsBrowser
+    href: Kiwi.Utility.Editor.PlayerPrefsBrowser.html
+  - name: .
+  - uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType
+    name: ValueType
+    href: Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.html
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Value*
+  commentId: Overload:Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Value
+  href: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.html#Kiwi_Utility_Editor_PlayerPrefsBrowser_PlayerPrefPair_Value
+  name: Value
+  nameWithType: PlayerPrefsBrowser.PlayerPrefPair.Value
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.Value

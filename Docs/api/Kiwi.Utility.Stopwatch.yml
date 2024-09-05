@@ -1,0 +1,479 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.Stopwatch
+  commentId: T:Kiwi.Utility.Stopwatch
+  id: Stopwatch
+  parent: Kiwi.Utility
+  children:
+  - Kiwi.Utility.Stopwatch.#ctor
+  - Kiwi.Utility.Stopwatch.ElapseMilliseconds
+  - Kiwi.Utility.Stopwatch.Refresh
+  - Kiwi.Utility.Stopwatch.Stop(System.Boolean,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: Stopwatch
+  nameWithType: Stopwatch
+  fullName: Kiwi.Utility.Stopwatch
+  type: Class
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Stopwatch.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Stopwatch
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Stopwatch.cs
+    startLine: 7
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 码表工具
+  example: []
+  syntax:
+    content: public class Stopwatch
+    content.vb: Public Class Stopwatch
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Kiwi.Utility.Stopwatch.ElapseMilliseconds
+  commentId: P:Kiwi.Utility.Stopwatch.ElapseMilliseconds
+  id: ElapseMilliseconds
+  parent: Kiwi.Utility.Stopwatch
+  langs:
+  - csharp
+  - vb
+  name: ElapseMilliseconds
+  nameWithType: Stopwatch.ElapseMilliseconds
+  fullName: Kiwi.Utility.Stopwatch.ElapseMilliseconds
+  type: Property
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Stopwatch.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ElapseMilliseconds
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Stopwatch.cs
+    startLine: 14
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 用时(单位:毫秒)
+  example: []
+  syntax:
+    content: public long ElapseMilliseconds { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property ElapseMilliseconds As Long
+  overload: Kiwi.Utility.Stopwatch.ElapseMilliseconds*
+- uid: Kiwi.Utility.Stopwatch.#ctor
+  commentId: M:Kiwi.Utility.Stopwatch.#ctor
+  id: '#ctor'
+  parent: Kiwi.Utility.Stopwatch
+  langs:
+  - csharp
+  - vb
+  name: Stopwatch()
+  nameWithType: Stopwatch.Stopwatch()
+  fullName: Kiwi.Utility.Stopwatch.Stopwatch()
+  type: Constructor
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Stopwatch.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: .ctor
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Stopwatch.cs
+    startLine: 16
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: public Stopwatch()
+    content.vb: Public Sub New()
+  overload: Kiwi.Utility.Stopwatch.#ctor*
+  nameWithType.vb: Stopwatch.New()
+  fullName.vb: Kiwi.Utility.Stopwatch.New()
+  name.vb: New()
+- uid: Kiwi.Utility.Stopwatch.Refresh
+  commentId: M:Kiwi.Utility.Stopwatch.Refresh
+  id: Refresh
+  parent: Kiwi.Utility.Stopwatch
+  langs:
+  - csharp
+  - vb
+  name: Refresh()
+  nameWithType: Stopwatch.Refresh()
+  fullName: Kiwi.Utility.Stopwatch.Refresh()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Stopwatch.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Refresh
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Stopwatch.cs
+    startLine: 21
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 刷新
+  example: []
+  syntax:
+    content: public void Refresh()
+    content.vb: Public Sub Refresh()
+  overload: Kiwi.Utility.Stopwatch.Refresh*
+- uid: Kiwi.Utility.Stopwatch.Stop(System.Boolean,System.Object)
+  commentId: M:Kiwi.Utility.Stopwatch.Stop(System.Boolean,System.Object)
+  id: Stop(System.Boolean,System.Object)
+  parent: Kiwi.Utility.Stopwatch
+  langs:
+  - csharp
+  - vb
+  name: Stop(bool, object)
+  nameWithType: Stopwatch.Stop(bool, object)
+  fullName: Kiwi.Utility.Stopwatch.Stop(bool, object)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Stopwatch.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Stop
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Stopwatch.cs
+    startLine: 28
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 停止
+  example: []
+  syntax:
+    content: public void Stop(bool showElapsedTime = false, object userData = null)
+    parameters:
+    - id: showElapsedTime
+      type: System.Boolean
+      description: 是否打印耗时
+    - id: userData
+      type: System.Object
+      description: 自定义数据
+    content.vb: Public Sub [Stop](showElapsedTime As Boolean = False, userData As Object = Nothing)
+  overload: Kiwi.Utility.Stopwatch.Stop*
+  nameWithType.vb: Stopwatch.Stop(Boolean, Object)
+  fullName.vb: Kiwi.Utility.Stopwatch.Stop(Boolean, Object)
+  name.vb: Stop(Boolean, Object)
+references:
+- uid: Kiwi.Utility
+  commentId: N:Kiwi.Utility
+  href: Kiwi.html
+  name: Kiwi.Utility
+  nameWithType: Kiwi.Utility
+  fullName: Kiwi.Utility
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Kiwi.Utility.Stopwatch.ElapseMilliseconds*
+  commentId: Overload:Kiwi.Utility.Stopwatch.ElapseMilliseconds
+  href: Kiwi.Utility.Stopwatch.html#Kiwi_Utility_Stopwatch_ElapseMilliseconds
+  name: ElapseMilliseconds
+  nameWithType: Stopwatch.ElapseMilliseconds
+  fullName: Kiwi.Utility.Stopwatch.ElapseMilliseconds
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: Kiwi.Utility.Stopwatch.#ctor*
+  commentId: Overload:Kiwi.Utility.Stopwatch.#ctor
+  href: Kiwi.Utility.Stopwatch.html#Kiwi_Utility_Stopwatch__ctor
+  name: Stopwatch
+  nameWithType: Stopwatch.Stopwatch
+  fullName: Kiwi.Utility.Stopwatch.Stopwatch
+  nameWithType.vb: Stopwatch.New
+  fullName.vb: Kiwi.Utility.Stopwatch.New
+  name.vb: New
+- uid: Kiwi.Utility.Stopwatch.Refresh*
+  commentId: Overload:Kiwi.Utility.Stopwatch.Refresh
+  href: Kiwi.Utility.Stopwatch.html#Kiwi_Utility_Stopwatch_Refresh
+  name: Refresh
+  nameWithType: Stopwatch.Refresh
+  fullName: Kiwi.Utility.Stopwatch.Refresh
+- uid: Kiwi.Utility.Stopwatch.Stop*
+  commentId: Overload:Kiwi.Utility.Stopwatch.Stop
+  href: Kiwi.Utility.Stopwatch.html#Kiwi_Utility_Stopwatch_Stop_System_Boolean_System_Object_
+  name: Stop
+  nameWithType: Stopwatch.Stop
+  fullName: Kiwi.Utility.Stopwatch.Stop
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.ColorTween.ColorTweenMode
+  commentId: T:Kiwi.Utility.ColorTween.ColorTweenMode
+  id: ColorTween.ColorTweenMode
+  parent: Kiwi.Utility
+  children:
+  - Kiwi.Utility.ColorTween.ColorTweenMode.All
+  - Kiwi.Utility.ColorTween.ColorTweenMode.Alpha
+  - Kiwi.Utility.ColorTween.ColorTweenMode.RGB
+  langs:
+  - csharp
+  - vb
+  name: ColorTween.ColorTweenMode
+  nameWithType: ColorTween.ColorTweenMode
+  fullName: Kiwi.Utility.ColorTween.ColorTweenMode
+  type: Enum
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ColorTweenMode
+    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+    startLine: 24
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: public enum ColorTween.ColorTweenMode
+    content.vb: Public Enum ColorTween.ColorTweenMode
+- uid: Kiwi.Utility.ColorTween.ColorTweenMode.All
+  commentId: F:Kiwi.Utility.ColorTween.ColorTweenMode.All
+  id: All
+  parent: Kiwi.Utility.ColorTween.ColorTweenMode
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: ColorTween.ColorTweenMode.All
+  fullName: Kiwi.Utility.ColorTween.ColorTweenMode.All
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: All
+    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+    startLine: 26
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: All = 0
+    return:
+      type: Kiwi.Utility.ColorTween.ColorTweenMode
+- uid: Kiwi.Utility.ColorTween.ColorTweenMode.RGB
+  commentId: F:Kiwi.Utility.ColorTween.ColorTweenMode.RGB
+  id: RGB
+  parent: Kiwi.Utility.ColorTween.ColorTweenMode
+  langs:
+  - csharp
+  - vb
+  name: RGB
+  nameWithType: ColorTween.ColorTweenMode.RGB
+  fullName: Kiwi.Utility.ColorTween.ColorTweenMode.RGB
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: RGB
+    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+    startLine: 27
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: RGB = 1
+    return:
+      type: Kiwi.Utility.ColorTween.ColorTweenMode
+- uid: Kiwi.Utility.ColorTween.ColorTweenMode.Alpha
+  commentId: F:Kiwi.Utility.ColorTween.ColorTweenMode.Alpha
+  id: Alpha
+  parent: Kiwi.Utility.ColorTween.ColorTweenMode
+  langs:
+  - csharp
+  - vb
+  name: Alpha
+  nameWithType: ColorTween.ColorTweenMode.Alpha
+  fullName: Kiwi.Utility.ColorTween.ColorTweenMode.Alpha
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Alpha
+    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+    startLine: 28
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: Alpha = 2
+    return:
+      type: Kiwi.Utility.ColorTween.ColorTweenMode
+references:
+- uid: Kiwi.Utility
+  commentId: N:Kiwi.Utility
+  href: Kiwi.html
+  name: Kiwi.Utility
+  nameWithType: Kiwi.Utility
+  fullName: Kiwi.Utility
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+- uid: Kiwi.Utility.ColorTween.ColorTweenMode
+  commentId: T:Kiwi.Utility.ColorTween.ColorTweenMode
+  parent: Kiwi.Utility
+  href: Kiwi.Utility.ColorTween.html
+  name: ColorTween.ColorTweenMode
+  nameWithType: ColorTween.ColorTweenMode
+  fullName: Kiwi.Utility.ColorTween.ColorTweenMode
+  spec.csharp:
+  - uid: Kiwi.Utility.ColorTween
+    name: ColorTween
+    href: Kiwi.Utility.ColorTween.html
+  - name: .
+  - uid: Kiwi.Utility.ColorTween.ColorTweenMode
+    name: ColorTweenMode
+    href: Kiwi.Utility.ColorTween.ColorTweenMode.html
+  spec.vb:
+  - uid: Kiwi.Utility.ColorTween
+    name: ColorTween
+    href: Kiwi.Utility.ColorTween.html
+  - name: .
+  - uid: Kiwi.Utility.ColorTween.ColorTweenMode
+    name: ColorTweenMode
+    href: Kiwi.Utility.ColorTween.ColorTweenMode.html

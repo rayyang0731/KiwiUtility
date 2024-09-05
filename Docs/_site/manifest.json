@@ -1,0 +1,488 @@
+{
+  "source_base_path": "C:/Work/Git/KiwiEditorUtitlity/Docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.AnchorHorizontal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.AnchorHorizontal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.AnchorPresets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.AnchorPresets.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.AnchorVertical.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.AnchorVertical.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.ColorTween.ColorTweenCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.ColorTween.ColorTweenCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.ColorTween.ColorTweenMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.ColorTween.ColorTweenMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.ColorTween.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.ColorTween.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.AvatarEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.AvatarEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.CopyHierarchyPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.CopyHierarchyPath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.EditorIconsBrowser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.EditorIconsBrowser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.EditorToolbarAttribute.Anchor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.EditorToolbarAttribute.Anchor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.EditorToolbarAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.EditorToolbarAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.EditorToolbarExtender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.EditorToolbarExtender.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.IPreviewModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.IPreviewModule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.ModelBonesModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.ModelBonesModule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.ModelPreviewEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.ModelPreviewEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.PlayerPrefsBrowser.Mode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.PlayerPrefsBrowser.Mode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.PlayerPrefsBrowser.PlayerPrefPair.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.PlayerPrefsBrowser.ValueType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.PlayerPrefsBrowser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.PlayerPrefsBrowser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.PreviewAnimationModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.PreviewAnimationModule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.PreviewEditorWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.PreviewEditorWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.PreviewEvt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.PreviewEvt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.FloatTween.FloatTweenCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.FloatTween.FloatTweenCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.FloatTween.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.FloatTween.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.ITweenValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.ITweenValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.KiwiExtend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.KiwiExtend.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.KiwiMath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.KiwiMath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.KiwiPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.KiwiPath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.PivotPresets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.PivotPresets.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.SetPropertyUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.SetPropertyUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Stopwatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Stopwatch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Test.Editor.TimeConvertTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Test.Editor.TimeConvertTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.Test.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.Test.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.TimeUtility.CulturePreset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.TimeUtility.CulturePreset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.TimeUtility.TimeUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.TimeUtility.TimeUnit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.TimeUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.TimeUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.TweenRunner-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.TweenRunner-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Kiwi.Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Kiwi.Utility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

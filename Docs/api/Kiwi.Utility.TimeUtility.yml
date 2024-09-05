@@ -1,0 +1,2532 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.TimeUtility
+  commentId: T:Kiwi.Utility.TimeUtility
+  id: TimeUtility
+  parent: Kiwi.Utility
+  children:
+  - Kiwi.Utility.TimeUtility.AddDays(System.DateTime,System.Int32)
+  - Kiwi.Utility.TimeUtility.AddHours(System.DateTime,System.Int32)
+  - Kiwi.Utility.TimeUtility.AddMilliseconds(System.DateTime,System.Int32)
+  - Kiwi.Utility.TimeUtility.AddMinutes(System.DateTime,System.Int32)
+  - Kiwi.Utility.TimeUtility.AddSeconds(System.DateTime,System.Int32)
+  - Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestamp(System.DateTime)
+  - Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestampMilliseconds(System.DateTime)
+  - Kiwi.Utility.TimeUtility.ConvertLocalToUtc(System.DateTime)
+  - Kiwi.Utility.TimeUtility.ConvertToTimeZone(System.DateTime,System.String)
+  - Kiwi.Utility.TimeUtility.ConvertUnixTimestampToDateTime(System.Int64,System.Boolean)
+  - Kiwi.Utility.TimeUtility.ConvertUtcToLocal(System.DateTime)
+  - Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime,System.Globalization.CultureInfo,System.String)
+  - Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime,System.String)
+  - Kiwi.Utility.TimeUtility.FormatMilliseconds(System.Int32,System.String)
+  - Kiwi.Utility.TimeUtility.FormatSeconds(System.Int32,System.String)
+  - Kiwi.Utility.TimeUtility.GetCurrentLocalTime
+  - Kiwi.Utility.TimeUtility.GetCurrentUtcTime
+  - Kiwi.Utility.TimeUtility.GetDaysDifference(System.DateTime,System.DateTime)
+  - Kiwi.Utility.TimeUtility.GetHoursDifference(System.DateTime,System.DateTime)
+  - Kiwi.Utility.TimeUtility.GetLocalTimeZone
+  - Kiwi.Utility.TimeUtility.GetMillisecondsDifference(System.DateTime,System.DateTime)
+  - Kiwi.Utility.TimeUtility.GetMinutesDifference(System.DateTime,System.DateTime)
+  - Kiwi.Utility.TimeUtility.GetNextDays(System.DateTime,System.Int32)
+  - Kiwi.Utility.TimeUtility.GetNextHours(System.DateTime,System.Int32)
+  - Kiwi.Utility.TimeUtility.GetNextMilliseconds(System.DateTime,System.Int32)
+  - Kiwi.Utility.TimeUtility.GetNextMinutes(System.DateTime,System.Int32)
+  - Kiwi.Utility.TimeUtility.GetNextMonths(System.DateTime,System.Int32)
+  - Kiwi.Utility.TimeUtility.GetNextSeconds(System.DateTime,System.Int32)
+  - Kiwi.Utility.TimeUtility.GetNextTime(System.DateTime,Kiwi.Utility.TimeUtility.TimeUnit,System.Int32)
+  - Kiwi.Utility.TimeUtility.GetSecondsDifference(System.DateTime,System.DateTime)
+  - Kiwi.Utility.TimeUtility.GetTimeZoneOffset(System.TimeZoneInfo,System.DateTime)
+  - Kiwi.Utility.TimeUtility.GetUnixTimestamp(System.Boolean)
+  - Kiwi.Utility.TimeUtility.GetWeekOfYear(System.DateTime,System.DayOfWeek)
+  - Kiwi.Utility.TimeUtility.IsAcrossDay(System.DateTime,System.DateTime)
+  - Kiwi.Utility.TimeUtility.IsAcrossMonth(System.DateTime,System.DateTime)
+  - Kiwi.Utility.TimeUtility.IsAcrossWeek(System.DateTime,System.DateTime)
+  - Kiwi.Utility.TimeUtility.IsAcrossYear(System.DateTime,System.DateTime)
+  - Kiwi.Utility.TimeUtility.IsLeapYear(System.Int32)
+  - Kiwi.Utility.TimeUtility.IsSameDay(System.DateTime,System.DateTime)
+  - Kiwi.Utility.TimeUtility.IsTimeInRange(System.DateTime,System.DateTime,System.DateTime)
+  - Kiwi.Utility.TimeUtility.IsWeekend(System.DateTime)
+  - Kiwi.Utility.TimeUtility.ParseDateTime(System.String,System.String)
+  - Kiwi.Utility.TimeUtility.UnixTime
+  langs:
+  - csharp
+  - vb
+  name: TimeUtility
+  nameWithType: TimeUtility
+  fullName: Kiwi.Utility.TimeUtility
+  type: Class
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: TimeUtility
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 10
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 时间工具集
+  example: []
+  syntax:
+    content: public static class TimeUtility
+    content.vb: Public Module TimeUtility
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Kiwi.Utility.TimeUtility.UnixTime
+  commentId: P:Kiwi.Utility.TimeUtility.UnixTime
+  id: UnixTime
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: UnixTime
+  nameWithType: TimeUtility.UnixTime
+  fullName: Kiwi.Utility.TimeUtility.UnixTime
+  type: Property
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: UnixTime
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 16
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: >-
+    Unix 纪元时间
+
+    <p>1970 年 01 月 01 日 0 时 0 分 0 秒</p>
+  example: []
+  syntax:
+    content: public static DateTime UnixTime { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Shared ReadOnly Property UnixTime As Date
+  overload: Kiwi.Utility.TimeUtility.UnixTime*
+- uid: Kiwi.Utility.TimeUtility.GetCurrentUtcTime
+  commentId: M:Kiwi.Utility.TimeUtility.GetCurrentUtcTime
+  id: GetCurrentUtcTime
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentUtcTime()
+  nameWithType: TimeUtility.GetCurrentUtcTime()
+  fullName: Kiwi.Utility.TimeUtility.GetCurrentUtcTime()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetCurrentUtcTime
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 24
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取当前 UTC 时间
+  example: []
+  syntax:
+    content: public static DateTime GetCurrentUtcTime()
+    return:
+      type: System.DateTime
+      description: 当前 UTC 时间
+    content.vb: Public Shared Function GetCurrentUtcTime() As Date
+  overload: Kiwi.Utility.TimeUtility.GetCurrentUtcTime*
+- uid: Kiwi.Utility.TimeUtility.GetCurrentLocalTime
+  commentId: M:Kiwi.Utility.TimeUtility.GetCurrentLocalTime
+  id: GetCurrentLocalTime
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentLocalTime()
+  nameWithType: TimeUtility.GetCurrentLocalTime()
+  fullName: Kiwi.Utility.TimeUtility.GetCurrentLocalTime()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetCurrentLocalTime
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 33
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取当前本地时间
+  example: []
+  syntax:
+    content: public static DateTime GetCurrentLocalTime()
+    return:
+      type: System.DateTime
+      description: 当前本地时间
+    content.vb: Public Shared Function GetCurrentLocalTime() As Date
+  overload: Kiwi.Utility.TimeUtility.GetCurrentLocalTime*
+- uid: Kiwi.Utility.TimeUtility.GetUnixTimestamp(System.Boolean)
+  commentId: M:Kiwi.Utility.TimeUtility.GetUnixTimestamp(System.Boolean)
+  id: GetUnixTimestamp(System.Boolean)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetUnixTimestamp(bool)
+  nameWithType: TimeUtility.GetUnixTimestamp(bool)
+  fullName: Kiwi.Utility.TimeUtility.GetUnixTimestamp(bool)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetUnixTimestamp
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 44
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: >-
+    获取 Unix 时间戳
+
+    <p>单位 : 秒</p>
+  example: []
+  syntax:
+    content: public static long GetUnixTimestamp(bool isMilliseconds = false)
+    parameters:
+    - id: isMilliseconds
+      type: System.Boolean
+      description: 是否返回毫秒级时间戳
+    return:
+      type: System.Int64
+      description: Unix 时间戳
+    content.vb: Public Shared Function GetUnixTimestamp(isMilliseconds As Boolean = False) As Long
+  overload: Kiwi.Utility.TimeUtility.GetUnixTimestamp*
+  nameWithType.vb: TimeUtility.GetUnixTimestamp(Boolean)
+  fullName.vb: Kiwi.Utility.TimeUtility.GetUnixTimestamp(Boolean)
+  name.vb: GetUnixTimestamp(Boolean)
+- uid: Kiwi.Utility.TimeUtility.ConvertUtcToLocal(System.DateTime)
+  commentId: M:Kiwi.Utility.TimeUtility.ConvertUtcToLocal(System.DateTime)
+  id: ConvertUtcToLocal(System.DateTime)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: ConvertUtcToLocal(DateTime)
+  nameWithType: TimeUtility.ConvertUtcToLocal(DateTime)
+  fullName: Kiwi.Utility.TimeUtility.ConvertUtcToLocal(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ConvertUtcToLocal
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 60
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 将 UTC 时间转换为本地时间
+  example: []
+  syntax:
+    content: public static DateTime ConvertUtcToLocal(DateTime utcTime)
+    parameters:
+    - id: utcTime
+      type: System.DateTime
+      description: 要转换的 UTC 时间
+    return:
+      type: System.DateTime
+      description: 转换后的本地时间
+    content.vb: Public Shared Function ConvertUtcToLocal(utcTime As Date) As Date
+  overload: Kiwi.Utility.TimeUtility.ConvertUtcToLocal*
+  nameWithType.vb: TimeUtility.ConvertUtcToLocal(Date)
+  fullName.vb: Kiwi.Utility.TimeUtility.ConvertUtcToLocal(Date)
+  name.vb: ConvertUtcToLocal(Date)
+- uid: Kiwi.Utility.TimeUtility.ConvertLocalToUtc(System.DateTime)
+  commentId: M:Kiwi.Utility.TimeUtility.ConvertLocalToUtc(System.DateTime)
+  id: ConvertLocalToUtc(System.DateTime)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: ConvertLocalToUtc(DateTime)
+  nameWithType: TimeUtility.ConvertLocalToUtc(DateTime)
+  fullName: Kiwi.Utility.TimeUtility.ConvertLocalToUtc(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ConvertLocalToUtc
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 70
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 将本地时间转换为 UTC 时间
+  example: []
+  syntax:
+    content: public static DateTime ConvertLocalToUtc(DateTime localTime)
+    parameters:
+    - id: localTime
+      type: System.DateTime
+      description: 要转换的本地时间
+    return:
+      type: System.DateTime
+      description: 转换后的 UTC 时间
+    content.vb: Public Shared Function ConvertLocalToUtc(localTime As Date) As Date
+  overload: Kiwi.Utility.TimeUtility.ConvertLocalToUtc*
+  nameWithType.vb: TimeUtility.ConvertLocalToUtc(Date)
+  fullName.vb: Kiwi.Utility.TimeUtility.ConvertLocalToUtc(Date)
+  name.vb: ConvertLocalToUtc(Date)
+- uid: Kiwi.Utility.TimeUtility.ConvertUnixTimestampToDateTime(System.Int64,System.Boolean)
+  commentId: M:Kiwi.Utility.TimeUtility.ConvertUnixTimestampToDateTime(System.Int64,System.Boolean)
+  id: ConvertUnixTimestampToDateTime(System.Int64,System.Boolean)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: ConvertUnixTimestampToDateTime(long, bool)
+  nameWithType: TimeUtility.ConvertUnixTimestampToDateTime(long, bool)
+  fullName: Kiwi.Utility.TimeUtility.ConvertUnixTimestampToDateTime(long, bool)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ConvertUnixTimestampToDateTime
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 81
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 将 Unix 时间戳转换为 DateTime
+  example: []
+  syntax:
+    content: public static DateTime ConvertUnixTimestampToDateTime(long timestamp, bool isMilliseconds = false)
+    parameters:
+    - id: timestamp
+      type: System.Int64
+      description: Unix 时间戳
+    - id: isMilliseconds
+      type: System.Boolean
+      description: 时间戳是否为毫秒级
+    return:
+      type: System.DateTime
+      description: 转换后的时间
+    content.vb: Public Shared Function ConvertUnixTimestampToDateTime(timestamp As Long, isMilliseconds As Boolean = False) As Date
+  overload: Kiwi.Utility.TimeUtility.ConvertUnixTimestampToDateTime*
+  nameWithType.vb: TimeUtility.ConvertUnixTimestampToDateTime(Long, Boolean)
+  fullName.vb: Kiwi.Utility.TimeUtility.ConvertUnixTimestampToDateTime(Long, Boolean)
+  name.vb: ConvertUnixTimestampToDateTime(Long, Boolean)
+- uid: Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestamp(System.DateTime)
+  commentId: M:Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestamp(System.DateTime)
+  id: ConvertDateTimeToUnixTimestamp(System.DateTime)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: ConvertDateTimeToUnixTimestamp(DateTime)
+  nameWithType: TimeUtility.ConvertDateTimeToUnixTimestamp(DateTime)
+  fullName: Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestamp(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ConvertDateTimeToUnixTimestamp
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 94
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: >-
+    将 DateTime 转换为 Unix 时间戳
+
+    <p>单位 : 秒</p>
+  example: []
+  syntax:
+    content: public static long ConvertDateTimeToUnixTimestamp(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: 要转换的时间
+    return:
+      type: System.Int64
+      description: 转换后的秒级 Unix 时间戳
+    content.vb: Public Shared Function ConvertDateTimeToUnixTimestamp(dateTime As Date) As Long
+  overload: Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestamp*
+  nameWithType.vb: TimeUtility.ConvertDateTimeToUnixTimestamp(Date)
+  fullName.vb: Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestamp(Date)
+  name.vb: ConvertDateTimeToUnixTimestamp(Date)
+- uid: Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestampMilliseconds(System.DateTime)
+  commentId: M:Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestampMilliseconds(System.DateTime)
+  id: ConvertDateTimeToUnixTimestampMilliseconds(System.DateTime)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: ConvertDateTimeToUnixTimestampMilliseconds(DateTime)
+  nameWithType: TimeUtility.ConvertDateTimeToUnixTimestampMilliseconds(DateTime)
+  fullName: Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestampMilliseconds(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ConvertDateTimeToUnixTimestampMilliseconds
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 105
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: >-
+    将 DateTime 转换为 Unix 时间戳
+
+    <p>单位 : 秒</p>
+  example: []
+  syntax:
+    content: public static long ConvertDateTimeToUnixTimestampMilliseconds(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: 要转换的时间
+    return:
+      type: System.Int64
+      description: 转换后的秒级 Unix 时间戳
+    content.vb: Public Shared Function ConvertDateTimeToUnixTimestampMilliseconds(dateTime As Date) As Long
+  overload: Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestampMilliseconds*
+  nameWithType.vb: TimeUtility.ConvertDateTimeToUnixTimestampMilliseconds(Date)
+  fullName.vb: Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestampMilliseconds(Date)
+  name.vb: ConvertDateTimeToUnixTimestampMilliseconds(Date)
+- uid: Kiwi.Utility.TimeUtility.GetDaysDifference(System.DateTime,System.DateTime)
+  commentId: M:Kiwi.Utility.TimeUtility.GetDaysDifference(System.DateTime,System.DateTime)
+  id: GetDaysDifference(System.DateTime,System.DateTime)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetDaysDifference(DateTime, DateTime)
+  nameWithType: TimeUtility.GetDaysDifference(DateTime, DateTime)
+  fullName: Kiwi.Utility.TimeUtility.GetDaysDifference(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetDaysDifference
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 120
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取两个日期之间的天数差
+  example: []
+  syntax:
+    content: public static int GetDaysDifference(DateTime startDate, DateTime endDate)
+    parameters:
+    - id: startDate
+      type: System.DateTime
+      description: 开始日期
+    - id: endDate
+      type: System.DateTime
+      description: 结束日期
+    return:
+      type: System.Int32
+      description: 两个日期之间的天数差
+    content.vb: Public Shared Function GetDaysDifference(startDate As Date, endDate As Date) As Integer
+  overload: Kiwi.Utility.TimeUtility.GetDaysDifference*
+  nameWithType.vb: TimeUtility.GetDaysDifference(Date, Date)
+  fullName.vb: Kiwi.Utility.TimeUtility.GetDaysDifference(Date, Date)
+  name.vb: GetDaysDifference(Date, Date)
+- uid: Kiwi.Utility.TimeUtility.GetHoursDifference(System.DateTime,System.DateTime)
+  commentId: M:Kiwi.Utility.TimeUtility.GetHoursDifference(System.DateTime,System.DateTime)
+  id: GetHoursDifference(System.DateTime,System.DateTime)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetHoursDifference(DateTime, DateTime)
+  nameWithType: TimeUtility.GetHoursDifference(DateTime, DateTime)
+  fullName: Kiwi.Utility.TimeUtility.GetHoursDifference(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetHoursDifference
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 131
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取两个日期之间的小时差
+  example: []
+  syntax:
+    content: public static int GetHoursDifference(DateTime startDate, DateTime endDate)
+    parameters:
+    - id: startDate
+      type: System.DateTime
+      description: 开始日期
+    - id: endDate
+      type: System.DateTime
+      description: 结束日期
+    return:
+      type: System.Int32
+      description: 两个日期之间的小时差
+    content.vb: Public Shared Function GetHoursDifference(startDate As Date, endDate As Date) As Integer
+  overload: Kiwi.Utility.TimeUtility.GetHoursDifference*
+  nameWithType.vb: TimeUtility.GetHoursDifference(Date, Date)
+  fullName.vb: Kiwi.Utility.TimeUtility.GetHoursDifference(Date, Date)
+  name.vb: GetHoursDifference(Date, Date)
+- uid: Kiwi.Utility.TimeUtility.GetMinutesDifference(System.DateTime,System.DateTime)
+  commentId: M:Kiwi.Utility.TimeUtility.GetMinutesDifference(System.DateTime,System.DateTime)
+  id: GetMinutesDifference(System.DateTime,System.DateTime)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetMinutesDifference(DateTime, DateTime)
+  nameWithType: TimeUtility.GetMinutesDifference(DateTime, DateTime)
+  fullName: Kiwi.Utility.TimeUtility.GetMinutesDifference(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetMinutesDifference
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 142
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取两个日期之间的分钟差
+  example: []
+  syntax:
+    content: public static int GetMinutesDifference(DateTime startDate, DateTime endDate)
+    parameters:
+    - id: startDate
+      type: System.DateTime
+      description: 开始日期
+    - id: endDate
+      type: System.DateTime
+      description: 结束日期
+    return:
+      type: System.Int32
+      description: 两个日期之间的分钟差
+    content.vb: Public Shared Function GetMinutesDifference(startDate As Date, endDate As Date) As Integer
+  overload: Kiwi.Utility.TimeUtility.GetMinutesDifference*
+  nameWithType.vb: TimeUtility.GetMinutesDifference(Date, Date)
+  fullName.vb: Kiwi.Utility.TimeUtility.GetMinutesDifference(Date, Date)
+  name.vb: GetMinutesDifference(Date, Date)
+- uid: Kiwi.Utility.TimeUtility.GetSecondsDifference(System.DateTime,System.DateTime)
+  commentId: M:Kiwi.Utility.TimeUtility.GetSecondsDifference(System.DateTime,System.DateTime)
+  id: GetSecondsDifference(System.DateTime,System.DateTime)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetSecondsDifference(DateTime, DateTime)
+  nameWithType: TimeUtility.GetSecondsDifference(DateTime, DateTime)
+  fullName: Kiwi.Utility.TimeUtility.GetSecondsDifference(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetSecondsDifference
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 153
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取两个日期之间的秒数差
+  example: []
+  syntax:
+    content: public static int GetSecondsDifference(DateTime startDate, DateTime endDate)
+    parameters:
+    - id: startDate
+      type: System.DateTime
+      description: 开始日期
+    - id: endDate
+      type: System.DateTime
+      description: 结束日期
+    return:
+      type: System.Int32
+      description: 两个日期之间的秒数差
+    content.vb: Public Shared Function GetSecondsDifference(startDate As Date, endDate As Date) As Integer
+  overload: Kiwi.Utility.TimeUtility.GetSecondsDifference*
+  nameWithType.vb: TimeUtility.GetSecondsDifference(Date, Date)
+  fullName.vb: Kiwi.Utility.TimeUtility.GetSecondsDifference(Date, Date)
+  name.vb: GetSecondsDifference(Date, Date)
+- uid: Kiwi.Utility.TimeUtility.GetMillisecondsDifference(System.DateTime,System.DateTime)
+  commentId: M:Kiwi.Utility.TimeUtility.GetMillisecondsDifference(System.DateTime,System.DateTime)
+  id: GetMillisecondsDifference(System.DateTime,System.DateTime)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetMillisecondsDifference(DateTime, DateTime)
+  nameWithType: TimeUtility.GetMillisecondsDifference(DateTime, DateTime)
+  fullName: Kiwi.Utility.TimeUtility.GetMillisecondsDifference(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetMillisecondsDifference
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 164
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取两个日期之间的毫秒差
+  example: []
+  syntax:
+    content: public static int GetMillisecondsDifference(DateTime startDate, DateTime endDate)
+    parameters:
+    - id: startDate
+      type: System.DateTime
+      description: 开始日期
+    - id: endDate
+      type: System.DateTime
+      description: 结束日期
+    return:
+      type: System.Int32
+      description: 两个日期之间的毫秒差
+    content.vb: Public Shared Function GetMillisecondsDifference(startDate As Date, endDate As Date) As Integer
+  overload: Kiwi.Utility.TimeUtility.GetMillisecondsDifference*
+  nameWithType.vb: TimeUtility.GetMillisecondsDifference(Date, Date)
+  fullName.vb: Kiwi.Utility.TimeUtility.GetMillisecondsDifference(Date, Date)
+  name.vb: GetMillisecondsDifference(Date, Date)
+- uid: Kiwi.Utility.TimeUtility.GetWeekOfYear(System.DateTime,System.DayOfWeek)
+  commentId: M:Kiwi.Utility.TimeUtility.GetWeekOfYear(System.DateTime,System.DayOfWeek)
+  id: GetWeekOfYear(System.DateTime,System.DayOfWeek)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetWeekOfYear(DateTime, DayOfWeek)
+  nameWithType: TimeUtility.GetWeekOfYear(DateTime, DayOfWeek)
+  fullName: Kiwi.Utility.TimeUtility.GetWeekOfYear(System.DateTime, System.DayOfWeek)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetWeekOfYear
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 175
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取时间为一年中的第几周
+  example: []
+  syntax:
+    content: public static int GetWeekOfYear(DateTime dateTime, DayOfWeek firstDayOfWeek = DayOfWeek.Monday)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: 目标时间
+    - id: firstDayOfWeek
+      type: System.DayOfWeek
+      description: 一周的第一天为星期几
+    return:
+      type: System.Int32
+      description: 时间为一年中的第几周
+    content.vb: Public Shared Function GetWeekOfYear(dateTime As Date, firstDayOfWeek As DayOfWeek = DayOfWeek.Monday) As Integer
+  overload: Kiwi.Utility.TimeUtility.GetWeekOfYear*
+  nameWithType.vb: TimeUtility.GetWeekOfYear(Date, DayOfWeek)
+  fullName.vb: Kiwi.Utility.TimeUtility.GetWeekOfYear(Date, System.DayOfWeek)
+  name.vb: GetWeekOfYear(Date, DayOfWeek)
+- uid: Kiwi.Utility.TimeUtility.AddDays(System.DateTime,System.Int32)
+  commentId: M:Kiwi.Utility.TimeUtility.AddDays(System.DateTime,System.Int32)
+  id: AddDays(System.DateTime,System.Int32)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: AddDays(DateTime, int)
+  nameWithType: TimeUtility.AddDays(DateTime, int)
+  fullName: Kiwi.Utility.TimeUtility.AddDays(System.DateTime, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: AddDays
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 193
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 将日期加上指定天数
+  example: []
+  syntax:
+    content: public static DateTime AddDays(DateTime dateTime, int days)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: 起始日期
+    - id: days
+      type: System.Int32
+      description: 附加天数
+    return:
+      type: System.DateTime
+      description: 加上指定天数的日期
+    content.vb: Public Shared Function AddDays(dateTime As Date, days As Integer) As Date
+  overload: Kiwi.Utility.TimeUtility.AddDays*
+  nameWithType.vb: TimeUtility.AddDays(Date, Integer)
+  fullName.vb: Kiwi.Utility.TimeUtility.AddDays(Date, Integer)
+  name.vb: AddDays(Date, Integer)
+- uid: Kiwi.Utility.TimeUtility.AddHours(System.DateTime,System.Int32)
+  commentId: M:Kiwi.Utility.TimeUtility.AddHours(System.DateTime,System.Int32)
+  id: AddHours(System.DateTime,System.Int32)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: AddHours(DateTime, int)
+  nameWithType: TimeUtility.AddHours(DateTime, int)
+  fullName: Kiwi.Utility.TimeUtility.AddHours(System.DateTime, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: AddHours
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 204
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 将日期加上指定小时
+  example: []
+  syntax:
+    content: public static DateTime AddHours(DateTime dateTime, int hours)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: 起始日期
+    - id: hours
+      type: System.Int32
+      description: 附加小时数
+    return:
+      type: System.DateTime
+      description: 加上指定小时数的日期
+    content.vb: Public Shared Function AddHours(dateTime As Date, hours As Integer) As Date
+  overload: Kiwi.Utility.TimeUtility.AddHours*
+  nameWithType.vb: TimeUtility.AddHours(Date, Integer)
+  fullName.vb: Kiwi.Utility.TimeUtility.AddHours(Date, Integer)
+  name.vb: AddHours(Date, Integer)
+- uid: Kiwi.Utility.TimeUtility.AddMinutes(System.DateTime,System.Int32)
+  commentId: M:Kiwi.Utility.TimeUtility.AddMinutes(System.DateTime,System.Int32)
+  id: AddMinutes(System.DateTime,System.Int32)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: AddMinutes(DateTime, int)
+  nameWithType: TimeUtility.AddMinutes(DateTime, int)
+  fullName: Kiwi.Utility.TimeUtility.AddMinutes(System.DateTime, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: AddMinutes
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 215
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 将日期加上指定分钟
+  example: []
+  syntax:
+    content: public static DateTime AddMinutes(DateTime dateTime, int minutes)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: 起始日期
+    - id: minutes
+      type: System.Int32
+      description: 附加分钟数
+    return:
+      type: System.DateTime
+      description: 加上指定分钟数的日期
+    content.vb: Public Shared Function AddMinutes(dateTime As Date, minutes As Integer) As Date
+  overload: Kiwi.Utility.TimeUtility.AddMinutes*
+  nameWithType.vb: TimeUtility.AddMinutes(Date, Integer)
+  fullName.vb: Kiwi.Utility.TimeUtility.AddMinutes(Date, Integer)
+  name.vb: AddMinutes(Date, Integer)
+- uid: Kiwi.Utility.TimeUtility.AddSeconds(System.DateTime,System.Int32)
+  commentId: M:Kiwi.Utility.TimeUtility.AddSeconds(System.DateTime,System.Int32)
+  id: AddSeconds(System.DateTime,System.Int32)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: AddSeconds(DateTime, int)
+  nameWithType: TimeUtility.AddSeconds(DateTime, int)
+  fullName: Kiwi.Utility.TimeUtility.AddSeconds(System.DateTime, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: AddSeconds
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 226
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 将日期加上指定秒数
+  example: []
+  syntax:
+    content: public static DateTime AddSeconds(DateTime dateTime, int seconds)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: 起始日期
+    - id: seconds
+      type: System.Int32
+      description: 附加秒数
+    return:
+      type: System.DateTime
+      description: 加上指定秒数的日期
+    content.vb: Public Shared Function AddSeconds(dateTime As Date, seconds As Integer) As Date
+  overload: Kiwi.Utility.TimeUtility.AddSeconds*
+  nameWithType.vb: TimeUtility.AddSeconds(Date, Integer)
+  fullName.vb: Kiwi.Utility.TimeUtility.AddSeconds(Date, Integer)
+  name.vb: AddSeconds(Date, Integer)
+- uid: Kiwi.Utility.TimeUtility.AddMilliseconds(System.DateTime,System.Int32)
+  commentId: M:Kiwi.Utility.TimeUtility.AddMilliseconds(System.DateTime,System.Int32)
+  id: AddMilliseconds(System.DateTime,System.Int32)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: AddMilliseconds(DateTime, int)
+  nameWithType: TimeUtility.AddMilliseconds(DateTime, int)
+  fullName: Kiwi.Utility.TimeUtility.AddMilliseconds(System.DateTime, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: AddMilliseconds
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 237
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 将日期加上指定毫秒数
+  example: []
+  syntax:
+    content: public static DateTime AddMilliseconds(DateTime dateTime, int milliseconds)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: 起始日期
+    - id: milliseconds
+      type: System.Int32
+      description: 附加毫秒数
+    return:
+      type: System.DateTime
+      description: 加上指定毫秒数的日期
+    content.vb: Public Shared Function AddMilliseconds(dateTime As Date, milliseconds As Integer) As Date
+  overload: Kiwi.Utility.TimeUtility.AddMilliseconds*
+  nameWithType.vb: TimeUtility.AddMilliseconds(Date, Integer)
+  fullName.vb: Kiwi.Utility.TimeUtility.AddMilliseconds(Date, Integer)
+  name.vb: AddMilliseconds(Date, Integer)
+- uid: Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime,System.String)
+  commentId: M:Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime,System.String)
+  id: FormatDateTime(System.DateTime,System.String)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: FormatDateTime(DateTime, string)
+  nameWithType: TimeUtility.FormatDateTime(DateTime, string)
+  fullName: Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime, string)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: FormatDateTime
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 281
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 格式化日期为字符串
+  example:
+  - >-
+    格式示例 :
+
+    <p><b>"s" = 2008-04-18T06:30:00</b> (sortable)</p><p><b>"d" = 04/18/2008</b> (short date)</p><p><b>"g" = 04/18/2008 06:30</b> (general short)</p><p><b>"f" = Friday, 18 April 2008 06:30</b> (full date short)</p><p><b>"t" = 2008-04-18T06:30:00</b> (short time)</p><p><b>"u" = 2008-4-18 06:30:00Z</b> (universal sortable)</p><p><b>"D" = Friday, 18 April 2008</b> (long date)</p><p><b>"F" = Friday, 18 April 2008 06:30:00</b> (full date long)</p><p><b>"G" = 04/18/2008 06:30:00</b> (general long)</p><p><b>"M" = April 18</b> (month)</p><p><b>"O" = 2008-04-18T06:30:00.0000000</b> (ISO 8601)</p><p><b>"R" = Fri, 18 Apr 2008 06:30:00 GMT</b> (RFC 1123)</p><p><b>"T" = 06:30:00</b>(long time)</p><p><b>"U" = Thursday, 17 April 2008 22:30:00</b>(universal full)</p><p><b>"Y" = 2008 April</b> (year month)</p><p><b>"dddd" = Friday</b> (custom)</p><p><b>"M/d/yy" = 4/18/08</b> (custom)</p><p><b>"h:mm:ss tt zz" = 4:03:05 PM -07</b> (custom)</p><p><b>"hh:mm:ss t z" = 04:03:05 P -7</b> (custom)</p><p><b>"yyyy-M-d dddd" = 2008-4-18 Friday</b> (custom)</p><p><b>"HH:m:s zzz" = 16:3:5 -07:00</b> (custom)</p><p><b>"HH:mm:ss zz" = 16:03:05 -07</b> (custom)</p><p><b>"MM/dd/yyyy" = 04/18/2008</b> (custom)</p><p><b>"yy-MM-dd" = 08-04-18</b> (custom)</p><p><b>"yy-MMM-dd ddd" = 08-Apr-18 Fri</b> (custom)</p><p><b>"yyyy MMMM dd" = 2008 April 18</b> (custom)</p>
+  syntax:
+    content: public static string FormatDateTime(DateTime dateTime, string format = "yyyy-MM-dd HH:mm:ss")
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: 时间日期
+    - id: format
+      type: System.String
+      description: 格式,参考 example
+    return:
+      type: System.String
+      description: 格式化后的时间字符串
+    content.vb: Public Shared Function FormatDateTime(dateTime As Date, format As String = "yyyy-MM-dd HH:mm:ss") As String
+  overload: Kiwi.Utility.TimeUtility.FormatDateTime*
+  nameWithType.vb: TimeUtility.FormatDateTime(Date, String)
+  fullName.vb: Kiwi.Utility.TimeUtility.FormatDateTime(Date, String)
+  name.vb: FormatDateTime(Date, String)
+- uid: Kiwi.Utility.TimeUtility.FormatSeconds(System.Int32,System.String)
+  commentId: M:Kiwi.Utility.TimeUtility.FormatSeconds(System.Int32,System.String)
+  id: FormatSeconds(System.Int32,System.String)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: FormatSeconds(int, string)
+  nameWithType: TimeUtility.FormatSeconds(int, string)
+  fullName: Kiwi.Utility.TimeUtility.FormatSeconds(int, string)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: FormatSeconds
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 292
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 格式化秒数为字符串
+  example: []
+  syntax:
+    content: public static string FormatSeconds(int seconds, string format = "HH:mm:ss")
+    parameters:
+    - id: seconds
+      type: System.Int32
+      description: 秒数
+    - id: format
+      type: System.String
+      description: 格式,参考<xref href="Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime%2cSystem.String)" data-throw-if-not-resolved="false"></xref>
+    return:
+      type: System.String
+      description: 格式化后的时间字符串
+    content.vb: Public Shared Function FormatSeconds(seconds As Integer, format As String = "HH:mm:ss") As String
+  overload: Kiwi.Utility.TimeUtility.FormatSeconds*
+  nameWithType.vb: TimeUtility.FormatSeconds(Integer, String)
+  fullName.vb: Kiwi.Utility.TimeUtility.FormatSeconds(Integer, String)
+  name.vb: FormatSeconds(Integer, String)
+- uid: Kiwi.Utility.TimeUtility.FormatMilliseconds(System.Int32,System.String)
+  commentId: M:Kiwi.Utility.TimeUtility.FormatMilliseconds(System.Int32,System.String)
+  id: FormatMilliseconds(System.Int32,System.String)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: FormatMilliseconds(int, string)
+  nameWithType: TimeUtility.FormatMilliseconds(int, string)
+  fullName: Kiwi.Utility.TimeUtility.FormatMilliseconds(int, string)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: FormatMilliseconds
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 305
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 格式化毫秒为字符串
+  example: []
+  syntax:
+    content: public static string FormatMilliseconds(int milliseconds, string format = "HH:mm:ss")
+    parameters:
+    - id: milliseconds
+      type: System.Int32
+      description: 毫秒
+    - id: format
+      type: System.String
+      description: 格式,参考<xref href="Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime%2cSystem.String)" data-throw-if-not-resolved="false"></xref>
+    return:
+      type: System.String
+      description: 格式化后的时间字符串
+    content.vb: Public Shared Function FormatMilliseconds(milliseconds As Integer, format As String = "HH:mm:ss") As String
+  overload: Kiwi.Utility.TimeUtility.FormatMilliseconds*
+  nameWithType.vb: TimeUtility.FormatMilliseconds(Integer, String)
+  fullName.vb: Kiwi.Utility.TimeUtility.FormatMilliseconds(Integer, String)
+  name.vb: FormatMilliseconds(Integer, String)
+- uid: Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime,System.Globalization.CultureInfo,System.String)
+  commentId: M:Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime,System.Globalization.CultureInfo,System.String)
+  id: FormatDateTime(System.DateTime,System.Globalization.CultureInfo,System.String)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: FormatDateTime(DateTime, CultureInfo, string)
+  nameWithType: TimeUtility.FormatDateTime(DateTime, CultureInfo, string)
+  fullName: Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime, System.Globalization.CultureInfo, string)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: FormatDateTime
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 319
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 格式化日期为字符串
+  example: []
+  syntax:
+    content: public static string FormatDateTime(DateTime dateTime, CultureInfo cultureInfo, string format = "yyyy-MM-dd HH:mm:ss")
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: 时间日期
+    - id: cultureInfo
+      type: System.Globalization.CultureInfo
+      description: 地区,参考<xref href="Kiwi.Utility.TimeUtility.CulturePreset" data-throw-if-not-resolved="false"></xref>
+    - id: format
+      type: System.String
+      description: 格式,参考<xref href="Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime%2cSystem.String)" data-throw-if-not-resolved="false"></xref>
+    return:
+      type: System.String
+      description: 格式化后的时间字符串
+    content.vb: Public Shared Function FormatDateTime(dateTime As Date, cultureInfo As CultureInfo, format As String = "yyyy-MM-dd HH:mm:ss") As String
+  overload: Kiwi.Utility.TimeUtility.FormatDateTime*
+  nameWithType.vb: TimeUtility.FormatDateTime(Date, CultureInfo, String)
+  fullName.vb: Kiwi.Utility.TimeUtility.FormatDateTime(Date, System.Globalization.CultureInfo, String)
+  name.vb: FormatDateTime(Date, CultureInfo, String)
+- uid: Kiwi.Utility.TimeUtility.ParseDateTime(System.String,System.String)
+  commentId: M:Kiwi.Utility.TimeUtility.ParseDateTime(System.String,System.String)
+  id: ParseDateTime(System.String,System.String)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: ParseDateTime(string, string)
+  nameWithType: TimeUtility.ParseDateTime(string, string)
+  fullName: Kiwi.Utility.TimeUtility.ParseDateTime(string, string)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ParseDateTime
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 330
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 从字符串解析日期
+  example: []
+  syntax:
+    content: public static DateTime ParseDateTime(string dateTimeStr, string format = "yyyy-MM-dd HH:mm:ss")
+    parameters:
+    - id: dateTimeStr
+      type: System.String
+      description: 时间日期字符串
+    - id: format
+      type: System.String
+      description: 格式,参考<xref href="Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime%2cSystem.String)" data-throw-if-not-resolved="false"></xref>
+    return:
+      type: System.DateTime
+      description: 根据字符解析到的时间日期
+    content.vb: Public Shared Function ParseDateTime(dateTimeStr As String, format As String = "yyyy-MM-dd HH:mm:ss") As Date
+  overload: Kiwi.Utility.TimeUtility.ParseDateTime*
+  nameWithType.vb: TimeUtility.ParseDateTime(String, String)
+  fullName.vb: Kiwi.Utility.TimeUtility.ParseDateTime(String, String)
+  name.vb: ParseDateTime(String, String)
+- uid: Kiwi.Utility.TimeUtility.GetLocalTimeZone
+  commentId: M:Kiwi.Utility.TimeUtility.GetLocalTimeZone
+  id: GetLocalTimeZone
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetLocalTimeZone()
+  nameWithType: TimeUtility.GetLocalTimeZone()
+  fullName: Kiwi.Utility.TimeUtility.GetLocalTimeZone()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetLocalTimeZone
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 379
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取当前系统时区
+  example: []
+  syntax:
+    content: public static TimeZoneInfo GetLocalTimeZone()
+    return:
+      type: System.TimeZoneInfo
+      description: 当前系统所在时区
+    content.vb: Public Shared Function GetLocalTimeZone() As TimeZoneInfo
+  overload: Kiwi.Utility.TimeUtility.GetLocalTimeZone*
+- uid: Kiwi.Utility.TimeUtility.ConvertToTimeZone(System.DateTime,System.String)
+  commentId: M:Kiwi.Utility.TimeUtility.ConvertToTimeZone(System.DateTime,System.String)
+  id: ConvertToTimeZone(System.DateTime,System.String)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: ConvertToTimeZone(DateTime, string)
+  nameWithType: TimeUtility.ConvertToTimeZone(DateTime, string)
+  fullName: Kiwi.Utility.TimeUtility.ConvertToTimeZone(System.DateTime, string)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ConvertToTimeZone
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 399
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 将时间转换为特定时区时间
+  remarks: >-
+    可以使用一下代码查看 timeZoneId 的值
+
+    <pre><code class="lang-csharp">foreach (var timezone in TimeZoneInfo.GetSystemTimeZones())
+
+    {
+    	Debug.Log(timezone.Id + " | " + timezone.DisplayName);
+    }</code></pre>
+  example: []
+  syntax:
+    content: public static DateTime ConvertToTimeZone(DateTime dateTime, string timeZoneId)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: 要转换的时间
+    - id: timeZoneId
+      type: System.String
+      description: 时区 ID
+    return:
+      type: System.DateTime
+      description: 转换为特定时区后的时间
+    content.vb: Public Shared Function ConvertToTimeZone(dateTime As Date, timeZoneId As String) As Date
+  overload: Kiwi.Utility.TimeUtility.ConvertToTimeZone*
+  nameWithType.vb: TimeUtility.ConvertToTimeZone(Date, String)
+  fullName.vb: Kiwi.Utility.TimeUtility.ConvertToTimeZone(Date, String)
+  name.vb: ConvertToTimeZone(Date, String)
+- uid: Kiwi.Utility.TimeUtility.GetTimeZoneOffset(System.TimeZoneInfo,System.DateTime)
+  commentId: M:Kiwi.Utility.TimeUtility.GetTimeZoneOffset(System.TimeZoneInfo,System.DateTime)
+  id: GetTimeZoneOffset(System.TimeZoneInfo,System.DateTime)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetTimeZoneOffset(TimeZoneInfo, DateTime)
+  nameWithType: TimeUtility.GetTimeZoneOffset(TimeZoneInfo, DateTime)
+  fullName: Kiwi.Utility.TimeUtility.GetTimeZoneOffset(System.TimeZoneInfo, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetTimeZoneOffset
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 422
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取时区偏移量
+  example: []
+  syntax:
+    content: public static TimeSpan GetTimeZoneOffset(TimeZoneInfo timeZone, DateTime dateTime)
+    parameters:
+    - id: timeZone
+      type: System.TimeZoneInfo
+      description: 时区
+    - id: dateTime
+      type: System.DateTime
+      description: 目标时间
+    return:
+      type: System.TimeSpan
+      description: 目标时间相对指定时区的偏移量
+    content.vb: Public Shared Function GetTimeZoneOffset(timeZone As TimeZoneInfo, dateTime As Date) As TimeSpan
+  overload: Kiwi.Utility.TimeUtility.GetTimeZoneOffset*
+  nameWithType.vb: TimeUtility.GetTimeZoneOffset(TimeZoneInfo, Date)
+  fullName.vb: Kiwi.Utility.TimeUtility.GetTimeZoneOffset(System.TimeZoneInfo, Date)
+  name.vb: GetTimeZoneOffset(TimeZoneInfo, Date)
+- uid: Kiwi.Utility.TimeUtility.IsLeapYear(System.Int32)
+  commentId: M:Kiwi.Utility.TimeUtility.IsLeapYear(System.Int32)
+  id: IsLeapYear(System.Int32)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: IsLeapYear(int)
+  nameWithType: TimeUtility.IsLeapYear(int)
+  fullName: Kiwi.Utility.TimeUtility.IsLeapYear(int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: IsLeapYear
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 436
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 判断指定年份是否是闰年
+  example: []
+  syntax:
+    content: public static bool IsLeapYear(int year)
+    parameters:
+    - id: year
+      type: System.Int32
+      description: 年份
+    return:
+      type: System.Boolean
+      description: 指定年份是否是闰年
+    content.vb: Public Shared Function IsLeapYear(year As Integer) As Boolean
+  overload: Kiwi.Utility.TimeUtility.IsLeapYear*
+  nameWithType.vb: TimeUtility.IsLeapYear(Integer)
+  fullName.vb: Kiwi.Utility.TimeUtility.IsLeapYear(Integer)
+  name.vb: IsLeapYear(Integer)
+- uid: Kiwi.Utility.TimeUtility.IsWeekend(System.DateTime)
+  commentId: M:Kiwi.Utility.TimeUtility.IsWeekend(System.DateTime)
+  id: IsWeekend(System.DateTime)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: IsWeekend(DateTime)
+  nameWithType: TimeUtility.IsWeekend(DateTime)
+  fullName: Kiwi.Utility.TimeUtility.IsWeekend(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: IsWeekend
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 446
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 判断指定时间是否是周末
+  example: []
+  syntax:
+    content: public static bool IsWeekend(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: 时间
+    return:
+      type: System.Boolean
+      description: 指定时间是否是周末
+    content.vb: Public Shared Function IsWeekend(dateTime As Date) As Boolean
+  overload: Kiwi.Utility.TimeUtility.IsWeekend*
+  nameWithType.vb: TimeUtility.IsWeekend(Date)
+  fullName.vb: Kiwi.Utility.TimeUtility.IsWeekend(Date)
+  name.vb: IsWeekend(Date)
+- uid: Kiwi.Utility.TimeUtility.IsTimeInRange(System.DateTime,System.DateTime,System.DateTime)
+  commentId: M:Kiwi.Utility.TimeUtility.IsTimeInRange(System.DateTime,System.DateTime,System.DateTime)
+  id: IsTimeInRange(System.DateTime,System.DateTime,System.DateTime)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: IsTimeInRange(DateTime, DateTime, DateTime)
+  nameWithType: TimeUtility.IsTimeInRange(DateTime, DateTime, DateTime)
+  fullName: Kiwi.Utility.TimeUtility.IsTimeInRange(System.DateTime, System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: IsTimeInRange
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 460
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 判断当前时间是否在两个时间范围内
+  example: []
+  syntax:
+    content: public static bool IsTimeInRange(DateTime time, DateTime startTime, DateTime endTime)
+    parameters:
+    - id: time
+      type: System.DateTime
+      description: 当前时间
+    - id: startTime
+      type: System.DateTime
+      description: 开始时间
+    - id: endTime
+      type: System.DateTime
+      description: 结束时间
+    return:
+      type: System.Boolean
+      description: 当前时间是否在两个时间范围内
+    content.vb: Public Shared Function IsTimeInRange(time As Date, startTime As Date, endTime As Date) As Boolean
+  overload: Kiwi.Utility.TimeUtility.IsTimeInRange*
+  nameWithType.vb: TimeUtility.IsTimeInRange(Date, Date, Date)
+  fullName.vb: Kiwi.Utility.TimeUtility.IsTimeInRange(Date, Date, Date)
+  name.vb: IsTimeInRange(Date, Date, Date)
+- uid: Kiwi.Utility.TimeUtility.IsAcrossYear(System.DateTime,System.DateTime)
+  commentId: M:Kiwi.Utility.TimeUtility.IsAcrossYear(System.DateTime,System.DateTime)
+  id: IsAcrossYear(System.DateTime,System.DateTime)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: IsAcrossYear(DateTime, DateTime)
+  nameWithType: TimeUtility.IsAcrossYear(DateTime, DateTime)
+  fullName: Kiwi.Utility.TimeUtility.IsAcrossYear(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: IsAcrossYear
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 471
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 判断两个时间是否跨年
+  example: []
+  syntax:
+    content: public static bool IsAcrossYear(DateTime dateTime1, DateTime dateTime2)
+    parameters:
+    - id: dateTime1
+      type: System.DateTime
+      description: 时间 1
+    - id: dateTime2
+      type: System.DateTime
+      description: 时间 2
+    return:
+      type: System.Boolean
+      description: 两个时间是否跨年
+    content.vb: Public Shared Function IsAcrossYear(dateTime1 As Date, dateTime2 As Date) As Boolean
+  overload: Kiwi.Utility.TimeUtility.IsAcrossYear*
+  nameWithType.vb: TimeUtility.IsAcrossYear(Date, Date)
+  fullName.vb: Kiwi.Utility.TimeUtility.IsAcrossYear(Date, Date)
+  name.vb: IsAcrossYear(Date, Date)
+- uid: Kiwi.Utility.TimeUtility.IsAcrossMonth(System.DateTime,System.DateTime)
+  commentId: M:Kiwi.Utility.TimeUtility.IsAcrossMonth(System.DateTime,System.DateTime)
+  id: IsAcrossMonth(System.DateTime,System.DateTime)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: IsAcrossMonth(DateTime, DateTime)
+  nameWithType: TimeUtility.IsAcrossMonth(DateTime, DateTime)
+  fullName: Kiwi.Utility.TimeUtility.IsAcrossMonth(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: IsAcrossMonth
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 482
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 判断两个时间是否跨月
+  example: []
+  syntax:
+    content: public static bool IsAcrossMonth(DateTime dateTime1, DateTime dateTime2)
+    parameters:
+    - id: dateTime1
+      type: System.DateTime
+      description: 时间 1
+    - id: dateTime2
+      type: System.DateTime
+      description: 时间 2
+    return:
+      type: System.Boolean
+      description: 两个时间是否跨月
+    content.vb: Public Shared Function IsAcrossMonth(dateTime1 As Date, dateTime2 As Date) As Boolean
+  overload: Kiwi.Utility.TimeUtility.IsAcrossMonth*
+  nameWithType.vb: TimeUtility.IsAcrossMonth(Date, Date)
+  fullName.vb: Kiwi.Utility.TimeUtility.IsAcrossMonth(Date, Date)
+  name.vb: IsAcrossMonth(Date, Date)
+- uid: Kiwi.Utility.TimeUtility.IsAcrossWeek(System.DateTime,System.DateTime)
+  commentId: M:Kiwi.Utility.TimeUtility.IsAcrossWeek(System.DateTime,System.DateTime)
+  id: IsAcrossWeek(System.DateTime,System.DateTime)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: IsAcrossWeek(DateTime, DateTime)
+  nameWithType: TimeUtility.IsAcrossWeek(DateTime, DateTime)
+  fullName: Kiwi.Utility.TimeUtility.IsAcrossWeek(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: IsAcrossWeek
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 496
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 判断两个时间是否跨星期
+  remarks: 原理就是判断两个日期在同一周内的第一天（星期一）是否是同一天
+  example: []
+  syntax:
+    content: public static bool IsAcrossWeek(DateTime dateTime1, DateTime dateTime2)
+    parameters:
+    - id: dateTime1
+      type: System.DateTime
+      description: 时间 1
+    - id: dateTime2
+      type: System.DateTime
+      description: 时间 2
+    return:
+      type: System.Boolean
+      description: 两个时间是否跨星期
+    content.vb: Public Shared Function IsAcrossWeek(dateTime1 As Date, dateTime2 As Date) As Boolean
+  overload: Kiwi.Utility.TimeUtility.IsAcrossWeek*
+  nameWithType.vb: TimeUtility.IsAcrossWeek(Date, Date)
+  fullName.vb: Kiwi.Utility.TimeUtility.IsAcrossWeek(Date, Date)
+  name.vb: IsAcrossWeek(Date, Date)
+- uid: Kiwi.Utility.TimeUtility.IsAcrossDay(System.DateTime,System.DateTime)
+  commentId: M:Kiwi.Utility.TimeUtility.IsAcrossDay(System.DateTime,System.DateTime)
+  id: IsAcrossDay(System.DateTime,System.DateTime)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: IsAcrossDay(DateTime, DateTime)
+  nameWithType: TimeUtility.IsAcrossDay(DateTime, DateTime)
+  fullName: Kiwi.Utility.TimeUtility.IsAcrossDay(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: IsAcrossDay
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 510
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 判断两个时间是否跨天
+  example: []
+  syntax:
+    content: public static bool IsAcrossDay(DateTime dateTime1, DateTime dateTime2)
+    parameters:
+    - id: dateTime1
+      type: System.DateTime
+      description: 时间 1
+    - id: dateTime2
+      type: System.DateTime
+      description: 时间 2
+    return:
+      type: System.Boolean
+      description: 两个时间是否跨天
+    content.vb: Public Shared Function IsAcrossDay(dateTime1 As Date, dateTime2 As Date) As Boolean
+  overload: Kiwi.Utility.TimeUtility.IsAcrossDay*
+  nameWithType.vb: TimeUtility.IsAcrossDay(Date, Date)
+  fullName.vb: Kiwi.Utility.TimeUtility.IsAcrossDay(Date, Date)
+  name.vb: IsAcrossDay(Date, Date)
+- uid: Kiwi.Utility.TimeUtility.IsSameDay(System.DateTime,System.DateTime)
+  commentId: M:Kiwi.Utility.TimeUtility.IsSameDay(System.DateTime,System.DateTime)
+  id: IsSameDay(System.DateTime,System.DateTime)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: IsSameDay(DateTime, DateTime)
+  nameWithType: TimeUtility.IsSameDay(DateTime, DateTime)
+  fullName: Kiwi.Utility.TimeUtility.IsSameDay(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: IsSameDay
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 521
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 判断两个时间是否为同一天
+  example: []
+  syntax:
+    content: public static bool IsSameDay(DateTime dateTime1, DateTime dateTime2)
+    parameters:
+    - id: dateTime1
+      type: System.DateTime
+      description: 时间 1
+    - id: dateTime2
+      type: System.DateTime
+      description: 时间 2
+    return:
+      type: System.Boolean
+      description: 两个时间是否为同一天
+    content.vb: Public Shared Function IsSameDay(dateTime1 As Date, dateTime2 As Date) As Boolean
+  overload: Kiwi.Utility.TimeUtility.IsSameDay*
+  nameWithType.vb: TimeUtility.IsSameDay(Date, Date)
+  fullName.vb: Kiwi.Utility.TimeUtility.IsSameDay(Date, Date)
+  name.vb: IsSameDay(Date, Date)
+- uid: Kiwi.Utility.TimeUtility.GetNextMonths(System.DateTime,System.Int32)
+  commentId: M:Kiwi.Utility.TimeUtility.GetNextMonths(System.DateTime,System.Int32)
+  id: GetNextMonths(System.DateTime,System.Int32)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetNextMonths(DateTime, int)
+  nameWithType: TimeUtility.GetNextMonths(DateTime, int)
+  fullName: Kiwi.Utility.TimeUtility.GetNextMonths(System.DateTime, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetNextMonths
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 538
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取指定时间 N 月之后的时间
+  example: []
+  syntax:
+    content: public static DateTime GetNextMonths(DateTime currentTime, int months = 1)
+    parameters:
+    - id: currentTime
+      type: System.DateTime
+      description: 当前时间
+    - id: months
+      type: System.Int32
+      description: 月
+    return:
+      type: System.DateTime
+      description: 指定时间 N 月之后的时间
+    content.vb: Public Shared Function GetNextMonths(currentTime As Date, months As Integer = 1) As Date
+  overload: Kiwi.Utility.TimeUtility.GetNextMonths*
+  nameWithType.vb: TimeUtility.GetNextMonths(Date, Integer)
+  fullName.vb: Kiwi.Utility.TimeUtility.GetNextMonths(Date, Integer)
+  name.vb: GetNextMonths(Date, Integer)
+- uid: Kiwi.Utility.TimeUtility.GetNextDays(System.DateTime,System.Int32)
+  commentId: M:Kiwi.Utility.TimeUtility.GetNextDays(System.DateTime,System.Int32)
+  id: GetNextDays(System.DateTime,System.Int32)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetNextDays(DateTime, int)
+  nameWithType: TimeUtility.GetNextDays(DateTime, int)
+  fullName: Kiwi.Utility.TimeUtility.GetNextDays(System.DateTime, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetNextDays
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 556
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取指定时间 N 天之后的时间
+  example: []
+  syntax:
+    content: public static DateTime GetNextDays(DateTime currentTime, int days = 1)
+    parameters:
+    - id: currentTime
+      type: System.DateTime
+      description: 当前时间
+    - id: days
+      type: System.Int32
+      description: 天数
+    return:
+      type: System.DateTime
+      description: 指定时间 N 天之后的时间
+    content.vb: Public Shared Function GetNextDays(currentTime As Date, days As Integer = 1) As Date
+  overload: Kiwi.Utility.TimeUtility.GetNextDays*
+  nameWithType.vb: TimeUtility.GetNextDays(Date, Integer)
+  fullName.vb: Kiwi.Utility.TimeUtility.GetNextDays(Date, Integer)
+  name.vb: GetNextDays(Date, Integer)
+- uid: Kiwi.Utility.TimeUtility.GetNextHours(System.DateTime,System.Int32)
+  commentId: M:Kiwi.Utility.TimeUtility.GetNextHours(System.DateTime,System.Int32)
+  id: GetNextHours(System.DateTime,System.Int32)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetNextHours(DateTime, int)
+  nameWithType: TimeUtility.GetNextHours(DateTime, int)
+  fullName: Kiwi.Utility.TimeUtility.GetNextHours(System.DateTime, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetNextHours
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 574
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取指定时间 N 小时之后的时间
+  example: []
+  syntax:
+    content: public static DateTime GetNextHours(DateTime currentTime, int hours)
+    parameters:
+    - id: currentTime
+      type: System.DateTime
+      description: 当前时间
+    - id: hours
+      type: System.Int32
+      description: 小时
+    return:
+      type: System.DateTime
+      description: 指定时间 N 小时之后的时间
+    content.vb: Public Shared Function GetNextHours(currentTime As Date, hours As Integer) As Date
+  overload: Kiwi.Utility.TimeUtility.GetNextHours*
+  nameWithType.vb: TimeUtility.GetNextHours(Date, Integer)
+  fullName.vb: Kiwi.Utility.TimeUtility.GetNextHours(Date, Integer)
+  name.vb: GetNextHours(Date, Integer)
+- uid: Kiwi.Utility.TimeUtility.GetNextMinutes(System.DateTime,System.Int32)
+  commentId: M:Kiwi.Utility.TimeUtility.GetNextMinutes(System.DateTime,System.Int32)
+  id: GetNextMinutes(System.DateTime,System.Int32)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetNextMinutes(DateTime, int)
+  nameWithType: TimeUtility.GetNextMinutes(DateTime, int)
+  fullName: Kiwi.Utility.TimeUtility.GetNextMinutes(System.DateTime, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetNextMinutes
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 592
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取指定时间 N 分钟之后的时间
+  example: []
+  syntax:
+    content: public static DateTime GetNextMinutes(DateTime currentTime, int minutes)
+    parameters:
+    - id: currentTime
+      type: System.DateTime
+      description: 当前时间
+    - id: minutes
+      type: System.Int32
+      description: 分钟
+    return:
+      type: System.DateTime
+      description: 指定时间 N 分钟之后的时间
+    content.vb: Public Shared Function GetNextMinutes(currentTime As Date, minutes As Integer) As Date
+  overload: Kiwi.Utility.TimeUtility.GetNextMinutes*
+  nameWithType.vb: TimeUtility.GetNextMinutes(Date, Integer)
+  fullName.vb: Kiwi.Utility.TimeUtility.GetNextMinutes(Date, Integer)
+  name.vb: GetNextMinutes(Date, Integer)
+- uid: Kiwi.Utility.TimeUtility.GetNextSeconds(System.DateTime,System.Int32)
+  commentId: M:Kiwi.Utility.TimeUtility.GetNextSeconds(System.DateTime,System.Int32)
+  id: GetNextSeconds(System.DateTime,System.Int32)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetNextSeconds(DateTime, int)
+  nameWithType: TimeUtility.GetNextSeconds(DateTime, int)
+  fullName: Kiwi.Utility.TimeUtility.GetNextSeconds(System.DateTime, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetNextSeconds
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 610
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取指定时间 N 秒数之后的时间
+  example: []
+  syntax:
+    content: public static DateTime GetNextSeconds(DateTime currentTime, int seconds)
+    parameters:
+    - id: currentTime
+      type: System.DateTime
+      description: 当前时间
+    - id: seconds
+      type: System.Int32
+      description: 秒数
+    return:
+      type: System.DateTime
+      description: 指定时间 N 秒数之后的时间
+    content.vb: Public Shared Function GetNextSeconds(currentTime As Date, seconds As Integer) As Date
+  overload: Kiwi.Utility.TimeUtility.GetNextSeconds*
+  nameWithType.vb: TimeUtility.GetNextSeconds(Date, Integer)
+  fullName.vb: Kiwi.Utility.TimeUtility.GetNextSeconds(Date, Integer)
+  name.vb: GetNextSeconds(Date, Integer)
+- uid: Kiwi.Utility.TimeUtility.GetNextMilliseconds(System.DateTime,System.Int32)
+  commentId: M:Kiwi.Utility.TimeUtility.GetNextMilliseconds(System.DateTime,System.Int32)
+  id: GetNextMilliseconds(System.DateTime,System.Int32)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetNextMilliseconds(DateTime, int)
+  nameWithType: TimeUtility.GetNextMilliseconds(DateTime, int)
+  fullName: Kiwi.Utility.TimeUtility.GetNextMilliseconds(System.DateTime, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetNextMilliseconds
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 628
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取指定时间 N 毫秒之后的时间
+  example: []
+  syntax:
+    content: public static DateTime GetNextMilliseconds(DateTime currentTime, int milliseconds)
+    parameters:
+    - id: currentTime
+      type: System.DateTime
+      description: 当前时间
+    - id: milliseconds
+      type: System.Int32
+      description: 毫秒
+    return:
+      type: System.DateTime
+      description: 指定时间 N 毫秒之后的时间
+    content.vb: Public Shared Function GetNextMilliseconds(currentTime As Date, milliseconds As Integer) As Date
+  overload: Kiwi.Utility.TimeUtility.GetNextMilliseconds*
+  nameWithType.vb: TimeUtility.GetNextMilliseconds(Date, Integer)
+  fullName.vb: Kiwi.Utility.TimeUtility.GetNextMilliseconds(Date, Integer)
+  name.vb: GetNextMilliseconds(Date, Integer)
+- uid: Kiwi.Utility.TimeUtility.GetNextTime(System.DateTime,Kiwi.Utility.TimeUtility.TimeUnit,System.Int32)
+  commentId: M:Kiwi.Utility.TimeUtility.GetNextTime(System.DateTime,Kiwi.Utility.TimeUtility.TimeUnit,System.Int32)
+  id: GetNextTime(System.DateTime,Kiwi.Utility.TimeUtility.TimeUnit,System.Int32)
+  parent: Kiwi.Utility.TimeUtility
+  langs:
+  - csharp
+  - vb
+  name: GetNextTime(DateTime, TimeUnit, int)
+  nameWithType: TimeUtility.GetNextTime(DateTime, TimeUtility.TimeUnit, int)
+  fullName: Kiwi.Utility.TimeUtility.GetNextTime(System.DateTime, Kiwi.Utility.TimeUtility.TimeUnit, int)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetNextTime
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 647
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 获取指定时间 N 时间单位之后的时间
+  example: []
+  syntax:
+    content: public static DateTime GetNextTime(DateTime currentTime, TimeUtility.TimeUnit timeUnit, int value)
+    parameters:
+    - id: currentTime
+      type: System.DateTime
+      description: 当前时间
+    - id: timeUnit
+      type: Kiwi.Utility.TimeUtility.TimeUnit
+      description: 时间单位
+    - id: value
+      type: System.Int32
+      description: 增加的时间单位值
+    return:
+      type: System.DateTime
+      description: 指定时间 N 时间单位之后的时间
+    content.vb: Public Shared Function GetNextTime(currentTime As Date, timeUnit As TimeUtility.TimeUnit, value As Integer) As Date
+  overload: Kiwi.Utility.TimeUtility.GetNextTime*
+  nameWithType.vb: TimeUtility.GetNextTime(Date, TimeUtility.TimeUnit, Integer)
+  fullName.vb: Kiwi.Utility.TimeUtility.GetNextTime(Date, Kiwi.Utility.TimeUtility.TimeUnit, Integer)
+  name.vb: GetNextTime(Date, TimeUnit, Integer)
+references:
+- uid: Kiwi.Utility
+  commentId: N:Kiwi.Utility
+  href: Kiwi.html
+  name: Kiwi.Utility
+  nameWithType: Kiwi.Utility
+  fullName: Kiwi.Utility
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Kiwi.Utility.TimeUtility.UnixTime*
+  commentId: Overload:Kiwi.Utility.TimeUtility.UnixTime
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_UnixTime
+  name: UnixTime
+  nameWithType: TimeUtility.UnixTime
+  fullName: Kiwi.Utility.TimeUtility.UnixTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: Kiwi.Utility.TimeUtility.GetCurrentUtcTime*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetCurrentUtcTime
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetCurrentUtcTime
+  name: GetCurrentUtcTime
+  nameWithType: TimeUtility.GetCurrentUtcTime
+  fullName: Kiwi.Utility.TimeUtility.GetCurrentUtcTime
+- uid: Kiwi.Utility.TimeUtility.GetCurrentLocalTime*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetCurrentLocalTime
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetCurrentLocalTime
+  name: GetCurrentLocalTime
+  nameWithType: TimeUtility.GetCurrentLocalTime
+  fullName: Kiwi.Utility.TimeUtility.GetCurrentLocalTime
+- uid: Kiwi.Utility.TimeUtility.GetUnixTimestamp*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetUnixTimestamp
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetUnixTimestamp_System_Boolean_
+  name: GetUnixTimestamp
+  nameWithType: TimeUtility.GetUnixTimestamp
+  fullName: Kiwi.Utility.TimeUtility.GetUnixTimestamp
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: Kiwi.Utility.TimeUtility.ConvertUtcToLocal*
+  commentId: Overload:Kiwi.Utility.TimeUtility.ConvertUtcToLocal
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_ConvertUtcToLocal_System_DateTime_
+  name: ConvertUtcToLocal
+  nameWithType: TimeUtility.ConvertUtcToLocal
+  fullName: Kiwi.Utility.TimeUtility.ConvertUtcToLocal
+- uid: Kiwi.Utility.TimeUtility.ConvertLocalToUtc*
+  commentId: Overload:Kiwi.Utility.TimeUtility.ConvertLocalToUtc
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_ConvertLocalToUtc_System_DateTime_
+  name: ConvertLocalToUtc
+  nameWithType: TimeUtility.ConvertLocalToUtc
+  fullName: Kiwi.Utility.TimeUtility.ConvertLocalToUtc
+- uid: Kiwi.Utility.TimeUtility.ConvertUnixTimestampToDateTime*
+  commentId: Overload:Kiwi.Utility.TimeUtility.ConvertUnixTimestampToDateTime
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_ConvertUnixTimestampToDateTime_System_Int64_System_Boolean_
+  name: ConvertUnixTimestampToDateTime
+  nameWithType: TimeUtility.ConvertUnixTimestampToDateTime
+  fullName: Kiwi.Utility.TimeUtility.ConvertUnixTimestampToDateTime
+- uid: Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestamp*
+  commentId: Overload:Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestamp
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_ConvertDateTimeToUnixTimestamp_System_DateTime_
+  name: ConvertDateTimeToUnixTimestamp
+  nameWithType: TimeUtility.ConvertDateTimeToUnixTimestamp
+  fullName: Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestamp
+- uid: Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestampMilliseconds*
+  commentId: Overload:Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestampMilliseconds
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_ConvertDateTimeToUnixTimestampMilliseconds_System_DateTime_
+  name: ConvertDateTimeToUnixTimestampMilliseconds
+  nameWithType: TimeUtility.ConvertDateTimeToUnixTimestampMilliseconds
+  fullName: Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestampMilliseconds
+- uid: Kiwi.Utility.TimeUtility.GetDaysDifference*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetDaysDifference
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetDaysDifference_System_DateTime_System_DateTime_
+  name: GetDaysDifference
+  nameWithType: TimeUtility.GetDaysDifference
+  fullName: Kiwi.Utility.TimeUtility.GetDaysDifference
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Kiwi.Utility.TimeUtility.GetHoursDifference*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetHoursDifference
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetHoursDifference_System_DateTime_System_DateTime_
+  name: GetHoursDifference
+  nameWithType: TimeUtility.GetHoursDifference
+  fullName: Kiwi.Utility.TimeUtility.GetHoursDifference
+- uid: Kiwi.Utility.TimeUtility.GetMinutesDifference*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetMinutesDifference
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetMinutesDifference_System_DateTime_System_DateTime_
+  name: GetMinutesDifference
+  nameWithType: TimeUtility.GetMinutesDifference
+  fullName: Kiwi.Utility.TimeUtility.GetMinutesDifference
+- uid: Kiwi.Utility.TimeUtility.GetSecondsDifference*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetSecondsDifference
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetSecondsDifference_System_DateTime_System_DateTime_
+  name: GetSecondsDifference
+  nameWithType: TimeUtility.GetSecondsDifference
+  fullName: Kiwi.Utility.TimeUtility.GetSecondsDifference
+- uid: Kiwi.Utility.TimeUtility.GetMillisecondsDifference*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetMillisecondsDifference
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetMillisecondsDifference_System_DateTime_System_DateTime_
+  name: GetMillisecondsDifference
+  nameWithType: TimeUtility.GetMillisecondsDifference
+  fullName: Kiwi.Utility.TimeUtility.GetMillisecondsDifference
+- uid: Kiwi.Utility.TimeUtility.GetWeekOfYear*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetWeekOfYear
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetWeekOfYear_System_DateTime_System_DayOfWeek_
+  name: GetWeekOfYear
+  nameWithType: TimeUtility.GetWeekOfYear
+  fullName: Kiwi.Utility.TimeUtility.GetWeekOfYear
+- uid: System.DayOfWeek
+  commentId: T:System.DayOfWeek
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.dayofweek
+  name: DayOfWeek
+  nameWithType: DayOfWeek
+  fullName: System.DayOfWeek
+- uid: Kiwi.Utility.TimeUtility.AddDays*
+  commentId: Overload:Kiwi.Utility.TimeUtility.AddDays
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_AddDays_System_DateTime_System_Int32_
+  name: AddDays
+  nameWithType: TimeUtility.AddDays
+  fullName: Kiwi.Utility.TimeUtility.AddDays
+- uid: Kiwi.Utility.TimeUtility.AddHours*
+  commentId: Overload:Kiwi.Utility.TimeUtility.AddHours
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_AddHours_System_DateTime_System_Int32_
+  name: AddHours
+  nameWithType: TimeUtility.AddHours
+  fullName: Kiwi.Utility.TimeUtility.AddHours
+- uid: Kiwi.Utility.TimeUtility.AddMinutes*
+  commentId: Overload:Kiwi.Utility.TimeUtility.AddMinutes
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_AddMinutes_System_DateTime_System_Int32_
+  name: AddMinutes
+  nameWithType: TimeUtility.AddMinutes
+  fullName: Kiwi.Utility.TimeUtility.AddMinutes
+- uid: Kiwi.Utility.TimeUtility.AddSeconds*
+  commentId: Overload:Kiwi.Utility.TimeUtility.AddSeconds
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_AddSeconds_System_DateTime_System_Int32_
+  name: AddSeconds
+  nameWithType: TimeUtility.AddSeconds
+  fullName: Kiwi.Utility.TimeUtility.AddSeconds
+- uid: Kiwi.Utility.TimeUtility.AddMilliseconds*
+  commentId: Overload:Kiwi.Utility.TimeUtility.AddMilliseconds
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_AddMilliseconds_System_DateTime_System_Int32_
+  name: AddMilliseconds
+  nameWithType: TimeUtility.AddMilliseconds
+  fullName: Kiwi.Utility.TimeUtility.AddMilliseconds
+- uid: Kiwi.Utility.TimeUtility.FormatDateTime*
+  commentId: Overload:Kiwi.Utility.TimeUtility.FormatDateTime
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_FormatDateTime_System_DateTime_System_String_
+  name: FormatDateTime
+  nameWithType: TimeUtility.FormatDateTime
+  fullName: Kiwi.Utility.TimeUtility.FormatDateTime
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime,System.String)
+  commentId: M:Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime,System.String)
+  isExternal: true
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_FormatDateTime_System_DateTime_System_String_
+  name: FormatDateTime(DateTime, string)
+  nameWithType: TimeUtility.FormatDateTime(DateTime, string)
+  fullName: Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime, string)
+  nameWithType.vb: TimeUtility.FormatDateTime(Date, String)
+  fullName.vb: Kiwi.Utility.TimeUtility.FormatDateTime(Date, String)
+  name.vb: FormatDateTime(Date, String)
+  spec.csharp:
+  - uid: Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime,System.String)
+    name: FormatDateTime
+    href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_FormatDateTime_System_DateTime_System_String_
+  - name: (
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime,System.String)
+    name: FormatDateTime
+    href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_FormatDateTime_System_DateTime_System_String_
+  - name: (
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Kiwi.Utility.TimeUtility.FormatSeconds*
+  commentId: Overload:Kiwi.Utility.TimeUtility.FormatSeconds
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_FormatSeconds_System_Int32_System_String_
+  name: FormatSeconds
+  nameWithType: TimeUtility.FormatSeconds
+  fullName: Kiwi.Utility.TimeUtility.FormatSeconds
+- uid: Kiwi.Utility.TimeUtility.FormatMilliseconds*
+  commentId: Overload:Kiwi.Utility.TimeUtility.FormatMilliseconds
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_FormatMilliseconds_System_Int32_System_String_
+  name: FormatMilliseconds
+  nameWithType: TimeUtility.FormatMilliseconds
+  fullName: Kiwi.Utility.TimeUtility.FormatMilliseconds
+- uid: Kiwi.Utility.TimeUtility.CulturePreset
+  commentId: T:Kiwi.Utility.TimeUtility.CulturePreset
+  href: Kiwi.Utility.TimeUtility.html
+  name: TimeUtility.CulturePreset
+  nameWithType: TimeUtility.CulturePreset
+  fullName: Kiwi.Utility.TimeUtility.CulturePreset
+  spec.csharp:
+  - uid: Kiwi.Utility.TimeUtility
+    name: TimeUtility
+    href: Kiwi.Utility.TimeUtility.html
+  - name: .
+  - uid: Kiwi.Utility.TimeUtility.CulturePreset
+    name: CulturePreset
+    href: Kiwi.Utility.TimeUtility.CulturePreset.html
+  spec.vb:
+  - uid: Kiwi.Utility.TimeUtility
+    name: TimeUtility
+    href: Kiwi.Utility.TimeUtility.html
+  - name: .
+  - uid: Kiwi.Utility.TimeUtility.CulturePreset
+    name: CulturePreset
+    href: Kiwi.Utility.TimeUtility.CulturePreset.html
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+- uid: Kiwi.Utility.TimeUtility.ParseDateTime*
+  commentId: Overload:Kiwi.Utility.TimeUtility.ParseDateTime
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_ParseDateTime_System_String_System_String_
+  name: ParseDateTime
+  nameWithType: TimeUtility.ParseDateTime
+  fullName: Kiwi.Utility.TimeUtility.ParseDateTime
+- uid: Kiwi.Utility.TimeUtility.GetLocalTimeZone*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetLocalTimeZone
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetLocalTimeZone
+  name: GetLocalTimeZone
+  nameWithType: TimeUtility.GetLocalTimeZone
+  fullName: Kiwi.Utility.TimeUtility.GetLocalTimeZone
+- uid: System.TimeZoneInfo
+  commentId: T:System.TimeZoneInfo
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timezoneinfo
+  name: TimeZoneInfo
+  nameWithType: TimeZoneInfo
+  fullName: System.TimeZoneInfo
+- uid: Kiwi.Utility.TimeUtility.ConvertToTimeZone*
+  commentId: Overload:Kiwi.Utility.TimeUtility.ConvertToTimeZone
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_ConvertToTimeZone_System_DateTime_System_String_
+  name: ConvertToTimeZone
+  nameWithType: TimeUtility.ConvertToTimeZone
+  fullName: Kiwi.Utility.TimeUtility.ConvertToTimeZone
+- uid: Kiwi.Utility.TimeUtility.GetTimeZoneOffset*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetTimeZoneOffset
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetTimeZoneOffset_System_TimeZoneInfo_System_DateTime_
+  name: GetTimeZoneOffset
+  nameWithType: TimeUtility.GetTimeZoneOffset
+  fullName: Kiwi.Utility.TimeUtility.GetTimeZoneOffset
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: Kiwi.Utility.TimeUtility.IsLeapYear*
+  commentId: Overload:Kiwi.Utility.TimeUtility.IsLeapYear
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_IsLeapYear_System_Int32_
+  name: IsLeapYear
+  nameWithType: TimeUtility.IsLeapYear
+  fullName: Kiwi.Utility.TimeUtility.IsLeapYear
+- uid: Kiwi.Utility.TimeUtility.IsWeekend*
+  commentId: Overload:Kiwi.Utility.TimeUtility.IsWeekend
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_IsWeekend_System_DateTime_
+  name: IsWeekend
+  nameWithType: TimeUtility.IsWeekend
+  fullName: Kiwi.Utility.TimeUtility.IsWeekend
+- uid: Kiwi.Utility.TimeUtility.IsTimeInRange*
+  commentId: Overload:Kiwi.Utility.TimeUtility.IsTimeInRange
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_IsTimeInRange_System_DateTime_System_DateTime_System_DateTime_
+  name: IsTimeInRange
+  nameWithType: TimeUtility.IsTimeInRange
+  fullName: Kiwi.Utility.TimeUtility.IsTimeInRange
+- uid: Kiwi.Utility.TimeUtility.IsAcrossYear*
+  commentId: Overload:Kiwi.Utility.TimeUtility.IsAcrossYear
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_IsAcrossYear_System_DateTime_System_DateTime_
+  name: IsAcrossYear
+  nameWithType: TimeUtility.IsAcrossYear
+  fullName: Kiwi.Utility.TimeUtility.IsAcrossYear
+- uid: Kiwi.Utility.TimeUtility.IsAcrossMonth*
+  commentId: Overload:Kiwi.Utility.TimeUtility.IsAcrossMonth
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_IsAcrossMonth_System_DateTime_System_DateTime_
+  name: IsAcrossMonth
+  nameWithType: TimeUtility.IsAcrossMonth
+  fullName: Kiwi.Utility.TimeUtility.IsAcrossMonth
+- uid: Kiwi.Utility.TimeUtility.IsAcrossWeek*
+  commentId: Overload:Kiwi.Utility.TimeUtility.IsAcrossWeek
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_IsAcrossWeek_System_DateTime_System_DateTime_
+  name: IsAcrossWeek
+  nameWithType: TimeUtility.IsAcrossWeek
+  fullName: Kiwi.Utility.TimeUtility.IsAcrossWeek
+- uid: Kiwi.Utility.TimeUtility.IsAcrossDay*
+  commentId: Overload:Kiwi.Utility.TimeUtility.IsAcrossDay
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_IsAcrossDay_System_DateTime_System_DateTime_
+  name: IsAcrossDay
+  nameWithType: TimeUtility.IsAcrossDay
+  fullName: Kiwi.Utility.TimeUtility.IsAcrossDay
+- uid: Kiwi.Utility.TimeUtility.IsSameDay*
+  commentId: Overload:Kiwi.Utility.TimeUtility.IsSameDay
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_IsSameDay_System_DateTime_System_DateTime_
+  name: IsSameDay
+  nameWithType: TimeUtility.IsSameDay
+  fullName: Kiwi.Utility.TimeUtility.IsSameDay
+- uid: Kiwi.Utility.TimeUtility.GetNextMonths*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetNextMonths
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetNextMonths_System_DateTime_System_Int32_
+  name: GetNextMonths
+  nameWithType: TimeUtility.GetNextMonths
+  fullName: Kiwi.Utility.TimeUtility.GetNextMonths
+- uid: Kiwi.Utility.TimeUtility.GetNextDays*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetNextDays
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetNextDays_System_DateTime_System_Int32_
+  name: GetNextDays
+  nameWithType: TimeUtility.GetNextDays
+  fullName: Kiwi.Utility.TimeUtility.GetNextDays
+- uid: Kiwi.Utility.TimeUtility.GetNextHours*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetNextHours
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetNextHours_System_DateTime_System_Int32_
+  name: GetNextHours
+  nameWithType: TimeUtility.GetNextHours
+  fullName: Kiwi.Utility.TimeUtility.GetNextHours
+- uid: Kiwi.Utility.TimeUtility.GetNextMinutes*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetNextMinutes
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetNextMinutes_System_DateTime_System_Int32_
+  name: GetNextMinutes
+  nameWithType: TimeUtility.GetNextMinutes
+  fullName: Kiwi.Utility.TimeUtility.GetNextMinutes
+- uid: Kiwi.Utility.TimeUtility.GetNextSeconds*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetNextSeconds
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetNextSeconds_System_DateTime_System_Int32_
+  name: GetNextSeconds
+  nameWithType: TimeUtility.GetNextSeconds
+  fullName: Kiwi.Utility.TimeUtility.GetNextSeconds
+- uid: Kiwi.Utility.TimeUtility.GetNextMilliseconds*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetNextMilliseconds
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetNextMilliseconds_System_DateTime_System_Int32_
+  name: GetNextMilliseconds
+  nameWithType: TimeUtility.GetNextMilliseconds
+  fullName: Kiwi.Utility.TimeUtility.GetNextMilliseconds
+- uid: Kiwi.Utility.TimeUtility.GetNextTime*
+  commentId: Overload:Kiwi.Utility.TimeUtility.GetNextTime
+  href: Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_GetNextTime_System_DateTime_Kiwi_Utility_TimeUtility_TimeUnit_System_Int32_
+  name: GetNextTime
+  nameWithType: TimeUtility.GetNextTime
+  fullName: Kiwi.Utility.TimeUtility.GetNextTime
+- uid: Kiwi.Utility.TimeUtility.TimeUnit
+  commentId: T:Kiwi.Utility.TimeUtility.TimeUnit
+  parent: Kiwi.Utility
+  href: Kiwi.Utility.TimeUtility.html
+  name: TimeUtility.TimeUnit
+  nameWithType: TimeUtility.TimeUnit
+  fullName: Kiwi.Utility.TimeUtility.TimeUnit
+  spec.csharp:
+  - uid: Kiwi.Utility.TimeUtility
+    name: TimeUtility
+    href: Kiwi.Utility.TimeUtility.html
+  - name: .
+  - uid: Kiwi.Utility.TimeUtility.TimeUnit
+    name: TimeUnit
+    href: Kiwi.Utility.TimeUtility.TimeUnit.html
+  spec.vb:
+  - uid: Kiwi.Utility.TimeUtility
+    name: TimeUtility
+    href: Kiwi.Utility.TimeUtility.html
+  - name: .
+  - uid: Kiwi.Utility.TimeUtility.TimeUnit
+    name: TimeUnit
+    href: Kiwi.Utility.TimeUtility.TimeUnit.html

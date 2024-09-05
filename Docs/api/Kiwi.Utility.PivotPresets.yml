@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.PivotPresets
+  commentId: T:Kiwi.Utility.PivotPresets
+  id: PivotPresets
+  parent: Kiwi.Utility
+  children:
+  - Kiwi.Utility.PivotPresets.BottomCenter
+  - Kiwi.Utility.PivotPresets.BottomLeft
+  - Kiwi.Utility.PivotPresets.BottomRight
+  - Kiwi.Utility.PivotPresets.MiddleCenter
+  - Kiwi.Utility.PivotPresets.MiddleLeft
+  - Kiwi.Utility.PivotPresets.MiddleRight
+  - Kiwi.Utility.PivotPresets.TopCenter
+  - Kiwi.Utility.PivotPresets.TopLeft
+  - Kiwi.Utility.PivotPresets.TopRight
+  langs:
+  - csharp
+  - vb
+  name: PivotPresets
+  nameWithType: PivotPresets
+  fullName: Kiwi.Utility.PivotPresets
+  type: Enum
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: PivotPresets
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 60
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 重点点预设枚举
+  example: []
+  syntax:
+    content: public enum PivotPresets
+    content.vb: Public Enum PivotPresets
+- uid: Kiwi.Utility.PivotPresets.TopLeft
+  commentId: F:Kiwi.Utility.PivotPresets.TopLeft
+  id: TopLeft
+  parent: Kiwi.Utility.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: TopLeft
+  nameWithType: PivotPresets.TopLeft
+  fullName: Kiwi.Utility.PivotPresets.TopLeft
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: TopLeft
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 62
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: TopLeft = 1
+    return:
+      type: Kiwi.Utility.PivotPresets
+- uid: Kiwi.Utility.PivotPresets.TopCenter
+  commentId: F:Kiwi.Utility.PivotPresets.TopCenter
+  id: TopCenter
+  parent: Kiwi.Utility.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: TopCenter
+  nameWithType: PivotPresets.TopCenter
+  fullName: Kiwi.Utility.PivotPresets.TopCenter
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: TopCenter
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 63
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: TopCenter = 2
+    return:
+      type: Kiwi.Utility.PivotPresets
+- uid: Kiwi.Utility.PivotPresets.TopRight
+  commentId: F:Kiwi.Utility.PivotPresets.TopRight
+  id: TopRight
+  parent: Kiwi.Utility.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: TopRight
+  nameWithType: PivotPresets.TopRight
+  fullName: Kiwi.Utility.PivotPresets.TopRight
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: TopRight
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 64
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: TopRight = 3
+    return:
+      type: Kiwi.Utility.PivotPresets
+- uid: Kiwi.Utility.PivotPresets.MiddleLeft
+  commentId: F:Kiwi.Utility.PivotPresets.MiddleLeft
+  id: MiddleLeft
+  parent: Kiwi.Utility.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: MiddleLeft
+  nameWithType: PivotPresets.MiddleLeft
+  fullName: Kiwi.Utility.PivotPresets.MiddleLeft
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: MiddleLeft
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 66
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: MiddleLeft = 4
+    return:
+      type: Kiwi.Utility.PivotPresets
+- uid: Kiwi.Utility.PivotPresets.MiddleCenter
+  commentId: F:Kiwi.Utility.PivotPresets.MiddleCenter
+  id: MiddleCenter
+  parent: Kiwi.Utility.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: MiddleCenter
+  nameWithType: PivotPresets.MiddleCenter
+  fullName: Kiwi.Utility.PivotPresets.MiddleCenter
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: MiddleCenter
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 67
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: MiddleCenter = 5
+    return:
+      type: Kiwi.Utility.PivotPresets
+- uid: Kiwi.Utility.PivotPresets.MiddleRight
+  commentId: F:Kiwi.Utility.PivotPresets.MiddleRight
+  id: MiddleRight
+  parent: Kiwi.Utility.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: MiddleRight
+  nameWithType: PivotPresets.MiddleRight
+  fullName: Kiwi.Utility.PivotPresets.MiddleRight
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: MiddleRight
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 68
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: MiddleRight = 6
+    return:
+      type: Kiwi.Utility.PivotPresets
+- uid: Kiwi.Utility.PivotPresets.BottomLeft
+  commentId: F:Kiwi.Utility.PivotPresets.BottomLeft
+  id: BottomLeft
+  parent: Kiwi.Utility.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: BottomLeft
+  nameWithType: PivotPresets.BottomLeft
+  fullName: Kiwi.Utility.PivotPresets.BottomLeft
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: BottomLeft
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 70
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: BottomLeft = 7
+    return:
+      type: Kiwi.Utility.PivotPresets
+- uid: Kiwi.Utility.PivotPresets.BottomCenter
+  commentId: F:Kiwi.Utility.PivotPresets.BottomCenter
+  id: BottomCenter
+  parent: Kiwi.Utility.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: BottomCenter
+  nameWithType: PivotPresets.BottomCenter
+  fullName: Kiwi.Utility.PivotPresets.BottomCenter
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: BottomCenter
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 71
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: BottomCenter = 8
+    return:
+      type: Kiwi.Utility.PivotPresets
+- uid: Kiwi.Utility.PivotPresets.BottomRight
+  commentId: F:Kiwi.Utility.PivotPresets.BottomRight
+  id: BottomRight
+  parent: Kiwi.Utility.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: BottomRight
+  nameWithType: PivotPresets.BottomRight
+  fullName: Kiwi.Utility.PivotPresets.BottomRight
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: BottomRight
+    path: ../Packages/com.kiwi.utility/Runtime/Extension/RectTransformExtend.cs
+    startLine: 72
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: BottomRight = 9
+    return:
+      type: Kiwi.Utility.PivotPresets
+references:
+- uid: Kiwi.Utility
+  commentId: N:Kiwi.Utility
+  href: Kiwi.html
+  name: Kiwi.Utility
+  nameWithType: Kiwi.Utility
+  fullName: Kiwi.Utility
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+- uid: Kiwi.Utility.PivotPresets
+  commentId: T:Kiwi.Utility.PivotPresets
+  parent: Kiwi.Utility
+  href: Kiwi.Utility.PivotPresets.html
+  name: PivotPresets
+  nameWithType: PivotPresets
+  fullName: Kiwi.Utility.PivotPresets

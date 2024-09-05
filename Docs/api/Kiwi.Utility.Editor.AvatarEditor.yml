@@ -1,0 +1,792 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.Editor.AvatarEditor
+  commentId: T:Kiwi.Utility.Editor.AvatarEditor
+  id: AvatarEditor
+  parent: Kiwi.Utility.Editor
+  children:
+  - Kiwi.Utility.Editor.AvatarEditor.#ctor(UnityEditor.EditorWindow)
+  - Kiwi.Utility.Editor.AvatarEditor.AddModule``1
+  - Kiwi.Utility.Editor.AvatarEditor.Dispose
+  - Kiwi.Utility.Editor.AvatarEditor.Draw(UnityEngine.Rect,System.Single)
+  - Kiwi.Utility.Editor.AvatarEditor.GetModule``1
+  - Kiwi.Utility.Editor.AvatarEditor.GetPropertyHeight(UnityEditor.SerializedPropertyType,UnityEngine.GUIContent)
+  - Kiwi.Utility.Editor.AvatarEditor.PreviewInstance
+  - Kiwi.Utility.Editor.AvatarEditor.ResetPreviewObj(UnityEngine.GameObject)
+  - Kiwi.Utility.Editor.AvatarEditor.Update
+  langs:
+  - csharp
+  - vb
+  name: AvatarEditor
+  nameWithType: AvatarEditor
+  fullName: Kiwi.Utility.Editor.AvatarEditor
+  type: Class
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: AvatarEditor
+    path: ../Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+    startLine: 15
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: >-
+    模型预览编辑窗体
+
+    <p>fork from Graphi</p>
+  example: []
+  syntax:
+    content: public class AvatarEditor
+    content.vb: Public Class AvatarEditor
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Kiwi.Utility.Editor.AvatarEditor.#ctor(UnityEditor.EditorWindow)
+  commentId: M:Kiwi.Utility.Editor.AvatarEditor.#ctor(UnityEditor.EditorWindow)
+  id: '#ctor(UnityEditor.EditorWindow)'
+  parent: Kiwi.Utility.Editor.AvatarEditor
+  langs:
+  - csharp
+  - vb
+  name: AvatarEditor(EditorWindow)
+  nameWithType: AvatarEditor.AvatarEditor(EditorWindow)
+  fullName: Kiwi.Utility.Editor.AvatarEditor.AvatarEditor(UnityEditor.EditorWindow)
+  type: Constructor
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: .ctor
+    path: ../Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+    startLine: 62
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 构造
+  example: []
+  syntax:
+    content: public AvatarEditor(EditorWindow editor)
+    parameters:
+    - id: editor
+      type: UnityEditor.EditorWindow
+      description: 父窗体
+    content.vb: Public Sub New(editor As EditorWindow)
+  overload: Kiwi.Utility.Editor.AvatarEditor.#ctor*
+  nameWithType.vb: AvatarEditor.New(EditorWindow)
+  fullName.vb: Kiwi.Utility.Editor.AvatarEditor.New(UnityEditor.EditorWindow)
+  name.vb: New(EditorWindow)
+- uid: Kiwi.Utility.Editor.AvatarEditor.AddModule``1
+  commentId: M:Kiwi.Utility.Editor.AvatarEditor.AddModule``1
+  id: AddModule``1
+  parent: Kiwi.Utility.Editor.AvatarEditor
+  langs:
+  - csharp
+  - vb
+  name: AddModule<T>()
+  nameWithType: AvatarEditor.AddModule<T>()
+  fullName: Kiwi.Utility.Editor.AvatarEditor.AddModule<T>()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: AddModule
+    path: ../Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+    startLine: 70
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 添加模块
+  example: []
+  syntax:
+    content: 'public T AddModule<T>() where T : class, IPreviewModule'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function AddModule(Of T As {Class, IPreviewModule})() As T
+  overload: Kiwi.Utility.Editor.AvatarEditor.AddModule*
+  nameWithType.vb: AvatarEditor.AddModule(Of T)()
+  fullName.vb: Kiwi.Utility.Editor.AvatarEditor.AddModule(Of T)()
+  name.vb: AddModule(Of T)()
+- uid: Kiwi.Utility.Editor.AvatarEditor.GetModule``1
+  commentId: M:Kiwi.Utility.Editor.AvatarEditor.GetModule``1
+  id: GetModule``1
+  parent: Kiwi.Utility.Editor.AvatarEditor
+  langs:
+  - csharp
+  - vb
+  name: GetModule<T>()
+  nameWithType: AvatarEditor.GetModule<T>()
+  fullName: Kiwi.Utility.Editor.AvatarEditor.GetModule<T>()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetModule
+    path: ../Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+    startLine: 90
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 获取模块
+  example: []
+  syntax:
+    content: 'public T GetModule<T>() where T : class, IPreviewModule'
+    typeParameters:
+    - id: T
+      description: 模块类型
+    return:
+      type: '{T}'
+      description: 如果不存在,返回Null
+    content.vb: Public Function GetModule(Of T As {Class, IPreviewModule})() As T
+  overload: Kiwi.Utility.Editor.AvatarEditor.GetModule*
+  nameWithType.vb: AvatarEditor.GetModule(Of T)()
+  fullName.vb: Kiwi.Utility.Editor.AvatarEditor.GetModule(Of T)()
+  name.vb: GetModule(Of T)()
+- uid: Kiwi.Utility.Editor.AvatarEditor.Update
+  commentId: M:Kiwi.Utility.Editor.AvatarEditor.Update
+  id: Update
+  parent: Kiwi.Utility.Editor.AvatarEditor
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: AvatarEditor.Update()
+  fullName: Kiwi.Utility.Editor.AvatarEditor.Update()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Update
+    path: ../Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+    startLine: 118
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: >-
+    刷新（在父窗体的 Update 中调用）
+
+    <p>包含动画等</p>
+  example: []
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update()
+  overload: Kiwi.Utility.Editor.AvatarEditor.Update*
+- uid: Kiwi.Utility.Editor.AvatarEditor.Dispose
+  commentId: M:Kiwi.Utility.Editor.AvatarEditor.Dispose
+  id: Dispose
+  parent: Kiwi.Utility.Editor.AvatarEditor
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: AvatarEditor.Dispose()
+  fullName: Kiwi.Utility.Editor.AvatarEditor.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Dispose
+    path: ../Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+    startLine: 132
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 释放（在父窗体被关闭时，必须在 OnDestroy 内调用）
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: Kiwi.Utility.Editor.AvatarEditor.Dispose*
+- uid: Kiwi.Utility.Editor.AvatarEditor.Draw(UnityEngine.Rect,System.Single)
+  commentId: M:Kiwi.Utility.Editor.AvatarEditor.Draw(UnityEngine.Rect,System.Single)
+  id: Draw(UnityEngine.Rect,System.Single)
+  parent: Kiwi.Utility.Editor.AvatarEditor
+  langs:
+  - csharp
+  - vb
+  name: Draw(Rect, float)
+  nameWithType: AvatarEditor.Draw(Rect, float)
+  fullName: Kiwi.Utility.Editor.AvatarEditor.Draw(UnityEngine.Rect, float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Draw
+    path: ../Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+    startLine: 154
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 绘制（在父类的 OnGUI 中调用）
+  example: []
+  syntax:
+    content: public void Draw(Rect rect, float extraHeight = 0)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+      description: 预览窗体所在的父窗体尺寸 <xref href="UnityEditor.EditorWindow.position?text=(%e8%af%a6%e6%83%85%e8%af%b7%e6%9f%a5%e7%9c%8b+EditorWindow.position)" data-throw-if-not-resolved="false"></xref>
+    - id: extraHeight
+      type: System.Single
+      description: 父窗体纵向排布的组件高度总和（也就是除此预览窗体外每一行的行高总和）<xref href="Kiwi.Utility.Editor.AvatarEditor.GetPropertyHeight(UnityEditor.SerializedPropertyType%2cUnityEngine.GUIContent)?text=(%e5%8f%af%e4%bd%bf%e7%94%a8%e6%ad%a4%e7%b1%bb%e7%9a%84+GetPropertyHeight+%e5%87%bd%e6%95%b0%e8%8e%b7%e5%8f%96%e7%bb%84%e4%bb%b6%e9%ab%98%e5%ba%a6)" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Sub Draw(rect As Rect, extraHeight As Single = 0)
+  overload: Kiwi.Utility.Editor.AvatarEditor.Draw*
+  nameWithType.vb: AvatarEditor.Draw(Rect, Single)
+  fullName.vb: Kiwi.Utility.Editor.AvatarEditor.Draw(UnityEngine.Rect, Single)
+  name.vb: Draw(Rect, Single)
+- uid: Kiwi.Utility.Editor.AvatarEditor.GetPropertyHeight(UnityEditor.SerializedPropertyType,UnityEngine.GUIContent)
+  commentId: M:Kiwi.Utility.Editor.AvatarEditor.GetPropertyHeight(UnityEditor.SerializedPropertyType,UnityEngine.GUIContent)
+  id: GetPropertyHeight(UnityEditor.SerializedPropertyType,UnityEngine.GUIContent)
+  parent: Kiwi.Utility.Editor.AvatarEditor
+  langs:
+  - csharp
+  - vb
+  name: GetPropertyHeight(SerializedPropertyType, GUIContent)
+  nameWithType: AvatarEditor.GetPropertyHeight(SerializedPropertyType, GUIContent)
+  fullName: Kiwi.Utility.Editor.AvatarEditor.GetPropertyHeight(UnityEditor.SerializedPropertyType, UnityEngine.GUIContent)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetPropertyHeight
+    path: ../Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+    startLine: 254
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 获取 EditorWindow 内组件的高度
+  example: []
+  syntax:
+    content: public float GetPropertyHeight(SerializedPropertyType type, GUIContent label = null)
+    parameters:
+    - id: type
+      type: UnityEditor.SerializedPropertyType
+      description: 组件类型
+    - id: label
+      type: UnityEngine.GUIContent
+      description: 标签（默认：空字符）
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Function GetPropertyHeight(type As SerializedPropertyType, label As GUIContent = Nothing) As Single
+  overload: Kiwi.Utility.Editor.AvatarEditor.GetPropertyHeight*
+- uid: Kiwi.Utility.Editor.AvatarEditor.ResetPreviewObj(UnityEngine.GameObject)
+  commentId: M:Kiwi.Utility.Editor.AvatarEditor.ResetPreviewObj(UnityEngine.GameObject)
+  id: ResetPreviewObj(UnityEngine.GameObject)
+  parent: Kiwi.Utility.Editor.AvatarEditor
+  langs:
+  - csharp
+  - vb
+  name: ResetPreviewObj(GameObject)
+  nameWithType: AvatarEditor.ResetPreviewObj(GameObject)
+  fullName: Kiwi.Utility.Editor.AvatarEditor.ResetPreviewObj(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ResetPreviewObj
+    path: ../Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+    startLine: 266
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 重置预览对象
+  example: []
+  syntax:
+    content: public void ResetPreviewObj(GameObject obj)
+    parameters:
+    - id: obj
+      type: UnityEngine.GameObject
+      description: ''
+    content.vb: Public Sub ResetPreviewObj(obj As GameObject)
+  overload: Kiwi.Utility.Editor.AvatarEditor.ResetPreviewObj*
+- uid: Kiwi.Utility.Editor.AvatarEditor.PreviewInstance
+  commentId: P:Kiwi.Utility.Editor.AvatarEditor.PreviewInstance
+  id: PreviewInstance
+  parent: Kiwi.Utility.Editor.AvatarEditor
+  langs:
+  - csharp
+  - vb
+  name: PreviewInstance
+  nameWithType: AvatarEditor.PreviewInstance
+  fullName: Kiwi.Utility.Editor.AvatarEditor.PreviewInstance
+  type: Property
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: PreviewInstance
+    path: ../Packages/com.kiwi.utility/Editor/Common/PreviewEditor/AvatarEditor.cs
+    startLine: 277
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 获取预览对象实例（可对实例进行相关操作）
+  example: []
+  syntax:
+    content: public GameObject PreviewInstance { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public ReadOnly Property PreviewInstance As GameObject
+  overload: Kiwi.Utility.Editor.AvatarEditor.PreviewInstance*
+references:
+- uid: Kiwi.Utility.Editor
+  commentId: N:Kiwi.Utility.Editor
+  href: Kiwi.html
+  name: Kiwi.Utility.Editor
+  nameWithType: Kiwi.Utility.Editor
+  fullName: Kiwi.Utility.Editor
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Editor
+    name: Editor
+    href: Kiwi.Utility.Editor.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Editor
+    name: Editor
+    href: Kiwi.Utility.Editor.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Kiwi.Utility.Editor.AvatarEditor.#ctor*
+  commentId: Overload:Kiwi.Utility.Editor.AvatarEditor.#ctor
+  href: Kiwi.Utility.Editor.AvatarEditor.html#Kiwi_Utility_Editor_AvatarEditor__ctor_UnityEditor_EditorWindow_
+  name: AvatarEditor
+  nameWithType: AvatarEditor.AvatarEditor
+  fullName: Kiwi.Utility.Editor.AvatarEditor.AvatarEditor
+  nameWithType.vb: AvatarEditor.New
+  fullName.vb: Kiwi.Utility.Editor.AvatarEditor.New
+  name.vb: New
+- uid: UnityEditor.EditorWindow
+  commentId: T:UnityEditor.EditorWindow
+  parent: UnityEditor
+  isExternal: true
+  name: EditorWindow
+  nameWithType: EditorWindow
+  fullName: UnityEditor.EditorWindow
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: Kiwi.Utility.Editor.AvatarEditor.AddModule*
+  commentId: Overload:Kiwi.Utility.Editor.AvatarEditor.AddModule
+  href: Kiwi.Utility.Editor.AvatarEditor.html#Kiwi_Utility_Editor_AvatarEditor_AddModule__1
+  name: AddModule
+  nameWithType: AvatarEditor.AddModule
+  fullName: Kiwi.Utility.Editor.AvatarEditor.AddModule
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Kiwi.Utility.Editor.AvatarEditor.GetModule*
+  commentId: Overload:Kiwi.Utility.Editor.AvatarEditor.GetModule
+  href: Kiwi.Utility.Editor.AvatarEditor.html#Kiwi_Utility_Editor_AvatarEditor_GetModule__1
+  name: GetModule
+  nameWithType: AvatarEditor.GetModule
+  fullName: Kiwi.Utility.Editor.AvatarEditor.GetModule
+- uid: Kiwi.Utility.Editor.AvatarEditor.Update*
+  commentId: Overload:Kiwi.Utility.Editor.AvatarEditor.Update
+  href: Kiwi.Utility.Editor.AvatarEditor.html#Kiwi_Utility_Editor_AvatarEditor_Update
+  name: Update
+  nameWithType: AvatarEditor.Update
+  fullName: Kiwi.Utility.Editor.AvatarEditor.Update
+- uid: Kiwi.Utility.Editor.AvatarEditor.Dispose*
+  commentId: Overload:Kiwi.Utility.Editor.AvatarEditor.Dispose
+  href: Kiwi.Utility.Editor.AvatarEditor.html#Kiwi_Utility_Editor_AvatarEditor_Dispose
+  name: Dispose
+  nameWithType: AvatarEditor.Dispose
+  fullName: Kiwi.Utility.Editor.AvatarEditor.Dispose
+- uid: UnityEditor.EditorWindow.position
+  commentId: P:UnityEditor.EditorWindow.position
+  parent: UnityEditor.EditorWindow
+  isExternal: true
+  name: position
+  nameWithType: EditorWindow.position
+  fullName: UnityEditor.EditorWindow.position
+- uid: Kiwi.Utility.Editor.AvatarEditor.GetPropertyHeight(UnityEditor.SerializedPropertyType,UnityEngine.GUIContent)
+  commentId: M:Kiwi.Utility.Editor.AvatarEditor.GetPropertyHeight(UnityEditor.SerializedPropertyType,UnityEngine.GUIContent)
+  isExternal: true
+  href: Kiwi.Utility.Editor.AvatarEditor.html#Kiwi_Utility_Editor_AvatarEditor_GetPropertyHeight_UnityEditor_SerializedPropertyType_UnityEngine_GUIContent_
+  name: GetPropertyHeight(SerializedPropertyType, GUIContent)
+  nameWithType: AvatarEditor.GetPropertyHeight(SerializedPropertyType, GUIContent)
+  fullName: Kiwi.Utility.Editor.AvatarEditor.GetPropertyHeight(UnityEditor.SerializedPropertyType, UnityEngine.GUIContent)
+  spec.csharp:
+  - uid: Kiwi.Utility.Editor.AvatarEditor.GetPropertyHeight(UnityEditor.SerializedPropertyType,UnityEngine.GUIContent)
+    name: GetPropertyHeight
+    href: Kiwi.Utility.Editor.AvatarEditor.html#Kiwi_Utility_Editor_AvatarEditor_GetPropertyHeight_UnityEditor_SerializedPropertyType_UnityEngine_GUIContent_
+  - name: (
+  - uid: UnityEditor.SerializedPropertyType
+    name: SerializedPropertyType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.GUIContent
+    name: GUIContent
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Kiwi.Utility.Editor.AvatarEditor.GetPropertyHeight(UnityEditor.SerializedPropertyType,UnityEngine.GUIContent)
+    name: GetPropertyHeight
+    href: Kiwi.Utility.Editor.AvatarEditor.html#Kiwi_Utility_Editor_AvatarEditor_GetPropertyHeight_UnityEditor_SerializedPropertyType_UnityEngine_GUIContent_
+  - name: (
+  - uid: UnityEditor.SerializedPropertyType
+    name: SerializedPropertyType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.GUIContent
+    name: GUIContent
+    isExternal: true
+  - name: )
+- uid: Kiwi.Utility.Editor.AvatarEditor.Draw*
+  commentId: Overload:Kiwi.Utility.Editor.AvatarEditor.Draw
+  href: Kiwi.Utility.Editor.AvatarEditor.html#Kiwi_Utility_Editor_AvatarEditor_Draw_UnityEngine_Rect_System_Single_
+  name: Draw
+  nameWithType: AvatarEditor.Draw
+  fullName: Kiwi.Utility.Editor.AvatarEditor.Draw
+- uid: UnityEngine.Rect
+  commentId: T:UnityEngine.Rect
+  parent: UnityEngine
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: UnityEngine.Rect
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Kiwi.Utility.Editor.AvatarEditor.GetPropertyHeight*
+  commentId: Overload:Kiwi.Utility.Editor.AvatarEditor.GetPropertyHeight
+  href: Kiwi.Utility.Editor.AvatarEditor.html#Kiwi_Utility_Editor_AvatarEditor_GetPropertyHeight_UnityEditor_SerializedPropertyType_UnityEngine_GUIContent_
+  name: GetPropertyHeight
+  nameWithType: AvatarEditor.GetPropertyHeight
+  fullName: Kiwi.Utility.Editor.AvatarEditor.GetPropertyHeight
+- uid: UnityEditor.SerializedPropertyType
+  commentId: T:UnityEditor.SerializedPropertyType
+  parent: UnityEditor
+  isExternal: true
+  name: SerializedPropertyType
+  nameWithType: SerializedPropertyType
+  fullName: UnityEditor.SerializedPropertyType
+- uid: UnityEngine.GUIContent
+  commentId: T:UnityEngine.GUIContent
+  parent: UnityEngine
+  isExternal: true
+  name: GUIContent
+  nameWithType: GUIContent
+  fullName: UnityEngine.GUIContent
+- uid: Kiwi.Utility.Editor.AvatarEditor.ResetPreviewObj*
+  commentId: Overload:Kiwi.Utility.Editor.AvatarEditor.ResetPreviewObj
+  href: Kiwi.Utility.Editor.AvatarEditor.html#Kiwi_Utility_Editor_AvatarEditor_ResetPreviewObj_UnityEngine_GameObject_
+  name: ResetPreviewObj
+  nameWithType: AvatarEditor.ResetPreviewObj
+  fullName: Kiwi.Utility.Editor.AvatarEditor.ResetPreviewObj
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: Kiwi.Utility.Editor.AvatarEditor.PreviewInstance*
+  commentId: Overload:Kiwi.Utility.Editor.AvatarEditor.PreviewInstance
+  href: Kiwi.Utility.Editor.AvatarEditor.html#Kiwi_Utility_Editor_AvatarEditor_PreviewInstance
+  name: PreviewInstance
+  nameWithType: AvatarEditor.PreviewInstance
+  fullName: Kiwi.Utility.Editor.AvatarEditor.PreviewInstance

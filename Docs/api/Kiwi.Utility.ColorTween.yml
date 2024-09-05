@@ -1,0 +1,858 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.ColorTween
+  commentId: T:Kiwi.Utility.ColorTween
+  id: ColorTween
+  parent: Kiwi.Utility
+  children:
+  - Kiwi.Utility.ColorTween.AddOnChangedCallback(UnityEngine.Events.UnityAction{UnityEngine.Color})
+  - Kiwi.Utility.ColorTween.GetDuration
+  - Kiwi.Utility.ColorTween.GetIgnoreTimescale
+  - Kiwi.Utility.ColorTween.TweenValue(System.Single)
+  - Kiwi.Utility.ColorTween.ValidTarget
+  - Kiwi.Utility.ColorTween.duration
+  - Kiwi.Utility.ColorTween.ignoreTimeScale
+  - Kiwi.Utility.ColorTween.startColor
+  - Kiwi.Utility.ColorTween.targetColor
+  - Kiwi.Utility.ColorTween.tweenMode
+  langs:
+  - csharp
+  - vb
+  name: ColorTween
+  nameWithType: ColorTween
+  fullName: Kiwi.Utility.ColorTween
+  type: Struct
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ColorTween
+    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+    startLine: 22
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: 'public struct ColorTween : ITweenValue'
+    content.vb: Public Structure ColorTween Implements ITweenValue
+  implements:
+  - Kiwi.Utility.ITweenValue
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Kiwi.Utility.ColorTween.startColor
+  commentId: P:Kiwi.Utility.ColorTween.startColor
+  id: startColor
+  parent: Kiwi.Utility.ColorTween
+  langs:
+  - csharp
+  - vb
+  name: startColor
+  nameWithType: ColorTween.startColor
+  fullName: Kiwi.Utility.ColorTween.startColor
+  type: Property
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: startColor
+    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+    startLine: 41
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: public Color startColor { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Property startColor As Color
+  overload: Kiwi.Utility.ColorTween.startColor*
+- uid: Kiwi.Utility.ColorTween.targetColor
+  commentId: P:Kiwi.Utility.ColorTween.targetColor
+  id: targetColor
+  parent: Kiwi.Utility.ColorTween
+  langs:
+  - csharp
+  - vb
+  name: targetColor
+  nameWithType: ColorTween.targetColor
+  fullName: Kiwi.Utility.ColorTween.targetColor
+  type: Property
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: targetColor
+    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+    startLine: 47
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: public Color targetColor { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Property targetColor As Color
+  overload: Kiwi.Utility.ColorTween.targetColor*
+- uid: Kiwi.Utility.ColorTween.tweenMode
+  commentId: P:Kiwi.Utility.ColorTween.tweenMode
+  id: tweenMode
+  parent: Kiwi.Utility.ColorTween
+  langs:
+  - csharp
+  - vb
+  name: tweenMode
+  nameWithType: ColorTween.tweenMode
+  fullName: Kiwi.Utility.ColorTween.tweenMode
+  type: Property
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: tweenMode
+    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+    startLine: 53
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: public ColorTween.ColorTweenMode tweenMode { get; set; }
+    parameters: []
+    return:
+      type: Kiwi.Utility.ColorTween.ColorTweenMode
+    content.vb: Public Property tweenMode As ColorTween.ColorTweenMode
+  overload: Kiwi.Utility.ColorTween.tweenMode*
+- uid: Kiwi.Utility.ColorTween.duration
+  commentId: P:Kiwi.Utility.ColorTween.duration
+  id: duration
+  parent: Kiwi.Utility.ColorTween
+  langs:
+  - csharp
+  - vb
+  name: duration
+  nameWithType: ColorTween.duration
+  fullName: Kiwi.Utility.ColorTween.duration
+  type: Property
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: duration
+    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+    startLine: 59
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  example: []
+  syntax:
+    content: public float duration { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property duration As Single
+  overload: Kiwi.Utility.ColorTween.duration*
+  implements:
+  - Kiwi.Utility.ITweenValue.duration
+- uid: Kiwi.Utility.ColorTween.ignoreTimeScale
+  commentId: P:Kiwi.Utility.ColorTween.ignoreTimeScale
+  id: ignoreTimeScale
+  parent: Kiwi.Utility.ColorTween
+  langs:
+  - csharp
+  - vb
+  name: ignoreTimeScale
+  nameWithType: ColorTween.ignoreTimeScale
+  fullName: Kiwi.Utility.ColorTween.ignoreTimeScale
+  type: Property
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ignoreTimeScale
+    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+    startLine: 65
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  example: []
+  syntax:
+    content: public bool ignoreTimeScale { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ignoreTimeScale As Boolean
+  overload: Kiwi.Utility.ColorTween.ignoreTimeScale*
+  implements:
+  - Kiwi.Utility.ITweenValue.ignoreTimeScale
+- uid: Kiwi.Utility.ColorTween.TweenValue(System.Single)
+  commentId: M:Kiwi.Utility.ColorTween.TweenValue(System.Single)
+  id: TweenValue(System.Single)
+  parent: Kiwi.Utility.ColorTween
+  langs:
+  - csharp
+  - vb
+  name: TweenValue(float)
+  nameWithType: ColorTween.TweenValue(float)
+  fullName: Kiwi.Utility.ColorTween.TweenValue(float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: TweenValue
+    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+    startLine: 71
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  example: []
+  syntax:
+    content: public void TweenValue(float floatPercentage)
+    parameters:
+    - id: floatPercentage
+      type: System.Single
+    content.vb: Public Sub TweenValue(floatPercentage As Single)
+  overload: Kiwi.Utility.ColorTween.TweenValue*
+  implements:
+  - Kiwi.Utility.ITweenValue.TweenValue(System.Single)
+  nameWithType.vb: ColorTween.TweenValue(Single)
+  fullName.vb: Kiwi.Utility.ColorTween.TweenValue(Single)
+  name.vb: TweenValue(Single)
+- uid: Kiwi.Utility.ColorTween.AddOnChangedCallback(UnityEngine.Events.UnityAction{UnityEngine.Color})
+  commentId: M:Kiwi.Utility.ColorTween.AddOnChangedCallback(UnityEngine.Events.UnityAction{UnityEngine.Color})
+  id: AddOnChangedCallback(UnityEngine.Events.UnityAction{UnityEngine.Color})
+  parent: Kiwi.Utility.ColorTween
+  langs:
+  - csharp
+  - vb
+  name: AddOnChangedCallback(UnityAction<Color>)
+  nameWithType: ColorTween.AddOnChangedCallback(UnityAction<Color>)
+  fullName: Kiwi.Utility.ColorTween.AddOnChangedCallback(UnityEngine.Events.UnityAction<UnityEngine.Color>)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: AddOnChangedCallback
+    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+    startLine: 91
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: public void AddOnChangedCallback(UnityAction<Color> callback)
+    parameters:
+    - id: callback
+      type: UnityEngine.Events.UnityAction{UnityEngine.Color}
+    content.vb: Public Sub AddOnChangedCallback(callback As UnityAction(Of Color))
+  overload: Kiwi.Utility.ColorTween.AddOnChangedCallback*
+  nameWithType.vb: ColorTween.AddOnChangedCallback(UnityAction(Of Color))
+  fullName.vb: Kiwi.Utility.ColorTween.AddOnChangedCallback(UnityEngine.Events.UnityAction(Of UnityEngine.Color))
+  name.vb: AddOnChangedCallback(UnityAction(Of Color))
+- uid: Kiwi.Utility.ColorTween.GetIgnoreTimescale
+  commentId: M:Kiwi.Utility.ColorTween.GetIgnoreTimescale
+  id: GetIgnoreTimescale
+  parent: Kiwi.Utility.ColorTween
+  langs:
+  - csharp
+  - vb
+  name: GetIgnoreTimescale()
+  nameWithType: ColorTween.GetIgnoreTimescale()
+  fullName: Kiwi.Utility.ColorTween.GetIgnoreTimescale()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetIgnoreTimescale
+    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+    startLine: 99
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: public bool GetIgnoreTimescale()
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetIgnoreTimescale() As Boolean
+  overload: Kiwi.Utility.ColorTween.GetIgnoreTimescale*
+- uid: Kiwi.Utility.ColorTween.GetDuration
+  commentId: M:Kiwi.Utility.ColorTween.GetDuration
+  id: GetDuration
+  parent: Kiwi.Utility.ColorTween
+  langs:
+  - csharp
+  - vb
+  name: GetDuration()
+  nameWithType: ColorTween.GetDuration()
+  fullName: Kiwi.Utility.ColorTween.GetDuration()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetDuration
+    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+    startLine: 104
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  syntax:
+    content: public float GetDuration()
+    return:
+      type: System.Single
+    content.vb: Public Function GetDuration() As Single
+  overload: Kiwi.Utility.ColorTween.GetDuration*
+- uid: Kiwi.Utility.ColorTween.ValidTarget
+  commentId: M:Kiwi.Utility.ColorTween.ValidTarget
+  id: ValidTarget
+  parent: Kiwi.Utility.ColorTween
+  langs:
+  - csharp
+  - vb
+  name: ValidTarget()
+  nameWithType: ColorTween.ValidTarget()
+  fullName: Kiwi.Utility.ColorTween.ValidTarget()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ValidTarget
+    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+    startLine: 109
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  example: []
+  syntax:
+    content: public bool ValidTarget()
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidTarget() As Boolean
+  overload: Kiwi.Utility.ColorTween.ValidTarget*
+  implements:
+  - Kiwi.Utility.ITweenValue.ValidTarget
+references:
+- uid: Kiwi.Utility
+  commentId: N:Kiwi.Utility
+  href: Kiwi.html
+  name: Kiwi.Utility
+  nameWithType: Kiwi.Utility
+  fullName: Kiwi.Utility
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+- uid: Kiwi.Utility.ITweenValue
+  commentId: T:Kiwi.Utility.ITweenValue
+  parent: Kiwi.Utility
+  href: Kiwi.Utility.ITweenValue.html
+  name: ITweenValue
+  nameWithType: ITweenValue
+  fullName: Kiwi.Utility.ITweenValue
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Kiwi.Utility.ColorTween.startColor*
+  commentId: Overload:Kiwi.Utility.ColorTween.startColor
+  href: Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_startColor
+  name: startColor
+  nameWithType: ColorTween.startColor
+  fullName: Kiwi.Utility.ColorTween.startColor
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Kiwi.Utility.ColorTween.targetColor*
+  commentId: Overload:Kiwi.Utility.ColorTween.targetColor
+  href: Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_targetColor
+  name: targetColor
+  nameWithType: ColorTween.targetColor
+  fullName: Kiwi.Utility.ColorTween.targetColor
+- uid: Kiwi.Utility.ColorTween.tweenMode*
+  commentId: Overload:Kiwi.Utility.ColorTween.tweenMode
+  href: Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_tweenMode
+  name: tweenMode
+  nameWithType: ColorTween.tweenMode
+  fullName: Kiwi.Utility.ColorTween.tweenMode
+- uid: Kiwi.Utility.ColorTween.ColorTweenMode
+  commentId: T:Kiwi.Utility.ColorTween.ColorTweenMode
+  parent: Kiwi.Utility
+  href: Kiwi.Utility.ColorTween.html
+  name: ColorTween.ColorTweenMode
+  nameWithType: ColorTween.ColorTweenMode
+  fullName: Kiwi.Utility.ColorTween.ColorTweenMode
+  spec.csharp:
+  - uid: Kiwi.Utility.ColorTween
+    name: ColorTween
+    href: Kiwi.Utility.ColorTween.html
+  - name: .
+  - uid: Kiwi.Utility.ColorTween.ColorTweenMode
+    name: ColorTweenMode
+    href: Kiwi.Utility.ColorTween.ColorTweenMode.html
+  spec.vb:
+  - uid: Kiwi.Utility.ColorTween
+    name: ColorTween
+    href: Kiwi.Utility.ColorTween.html
+  - name: .
+  - uid: Kiwi.Utility.ColorTween.ColorTweenMode
+    name: ColorTweenMode
+    href: Kiwi.Utility.ColorTween.ColorTweenMode.html
+- uid: Kiwi.Utility.ColorTween.duration*
+  commentId: Overload:Kiwi.Utility.ColorTween.duration
+  href: Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_duration
+  name: duration
+  nameWithType: ColorTween.duration
+  fullName: Kiwi.Utility.ColorTween.duration
+- uid: Kiwi.Utility.ITweenValue.duration
+  commentId: P:Kiwi.Utility.ITweenValue.duration
+  parent: Kiwi.Utility.ITweenValue
+  href: Kiwi.Utility.ITweenValue.html#Kiwi_Utility_ITweenValue_duration
+  name: duration
+  nameWithType: ITweenValue.duration
+  fullName: Kiwi.Utility.ITweenValue.duration
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Kiwi.Utility.ColorTween.ignoreTimeScale*
+  commentId: Overload:Kiwi.Utility.ColorTween.ignoreTimeScale
+  href: Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_ignoreTimeScale
+  name: ignoreTimeScale
+  nameWithType: ColorTween.ignoreTimeScale
+  fullName: Kiwi.Utility.ColorTween.ignoreTimeScale
+- uid: Kiwi.Utility.ITweenValue.ignoreTimeScale
+  commentId: P:Kiwi.Utility.ITweenValue.ignoreTimeScale
+  parent: Kiwi.Utility.ITweenValue
+  href: Kiwi.Utility.ITweenValue.html#Kiwi_Utility_ITweenValue_ignoreTimeScale
+  name: ignoreTimeScale
+  nameWithType: ITweenValue.ignoreTimeScale
+  fullName: Kiwi.Utility.ITweenValue.ignoreTimeScale
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Kiwi.Utility.ColorTween.TweenValue*
+  commentId: Overload:Kiwi.Utility.ColorTween.TweenValue
+  href: Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_TweenValue_System_Single_
+  name: TweenValue
+  nameWithType: ColorTween.TweenValue
+  fullName: Kiwi.Utility.ColorTween.TweenValue
+- uid: Kiwi.Utility.ITweenValue.TweenValue(System.Single)
+  commentId: M:Kiwi.Utility.ITweenValue.TweenValue(System.Single)
+  parent: Kiwi.Utility.ITweenValue
+  isExternal: true
+  href: Kiwi.Utility.ITweenValue.html#Kiwi_Utility_ITweenValue_TweenValue_System_Single_
+  name: TweenValue(float)
+  nameWithType: ITweenValue.TweenValue(float)
+  fullName: Kiwi.Utility.ITweenValue.TweenValue(float)
+  nameWithType.vb: ITweenValue.TweenValue(Single)
+  fullName.vb: Kiwi.Utility.ITweenValue.TweenValue(Single)
+  name.vb: TweenValue(Single)
+  spec.csharp:
+  - uid: Kiwi.Utility.ITweenValue.TweenValue(System.Single)
+    name: TweenValue
+    href: Kiwi.Utility.ITweenValue.html#Kiwi_Utility_ITweenValue_TweenValue_System_Single_
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Kiwi.Utility.ITweenValue.TweenValue(System.Single)
+    name: TweenValue
+    href: Kiwi.Utility.ITweenValue.html#Kiwi_Utility_ITweenValue_TweenValue_System_Single_
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Kiwi.Utility.ColorTween.AddOnChangedCallback*
+  commentId: Overload:Kiwi.Utility.ColorTween.AddOnChangedCallback
+  href: Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_AddOnChangedCallback_UnityEngine_Events_UnityAction_UnityEngine_Color__
+  name: AddOnChangedCallback
+  nameWithType: ColorTween.AddOnChangedCallback
+  fullName: Kiwi.Utility.ColorTween.AddOnChangedCallback
+- uid: UnityEngine.Events.UnityAction{UnityEngine.Color}
+  commentId: T:UnityEngine.Events.UnityAction{UnityEngine.Color}
+  parent: UnityEngine.Events
+  definition: UnityEngine.Events.UnityAction`1
+  name: UnityAction<Color>
+  nameWithType: UnityAction<Color>
+  fullName: UnityEngine.Events.UnityAction<UnityEngine.Color>
+  nameWithType.vb: UnityAction(Of Color)
+  fullName.vb: UnityEngine.Events.UnityAction(Of UnityEngine.Color)
+  name.vb: UnityAction(Of Color)
+  spec.csharp:
+  - uid: UnityEngine.Events.UnityAction`1
+    name: UnityAction
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.Color
+    name: Color
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: UnityEngine.Events.UnityAction`1
+    name: UnityAction
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Color
+    name: Color
+    isExternal: true
+  - name: )
+- uid: UnityEngine.Events.UnityAction`1
+  commentId: T:UnityEngine.Events.UnityAction`1
+  isExternal: true
+  name: UnityAction<T0>
+  nameWithType: UnityAction<T0>
+  fullName: UnityEngine.Events.UnityAction<T0>
+  nameWithType.vb: UnityAction(Of T0)
+  fullName.vb: UnityEngine.Events.UnityAction(Of T0)
+  name.vb: UnityAction(Of T0)
+  spec.csharp:
+  - uid: UnityEngine.Events.UnityAction`1
+    name: UnityAction
+    isExternal: true
+  - name: <
+  - name: T0
+  - name: '>'
+  spec.vb:
+  - uid: UnityEngine.Events.UnityAction`1
+    name: UnityAction
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T0
+  - name: )
+- uid: UnityEngine.Events
+  commentId: N:UnityEngine.Events
+  isExternal: true
+  name: UnityEngine.Events
+  nameWithType: UnityEngine.Events
+  fullName: UnityEngine.Events
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Events
+    name: Events
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Events
+    name: Events
+    isExternal: true
+- uid: Kiwi.Utility.ColorTween.GetIgnoreTimescale*
+  commentId: Overload:Kiwi.Utility.ColorTween.GetIgnoreTimescale
+  href: Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_GetIgnoreTimescale
+  name: GetIgnoreTimescale
+  nameWithType: ColorTween.GetIgnoreTimescale
+  fullName: Kiwi.Utility.ColorTween.GetIgnoreTimescale
+- uid: Kiwi.Utility.ColorTween.GetDuration*
+  commentId: Overload:Kiwi.Utility.ColorTween.GetDuration
+  href: Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_GetDuration
+  name: GetDuration
+  nameWithType: ColorTween.GetDuration
+  fullName: Kiwi.Utility.ColorTween.GetDuration
+- uid: Kiwi.Utility.ColorTween.ValidTarget*
+  commentId: Overload:Kiwi.Utility.ColorTween.ValidTarget
+  href: Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_ValidTarget
+  name: ValidTarget
+  nameWithType: ColorTween.ValidTarget
+  fullName: Kiwi.Utility.ColorTween.ValidTarget
+- uid: Kiwi.Utility.ITweenValue.ValidTarget
+  commentId: M:Kiwi.Utility.ITweenValue.ValidTarget
+  parent: Kiwi.Utility.ITweenValue
+  href: Kiwi.Utility.ITweenValue.html#Kiwi_Utility_ITweenValue_ValidTarget
+  name: ValidTarget()
+  nameWithType: ITweenValue.ValidTarget()
+  fullName: Kiwi.Utility.ITweenValue.ValidTarget()
+  spec.csharp:
+  - uid: Kiwi.Utility.ITweenValue.ValidTarget
+    name: ValidTarget
+    href: Kiwi.Utility.ITweenValue.html#Kiwi_Utility_ITweenValue_ValidTarget
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Kiwi.Utility.ITweenValue.ValidTarget
+    name: ValidTarget
+    href: Kiwi.Utility.ITweenValue.html#Kiwi_Utility_ITweenValue_ValidTarget
+  - name: (
+  - name: )

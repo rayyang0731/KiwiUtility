@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange
+  commentId: T:Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange
+  id: PlayerPrefsBrowser.SearchRange
+  parent: Kiwi.Utility.Editor
+  children:
+  - Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange.All
+  - Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange.Key
+  - Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange.Value
+  langs:
+  - csharp
+  - vb
+  name: PlayerPrefsBrowser.SearchRange
+  nameWithType: PlayerPrefsBrowser.SearchRange
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange
+  type: Enum
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SearchRange
+    path: ../Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+    startLine: 486
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 搜索范围
+  example: []
+  syntax:
+    content: public enum PlayerPrefsBrowser.SearchRange
+    content.vb: Public Enum PlayerPrefsBrowser.SearchRange
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange.All
+  commentId: F:Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange.All
+  id: All
+  parent: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: PlayerPrefsBrowser.SearchRange.All
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange.All
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: All
+    path: ../Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+    startLine: 491
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 全部
+  example: []
+  syntax:
+    content: All = 0
+    return:
+      type: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange.Key
+  commentId: F:Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange.Key
+  id: Key
+  parent: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: PlayerPrefsBrowser.SearchRange.Key
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange.Key
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Key
+    path: ../Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+    startLine: 496
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 仅针对 Key
+  example: []
+  syntax:
+    content: Key = 1
+    return:
+      type: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange.Value
+  commentId: F:Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange.Value
+  id: Value
+  parent: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: PlayerPrefsBrowser.SearchRange.Value
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange.Value
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Value
+    path: ../Packages/com.kiwi.utility/Editor/Independent/PlayerPrefsBrowser/PlayerPrefsBrowser.cs
+    startLine: 501
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 仅针对 Value
+  example: []
+  syntax:
+    content: Value = 2
+    return:
+      type: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange
+references:
+- uid: Kiwi.Utility.Editor
+  commentId: N:Kiwi.Utility.Editor
+  href: Kiwi.html
+  name: Kiwi.Utility.Editor
+  nameWithType: Kiwi.Utility.Editor
+  fullName: Kiwi.Utility.Editor
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Editor
+    name: Editor
+    href: Kiwi.Utility.Editor.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Editor
+    name: Editor
+    href: Kiwi.Utility.Editor.html
+- uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange
+  commentId: T:Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange
+  parent: Kiwi.Utility.Editor
+  href: Kiwi.Utility.Editor.PlayerPrefsBrowser.html
+  name: PlayerPrefsBrowser.SearchRange
+  nameWithType: PlayerPrefsBrowser.SearchRange
+  fullName: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange
+  spec.csharp:
+  - uid: Kiwi.Utility.Editor.PlayerPrefsBrowser
+    name: PlayerPrefsBrowser
+    href: Kiwi.Utility.Editor.PlayerPrefsBrowser.html
+  - name: .
+  - uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange
+    name: SearchRange
+    href: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange.html
+  spec.vb:
+  - uid: Kiwi.Utility.Editor.PlayerPrefsBrowser
+    name: PlayerPrefsBrowser
+    href: Kiwi.Utility.Editor.PlayerPrefsBrowser.html
+  - name: .
+  - uid: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange
+    name: SearchRange
+    href: Kiwi.Utility.Editor.PlayerPrefsBrowser.SearchRange.html

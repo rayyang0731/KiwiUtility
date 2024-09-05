@@ -1,0 +1,413 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.KiwiPath
+  commentId: T:Kiwi.Utility.KiwiPath
+  id: KiwiPath
+  parent: Kiwi.Utility
+  children:
+  - Kiwi.Utility.KiwiPath.ConvertToAbsolutePath(System.String,System.String)
+  - Kiwi.Utility.KiwiPath.ConvertToRelativePath(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: KiwiPath
+  nameWithType: KiwiPath
+  fullName: Kiwi.Utility.KiwiPath
+  type: Class
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Path/KiwiPath.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: KiwiPath
+    path: ../Packages/com.kiwi.utility/Runtime/Path/KiwiPath.cs
+    startLine: 10
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 路径工具
+  example: []
+  syntax:
+    content: public static class KiwiPath
+    content.vb: Public Module KiwiPath
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Kiwi.Utility.KiwiPath.ConvertToRelativePath(System.String,System.String)
+  commentId: M:Kiwi.Utility.KiwiPath.ConvertToRelativePath(System.String,System.String)
+  id: ConvertToRelativePath(System.String,System.String)
+  parent: Kiwi.Utility.KiwiPath
+  langs:
+  - csharp
+  - vb
+  name: ConvertToRelativePath(string, string)
+  nameWithType: KiwiPath.ConvertToRelativePath(string, string)
+  fullName: Kiwi.Utility.KiwiPath.ConvertToRelativePath(string, string)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Path/KiwiPath.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ConvertToRelativePath
+    path: ../Packages/com.kiwi.utility/Runtime/Path/KiwiPath.cs
+    startLine: 21
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 转换为相对路径
+  example: []
+  syntax:
+    content: public static string ConvertToRelativePath(string absolutePath, string rootPath = null)
+    parameters:
+    - id: absolutePath
+      type: System.String
+      description: 要转换的绝对路径
+    - id: rootPath
+      type: System.String
+      description: 根路径(默认为 Application.dataPath)
+    return:
+      type: System.String
+      description: >-
+        将 <code class="paramref">absolutePath</code> 转换为
+
+        相对 <code class="paramref">rootPath</code> 的相对路径
+    content.vb: Public Shared Function ConvertToRelativePath(absolutePath As String, rootPath As String = Nothing) As String
+  overload: Kiwi.Utility.KiwiPath.ConvertToRelativePath*
+  nameWithType.vb: KiwiPath.ConvertToRelativePath(String, String)
+  fullName.vb: Kiwi.Utility.KiwiPath.ConvertToRelativePath(String, String)
+  name.vb: ConvertToRelativePath(String, String)
+- uid: Kiwi.Utility.KiwiPath.ConvertToAbsolutePath(System.String,System.String)
+  commentId: M:Kiwi.Utility.KiwiPath.ConvertToAbsolutePath(System.String,System.String)
+  id: ConvertToAbsolutePath(System.String,System.String)
+  parent: Kiwi.Utility.KiwiPath
+  langs:
+  - csharp
+  - vb
+  name: ConvertToAbsolutePath(string, string)
+  nameWithType: KiwiPath.ConvertToAbsolutePath(string, string)
+  fullName: Kiwi.Utility.KiwiPath.ConvertToAbsolutePath(string, string)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Path/KiwiPath.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ConvertToAbsolutePath
+    path: ../Packages/com.kiwi.utility/Runtime/Path/KiwiPath.cs
+    startLine: 50
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 转换为绝对路径
+  example: []
+  syntax:
+    content: public static string ConvertToAbsolutePath(string relativePath, string rootPath = null)
+    parameters:
+    - id: relativePath
+      type: System.String
+      description: 要转换的相对路径
+    - id: rootPath
+      type: System.String
+      description: 根路径(默认为 Application.dataPath)
+    return:
+      type: System.String
+      description: >-
+        将 <code class="paramref">relativePath</code> 转换为
+
+        相对 <code class="paramref">rootPath</code> 的绝对路径
+    content.vb: Public Shared Function ConvertToAbsolutePath(relativePath As String, rootPath As String = Nothing) As String
+  overload: Kiwi.Utility.KiwiPath.ConvertToAbsolutePath*
+  nameWithType.vb: KiwiPath.ConvertToAbsolutePath(String, String)
+  fullName.vb: Kiwi.Utility.KiwiPath.ConvertToAbsolutePath(String, String)
+  name.vb: ConvertToAbsolutePath(String, String)
+references:
+- uid: Kiwi.Utility
+  commentId: N:Kiwi.Utility
+  href: Kiwi.html
+  name: Kiwi.Utility
+  nameWithType: Kiwi.Utility
+  fullName: Kiwi.Utility
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Kiwi.Utility.KiwiPath.ConvertToRelativePath*
+  commentId: Overload:Kiwi.Utility.KiwiPath.ConvertToRelativePath
+  href: Kiwi.Utility.KiwiPath.html#Kiwi_Utility_KiwiPath_ConvertToRelativePath_System_String_System_String_
+  name: ConvertToRelativePath
+  nameWithType: KiwiPath.ConvertToRelativePath
+  fullName: Kiwi.Utility.KiwiPath.ConvertToRelativePath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Kiwi.Utility.KiwiPath.ConvertToAbsolutePath*
+  commentId: Overload:Kiwi.Utility.KiwiPath.ConvertToAbsolutePath
+  href: Kiwi.Utility.KiwiPath.html#Kiwi_Utility_KiwiPath_ConvertToAbsolutePath_System_String_System_String_
+  name: ConvertToAbsolutePath
+  nameWithType: KiwiPath.ConvertToAbsolutePath
+  fullName: Kiwi.Utility.KiwiPath.ConvertToAbsolutePath

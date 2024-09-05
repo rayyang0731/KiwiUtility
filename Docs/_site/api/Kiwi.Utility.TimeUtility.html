@@ -1,0 +1,1960 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class TimeUtility | Kiwi Utility </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class TimeUtility | Kiwi Utility ">
+      
+      <meta name="description" content="时间工具集">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/rayyang0731/KiwiEditorUtitlity/new/main/apiSpec/new?filename=Kiwi_Utility_TimeUtility.md&amp;value=---%0Auid%3A%20Kiwi.Utility.TimeUtility%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Kiwi Utility">
+            Kiwi Utility
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Kiwi.Utility.TimeUtility">
+
+
+
+  <h1 id="Kiwi_Utility_TimeUtility" data-uid="Kiwi.Utility.TimeUtility" class="text-break">
+Class TimeUtility  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Kiwi.html">Kiwi</a>.<a class="xref" href="Kiwi.Utility.html">Utility</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>com.kiwi.utility.runtime.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>时间工具集</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class TimeUtility</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">TimeUtility</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Kiwi_Utility_TimeUtility_UnixTime_" data-uid="Kiwi.Utility.TimeUtility.UnixTime*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_UnixTime" data-uid="Kiwi.Utility.TimeUtility.UnixTime">
+  UnixTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Unix 纪元时间</p>
+<p>1970 年 01 月 01 日 0 时 0 分 0 秒</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime UnixTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Kiwi_Utility_TimeUtility_AddDays_" data-uid="Kiwi.Utility.TimeUtility.AddDays*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_AddDays_System_DateTime_System_Int32_" data-uid="Kiwi.Utility.TimeUtility.AddDays(System.DateTime,System.Int32)">
+  AddDays(DateTime, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将日期加上指定天数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime AddDays(DateTime dateTime, int days)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>起始日期</p>
+</dd>
+    <dt><code>days</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>附加天数</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>加上指定天数的日期</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_AddHours_" data-uid="Kiwi.Utility.TimeUtility.AddHours*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_AddHours_System_DateTime_System_Int32_" data-uid="Kiwi.Utility.TimeUtility.AddHours(System.DateTime,System.Int32)">
+  AddHours(DateTime, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L205"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将日期加上指定小时</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime AddHours(DateTime dateTime, int hours)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>起始日期</p>
+</dd>
+    <dt><code>hours</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>附加小时数</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>加上指定小时数的日期</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_AddMilliseconds_" data-uid="Kiwi.Utility.TimeUtility.AddMilliseconds*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_AddMilliseconds_System_DateTime_System_Int32_" data-uid="Kiwi.Utility.TimeUtility.AddMilliseconds(System.DateTime,System.Int32)">
+  AddMilliseconds(DateTime, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将日期加上指定毫秒数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime AddMilliseconds(DateTime dateTime, int milliseconds)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>起始日期</p>
+</dd>
+    <dt><code>milliseconds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>附加毫秒数</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>加上指定毫秒数的日期</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_AddMinutes_" data-uid="Kiwi.Utility.TimeUtility.AddMinutes*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_AddMinutes_System_DateTime_System_Int32_" data-uid="Kiwi.Utility.TimeUtility.AddMinutes(System.DateTime,System.Int32)">
+  AddMinutes(DateTime, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将日期加上指定分钟</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime AddMinutes(DateTime dateTime, int minutes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>起始日期</p>
+</dd>
+    <dt><code>minutes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>附加分钟数</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>加上指定分钟数的日期</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_AddSeconds_" data-uid="Kiwi.Utility.TimeUtility.AddSeconds*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_AddSeconds_System_DateTime_System_Int32_" data-uid="Kiwi.Utility.TimeUtility.AddSeconds(System.DateTime,System.Int32)">
+  AddSeconds(DateTime, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将日期加上指定秒数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime AddSeconds(DateTime dateTime, int seconds)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>起始日期</p>
+</dd>
+    <dt><code>seconds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>附加秒数</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>加上指定秒数的日期</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_ConvertDateTimeToUnixTimestamp_" data-uid="Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestamp*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_ConvertDateTimeToUnixTimestamp_System_DateTime_" data-uid="Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestamp(System.DateTime)">
+  ConvertDateTimeToUnixTimestamp(DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将 DateTime 转换为 Unix 时间戳</p>
+<p>单位 : 秒</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static long ConvertDateTimeToUnixTimestamp(DateTime dateTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>要转换的时间</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>转换后的秒级 Unix 时间戳</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_ConvertDateTimeToUnixTimestampMilliseconds_" data-uid="Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestampMilliseconds*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_ConvertDateTimeToUnixTimestampMilliseconds_System_DateTime_" data-uid="Kiwi.Utility.TimeUtility.ConvertDateTimeToUnixTimestampMilliseconds(System.DateTime)">
+  ConvertDateTimeToUnixTimestampMilliseconds(DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将 DateTime 转换为 Unix 时间戳</p>
+<p>单位 : 秒</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static long ConvertDateTimeToUnixTimestampMilliseconds(DateTime dateTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>要转换的时间</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>转换后的秒级 Unix 时间戳</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_ConvertLocalToUtc_" data-uid="Kiwi.Utility.TimeUtility.ConvertLocalToUtc*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_ConvertLocalToUtc_System_DateTime_" data-uid="Kiwi.Utility.TimeUtility.ConvertLocalToUtc(System.DateTime)">
+  ConvertLocalToUtc(DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将本地时间转换为 UTC 时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime ConvertLocalToUtc(DateTime localTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>localTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>要转换的本地时间</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>转换后的 UTC 时间</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_ConvertToTimeZone_" data-uid="Kiwi.Utility.TimeUtility.ConvertToTimeZone*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_ConvertToTimeZone_System_DateTime_System_String_" data-uid="Kiwi.Utility.TimeUtility.ConvertToTimeZone(System.DateTime,System.String)">
+  ConvertToTimeZone(DateTime, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L400"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将时间转换为特定时区时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime ConvertToTimeZone(DateTime dateTime, string timeZoneId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>要转换的时间</p>
+</dd>
+    <dt><code>timeZoneId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>时区 ID</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>转换为特定时区后的时间</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Kiwi_Utility_TimeUtility_ConvertToTimeZone_System_DateTime_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>可以使用一下代码查看 timeZoneId 的值</p>
+<pre><code class="lang-csharp">foreach (var timezone in TimeZoneInfo.GetSystemTimeZones())
+{
+	Debug.Log(timezone.Id + " | " + timezone.DisplayName);
+}</code></pre>
+</div>
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_ConvertUnixTimestampToDateTime_" data-uid="Kiwi.Utility.TimeUtility.ConvertUnixTimestampToDateTime*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_ConvertUnixTimestampToDateTime_System_Int64_System_Boolean_" data-uid="Kiwi.Utility.TimeUtility.ConvertUnixTimestampToDateTime(System.Int64,System.Boolean)">
+  ConvertUnixTimestampToDateTime(long, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将 Unix 时间戳转换为 DateTime</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime ConvertUnixTimestampToDateTime(long timestamp, bool isMilliseconds = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>timestamp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>Unix 时间戳</p>
+</dd>
+    <dt><code>isMilliseconds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>时间戳是否为毫秒级</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>转换后的时间</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_ConvertUtcToLocal_" data-uid="Kiwi.Utility.TimeUtility.ConvertUtcToLocal*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_ConvertUtcToLocal_System_DateTime_" data-uid="Kiwi.Utility.TimeUtility.ConvertUtcToLocal(System.DateTime)">
+  ConvertUtcToLocal(DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将 UTC 时间转换为本地时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime ConvertUtcToLocal(DateTime utcTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>utcTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>要转换的 UTC 时间</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>转换后的本地时间</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_FormatDateTime_" data-uid="Kiwi.Utility.TimeUtility.FormatDateTime*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_FormatDateTime_System_DateTime_System_Globalization_CultureInfo_System_String_" data-uid="Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime,System.Globalization.CultureInfo,System.String)">
+  FormatDateTime(DateTime, CultureInfo, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L320"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>格式化日期为字符串</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatDateTime(DateTime dateTime, CultureInfo cultureInfo, string format = &quot;yyyy-MM-dd HH:mm:ss&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>时间日期</p>
+</dd>
+    <dt><code>cultureInfo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo">CultureInfo</a></dt>
+    <dd><p>地区,参考<a class="xref" href="Kiwi.Utility.TimeUtility.CulturePreset.html">TimeUtility.CulturePreset</a></p>
+</dd>
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>格式,参考<a class="xref" href="Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_FormatDateTime_System_DateTime_System_String_">FormatDateTime(DateTime, string)</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>格式化后的时间字符串</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_FormatDateTime_" data-uid="Kiwi.Utility.TimeUtility.FormatDateTime*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_FormatDateTime_System_DateTime_System_String_" data-uid="Kiwi.Utility.TimeUtility.FormatDateTime(System.DateTime,System.String)">
+  FormatDateTime(DateTime, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>格式化日期为字符串</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatDateTime(DateTime dateTime, string format = &quot;yyyy-MM-dd HH:mm:ss&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>时间日期</p>
+</dd>
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>格式,参考 example</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>格式化后的时间字符串</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="Kiwi_Utility_TimeUtility_FormatDateTime_System_DateTime_System_String__examples">Examples</h4>
+  <p>格式示例 :</p>
+<p><b>"s" = 2008-04-18T06:30:00</b> (sortable)</p><p><b>"d" = 04/18/2008</b> (short date)</p><p><b>"g" = 04/18/2008 06:30</b> (general short)</p><p><b>"f" = Friday, 18 April 2008 06:30</b> (full date short)</p><p><b>"t" = 2008-04-18T06:30:00</b> (short time)</p><p><b>"u" = 2008-4-18 06:30:00Z</b> (universal sortable)</p><p><b>"D" = Friday, 18 April 2008</b> (long date)</p><p><b>"F" = Friday, 18 April 2008 06:30:00</b> (full date long)</p><p><b>"G" = 04/18/2008 06:30:00</b> (general long)</p><p><b>"M" = April 18</b> (month)</p><p><b>"O" = 2008-04-18T06:30:00.0000000</b> (ISO 8601)</p><p><b>"R" = Fri, 18 Apr 2008 06:30:00 GMT</b> (RFC 1123)</p><p><b>"T" = 06:30:00</b>(long time)</p><p><b>"U" = Thursday, 17 April 2008 22:30:00</b>(universal full)</p><p><b>"Y" = 2008 April</b> (year month)</p><p><b>"dddd" = Friday</b> (custom)</p><p><b>"M/d/yy" = 4/18/08</b> (custom)</p><p><b>"h:mm:ss tt zz" = 4:03:05 PM -07</b> (custom)</p><p><b>"hh:mm:ss t z" = 04:03:05 P -7</b> (custom)</p><p><b>"yyyy-M-d dddd" = 2008-4-18 Friday</b> (custom)</p><p><b>"HH:m:s zzz" = 16:3:5 -07:00</b> (custom)</p><p><b>"HH:mm:ss zz" = 16:03:05 -07</b> (custom)</p><p><b>"MM/dd/yyyy" = 04/18/2008</b> (custom)</p><p><b>"yy-MM-dd" = 08-04-18</b> (custom)</p><p><b>"yy-MMM-dd ddd" = 08-Apr-18 Fri</b> (custom)</p><p><b>"yyyy MMMM dd" = 2008 April 18</b> (custom)</p>
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_FormatMilliseconds_" data-uid="Kiwi.Utility.TimeUtility.FormatMilliseconds*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_FormatMilliseconds_System_Int32_System_String_" data-uid="Kiwi.Utility.TimeUtility.FormatMilliseconds(System.Int32,System.String)">
+  FormatMilliseconds(int, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>格式化毫秒为字符串</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatMilliseconds(int milliseconds, string format = &quot;HH:mm:ss&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>milliseconds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>毫秒</p>
+</dd>
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>格式,参考<a class="xref" href="Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_FormatDateTime_System_DateTime_System_String_">FormatDateTime(DateTime, string)</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>格式化后的时间字符串</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_FormatSeconds_" data-uid="Kiwi.Utility.TimeUtility.FormatSeconds*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_FormatSeconds_System_Int32_System_String_" data-uid="Kiwi.Utility.TimeUtility.FormatSeconds(System.Int32,System.String)">
+  FormatSeconds(int, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L293"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>格式化秒数为字符串</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatSeconds(int seconds, string format = &quot;HH:mm:ss&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>seconds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>秒数</p>
+</dd>
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>格式,参考<a class="xref" href="Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_FormatDateTime_System_DateTime_System_String_">FormatDateTime(DateTime, string)</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>格式化后的时间字符串</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetCurrentLocalTime_" data-uid="Kiwi.Utility.TimeUtility.GetCurrentLocalTime*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetCurrentLocalTime" data-uid="Kiwi.Utility.TimeUtility.GetCurrentLocalTime">
+  GetCurrentLocalTime()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前本地时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime GetCurrentLocalTime()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>当前本地时间</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetCurrentUtcTime_" data-uid="Kiwi.Utility.TimeUtility.GetCurrentUtcTime*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetCurrentUtcTime" data-uid="Kiwi.Utility.TimeUtility.GetCurrentUtcTime">
+  GetCurrentUtcTime()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前 UTC 时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime GetCurrentUtcTime()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>当前 UTC 时间</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetDaysDifference_" data-uid="Kiwi.Utility.TimeUtility.GetDaysDifference*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetDaysDifference_System_DateTime_System_DateTime_" data-uid="Kiwi.Utility.TimeUtility.GetDaysDifference(System.DateTime,System.DateTime)">
+  GetDaysDifference(DateTime, DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取两个日期之间的天数差</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetDaysDifference(DateTime startDate, DateTime endDate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>开始日期</p>
+</dd>
+    <dt><code>endDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>结束日期</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>两个日期之间的天数差</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetHoursDifference_" data-uid="Kiwi.Utility.TimeUtility.GetHoursDifference*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetHoursDifference_System_DateTime_System_DateTime_" data-uid="Kiwi.Utility.TimeUtility.GetHoursDifference(System.DateTime,System.DateTime)">
+  GetHoursDifference(DateTime, DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取两个日期之间的小时差</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetHoursDifference(DateTime startDate, DateTime endDate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>开始日期</p>
+</dd>
+    <dt><code>endDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>结束日期</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>两个日期之间的小时差</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetLocalTimeZone_" data-uid="Kiwi.Utility.TimeUtility.GetLocalTimeZone*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetLocalTimeZone" data-uid="Kiwi.Utility.TimeUtility.GetLocalTimeZone">
+  GetLocalTimeZone()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L380"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前系统时区</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TimeZoneInfo GetLocalTimeZone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timezoneinfo">TimeZoneInfo</a></dt>
+    <dd><p>当前系统所在时区</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetMillisecondsDifference_" data-uid="Kiwi.Utility.TimeUtility.GetMillisecondsDifference*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetMillisecondsDifference_System_DateTime_System_DateTime_" data-uid="Kiwi.Utility.TimeUtility.GetMillisecondsDifference(System.DateTime,System.DateTime)">
+  GetMillisecondsDifference(DateTime, DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取两个日期之间的毫秒差</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetMillisecondsDifference(DateTime startDate, DateTime endDate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>开始日期</p>
+</dd>
+    <dt><code>endDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>结束日期</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>两个日期之间的毫秒差</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetMinutesDifference_" data-uid="Kiwi.Utility.TimeUtility.GetMinutesDifference*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetMinutesDifference_System_DateTime_System_DateTime_" data-uid="Kiwi.Utility.TimeUtility.GetMinutesDifference(System.DateTime,System.DateTime)">
+  GetMinutesDifference(DateTime, DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取两个日期之间的分钟差</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetMinutesDifference(DateTime startDate, DateTime endDate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>开始日期</p>
+</dd>
+    <dt><code>endDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>结束日期</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>两个日期之间的分钟差</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetNextDays_" data-uid="Kiwi.Utility.TimeUtility.GetNextDays*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetNextDays_System_DateTime_System_Int32_" data-uid="Kiwi.Utility.TimeUtility.GetNextDays(System.DateTime,System.Int32)">
+  GetNextDays(DateTime, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L557"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取指定时间 N 天之后的时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime GetNextDays(DateTime currentTime, int days = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>当前时间</p>
+</dd>
+    <dt><code>days</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>天数</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>指定时间 N 天之后的时间</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetNextHours_" data-uid="Kiwi.Utility.TimeUtility.GetNextHours*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetNextHours_System_DateTime_System_Int32_" data-uid="Kiwi.Utility.TimeUtility.GetNextHours(System.DateTime,System.Int32)">
+  GetNextHours(DateTime, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L575"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取指定时间 N 小时之后的时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime GetNextHours(DateTime currentTime, int hours)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>当前时间</p>
+</dd>
+    <dt><code>hours</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>小时</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>指定时间 N 小时之后的时间</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetNextMilliseconds_" data-uid="Kiwi.Utility.TimeUtility.GetNextMilliseconds*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetNextMilliseconds_System_DateTime_System_Int32_" data-uid="Kiwi.Utility.TimeUtility.GetNextMilliseconds(System.DateTime,System.Int32)">
+  GetNextMilliseconds(DateTime, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L629"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取指定时间 N 毫秒之后的时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime GetNextMilliseconds(DateTime currentTime, int milliseconds)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>当前时间</p>
+</dd>
+    <dt><code>milliseconds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>毫秒</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>指定时间 N 毫秒之后的时间</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetNextMinutes_" data-uid="Kiwi.Utility.TimeUtility.GetNextMinutes*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetNextMinutes_System_DateTime_System_Int32_" data-uid="Kiwi.Utility.TimeUtility.GetNextMinutes(System.DateTime,System.Int32)">
+  GetNextMinutes(DateTime, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L593"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取指定时间 N 分钟之后的时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime GetNextMinutes(DateTime currentTime, int minutes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>当前时间</p>
+</dd>
+    <dt><code>minutes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>分钟</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>指定时间 N 分钟之后的时间</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetNextMonths_" data-uid="Kiwi.Utility.TimeUtility.GetNextMonths*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetNextMonths_System_DateTime_System_Int32_" data-uid="Kiwi.Utility.TimeUtility.GetNextMonths(System.DateTime,System.Int32)">
+  GetNextMonths(DateTime, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L539"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取指定时间 N 月之后的时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime GetNextMonths(DateTime currentTime, int months = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>当前时间</p>
+</dd>
+    <dt><code>months</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>月</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>指定时间 N 月之后的时间</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetNextSeconds_" data-uid="Kiwi.Utility.TimeUtility.GetNextSeconds*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetNextSeconds_System_DateTime_System_Int32_" data-uid="Kiwi.Utility.TimeUtility.GetNextSeconds(System.DateTime,System.Int32)">
+  GetNextSeconds(DateTime, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L611"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取指定时间 N 秒数之后的时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime GetNextSeconds(DateTime currentTime, int seconds)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>当前时间</p>
+</dd>
+    <dt><code>seconds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>秒数</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>指定时间 N 秒数之后的时间</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetNextTime_" data-uid="Kiwi.Utility.TimeUtility.GetNextTime*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetNextTime_System_DateTime_Kiwi_Utility_TimeUtility_TimeUnit_System_Int32_" data-uid="Kiwi.Utility.TimeUtility.GetNextTime(System.DateTime,Kiwi.Utility.TimeUtility.TimeUnit,System.Int32)">
+  GetNextTime(DateTime, TimeUnit, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L648"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取指定时间 N 时间单位之后的时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime GetNextTime(DateTime currentTime, TimeUtility.TimeUnit timeUnit, int value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>当前时间</p>
+</dd>
+    <dt><code>timeUnit</code> <a class="xref" href="Kiwi.Utility.TimeUtility.html">TimeUtility</a>.<a class="xref" href="Kiwi.Utility.TimeUtility.TimeUnit.html">TimeUnit</a></dt>
+    <dd><p>时间单位</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>增加的时间单位值</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>指定时间 N 时间单位之后的时间</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetSecondsDifference_" data-uid="Kiwi.Utility.TimeUtility.GetSecondsDifference*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetSecondsDifference_System_DateTime_System_DateTime_" data-uid="Kiwi.Utility.TimeUtility.GetSecondsDifference(System.DateTime,System.DateTime)">
+  GetSecondsDifference(DateTime, DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取两个日期之间的秒数差</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetSecondsDifference(DateTime startDate, DateTime endDate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>开始日期</p>
+</dd>
+    <dt><code>endDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>结束日期</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>两个日期之间的秒数差</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetTimeZoneOffset_" data-uid="Kiwi.Utility.TimeUtility.GetTimeZoneOffset*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetTimeZoneOffset_System_TimeZoneInfo_System_DateTime_" data-uid="Kiwi.Utility.TimeUtility.GetTimeZoneOffset(System.TimeZoneInfo,System.DateTime)">
+  GetTimeZoneOffset(TimeZoneInfo, DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L423"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取时区偏移量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TimeSpan GetTimeZoneOffset(TimeZoneInfo timeZone, DateTime dateTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>timeZone</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timezoneinfo">TimeZoneInfo</a></dt>
+    <dd><p>时区</p>
+</dd>
+    <dt><code>dateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>目标时间</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd><p>目标时间相对指定时区的偏移量</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetUnixTimestamp_" data-uid="Kiwi.Utility.TimeUtility.GetUnixTimestamp*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetUnixTimestamp_System_Boolean_" data-uid="Kiwi.Utility.TimeUtility.GetUnixTimestamp(System.Boolean)">
+  GetUnixTimestamp(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取 Unix 时间戳</p>
+<p>单位 : 秒</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static long GetUnixTimestamp(bool isMilliseconds = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>isMilliseconds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否返回毫秒级时间戳</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>Unix 时间戳</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_GetWeekOfYear_" data-uid="Kiwi.Utility.TimeUtility.GetWeekOfYear*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_GetWeekOfYear_System_DateTime_System_DayOfWeek_" data-uid="Kiwi.Utility.TimeUtility.GetWeekOfYear(System.DateTime,System.DayOfWeek)">
+  GetWeekOfYear(DateTime, DayOfWeek)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取时间为一年中的第几周</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetWeekOfYear(DateTime dateTime, DayOfWeek firstDayOfWeek = DayOfWeek.Monday)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>目标时间</p>
+</dd>
+    <dt><code>firstDayOfWeek</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dayofweek">DayOfWeek</a></dt>
+    <dd><p>一周的第一天为星期几</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>时间为一年中的第几周</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_IsAcrossDay_" data-uid="Kiwi.Utility.TimeUtility.IsAcrossDay*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_IsAcrossDay_System_DateTime_System_DateTime_" data-uid="Kiwi.Utility.TimeUtility.IsAcrossDay(System.DateTime,System.DateTime)">
+  IsAcrossDay(DateTime, DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L511"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>判断两个时间是否跨天</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAcrossDay(DateTime dateTime1, DateTime dateTime2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>时间 1</p>
+</dd>
+    <dt><code>dateTime2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>时间 2</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>两个时间是否跨天</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_IsAcrossMonth_" data-uid="Kiwi.Utility.TimeUtility.IsAcrossMonth*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_IsAcrossMonth_System_DateTime_System_DateTime_" data-uid="Kiwi.Utility.TimeUtility.IsAcrossMonth(System.DateTime,System.DateTime)">
+  IsAcrossMonth(DateTime, DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L483"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>判断两个时间是否跨月</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAcrossMonth(DateTime dateTime1, DateTime dateTime2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>时间 1</p>
+</dd>
+    <dt><code>dateTime2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>时间 2</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>两个时间是否跨月</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_IsAcrossWeek_" data-uid="Kiwi.Utility.TimeUtility.IsAcrossWeek*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_IsAcrossWeek_System_DateTime_System_DateTime_" data-uid="Kiwi.Utility.TimeUtility.IsAcrossWeek(System.DateTime,System.DateTime)">
+  IsAcrossWeek(DateTime, DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L497"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>判断两个时间是否跨星期</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAcrossWeek(DateTime dateTime1, DateTime dateTime2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>时间 1</p>
+</dd>
+    <dt><code>dateTime2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>时间 2</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>两个时间是否跨星期</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Kiwi_Utility_TimeUtility_IsAcrossWeek_System_DateTime_System_DateTime__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>原理就是判断两个日期在同一周内的第一天（星期一）是否是同一天</p>
+</div>
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_IsAcrossYear_" data-uid="Kiwi.Utility.TimeUtility.IsAcrossYear*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_IsAcrossYear_System_DateTime_System_DateTime_" data-uid="Kiwi.Utility.TimeUtility.IsAcrossYear(System.DateTime,System.DateTime)">
+  IsAcrossYear(DateTime, DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L472"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>判断两个时间是否跨年</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAcrossYear(DateTime dateTime1, DateTime dateTime2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>时间 1</p>
+</dd>
+    <dt><code>dateTime2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>时间 2</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>两个时间是否跨年</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_IsLeapYear_" data-uid="Kiwi.Utility.TimeUtility.IsLeapYear*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_IsLeapYear_System_Int32_" data-uid="Kiwi.Utility.TimeUtility.IsLeapYear(System.Int32)">
+  IsLeapYear(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L437"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>判断指定年份是否是闰年</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsLeapYear(int year)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>year</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>年份</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>指定年份是否是闰年</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_IsSameDay_" data-uid="Kiwi.Utility.TimeUtility.IsSameDay*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_IsSameDay_System_DateTime_System_DateTime_" data-uid="Kiwi.Utility.TimeUtility.IsSameDay(System.DateTime,System.DateTime)">
+  IsSameDay(DateTime, DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L522"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>判断两个时间是否为同一天</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsSameDay(DateTime dateTime1, DateTime dateTime2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>时间 1</p>
+</dd>
+    <dt><code>dateTime2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>时间 2</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>两个时间是否为同一天</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_IsTimeInRange_" data-uid="Kiwi.Utility.TimeUtility.IsTimeInRange*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_IsTimeInRange_System_DateTime_System_DateTime_System_DateTime_" data-uid="Kiwi.Utility.TimeUtility.IsTimeInRange(System.DateTime,System.DateTime,System.DateTime)">
+  IsTimeInRange(DateTime, DateTime, DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L461"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>判断当前时间是否在两个时间范围内</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsTimeInRange(DateTime time, DateTime startTime, DateTime endTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>当前时间</p>
+</dd>
+    <dt><code>startTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>开始时间</p>
+</dd>
+    <dt><code>endTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>结束时间</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>当前时间是否在两个时间范围内</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_IsWeekend_" data-uid="Kiwi.Utility.TimeUtility.IsWeekend*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_IsWeekend_System_DateTime_" data-uid="Kiwi.Utility.TimeUtility.IsWeekend(System.DateTime)">
+  IsWeekend(DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L447"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>判断指定时间是否是周末</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsWeekend(DateTime dateTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>时间</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>指定时间是否是周末</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Kiwi_Utility_TimeUtility_ParseDateTime_" data-uid="Kiwi.Utility.TimeUtility.ParseDateTime*"></a>
+
+  <h3 id="Kiwi_Utility_TimeUtility_ParseDateTime_System_String_System_String_" data-uid="Kiwi.Utility.TimeUtility.ParseDateTime(System.String,System.String)">
+  ParseDateTime(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>从字符串解析日期</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime ParseDateTime(string dateTimeStr, string format = &quot;yyyy-MM-dd HH:mm:ss&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTimeStr</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>时间日期字符串</p>
+</dd>
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>格式,参考<a class="xref" href="Kiwi.Utility.TimeUtility.html#Kiwi_Utility_TimeUtility_FormatDateTime_System_DateTime_System_String_">FormatDateTime(DateTime, string)</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>根据字符解析到的时间日期</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs/#L11" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

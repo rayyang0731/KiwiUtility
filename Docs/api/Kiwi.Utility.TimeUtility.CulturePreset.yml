@@ -1,0 +1,540 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.TimeUtility.CulturePreset
+  commentId: T:Kiwi.Utility.TimeUtility.CulturePreset
+  id: TimeUtility.CulturePreset
+  parent: Kiwi.Utility
+  children:
+  - Kiwi.Utility.TimeUtility.CulturePreset.de_DE
+  - Kiwi.Utility.TimeUtility.CulturePreset.en_US
+  - Kiwi.Utility.TimeUtility.CulturePreset.fr_FR
+  - Kiwi.Utility.TimeUtility.CulturePreset.ja_JP
+  - Kiwi.Utility.TimeUtility.CulturePreset.ko_KR
+  - Kiwi.Utility.TimeUtility.CulturePreset.zh_CN
+  langs:
+  - csharp
+  - vb
+  name: TimeUtility.CulturePreset
+  nameWithType: TimeUtility.CulturePreset
+  fullName: Kiwi.Utility.TimeUtility.CulturePreset
+  type: Struct
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: CulturePreset
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 338
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 地区预设
+  example: []
+  syntax:
+    content: public struct TimeUtility.CulturePreset
+    content.vb: Public Structure TimeUtility.CulturePreset
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Kiwi.Utility.TimeUtility.CulturePreset.en_US
+  commentId: P:Kiwi.Utility.TimeUtility.CulturePreset.en_US
+  id: en_US
+  parent: Kiwi.Utility.TimeUtility.CulturePreset
+  langs:
+  - csharp
+  - vb
+  name: en_US
+  nameWithType: TimeUtility.CulturePreset.en_US
+  fullName: Kiwi.Utility.TimeUtility.CulturePreset.en_US
+  type: Property
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: en_US
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 343
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 美式英语
+  example: []
+  syntax:
+    content: public static CultureInfo en_US { get; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public Shared ReadOnly Property en_US As CultureInfo
+  overload: Kiwi.Utility.TimeUtility.CulturePreset.en_US*
+- uid: Kiwi.Utility.TimeUtility.CulturePreset.zh_CN
+  commentId: P:Kiwi.Utility.TimeUtility.CulturePreset.zh_CN
+  id: zh_CN
+  parent: Kiwi.Utility.TimeUtility.CulturePreset
+  langs:
+  - csharp
+  - vb
+  name: zh_CN
+  nameWithType: TimeUtility.CulturePreset.zh_CN
+  fullName: Kiwi.Utility.TimeUtility.CulturePreset.zh_CN
+  type: Property
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: zh_CN
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 348
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 汉语（中国）
+  example: []
+  syntax:
+    content: public static CultureInfo zh_CN { get; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public Shared ReadOnly Property zh_CN As CultureInfo
+  overload: Kiwi.Utility.TimeUtility.CulturePreset.zh_CN*
+- uid: Kiwi.Utility.TimeUtility.CulturePreset.fr_FR
+  commentId: P:Kiwi.Utility.TimeUtility.CulturePreset.fr_FR
+  id: fr_FR
+  parent: Kiwi.Utility.TimeUtility.CulturePreset
+  langs:
+  - csharp
+  - vb
+  name: fr_FR
+  nameWithType: TimeUtility.CulturePreset.fr_FR
+  fullName: Kiwi.Utility.TimeUtility.CulturePreset.fr_FR
+  type: Property
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: fr_FR
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 353
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 法语（法国）
+  example: []
+  syntax:
+    content: public static CultureInfo fr_FR { get; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public Shared ReadOnly Property fr_FR As CultureInfo
+  overload: Kiwi.Utility.TimeUtility.CulturePreset.fr_FR*
+- uid: Kiwi.Utility.TimeUtility.CulturePreset.de_DE
+  commentId: P:Kiwi.Utility.TimeUtility.CulturePreset.de_DE
+  id: de_DE
+  parent: Kiwi.Utility.TimeUtility.CulturePreset
+  langs:
+  - csharp
+  - vb
+  name: de_DE
+  nameWithType: TimeUtility.CulturePreset.de_DE
+  fullName: Kiwi.Utility.TimeUtility.CulturePreset.de_DE
+  type: Property
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: de_DE
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 358
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 德语（德国）
+  example: []
+  syntax:
+    content: public static CultureInfo de_DE { get; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public Shared ReadOnly Property de_DE As CultureInfo
+  overload: Kiwi.Utility.TimeUtility.CulturePreset.de_DE*
+- uid: Kiwi.Utility.TimeUtility.CulturePreset.ja_JP
+  commentId: P:Kiwi.Utility.TimeUtility.CulturePreset.ja_JP
+  id: ja_JP
+  parent: Kiwi.Utility.TimeUtility.CulturePreset
+  langs:
+  - csharp
+  - vb
+  name: ja_JP
+  nameWithType: TimeUtility.CulturePreset.ja_JP
+  fullName: Kiwi.Utility.TimeUtility.CulturePreset.ja_JP
+  type: Property
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ja_JP
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 363
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 日语（日本）
+  example: []
+  syntax:
+    content: public static CultureInfo ja_JP { get; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public Shared ReadOnly Property ja_JP As CultureInfo
+  overload: Kiwi.Utility.TimeUtility.CulturePreset.ja_JP*
+- uid: Kiwi.Utility.TimeUtility.CulturePreset.ko_KR
+  commentId: P:Kiwi.Utility.TimeUtility.CulturePreset.ko_KR
+  id: ko_KR
+  parent: Kiwi.Utility.TimeUtility.CulturePreset
+  langs:
+  - csharp
+  - vb
+  name: ko_KR
+  nameWithType: TimeUtility.CulturePreset.ko_KR
+  fullName: Kiwi.Utility.TimeUtility.CulturePreset.ko_KR
+  type: Property
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ko_KR
+    path: ../Packages/com.kiwi.utility/Runtime/Common/TimeUtility.cs
+    startLine: 368
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility
+  summary: 韩语（韩国）
+  example: []
+  syntax:
+    content: public static CultureInfo ko_KR { get; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public Shared ReadOnly Property ko_KR As CultureInfo
+  overload: Kiwi.Utility.TimeUtility.CulturePreset.ko_KR*
+references:
+- uid: Kiwi.Utility
+  commentId: N:Kiwi.Utility
+  href: Kiwi.html
+  name: Kiwi.Utility
+  nameWithType: Kiwi.Utility
+  fullName: Kiwi.Utility
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Kiwi.Utility.TimeUtility.CulturePreset.en_US*
+  commentId: Overload:Kiwi.Utility.TimeUtility.CulturePreset.en_US
+  href: Kiwi.Utility.TimeUtility.CulturePreset.html#Kiwi_Utility_TimeUtility_CulturePreset_en_US
+  name: en_US
+  nameWithType: TimeUtility.CulturePreset.en_US
+  fullName: Kiwi.Utility.TimeUtility.CulturePreset.en_US
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+- uid: Kiwi.Utility.TimeUtility.CulturePreset.zh_CN*
+  commentId: Overload:Kiwi.Utility.TimeUtility.CulturePreset.zh_CN
+  href: Kiwi.Utility.TimeUtility.CulturePreset.html#Kiwi_Utility_TimeUtility_CulturePreset_zh_CN
+  name: zh_CN
+  nameWithType: TimeUtility.CulturePreset.zh_CN
+  fullName: Kiwi.Utility.TimeUtility.CulturePreset.zh_CN
+- uid: Kiwi.Utility.TimeUtility.CulturePreset.fr_FR*
+  commentId: Overload:Kiwi.Utility.TimeUtility.CulturePreset.fr_FR
+  href: Kiwi.Utility.TimeUtility.CulturePreset.html#Kiwi_Utility_TimeUtility_CulturePreset_fr_FR
+  name: fr_FR
+  nameWithType: TimeUtility.CulturePreset.fr_FR
+  fullName: Kiwi.Utility.TimeUtility.CulturePreset.fr_FR
+- uid: Kiwi.Utility.TimeUtility.CulturePreset.de_DE*
+  commentId: Overload:Kiwi.Utility.TimeUtility.CulturePreset.de_DE
+  href: Kiwi.Utility.TimeUtility.CulturePreset.html#Kiwi_Utility_TimeUtility_CulturePreset_de_DE
+  name: de_DE
+  nameWithType: TimeUtility.CulturePreset.de_DE
+  fullName: Kiwi.Utility.TimeUtility.CulturePreset.de_DE
+- uid: Kiwi.Utility.TimeUtility.CulturePreset.ja_JP*
+  commentId: Overload:Kiwi.Utility.TimeUtility.CulturePreset.ja_JP
+  href: Kiwi.Utility.TimeUtility.CulturePreset.html#Kiwi_Utility_TimeUtility_CulturePreset_ja_JP
+  name: ja_JP
+  nameWithType: TimeUtility.CulturePreset.ja_JP
+  fullName: Kiwi.Utility.TimeUtility.CulturePreset.ja_JP
+- uid: Kiwi.Utility.TimeUtility.CulturePreset.ko_KR*
+  commentId: Overload:Kiwi.Utility.TimeUtility.CulturePreset.ko_KR
+  href: Kiwi.Utility.TimeUtility.CulturePreset.html#Kiwi_Utility_TimeUtility_CulturePreset_ko_KR
+  name: ko_KR
+  nameWithType: TimeUtility.CulturePreset.ko_KR
+  fullName: Kiwi.Utility.TimeUtility.CulturePreset.ko_KR
