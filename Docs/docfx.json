@@ -5,7 +5,8 @@
         {
           "src": "..",
           "files": [
-            "*.csproj"
+            "com.kiwi.utility.editor.csproj",
+            "com.kiwi.utility.runtime.csproj"
           ]
         }
       ],
