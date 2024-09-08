@@ -91,7 +91,9 @@
 <h2 id="说明">说明</h2>
 <p>用于进行模型预览, 支持预览画面的移动/缩放/旋转, 通过扩展 Module 支持动画播放/显示骨骼等一系列自定义功能, 可以将此 Editor 嵌套入自己的 CustomEditorWindow 中.</p>
 <h2 id="使用方法">使用方法</h2>
-<h4 id="1-在-editorwindow-中定义-avatareditor-对象-添加需要的-module">1. 在 EditorWindow 中定义 AvatarEditor 对象, 添加需要的 Module.</h4>
+<ol>
+<li>在 EditorWindow 中定义 AvatarEditor 对象, 添加需要的 Module.</li>
+</ol>
 <pre><code class="lang-csharp">private void OnEnable()
 {
     _avatarEditor = new(this);
@@ -102,7 +104,9 @@
     _avatarEditor.AddModule&lt;ModelBonesModule&gt;();
 }
 </code></pre>
-<h4 id="2-分别在-editorwindow-的-update-方法和-ongui-方法调用-avatareditor-的-update-方法和-draw-方法">2. 分别在 EditorWindow 的 Update 方法和 OnGUI 方法调用 AvatarEditor 的 Update 方法和 Draw 方法.</h4>
+<ol start="2">
+<li>分别在 EditorWindow 的 Update 方法和 OnGUI 方法调用 AvatarEditor 的 Update 方法和 Draw 方法.</li>
+</ol>
 <pre><code class="lang-csharp">private void Update()
 {
     _avatarEditor?.Update();
@@ -113,13 +117,18 @@ private void OnGUI()
     _avatarEditor.Draw(position);
 }
 </code></pre>
-<h4 id="3-在editorwindow-销毁时-调用-avatareditor-的-dispose-方法进行释放">3. 在EditorWindow 销毁时, 调用 AvatarEditor 的 Dispose 方法进行释放.</h4>
+<ol start="3">
+<li>在EditorWindow 销毁时, 调用 AvatarEditor 的 Dispose 方法进行释放.</li>
+</ol>
 <pre><code class="lang-csharp">private void OnDestroy()
 {
     _avatarEditor.Dispose();
 }
 </code></pre>
-<h4 id="4-如果需要添加自己的-module--只要自己的-module-继承-ipreviewmodule-接口-调用-avatareditoraddmodule-进行添加即可">4. 如果需要添加自己的 Module , 只要自己的 Module 继承 IPreviewModule 接口, 调用 AvatarEditor.AddModule 进行添加即可.</h4>
+<p><em><strong>可以参考 <a href="https://github.com/rayyang0731/KiwiUtility/blob/main/Packages/com.kiwi.utility/Editor/Common/PreviewEditor/PreviewEditorWindow.cs#L8">PreviewEditorWindow.cs</a></strong></em></p>
+<ol start="4">
+<li>如果需要添加自己的 Module , 只要自己的 Module 继承 IPreviewModule 接口, 调用 AvatarEditor.AddModule 进行添加即可.</li>
+</ol>
 <p><em><strong>可以参考 <a href="https://github.com/rayyang0731/KiwiUtility/blob/main/Packages/com.kiwi.utility/Editor/Common/PreviewEditor/Module/PreviewAnimationModule.cs#L12">PreviewAnimationModule.cs</a></strong></em></p>
 
 </article>
