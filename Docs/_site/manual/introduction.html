@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Docs/manual/EditorToolbarExtender 使用说明.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Docs/manual/introduction.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -86,80 +86,11 @@
 
         <article data-uid="">
 
-<h2 id="editor-toolbar-extender-使用说明">Editor Toolbar Extender 使用说明</h2>
-<p><img src="../images/EditorToolbarExtender/img_1.png" alt="img_1.png"></p>
-<h2 id="说明">说明</h2>
-<p>工具用于扩展 Unity Editor 的工具栏 , 方便添加自定义的按钮或功能. 使用属性标签可以快速实现</p>
-<h2 id="参数说明">参数说明</h2>
-<table>
-<thead>
-<tr>
-<th>序号</th>
-<th>参数名</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Category</td>
-<td>按钮名称</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Position</td>
-<td>GUI要绘制的位置,EditorToolbarAttribute.Anchor中的4个枚举值对应图中的4个区域<br>1.工具栏左侧区域 - EditorToolbarAttribute.Anchor.Left<br>2.播放按钮左侧区域 - EditorToolbarAttribute.Anchor.CenterLeft<br>3.播放按钮右侧区域 - EditorToolbarAttribute.Anchor.CenterRight<br>4.工具栏右侧区域 - EditorToolbarAttribute.Anchor.Right</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Path</td>
-<td>如果是下拉菜单,填入菜单路径,如果只是按钮,无需填写</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Custom</td>
-<td>如果传入True,则为自定义GUI方法</td>
-</tr>
-<tr>
-<td>6</td>
-<td>Order</td>
-<td>排序</td>
-</tr>
-</tbody>
-</table>
-<h2 id="示例">示例</h2>
-<pre><code class="lang-csharp">// 自定义 GUI
-// 设置位置, 并标记 custom 为 true, 其他字段默认
-[ EditorToolbarMenu(anchor : EditorToolbarMenuAttribute.Anchor.Left , custom : true , order : 10) ]
-public static void OnToolbarGUI()
-{
-    value = GUILayout.HorizontalSlider(value , 0 , 10 , GUILayout.Width(100));
-}
-
-// 下拉菜单
-// 设置位置, 设置 category 即下拉菜单按钮显示的文字, 并且设置 path 即实际响应按钮在下拉菜单中的层级 
-[ EditorToolbarMenu(anchor : EditorToolbarMenuAttribute.Anchor.Right , category : &quot;工具&quot; , path : &quot;PrefabPrefs 浏览器&quot;) ]
-public static void ShowExample()
-{
-    var window = GetWindow&lt;PlayerPrefsBrowser&gt;();
-    window.titleContent = new(&quot;PrefabPrefs 浏览器&quot;);
-}
-
-// 按钮
-// 设置位置, 设置 category 即按钮显示的文字 
-[EditorToolbarMenu(anchor : EditorToolbarMenuAttribute.Anchor.CenterRight , category : &quot;Editor Icons 浏览器&quot;) ]
-public static void ShowExample2()
-{
-    var window = CreateWindow&lt;EditorIconsBrowser&gt;(&quot;Editor Icons 浏览器&quot;);
-    window.ShowUtility();
-    window.minSize = new(550 , 450);
-}
-</code></pre>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Docs/manual/EditorToolbarExtender 使用说明.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/rayyang0731/KiwiEditorUtitlity/blob/main/Docs/manual/introduction.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

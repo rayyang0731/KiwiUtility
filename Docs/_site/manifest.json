@@ -458,10 +458,20 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/editor_toolbar_extender_img_1.png",
+      "source_relative_path": "images/EditorToolbarExtender/img_1.png",
       "output": {
         "resource": {
-          "relative_path": "images/editor_toolbar_extender_img_1.png"
+          "relative_path": "images/EditorToolbarExtender/img_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/PreviewEditor/img_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/PreviewEditor/img_1.png"
         }
       },
       "version": ""
@@ -482,6 +492,26 @@
       "output": {
         ".html": {
           "relative_path": "manual/EditorToolbarExtender 使用说明.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/PreviewEditor 使用说明.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/PreviewEditor 使用说明.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/introduction.html"
         }
       },
       "version": ""

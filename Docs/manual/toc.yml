@@ -1,2 +1,6 @@
-- name: EditorToolbarExtender
+- name: 首页
+  href: introduction.md
+- name: 工具栏扩展
   href: EditorToolbarExtender 使用说明.md
+- name: 模型预览编辑器
+  href: PreviewEditor 使用说明.md

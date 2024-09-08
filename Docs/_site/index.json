@@ -211,12 +211,22 @@
   },
   "index.html": {
     "href": "index.html",
-    "title": "This is the HOMEPAGE. | Kiwi Utility",
-    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+    "title": "Kiwi 工具集 | Kiwi Utility",
+    "keywords": "Kiwi 工具集"
   },
   "manual/EditorToolbarExtender 使用说明.html": {
     "href": "manual/EditorToolbarExtender 使用说明.html",
     "title": "| Kiwi Utility",
     "keywords": "Editor Toolbar Extender 使用说明 说明 工具用于扩展 Unity Editor 的工具栏 , 方便添加自定义的按钮或功能. 使用属性标签可以快速实现 参数说明 序号 参数名 说明 1 Category 按钮名称 2 Position GUI要绘制的位置,EditorToolbarAttribute.Anchor中的4个枚举值对应图中的4个区域 1.工具栏左侧区域 - EditorToolbarAttribute.Anchor.Left 2.播放按钮左侧区域 - EditorToolbarAttribute.Anchor.CenterLeft 3.播放按钮右侧区域 - EditorToolbarAttribute.Anchor.CenterRight 4.工具栏右侧区域 - EditorToolbarAttribute.Anchor.Right 3 Path 如果是下拉菜单,填入菜单路径,如果只是按钮,无需填写 5 Custom 如果传入True,则为自定义GUI方法 6 Order 排序 示例 // 自定义 GUI // 设置位置, 并标记 custom 为 true, 其他字段默认 [ EditorToolbarMenu(anchor : EditorToolbarMenuAttribute.Anchor.Left , custom : true , order : 10) ] public static void OnToolbarGUI() { value = GUILayout.HorizontalSlider(value , 0 , 10 , GUILayout.Width(100)); } // 下拉菜单 // 设置位置, 设置 category 即下拉菜单按钮显示的文字, 并且设置 path 即实际响应按钮在下拉菜单中的层级 [ EditorToolbarMenu(anchor : EditorToolbarMenuAttribute.Anchor.Right , category : \"工具\" , path : \"PrefabPrefs 浏览器\") ] public static void ShowExample() { var window = GetWindow<PlayerPrefsBrowser>(); window.titleContent = new(\"PrefabPrefs 浏览器\"); } // 按钮 // 设置位置, 设置 category 即按钮显示的文字 [EditorToolbarMenu(anchor : EditorToolbarMenuAttribute.Anchor.CenterRight , category : \"Editor Icons 浏览器\") ] public static void ShowExample2() { var window = CreateWindow<EditorIconsBrowser>(\"Editor Icons 浏览器\"); window.ShowUtility(); window.minSize = new(550 , 450); }"
+  },
+  "manual/PreviewEditor 使用说明.html": {
+    "href": "manual/PreviewEditor 使用说明.html",
+    "title": "| Kiwi Utility",
+    "keywords": "Preview Editor 使用说明 说明 用于进行模型预览, 支持预览画面的移动/缩放/旋转, 通过扩展 Module 支持动画播放/显示骨骼等一系列自定义功能, 可以将此 Editor 嵌套入自己的 CustomEditorWindow 中. 使用方法 1. 在 EditorWindow 中定义 AvatarEditor 对象, 添加需要的 Module. private void OnEnable() { _avatarEditor = new(this); // 添加动画播放模块 _avatarEditor.AddModule<PreviewAnimationModule>(); // 添加骨骼列表模块 _avatarEditor.AddModule<ModelBonesModule>(); } 2. 分别在 EditorWindow 的 Update 方法和 OnGUI 方法调用 AvatarEditor 的 Update 方法和 Draw 方法. private void Update() { _avatarEditor?.Update(); } private void OnGUI() { _avatarEditor.Draw(position); } 3. 在EditorWindow 销毁时, 调用 AvatarEditor 的 Dispose 方法进行释放. private void OnDestroy() { _avatarEditor.Dispose(); } 4. 如果需要添加自己的 Module , 只要自己的 Module 继承 IPreviewModule 接口, 调用 AvatarEditor.AddModule 进行添加即可. 可以参考 PreviewAnimationModule.cs"
+  },
+  "manual/introduction.html": {
+    "href": "manual/introduction.html",
+    "title": "| Kiwi Utility",
+    "keywords": ""
   }
 }
