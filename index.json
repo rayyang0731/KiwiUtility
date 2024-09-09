@@ -214,10 +214,20 @@
     "title": "Kiwi 工具集 | Kiwi Utility",
     "keywords": "Kiwi 工具集"
   },
+  "manual/EditorIconsBrowser 使用说明.html": {
+    "href": "manual/EditorIconsBrowser 使用说明.html",
+    "title": "| Kiwi Utility",
+    "keywords": "Editor Icons Browser 使用说明 说明 工具用于查看 Unity 中内置的图标, 支持保存图标图片到本地."
+  },
   "manual/EditorToolbarExtender 使用说明.html": {
     "href": "manual/EditorToolbarExtender 使用说明.html",
     "title": "| Kiwi Utility",
     "keywords": "Editor Toolbar Extender 使用说明 说明 工具用于扩展 Unity Editor 的工具栏 , 方便添加自定义的按钮或功能. 使用属性标签可以快速实现 参数说明 序号 参数名 说明 1 Category 按钮名称 2 Position GUI要绘制的位置,EditorToolbarAttribute.Anchor中的4个枚举值对应图中的4个区域 1.工具栏左侧区域 - EditorToolbarAttribute.Anchor.Left 2.播放按钮左侧区域 - EditorToolbarAttribute.Anchor.CenterLeft 3.播放按钮右侧区域 - EditorToolbarAttribute.Anchor.CenterRight 4.工具栏右侧区域 - EditorToolbarAttribute.Anchor.Right 3 Path 如果是下拉菜单,填入菜单路径,如果只是按钮,无需填写 5 Custom 如果传入True,则为自定义GUI方法 6 Order 排序 示例 // 自定义 GUI // 设置位置, 并标记 custom 为 true, 其他字段默认 [ EditorToolbarMenu(anchor : EditorToolbarMenuAttribute.Anchor.Left , custom : true , order : 10) ] public static void OnToolbarGUI() { value = GUILayout.HorizontalSlider(value , 0 , 10 , GUILayout.Width(100)); } // 下拉菜单 // 设置位置, 设置 category 即下拉菜单按钮显示的文字, 并且设置 path 即实际响应按钮在下拉菜单中的层级 [ EditorToolbarMenu(anchor : EditorToolbarMenuAttribute.Anchor.Right , category : \"工具\" , path : \"PrefabPrefs 浏览器\") ] public static void ShowExample() { var window = GetWindow<PlayerPrefsBrowser>(); window.titleContent = new(\"PrefabPrefs 浏览器\"); } // 按钮 // 设置位置, 设置 category 即按钮显示的文字 [EditorToolbarMenu(anchor : EditorToolbarMenuAttribute.Anchor.CenterRight , category : \"Editor Icons 浏览器\") ] public static void ShowExample2() { var window = CreateWindow<EditorIconsBrowser>(\"Editor Icons 浏览器\"); window.ShowUtility(); window.minSize = new(550 , 450); }"
+  },
+  "manual/PlayerPrefsBrowser 使用说明.html": {
+    "href": "manual/PlayerPrefsBrowser 使用说明.html",
+    "title": "| Kiwi Utility",
+    "keywords": "PlayerPrefsBrowser 使用说明 说明 用于查看项目运行时和仅编辑器模式下的注册表信息. 使用说明 点击左上角按钮, 切换运行时还是仅编辑器模式, 相当于代码调用的是 PlayerPrefs 还是 EditorPrefs. 点击放大镜图标, 显示搜索针对Key还是Value. 清除按钮会清除当前列表中的所有注册表数据, 刷新按钮会刷新当前列表, 显示最新的注册表信息. 新建按钮会打开新建面板, 输入 Key 和 Value 值, 点击确定会创建相应注册表信息."
   },
   "manual/PreviewEditor 使用说明.html": {
     "href": "manual/PreviewEditor 使用说明.html",

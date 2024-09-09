@@ -1,5 +1,5 @@
 {
-  "source_base_path": "/Users/yangray/Documents/Git/KiwiEditorUtitlity/Docs",
+  "source_base_path": "C:/Work/Git/KiwiEditorUtitlity/Docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -458,10 +458,70 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/EditorIconsBrowser/img_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/EditorIconsBrowser/img_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/EditorToolbarExtender/img_1.png",
       "output": {
         "resource": {
           "relative_path": "images/EditorToolbarExtender/img_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/PlayerPrefsBrowser/img_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/PlayerPrefsBrowser/img_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/PlayerPrefsBrowser/img_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/PlayerPrefsBrowser/img_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/PlayerPrefsBrowser/img_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/PlayerPrefsBrowser/img_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/PlayerPrefsBrowser/img_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/PlayerPrefsBrowser/img_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/PlayerPrefsBrowser/img_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/PlayerPrefsBrowser/img_5.png"
         }
       },
       "version": ""
@@ -488,10 +548,30 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/EditorIconsBrowser 使用说明.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/EditorIconsBrowser 使用说明.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/EditorToolbarExtender 使用说明.md",
       "output": {
         ".html": {
           "relative_path": "manual/EditorToolbarExtender 使用说明.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/PlayerPrefsBrowser 使用说明.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/PlayerPrefsBrowser 使用说明.html"
         }
       },
       "version": ""
