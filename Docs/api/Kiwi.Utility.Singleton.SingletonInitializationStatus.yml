@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.Singleton.SingletonInitializationStatus
+  commentId: T:Kiwi.Utility.Singleton.SingletonInitializationStatus
+  id: SingletonInitializationStatus
+  parent: Kiwi.Utility.Singleton
+  children:
+  - Kiwi.Utility.Singleton.SingletonInitializationStatus.Initialized
+  - Kiwi.Utility.Singleton.SingletonInitializationStatus.Initializing
+  - Kiwi.Utility.Singleton.SingletonInitializationStatus.None
+  langs:
+  - csharp
+  - vb
+  name: SingletonInitializationStatus
+  nameWithType: SingletonInitializationStatus
+  fullName: Kiwi.Utility.Singleton.SingletonInitializationStatus
+  type: Enum
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/Enum/SingletonInitializationStatus.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SingletonInitializationStatus
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/Enum/SingletonInitializationStatus.cs
+    startLine: 5
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  summary: 单例初始化状态
+  example: []
+  syntax:
+    content: public enum SingletonInitializationStatus
+    content.vb: Public Enum SingletonInitializationStatus
+- uid: Kiwi.Utility.Singleton.SingletonInitializationStatus.None
+  commentId: F:Kiwi.Utility.Singleton.SingletonInitializationStatus.None
+  id: None
+  parent: Kiwi.Utility.Singleton.SingletonInitializationStatus
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: SingletonInitializationStatus.None
+  fullName: Kiwi.Utility.Singleton.SingletonInitializationStatus.None
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/Enum/SingletonInitializationStatus.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: None
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/Enum/SingletonInitializationStatus.cs
+    startLine: 10
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  summary: 未初始化
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Kiwi.Utility.Singleton.SingletonInitializationStatus
+- uid: Kiwi.Utility.Singleton.SingletonInitializationStatus.Initializing
+  commentId: F:Kiwi.Utility.Singleton.SingletonInitializationStatus.Initializing
+  id: Initializing
+  parent: Kiwi.Utility.Singleton.SingletonInitializationStatus
+  langs:
+  - csharp
+  - vb
+  name: Initializing
+  nameWithType: SingletonInitializationStatus.Initializing
+  fullName: Kiwi.Utility.Singleton.SingletonInitializationStatus.Initializing
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/Enum/SingletonInitializationStatus.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Initializing
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/Enum/SingletonInitializationStatus.cs
+    startLine: 15
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  summary: 初始化中
+  example: []
+  syntax:
+    content: Initializing = 1
+    return:
+      type: Kiwi.Utility.Singleton.SingletonInitializationStatus
+- uid: Kiwi.Utility.Singleton.SingletonInitializationStatus.Initialized
+  commentId: F:Kiwi.Utility.Singleton.SingletonInitializationStatus.Initialized
+  id: Initialized
+  parent: Kiwi.Utility.Singleton.SingletonInitializationStatus
+  langs:
+  - csharp
+  - vb
+  name: Initialized
+  nameWithType: SingletonInitializationStatus.Initialized
+  fullName: Kiwi.Utility.Singleton.SingletonInitializationStatus.Initialized
+  type: Field
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/Enum/SingletonInitializationStatus.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: Initialized
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/Enum/SingletonInitializationStatus.cs
+    startLine: 20
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  summary: 初始化完成
+  example: []
+  syntax:
+    content: Initialized = 2
+    return:
+      type: Kiwi.Utility.Singleton.SingletonInitializationStatus
+references:
+- uid: Kiwi.Utility.Singleton
+  commentId: N:Kiwi.Utility.Singleton
+  href: Kiwi.html
+  name: Kiwi.Utility.Singleton
+  nameWithType: Kiwi.Utility.Singleton
+  fullName: Kiwi.Utility.Singleton
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Singleton
+    name: Singleton
+    href: Kiwi.Utility.Singleton.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Singleton
+    name: Singleton
+    href: Kiwi.Utility.Singleton.html
+- uid: Kiwi.Utility.Singleton.SingletonInitializationStatus
+  commentId: T:Kiwi.Utility.Singleton.SingletonInitializationStatus
+  parent: Kiwi.Utility.Singleton
+  href: Kiwi.Utility.Singleton.SingletonInitializationStatus.html
+  name: SingletonInitializationStatus
+  nameWithType: SingletonInitializationStatus
+  fullName: Kiwi.Utility.Singleton.SingletonInitializationStatus

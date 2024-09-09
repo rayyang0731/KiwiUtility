@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.Singleton.ISingletonFixedUpdate
+  commentId: T:Kiwi.Utility.Singleton.ISingletonFixedUpdate
+  id: ISingletonFixedUpdate
+  parent: Kiwi.Utility.Singleton
+  children:
+  - Kiwi.Utility.Singleton.ISingletonFixedUpdate.SingletonFixedUpdate(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: ISingletonFixedUpdate
+  nameWithType: ISingletonFixedUpdate
+  fullName: Kiwi.Utility.Singleton.ISingletonFixedUpdate
+  type: Interface
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/Interface/ISingleton.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ISingletonFixedUpdate
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/Interface/ISingleton.cs
+    startLine: 45
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  syntax:
+    content: public interface ISingletonFixedUpdate
+    content.vb: Public Interface ISingletonFixedUpdate
+- uid: Kiwi.Utility.Singleton.ISingletonFixedUpdate.SingletonFixedUpdate(System.Single)
+  commentId: M:Kiwi.Utility.Singleton.ISingletonFixedUpdate.SingletonFixedUpdate(System.Single)
+  id: SingletonFixedUpdate(System.Single)
+  parent: Kiwi.Utility.Singleton.ISingletonFixedUpdate
+  langs:
+  - csharp
+  - vb
+  name: SingletonFixedUpdate(float)
+  nameWithType: ISingletonFixedUpdate.SingletonFixedUpdate(float)
+  fullName: Kiwi.Utility.Singleton.ISingletonFixedUpdate.SingletonFixedUpdate(float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/Interface/ISingleton.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SingletonFixedUpdate
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/Interface/ISingleton.cs
+    startLine: 47
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  syntax:
+    content: void SingletonFixedUpdate(float fixedDeltaTime)
+    parameters:
+    - id: fixedDeltaTime
+      type: System.Single
+    content.vb: Sub SingletonFixedUpdate(fixedDeltaTime As Single)
+  overload: Kiwi.Utility.Singleton.ISingletonFixedUpdate.SingletonFixedUpdate*
+  nameWithType.vb: ISingletonFixedUpdate.SingletonFixedUpdate(Single)
+  fullName.vb: Kiwi.Utility.Singleton.ISingletonFixedUpdate.SingletonFixedUpdate(Single)
+  name.vb: SingletonFixedUpdate(Single)
+references:
+- uid: Kiwi.Utility.Singleton
+  commentId: N:Kiwi.Utility.Singleton
+  href: Kiwi.html
+  name: Kiwi.Utility.Singleton
+  nameWithType: Kiwi.Utility.Singleton
+  fullName: Kiwi.Utility.Singleton
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Singleton
+    name: Singleton
+    href: Kiwi.Utility.Singleton.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Singleton
+    name: Singleton
+    href: Kiwi.Utility.Singleton.html
+- uid: Kiwi.Utility.Singleton.ISingletonFixedUpdate.SingletonFixedUpdate*
+  commentId: Overload:Kiwi.Utility.Singleton.ISingletonFixedUpdate.SingletonFixedUpdate
+  href: Kiwi.Utility.Singleton.ISingletonFixedUpdate.html#Kiwi_Utility_Singleton_ISingletonFixedUpdate_SingletonFixedUpdate_System_Single_
+  name: SingletonFixedUpdate
+  nameWithType: ISingletonFixedUpdate.SingletonFixedUpdate
+  fullName: Kiwi.Utility.Singleton.ISingletonFixedUpdate.SingletonFixedUpdate
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,711 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.Editor.SceneView.OverlayMenu.UIQuickTools
+  commentId: T:Kiwi.Utility.Editor.SceneView.OverlayMenu.UIQuickTools
+  id: UIQuickTools
+  parent: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: UIQuickTools
+  nameWithType: UIQuickTools
+  fullName: Kiwi.Utility.Editor.SceneView.OverlayMenu.UIQuickTools
+  type: Class
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Editor/Common/SceneView/OverlayMenu/UIQuickTools/UIQuickTools.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: UIQuickTools
+    path: ../Packages/com.kiwi.utility/Editor/Common/SceneView/OverlayMenu/UIQuickTools/UIQuickTools.cs
+    startLine: 9
+  assemblies:
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  syntax:
+    content: >-
+      [Overlay(typeof(SceneView), "UI Quick Tools", false)]
+
+      public class UIQuickTools : ToolbarOverlay, ICreateToolbar
+    content.vb: >-
+      <Overlay(GetType(SceneView), "UI Quick Tools", False)>
+
+      Public Class UIQuickTools Inherits ToolbarOverlay Implements ICreateToolbar
+  inheritance:
+  - System.Object
+  - UnityEditor.Overlays.Overlay
+  - UnityEditor.Overlays.ToolbarOverlay
+  implements:
+  - UnityEditor.Overlays.ICreateToolbar
+  inheritedMembers:
+  - UnityEditor.Overlays.ToolbarOverlay.CreateHorizontalToolbarContent
+  - UnityEditor.Overlays.ToolbarOverlay.CreateVerticalToolbarContent
+  - UnityEditor.Overlays.ToolbarOverlay.CreatePanelContent
+  - UnityEditor.Overlays.ToolbarOverlay.toolbarElements
+  - UnityEditor.Overlays.Overlay.ussClassName
+  - UnityEditor.Overlays.Overlay.CreateContent(UnityEditor.Overlays.Layout)
+  - UnityEditor.Overlays.Overlay.OnCreated
+  - UnityEditor.Overlays.Overlay.OnWillBeDestroyed
+  - UnityEditor.Overlays.Overlay.Close
+  - UnityEditor.Overlays.Overlay.Undock
+  - UnityEditor.Overlays.Overlay.containerWindow
+  - UnityEditor.Overlays.Overlay.id
+  - UnityEditor.Overlays.Overlay.collapsedIcon
+  - UnityEditor.Overlays.Overlay.layout
+  - UnityEditor.Overlays.Overlay.collapsed
+  - UnityEditor.Overlays.Overlay.displayName
+  - UnityEditor.Overlays.Overlay.displayed
+  - UnityEditor.Overlays.Overlay.isInToolbar
+  - UnityEditor.Overlays.Overlay.size
+  - UnityEditor.Overlays.Overlay.minSize
+  - UnityEditor.Overlays.Overlay.maxSize
+  - UnityEditor.Overlays.Overlay.floatingPosition
+  - UnityEditor.Overlays.Overlay.floating
+  - UnityEditor.Overlays.Overlay.layoutChanged
+  - UnityEditor.Overlays.Overlay.collapsedChanged
+  - UnityEditor.Overlays.Overlay.displayedChanged
+  - UnityEditor.Overlays.Overlay.floatingChanged
+  - UnityEditor.Overlays.Overlay.floatingPositionChanged
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: UnityEditor.Overlays.OverlayAttribute
+    ctor: UnityEditor.Overlays.OverlayAttribute.#ctor(System.Type,System.String,System.Boolean)
+    arguments:
+    - type: System.Type
+      value: UnityEditor.SceneView
+    - type: System.String
+      value: UI Quick Tools
+    - type: System.Boolean
+      value: false
+references:
+- uid: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  commentId: N:Kiwi.Utility.Editor.SceneView.OverlayMenu
+  href: Kiwi.html
+  name: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  nameWithType: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  fullName: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Editor
+    name: Editor
+    href: Kiwi.Utility.Editor.html
+  - name: .
+  - uid: Kiwi.Utility.Editor.SceneView
+    name: SceneView
+    href: Kiwi.Utility.Editor.SceneView.html
+  - name: .
+  - uid: Kiwi.Utility.Editor.SceneView.OverlayMenu
+    name: OverlayMenu
+    href: Kiwi.Utility.Editor.SceneView.OverlayMenu.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Editor
+    name: Editor
+    href: Kiwi.Utility.Editor.html
+  - name: .
+  - uid: Kiwi.Utility.Editor.SceneView
+    name: SceneView
+    href: Kiwi.Utility.Editor.SceneView.html
+  - name: .
+  - uid: Kiwi.Utility.Editor.SceneView.OverlayMenu
+    name: OverlayMenu
+    href: Kiwi.Utility.Editor.SceneView.OverlayMenu.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEditor.Overlays.Overlay
+  commentId: T:UnityEditor.Overlays.Overlay
+  parent: UnityEditor.Overlays
+  isExternal: true
+  name: Overlay
+  nameWithType: Overlay
+  fullName: UnityEditor.Overlays.Overlay
+- uid: UnityEditor.Overlays.ToolbarOverlay
+  commentId: T:UnityEditor.Overlays.ToolbarOverlay
+  parent: UnityEditor.Overlays
+  isExternal: true
+  name: ToolbarOverlay
+  nameWithType: ToolbarOverlay
+  fullName: UnityEditor.Overlays.ToolbarOverlay
+- uid: UnityEditor.Overlays.ICreateToolbar
+  commentId: T:UnityEditor.Overlays.ICreateToolbar
+  parent: UnityEditor.Overlays
+  isExternal: true
+  name: ICreateToolbar
+  nameWithType: ICreateToolbar
+  fullName: UnityEditor.Overlays.ICreateToolbar
+- uid: UnityEditor.Overlays.ToolbarOverlay.CreateHorizontalToolbarContent
+  commentId: M:UnityEditor.Overlays.ToolbarOverlay.CreateHorizontalToolbarContent
+  parent: UnityEditor.Overlays.ToolbarOverlay
+  isExternal: true
+  name: CreateHorizontalToolbarContent()
+  nameWithType: ToolbarOverlay.CreateHorizontalToolbarContent()
+  fullName: UnityEditor.Overlays.ToolbarOverlay.CreateHorizontalToolbarContent()
+  spec.csharp:
+  - uid: UnityEditor.Overlays.ToolbarOverlay.CreateHorizontalToolbarContent
+    name: CreateHorizontalToolbarContent
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.Overlays.ToolbarOverlay.CreateHorizontalToolbarContent
+    name: CreateHorizontalToolbarContent
+    isExternal: true
+  - name: (
+  - name: )
+- uid: UnityEditor.Overlays.ToolbarOverlay.CreateVerticalToolbarContent
+  commentId: M:UnityEditor.Overlays.ToolbarOverlay.CreateVerticalToolbarContent
+  parent: UnityEditor.Overlays.ToolbarOverlay
+  isExternal: true
+  name: CreateVerticalToolbarContent()
+  nameWithType: ToolbarOverlay.CreateVerticalToolbarContent()
+  fullName: UnityEditor.Overlays.ToolbarOverlay.CreateVerticalToolbarContent()
+  spec.csharp:
+  - uid: UnityEditor.Overlays.ToolbarOverlay.CreateVerticalToolbarContent
+    name: CreateVerticalToolbarContent
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.Overlays.ToolbarOverlay.CreateVerticalToolbarContent
+    name: CreateVerticalToolbarContent
+    isExternal: true
+  - name: (
+  - name: )
+- uid: UnityEditor.Overlays.ToolbarOverlay.CreatePanelContent
+  commentId: M:UnityEditor.Overlays.ToolbarOverlay.CreatePanelContent
+  parent: UnityEditor.Overlays.ToolbarOverlay
+  isExternal: true
+  name: CreatePanelContent()
+  nameWithType: ToolbarOverlay.CreatePanelContent()
+  fullName: UnityEditor.Overlays.ToolbarOverlay.CreatePanelContent()
+  spec.csharp:
+  - uid: UnityEditor.Overlays.ToolbarOverlay.CreatePanelContent
+    name: CreatePanelContent
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.Overlays.ToolbarOverlay.CreatePanelContent
+    name: CreatePanelContent
+    isExternal: true
+  - name: (
+  - name: )
+- uid: UnityEditor.Overlays.ToolbarOverlay.toolbarElements
+  commentId: P:UnityEditor.Overlays.ToolbarOverlay.toolbarElements
+  parent: UnityEditor.Overlays.ToolbarOverlay
+  isExternal: true
+  name: toolbarElements
+  nameWithType: ToolbarOverlay.toolbarElements
+  fullName: UnityEditor.Overlays.ToolbarOverlay.toolbarElements
+- uid: UnityEditor.Overlays.Overlay.ussClassName
+  commentId: F:UnityEditor.Overlays.Overlay.ussClassName
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: ussClassName
+  nameWithType: Overlay.ussClassName
+  fullName: UnityEditor.Overlays.Overlay.ussClassName
+- uid: UnityEditor.Overlays.Overlay.CreateContent(UnityEditor.Overlays.Layout)
+  commentId: M:UnityEditor.Overlays.Overlay.CreateContent(UnityEditor.Overlays.Layout)
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: CreateContent(Layout)
+  nameWithType: Overlay.CreateContent(Layout)
+  fullName: UnityEditor.Overlays.Overlay.CreateContent(UnityEditor.Overlays.Layout)
+  spec.csharp:
+  - uid: UnityEditor.Overlays.Overlay.CreateContent(UnityEditor.Overlays.Layout)
+    name: CreateContent
+    isExternal: true
+  - name: (
+  - uid: UnityEditor.Overlays.Layout
+    name: Layout
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.Overlays.Overlay.CreateContent(UnityEditor.Overlays.Layout)
+    name: CreateContent
+    isExternal: true
+  - name: (
+  - uid: UnityEditor.Overlays.Layout
+    name: Layout
+    isExternal: true
+  - name: )
+- uid: UnityEditor.Overlays.Overlay.OnCreated
+  commentId: M:UnityEditor.Overlays.Overlay.OnCreated
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: OnCreated()
+  nameWithType: Overlay.OnCreated()
+  fullName: UnityEditor.Overlays.Overlay.OnCreated()
+  spec.csharp:
+  - uid: UnityEditor.Overlays.Overlay.OnCreated
+    name: OnCreated
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.Overlays.Overlay.OnCreated
+    name: OnCreated
+    isExternal: true
+  - name: (
+  - name: )
+- uid: UnityEditor.Overlays.Overlay.OnWillBeDestroyed
+  commentId: M:UnityEditor.Overlays.Overlay.OnWillBeDestroyed
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: OnWillBeDestroyed()
+  nameWithType: Overlay.OnWillBeDestroyed()
+  fullName: UnityEditor.Overlays.Overlay.OnWillBeDestroyed()
+  spec.csharp:
+  - uid: UnityEditor.Overlays.Overlay.OnWillBeDestroyed
+    name: OnWillBeDestroyed
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.Overlays.Overlay.OnWillBeDestroyed
+    name: OnWillBeDestroyed
+    isExternal: true
+  - name: (
+  - name: )
+- uid: UnityEditor.Overlays.Overlay.Close
+  commentId: M:UnityEditor.Overlays.Overlay.Close
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: Close()
+  nameWithType: Overlay.Close()
+  fullName: UnityEditor.Overlays.Overlay.Close()
+  spec.csharp:
+  - uid: UnityEditor.Overlays.Overlay.Close
+    name: Close
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.Overlays.Overlay.Close
+    name: Close
+    isExternal: true
+  - name: (
+  - name: )
+- uid: UnityEditor.Overlays.Overlay.Undock
+  commentId: M:UnityEditor.Overlays.Overlay.Undock
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: Undock()
+  nameWithType: Overlay.Undock()
+  fullName: UnityEditor.Overlays.Overlay.Undock()
+  spec.csharp:
+  - uid: UnityEditor.Overlays.Overlay.Undock
+    name: Undock
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UnityEditor.Overlays.Overlay.Undock
+    name: Undock
+    isExternal: true
+  - name: (
+  - name: )
+- uid: UnityEditor.Overlays.Overlay.containerWindow
+  commentId: P:UnityEditor.Overlays.Overlay.containerWindow
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: containerWindow
+  nameWithType: Overlay.containerWindow
+  fullName: UnityEditor.Overlays.Overlay.containerWindow
+- uid: UnityEditor.Overlays.Overlay.id
+  commentId: P:UnityEditor.Overlays.Overlay.id
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: id
+  nameWithType: Overlay.id
+  fullName: UnityEditor.Overlays.Overlay.id
+- uid: UnityEditor.Overlays.Overlay.collapsedIcon
+  commentId: P:UnityEditor.Overlays.Overlay.collapsedIcon
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: collapsedIcon
+  nameWithType: Overlay.collapsedIcon
+  fullName: UnityEditor.Overlays.Overlay.collapsedIcon
+- uid: UnityEditor.Overlays.Overlay.layout
+  commentId: P:UnityEditor.Overlays.Overlay.layout
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: layout
+  nameWithType: Overlay.layout
+  fullName: UnityEditor.Overlays.Overlay.layout
+- uid: UnityEditor.Overlays.Overlay.collapsed
+  commentId: P:UnityEditor.Overlays.Overlay.collapsed
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: collapsed
+  nameWithType: Overlay.collapsed
+  fullName: UnityEditor.Overlays.Overlay.collapsed
+- uid: UnityEditor.Overlays.Overlay.displayName
+  commentId: P:UnityEditor.Overlays.Overlay.displayName
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: displayName
+  nameWithType: Overlay.displayName
+  fullName: UnityEditor.Overlays.Overlay.displayName
+- uid: UnityEditor.Overlays.Overlay.displayed
+  commentId: P:UnityEditor.Overlays.Overlay.displayed
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: displayed
+  nameWithType: Overlay.displayed
+  fullName: UnityEditor.Overlays.Overlay.displayed
+- uid: UnityEditor.Overlays.Overlay.isInToolbar
+  commentId: P:UnityEditor.Overlays.Overlay.isInToolbar
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: isInToolbar
+  nameWithType: Overlay.isInToolbar
+  fullName: UnityEditor.Overlays.Overlay.isInToolbar
+- uid: UnityEditor.Overlays.Overlay.size
+  commentId: P:UnityEditor.Overlays.Overlay.size
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: size
+  nameWithType: Overlay.size
+  fullName: UnityEditor.Overlays.Overlay.size
+- uid: UnityEditor.Overlays.Overlay.minSize
+  commentId: P:UnityEditor.Overlays.Overlay.minSize
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: minSize
+  nameWithType: Overlay.minSize
+  fullName: UnityEditor.Overlays.Overlay.minSize
+- uid: UnityEditor.Overlays.Overlay.maxSize
+  commentId: P:UnityEditor.Overlays.Overlay.maxSize
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: maxSize
+  nameWithType: Overlay.maxSize
+  fullName: UnityEditor.Overlays.Overlay.maxSize
+- uid: UnityEditor.Overlays.Overlay.floatingPosition
+  commentId: P:UnityEditor.Overlays.Overlay.floatingPosition
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: floatingPosition
+  nameWithType: Overlay.floatingPosition
+  fullName: UnityEditor.Overlays.Overlay.floatingPosition
+- uid: UnityEditor.Overlays.Overlay.floating
+  commentId: P:UnityEditor.Overlays.Overlay.floating
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: floating
+  nameWithType: Overlay.floating
+  fullName: UnityEditor.Overlays.Overlay.floating
+- uid: UnityEditor.Overlays.Overlay.layoutChanged
+  commentId: E:UnityEditor.Overlays.Overlay.layoutChanged
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: layoutChanged
+  nameWithType: Overlay.layoutChanged
+  fullName: UnityEditor.Overlays.Overlay.layoutChanged
+- uid: UnityEditor.Overlays.Overlay.collapsedChanged
+  commentId: E:UnityEditor.Overlays.Overlay.collapsedChanged
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: collapsedChanged
+  nameWithType: Overlay.collapsedChanged
+  fullName: UnityEditor.Overlays.Overlay.collapsedChanged
+- uid: UnityEditor.Overlays.Overlay.displayedChanged
+  commentId: E:UnityEditor.Overlays.Overlay.displayedChanged
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: displayedChanged
+  nameWithType: Overlay.displayedChanged
+  fullName: UnityEditor.Overlays.Overlay.displayedChanged
+- uid: UnityEditor.Overlays.Overlay.floatingChanged
+  commentId: E:UnityEditor.Overlays.Overlay.floatingChanged
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: floatingChanged
+  nameWithType: Overlay.floatingChanged
+  fullName: UnityEditor.Overlays.Overlay.floatingChanged
+- uid: UnityEditor.Overlays.Overlay.floatingPositionChanged
+  commentId: E:UnityEditor.Overlays.Overlay.floatingPositionChanged
+  parent: UnityEditor.Overlays.Overlay
+  isExternal: true
+  name: floatingPositionChanged
+  nameWithType: Overlay.floatingPositionChanged
+  fullName: UnityEditor.Overlays.Overlay.floatingPositionChanged
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEditor.Overlays
+  commentId: N:UnityEditor.Overlays
+  isExternal: true
+  name: UnityEditor.Overlays
+  nameWithType: UnityEditor.Overlays
+  fullName: UnityEditor.Overlays
+  spec.csharp:
+  - uid: UnityEditor
+    name: UnityEditor
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Overlays
+    name: Overlays
+    isExternal: true
+  spec.vb:
+  - uid: UnityEditor
+    name: UnityEditor
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.Overlays
+    name: Overlays
+    isExternal: true

@@ -10,6 +10,7 @@ items:
   - Kiwi.Utility.Editor.EditorToolbarAttribute
   - Kiwi.Utility.Editor.EditorToolbarAttribute.Anchor
   - Kiwi.Utility.Editor.EditorToolbarExtender
+  - Kiwi.Utility.Editor.EditorUtil
   - Kiwi.Utility.Editor.IPreviewModule
   - Kiwi.Utility.Editor.ModelBonesModule
   - Kiwi.Utility.Editor.ModelPreviewEditor
@@ -21,6 +22,7 @@ items:
   - Kiwi.Utility.Editor.PreviewAnimationModule
   - Kiwi.Utility.Editor.PreviewEditorWindow
   - Kiwi.Utility.Editor.PreviewEvt
+  - Kiwi.Utility.Editor.ProcessHelper
   langs:
   - csharp
   - vb
@@ -49,6 +51,18 @@ references:
   name: EditorIconsBrowser
   nameWithType: EditorIconsBrowser
   fullName: Kiwi.Utility.Editor.EditorIconsBrowser
+- uid: Kiwi.Utility.Editor.EditorUtil
+  commentId: T:Kiwi.Utility.Editor.EditorUtil
+  href: Kiwi.Utility.Editor.EditorUtil.html
+  name: EditorUtil
+  nameWithType: EditorUtil
+  fullName: Kiwi.Utility.Editor.EditorUtil
+- uid: Kiwi.Utility.Editor.ProcessHelper
+  commentId: T:Kiwi.Utility.Editor.ProcessHelper
+  href: Kiwi.Utility.Editor.ProcessHelper.html
+  name: ProcessHelper
+  nameWithType: ProcessHelper
+  fullName: Kiwi.Utility.Editor.ProcessHelper
 - uid: Kiwi.Utility.Editor.EditorToolbarExtender
   commentId: T:Kiwi.Utility.Editor.EditorToolbarExtender
   href: Kiwi.Utility.Editor.EditorToolbarExtender.html

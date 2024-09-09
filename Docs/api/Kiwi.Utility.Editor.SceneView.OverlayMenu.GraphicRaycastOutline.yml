@@ -1,38 +1,40 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Kiwi.Utility.TweenRunner`1
-  commentId: T:Kiwi.Utility.TweenRunner`1
-  id: TweenRunner`1
-  parent: Kiwi.Utility
+- uid: Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline
+  commentId: T:Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline
+  id: GraphicRaycastOutline
+  parent: Kiwi.Utility.Editor.SceneView.OverlayMenu
   children:
-  - Kiwi.Utility.TweenRunner`1.Init(UnityEngine.MonoBehaviour)
-  - Kiwi.Utility.TweenRunner`1.StartTween(`0)
-  - Kiwi.Utility.TweenRunner`1.StopTween
-  - Kiwi.Utility.TweenRunner`1.m_CoroutineContainer
-  - Kiwi.Utility.TweenRunner`1.m_Tween
+  - Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline.Display
   langs:
   - csharp
   - vb
-  name: TweenRunner<T>
-  nameWithType: TweenRunner<T>
-  fullName: Kiwi.Utility.TweenRunner<T>
+  name: GraphicRaycastOutline
+  nameWithType: GraphicRaycastOutline
+  fullName: Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline
   type: Class
   source:
     remote:
-      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+      path: Packages/com.kiwi.utility/Editor/Common/SceneView/OverlayMenu/UIQuickTools/GraphicRaycastOutline.cs
       branch: main
       repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
-    id: TweenRunner
-    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
-    startLine: 189
+    id: GraphicRaycastOutline
+    path: ../Packages/com.kiwi.utility/Editor/Common/SceneView/OverlayMenu/UIQuickTools/GraphicRaycastOutline.cs
+    startLine: 11
   assemblies:
-  - com.kiwi.utility.runtime
-  namespace: Kiwi.Utility
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  summary: Graphic 射线检测轮廓线显示
+  example: []
   syntax:
-    content: 'public class TweenRunner<T> where T : struct, ITweenValue'
-    typeParameters:
-    - id: T
-    content.vb: Public Class TweenRunner(Of T As {Structure, ITweenValue})
+    content: >-
+      [InitializeOnLoad]
+
+      public static class GraphicRaycastOutline
+    content.vb: >-
+      <InitializeOnLoad>
+
+      Public Module GraphicRaycastOutline
   inheritance:
   - System.Object
   inheritedMembers:
@@ -43,164 +45,46 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-  nameWithType.vb: TweenRunner(Of T)
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T)
-  name.vb: TweenRunner(Of T)
-- uid: Kiwi.Utility.TweenRunner`1.m_CoroutineContainer
-  commentId: F:Kiwi.Utility.TweenRunner`1.m_CoroutineContainer
-  id: m_CoroutineContainer
-  parent: Kiwi.Utility.TweenRunner`1
+  attributes:
+  - type: UnityEditor.InitializeOnLoadAttribute
+    ctor: UnityEditor.InitializeOnLoadAttribute.#ctor
+    arguments: []
+- uid: Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline.Display
+  commentId: F:Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline.Display
+  id: Display
+  parent: Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline
   langs:
   - csharp
   - vb
-  name: m_CoroutineContainer
-  nameWithType: TweenRunner<T>.m_CoroutineContainer
-  fullName: Kiwi.Utility.TweenRunner<T>.m_CoroutineContainer
+  name: Display
+  nameWithType: GraphicRaycastOutline.Display
+  fullName: Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline.Display
   type: Field
   source:
     remote:
-      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
+      path: Packages/com.kiwi.utility/Editor/Common/SceneView/OverlayMenu/UIQuickTools/GraphicRaycastOutline.cs
       branch: main
       repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
-    id: m_CoroutineContainer
-    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
-    startLine: 191
+    id: Display
+    path: ../Packages/com.kiwi.utility/Editor/Common/SceneView/OverlayMenu/UIQuickTools/GraphicRaycastOutline.cs
+    startLine: 19
   assemblies:
-  - com.kiwi.utility.runtime
-  namespace: Kiwi.Utility
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  summary: 是否显示
+  example: []
   syntax:
-    content: protected MonoBehaviour m_CoroutineContainer
+    content: public static bool Display
     return:
-      type: UnityEngine.MonoBehaviour
-    content.vb: Protected m_CoroutineContainer As MonoBehaviour
-  nameWithType.vb: TweenRunner(Of T).m_CoroutineContainer
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T).m_CoroutineContainer
-- uid: Kiwi.Utility.TweenRunner`1.m_Tween
-  commentId: F:Kiwi.Utility.TweenRunner`1.m_Tween
-  id: m_Tween
-  parent: Kiwi.Utility.TweenRunner`1
-  langs:
-  - csharp
-  - vb
-  name: m_Tween
-  nameWithType: TweenRunner<T>.m_Tween
-  fullName: Kiwi.Utility.TweenRunner<T>.m_Tween
-  type: Field
-  source:
-    remote:
-      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
-      branch: main
-      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
-    id: m_Tween
-    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
-    startLine: 192
-  assemblies:
-  - com.kiwi.utility.runtime
-  namespace: Kiwi.Utility
-  syntax:
-    content: protected IEnumerator m_Tween
-    return:
-      type: System.Collections.IEnumerator
-    content.vb: Protected m_Tween As IEnumerator
-  nameWithType.vb: TweenRunner(Of T).m_Tween
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T).m_Tween
-- uid: Kiwi.Utility.TweenRunner`1.Init(UnityEngine.MonoBehaviour)
-  commentId: M:Kiwi.Utility.TweenRunner`1.Init(UnityEngine.MonoBehaviour)
-  id: Init(UnityEngine.MonoBehaviour)
-  parent: Kiwi.Utility.TweenRunner`1
-  langs:
-  - csharp
-  - vb
-  name: Init(MonoBehaviour)
-  nameWithType: TweenRunner<T>.Init(MonoBehaviour)
-  fullName: Kiwi.Utility.TweenRunner<T>.Init(UnityEngine.MonoBehaviour)
-  type: Method
-  source:
-    remote:
-      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
-      branch: main
-      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
-    id: Init
-    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
-    startLine: 211
-  assemblies:
-  - com.kiwi.utility.runtime
-  namespace: Kiwi.Utility
-  syntax:
-    content: public void Init(MonoBehaviour coroutineContainer)
-    parameters:
-    - id: coroutineContainer
-      type: UnityEngine.MonoBehaviour
-    content.vb: Public Sub Init(coroutineContainer As MonoBehaviour)
-  overload: Kiwi.Utility.TweenRunner`1.Init*
-  nameWithType.vb: TweenRunner(Of T).Init(MonoBehaviour)
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T).Init(UnityEngine.MonoBehaviour)
-- uid: Kiwi.Utility.TweenRunner`1.StartTween(`0)
-  commentId: M:Kiwi.Utility.TweenRunner`1.StartTween(`0)
-  id: StartTween(`0)
-  parent: Kiwi.Utility.TweenRunner`1
-  langs:
-  - csharp
-  - vb
-  name: StartTween(T)
-  nameWithType: TweenRunner<T>.StartTween(T)
-  fullName: Kiwi.Utility.TweenRunner<T>.StartTween(T)
-  type: Method
-  source:
-    remote:
-      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
-      branch: main
-      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
-    id: StartTween
-    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
-    startLine: 216
-  assemblies:
-  - com.kiwi.utility.runtime
-  namespace: Kiwi.Utility
-  syntax:
-    content: public void StartTween(T info)
-    parameters:
-    - id: info
-      type: '{T}'
-    content.vb: Public Sub StartTween(info As T)
-  overload: Kiwi.Utility.TweenRunner`1.StartTween*
-  nameWithType.vb: TweenRunner(Of T).StartTween(T)
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T).StartTween(T)
-- uid: Kiwi.Utility.TweenRunner`1.StopTween
-  commentId: M:Kiwi.Utility.TweenRunner`1.StopTween
-  id: StopTween
-  parent: Kiwi.Utility.TweenRunner`1
-  langs:
-  - csharp
-  - vb
-  name: StopTween()
-  nameWithType: TweenRunner<T>.StopTween()
-  fullName: Kiwi.Utility.TweenRunner<T>.StopTween()
-  type: Method
-  source:
-    remote:
-      path: Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
-      branch: main
-      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
-    id: StopTween
-    path: ../Packages/com.kiwi.utility/Runtime/Common/CoroutineTween.cs
-    startLine: 236
-  assemblies:
-  - com.kiwi.utility.runtime
-  namespace: Kiwi.Utility
-  syntax:
-    content: public void StopTween()
-    content.vb: Public Sub StopTween()
-  overload: Kiwi.Utility.TweenRunner`1.StopTween*
-  nameWithType.vb: TweenRunner(Of T).StopTween()
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T).StopTween()
+      type: System.Boolean
+    content.vb: Public Shared Display As Boolean
 references:
-- uid: Kiwi.Utility
-  commentId: N:Kiwi.Utility
+- uid: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  commentId: N:Kiwi.Utility.Editor.SceneView.OverlayMenu
   href: Kiwi.html
-  name: Kiwi.Utility
-  nameWithType: Kiwi.Utility
-  fullName: Kiwi.Utility
+  name: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  nameWithType: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  fullName: Kiwi.Utility.Editor.SceneView.OverlayMenu
   spec.csharp:
   - uid: Kiwi
     name: Kiwi
@@ -209,6 +93,18 @@ references:
   - uid: Kiwi.Utility
     name: Utility
     href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Editor
+    name: Editor
+    href: Kiwi.Utility.Editor.html
+  - name: .
+  - uid: Kiwi.Utility.Editor.SceneView
+    name: SceneView
+    href: Kiwi.Utility.Editor.SceneView.html
+  - name: .
+  - uid: Kiwi.Utility.Editor.SceneView.OverlayMenu
+    name: OverlayMenu
+    href: Kiwi.Utility.Editor.SceneView.OverlayMenu.html
   spec.vb:
   - uid: Kiwi
     name: Kiwi
@@ -217,6 +113,18 @@ references:
   - uid: Kiwi.Utility
     name: Utility
     href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Editor
+    name: Editor
+    href: Kiwi.Utility.Editor.html
+  - name: .
+  - uid: Kiwi.Utility.Editor.SceneView
+    name: SceneView
+    href: Kiwi.Utility.Editor.SceneView.html
+  - name: .
+  - uid: Kiwi.Utility.Editor.SceneView.OverlayMenu
+    name: OverlayMenu
+    href: Kiwi.Utility.Editor.SceneView.OverlayMenu.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -454,85 +362,14 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: UnityEngine.MonoBehaviour
-  commentId: T:UnityEngine.MonoBehaviour
-  parent: UnityEngine
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
-  name: MonoBehaviour
-  nameWithType: MonoBehaviour
-  fullName: UnityEngine.MonoBehaviour
-- uid: UnityEngine
-  commentId: N:UnityEngine
-  isExternal: true
-  name: UnityEngine
-  nameWithType: UnityEngine
-  fullName: UnityEngine
-- uid: System.Collections.IEnumerator
-  commentId: T:System.Collections.IEnumerator
-  parent: System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerator
-  name: IEnumerator
-  nameWithType: IEnumerator
-  fullName: System.Collections.IEnumerator
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-- uid: Kiwi.Utility.TweenRunner`1.Init*
-  commentId: Overload:Kiwi.Utility.TweenRunner`1.Init
-  href: Kiwi.Utility.TweenRunner-1.html#Kiwi_Utility_TweenRunner_1_Init_UnityEngine_MonoBehaviour_
-  name: Init
-  nameWithType: TweenRunner<T>.Init
-  fullName: Kiwi.Utility.TweenRunner<T>.Init
-  nameWithType.vb: TweenRunner(Of T).Init
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T).Init
-- uid: Kiwi.Utility.TweenRunner`1.StartTween*
-  commentId: Overload:Kiwi.Utility.TweenRunner`1.StartTween
-  href: Kiwi.Utility.TweenRunner-1.html#Kiwi_Utility_TweenRunner_1_StartTween__0_
-  name: StartTween
-  nameWithType: TweenRunner<T>.StartTween
-  fullName: Kiwi.Utility.TweenRunner<T>.StartTween
-  nameWithType.vb: TweenRunner(Of T).StartTween
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T).StartTween
-- uid: '{T}'
-  commentId: '!:T'
-  definition: T
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: T
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: Kiwi.Utility.TweenRunner`1.StopTween*
-  commentId: Overload:Kiwi.Utility.TweenRunner`1.StopTween
-  href: Kiwi.Utility.TweenRunner-1.html#Kiwi_Utility_TweenRunner_1_StopTween
-  name: StopTween
-  nameWithType: TweenRunner<T>.StopTween
-  fullName: Kiwi.Utility.TweenRunner<T>.StopTween
-  nameWithType.vb: TweenRunner(Of T).StopTween
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T).StopTween
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

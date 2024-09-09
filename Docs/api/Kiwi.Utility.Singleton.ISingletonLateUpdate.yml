@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.Singleton.ISingletonLateUpdate
+  commentId: T:Kiwi.Utility.Singleton.ISingletonLateUpdate
+  id: ISingletonLateUpdate
+  parent: Kiwi.Utility.Singleton
+  children:
+  - Kiwi.Utility.Singleton.ISingletonLateUpdate.SingletonLateUpdate(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: ISingletonLateUpdate
+  nameWithType: ISingletonLateUpdate
+  fullName: Kiwi.Utility.Singleton.ISingletonLateUpdate
+  type: Interface
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/Interface/ISingleton.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ISingletonLateUpdate
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/Interface/ISingleton.cs
+    startLine: 40
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  syntax:
+    content: public interface ISingletonLateUpdate
+    content.vb: Public Interface ISingletonLateUpdate
+- uid: Kiwi.Utility.Singleton.ISingletonLateUpdate.SingletonLateUpdate(System.Single)
+  commentId: M:Kiwi.Utility.Singleton.ISingletonLateUpdate.SingletonLateUpdate(System.Single)
+  id: SingletonLateUpdate(System.Single)
+  parent: Kiwi.Utility.Singleton.ISingletonLateUpdate
+  langs:
+  - csharp
+  - vb
+  name: SingletonLateUpdate(float)
+  nameWithType: ISingletonLateUpdate.SingletonLateUpdate(float)
+  fullName: Kiwi.Utility.Singleton.ISingletonLateUpdate.SingletonLateUpdate(float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/Interface/ISingleton.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SingletonLateUpdate
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/Interface/ISingleton.cs
+    startLine: 42
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  syntax:
+    content: void SingletonLateUpdate(float deltaTime)
+    parameters:
+    - id: deltaTime
+      type: System.Single
+    content.vb: Sub SingletonLateUpdate(deltaTime As Single)
+  overload: Kiwi.Utility.Singleton.ISingletonLateUpdate.SingletonLateUpdate*
+  nameWithType.vb: ISingletonLateUpdate.SingletonLateUpdate(Single)
+  fullName.vb: Kiwi.Utility.Singleton.ISingletonLateUpdate.SingletonLateUpdate(Single)
+  name.vb: SingletonLateUpdate(Single)
+references:
+- uid: Kiwi.Utility.Singleton
+  commentId: N:Kiwi.Utility.Singleton
+  href: Kiwi.html
+  name: Kiwi.Utility.Singleton
+  nameWithType: Kiwi.Utility.Singleton
+  fullName: Kiwi.Utility.Singleton
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Singleton
+    name: Singleton
+    href: Kiwi.Utility.Singleton.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Singleton
+    name: Singleton
+    href: Kiwi.Utility.Singleton.html
+- uid: Kiwi.Utility.Singleton.ISingletonLateUpdate.SingletonLateUpdate*
+  commentId: Overload:Kiwi.Utility.Singleton.ISingletonLateUpdate.SingletonLateUpdate
+  href: Kiwi.Utility.Singleton.ISingletonLateUpdate.html#Kiwi_Utility_Singleton_ISingletonLateUpdate_SingletonLateUpdate_System_Single_
+  name: SingletonLateUpdate
+  nameWithType: ISingletonLateUpdate.SingletonLateUpdate
+  fullName: Kiwi.Utility.Singleton.ISingletonLateUpdate.SingletonLateUpdate
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  commentId: N:Kiwi.Utility.Editor.SceneView.OverlayMenu
+  id: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  children:
+  - Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline
+  - Kiwi.Utility.Editor.SceneView.OverlayMenu.UIQuickTools
+  - Kiwi.Utility.Editor.SceneView.OverlayMenu.UISelector
+  langs:
+  - csharp
+  - vb
+  name: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  nameWithType: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  fullName: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  type: Namespace
+  assemblies:
+  - com.kiwi.utility.editor
+references:
+- uid: Kiwi.Utility.Editor.SceneView.OverlayMenu.UIQuickTools
+  commentId: T:Kiwi.Utility.Editor.SceneView.OverlayMenu.UIQuickTools
+  href: Kiwi.Utility.Editor.SceneView.OverlayMenu.UIQuickTools.html
+  name: UIQuickTools
+  nameWithType: UIQuickTools
+  fullName: Kiwi.Utility.Editor.SceneView.OverlayMenu.UIQuickTools
+- uid: Kiwi.Utility.Editor.SceneView.OverlayMenu.UISelector
+  commentId: T:Kiwi.Utility.Editor.SceneView.OverlayMenu.UISelector
+  href: Kiwi.Utility.Editor.SceneView.OverlayMenu.UISelector.html
+  name: UISelector
+  nameWithType: UISelector
+  fullName: Kiwi.Utility.Editor.SceneView.OverlayMenu.UISelector
+- uid: Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline
+  commentId: T:Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline
+  href: Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline.html
+  name: GraphicRaycastOutline
+  nameWithType: GraphicRaycastOutline
+  fullName: Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline

@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.Singleton.ISingletonUpdate
+  commentId: T:Kiwi.Utility.Singleton.ISingletonUpdate
+  id: ISingletonUpdate
+  parent: Kiwi.Utility.Singleton
+  children:
+  - Kiwi.Utility.Singleton.ISingletonUpdate.SingletonUpdate(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: ISingletonUpdate
+  nameWithType: ISingletonUpdate
+  fullName: Kiwi.Utility.Singleton.ISingletonUpdate
+  type: Interface
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/Interface/ISingleton.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ISingletonUpdate
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/Interface/ISingleton.cs
+    startLine: 35
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  syntax:
+    content: public interface ISingletonUpdate
+    content.vb: Public Interface ISingletonUpdate
+- uid: Kiwi.Utility.Singleton.ISingletonUpdate.SingletonUpdate(System.Single)
+  commentId: M:Kiwi.Utility.Singleton.ISingletonUpdate.SingletonUpdate(System.Single)
+  id: SingletonUpdate(System.Single)
+  parent: Kiwi.Utility.Singleton.ISingletonUpdate
+  langs:
+  - csharp
+  - vb
+  name: SingletonUpdate(float)
+  nameWithType: ISingletonUpdate.SingletonUpdate(float)
+  fullName: Kiwi.Utility.Singleton.ISingletonUpdate.SingletonUpdate(float)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/Interface/ISingleton.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SingletonUpdate
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/Interface/ISingleton.cs
+    startLine: 37
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  syntax:
+    content: void SingletonUpdate(float deltaTime)
+    parameters:
+    - id: deltaTime
+      type: System.Single
+    content.vb: Sub SingletonUpdate(deltaTime As Single)
+  overload: Kiwi.Utility.Singleton.ISingletonUpdate.SingletonUpdate*
+  nameWithType.vb: ISingletonUpdate.SingletonUpdate(Single)
+  fullName.vb: Kiwi.Utility.Singleton.ISingletonUpdate.SingletonUpdate(Single)
+  name.vb: SingletonUpdate(Single)
+references:
+- uid: Kiwi.Utility.Singleton
+  commentId: N:Kiwi.Utility.Singleton
+  href: Kiwi.html
+  name: Kiwi.Utility.Singleton
+  nameWithType: Kiwi.Utility.Singleton
+  fullName: Kiwi.Utility.Singleton
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Singleton
+    name: Singleton
+    href: Kiwi.Utility.Singleton.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Singleton
+    name: Singleton
+    href: Kiwi.Utility.Singleton.html
+- uid: Kiwi.Utility.Singleton.ISingletonUpdate.SingletonUpdate*
+  commentId: Overload:Kiwi.Utility.Singleton.ISingletonUpdate.SingletonUpdate
+  href: Kiwi.Utility.Singleton.ISingletonUpdate.html#Kiwi_Utility_Singleton_ISingletonUpdate_SingletonUpdate_System_Single_
+  name: SingletonUpdate
+  nameWithType: ISingletonUpdate.SingletonUpdate
+  fullName: Kiwi.Utility.Singleton.ISingletonUpdate.SingletonUpdate
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

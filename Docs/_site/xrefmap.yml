@@ -169,178 +169,6 @@ references:
   commentId: F:Kiwi.Utility.AnchorVertical.Top
   fullName: Kiwi.Utility.AnchorVertical.Top
   nameWithType: AnchorVertical.Top
-- uid: Kiwi.Utility.ColorTween
-  name: ColorTween
-  href: api/Kiwi.Utility.ColorTween.html
-  commentId: T:Kiwi.Utility.ColorTween
-  fullName: Kiwi.Utility.ColorTween
-  nameWithType: ColorTween
-- uid: Kiwi.Utility.ColorTween.AddOnChangedCallback(UnityEngine.Events.UnityAction{UnityEngine.Color})
-  name: AddOnChangedCallback(UnityAction<Color>)
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_AddOnChangedCallback_UnityEngine_Events_UnityAction_UnityEngine_Color__
-  commentId: M:Kiwi.Utility.ColorTween.AddOnChangedCallback(UnityEngine.Events.UnityAction{UnityEngine.Color})
-  name.vb: AddOnChangedCallback(UnityAction(Of Color))
-  fullName: Kiwi.Utility.ColorTween.AddOnChangedCallback(UnityEngine.Events.UnityAction<UnityEngine.Color>)
-  fullName.vb: Kiwi.Utility.ColorTween.AddOnChangedCallback(UnityEngine.Events.UnityAction(Of UnityEngine.Color))
-  nameWithType: ColorTween.AddOnChangedCallback(UnityAction<Color>)
-  nameWithType.vb: ColorTween.AddOnChangedCallback(UnityAction(Of Color))
-- uid: Kiwi.Utility.ColorTween.AddOnChangedCallback*
-  name: AddOnChangedCallback
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_AddOnChangedCallback_
-  commentId: Overload:Kiwi.Utility.ColorTween.AddOnChangedCallback
-  isSpec: "True"
-  fullName: Kiwi.Utility.ColorTween.AddOnChangedCallback
-  nameWithType: ColorTween.AddOnChangedCallback
-- uid: Kiwi.Utility.ColorTween.ColorTweenCallback
-  name: ColorTween.ColorTweenCallback
-  href: api/Kiwi.Utility.ColorTween.ColorTweenCallback.html
-  commentId: T:Kiwi.Utility.ColorTween.ColorTweenCallback
-  fullName: Kiwi.Utility.ColorTween.ColorTweenCallback
-  nameWithType: ColorTween.ColorTweenCallback
-- uid: Kiwi.Utility.ColorTween.ColorTweenMode
-  name: ColorTween.ColorTweenMode
-  href: api/Kiwi.Utility.ColorTween.ColorTweenMode.html
-  commentId: T:Kiwi.Utility.ColorTween.ColorTweenMode
-  fullName: Kiwi.Utility.ColorTween.ColorTweenMode
-  nameWithType: ColorTween.ColorTweenMode
-- uid: Kiwi.Utility.ColorTween.ColorTweenMode.All
-  name: All
-  href: api/Kiwi.Utility.ColorTween.ColorTweenMode.html#Kiwi_Utility_ColorTween_ColorTweenMode_All
-  commentId: F:Kiwi.Utility.ColorTween.ColorTweenMode.All
-  fullName: Kiwi.Utility.ColorTween.ColorTweenMode.All
-  nameWithType: ColorTween.ColorTweenMode.All
-- uid: Kiwi.Utility.ColorTween.ColorTweenMode.Alpha
-  name: Alpha
-  href: api/Kiwi.Utility.ColorTween.ColorTweenMode.html#Kiwi_Utility_ColorTween_ColorTweenMode_Alpha
-  commentId: F:Kiwi.Utility.ColorTween.ColorTweenMode.Alpha
-  fullName: Kiwi.Utility.ColorTween.ColorTweenMode.Alpha
-  nameWithType: ColorTween.ColorTweenMode.Alpha
-- uid: Kiwi.Utility.ColorTween.ColorTweenMode.RGB
-  name: RGB
-  href: api/Kiwi.Utility.ColorTween.ColorTweenMode.html#Kiwi_Utility_ColorTween_ColorTweenMode_RGB
-  commentId: F:Kiwi.Utility.ColorTween.ColorTweenMode.RGB
-  fullName: Kiwi.Utility.ColorTween.ColorTweenMode.RGB
-  nameWithType: ColorTween.ColorTweenMode.RGB
-- uid: Kiwi.Utility.ColorTween.GetDuration
-  name: GetDuration()
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_GetDuration
-  commentId: M:Kiwi.Utility.ColorTween.GetDuration
-  fullName: Kiwi.Utility.ColorTween.GetDuration()
-  nameWithType: ColorTween.GetDuration()
-- uid: Kiwi.Utility.ColorTween.GetDuration*
-  name: GetDuration
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_GetDuration_
-  commentId: Overload:Kiwi.Utility.ColorTween.GetDuration
-  isSpec: "True"
-  fullName: Kiwi.Utility.ColorTween.GetDuration
-  nameWithType: ColorTween.GetDuration
-- uid: Kiwi.Utility.ColorTween.GetIgnoreTimescale
-  name: GetIgnoreTimescale()
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_GetIgnoreTimescale
-  commentId: M:Kiwi.Utility.ColorTween.GetIgnoreTimescale
-  fullName: Kiwi.Utility.ColorTween.GetIgnoreTimescale()
-  nameWithType: ColorTween.GetIgnoreTimescale()
-- uid: Kiwi.Utility.ColorTween.GetIgnoreTimescale*
-  name: GetIgnoreTimescale
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_GetIgnoreTimescale_
-  commentId: Overload:Kiwi.Utility.ColorTween.GetIgnoreTimescale
-  isSpec: "True"
-  fullName: Kiwi.Utility.ColorTween.GetIgnoreTimescale
-  nameWithType: ColorTween.GetIgnoreTimescale
-- uid: Kiwi.Utility.ColorTween.TweenValue(System.Single)
-  name: TweenValue(float)
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_TweenValue_System_Single_
-  commentId: M:Kiwi.Utility.ColorTween.TweenValue(System.Single)
-  name.vb: TweenValue(Single)
-  fullName: Kiwi.Utility.ColorTween.TweenValue(float)
-  fullName.vb: Kiwi.Utility.ColorTween.TweenValue(Single)
-  nameWithType: ColorTween.TweenValue(float)
-  nameWithType.vb: ColorTween.TweenValue(Single)
-- uid: Kiwi.Utility.ColorTween.TweenValue*
-  name: TweenValue
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_TweenValue_
-  commentId: Overload:Kiwi.Utility.ColorTween.TweenValue
-  isSpec: "True"
-  fullName: Kiwi.Utility.ColorTween.TweenValue
-  nameWithType: ColorTween.TweenValue
-- uid: Kiwi.Utility.ColorTween.ValidTarget
-  name: ValidTarget()
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_ValidTarget
-  commentId: M:Kiwi.Utility.ColorTween.ValidTarget
-  fullName: Kiwi.Utility.ColorTween.ValidTarget()
-  nameWithType: ColorTween.ValidTarget()
-- uid: Kiwi.Utility.ColorTween.ValidTarget*
-  name: ValidTarget
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_ValidTarget_
-  commentId: Overload:Kiwi.Utility.ColorTween.ValidTarget
-  isSpec: "True"
-  fullName: Kiwi.Utility.ColorTween.ValidTarget
-  nameWithType: ColorTween.ValidTarget
-- uid: Kiwi.Utility.ColorTween.duration
-  name: duration
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_duration
-  commentId: P:Kiwi.Utility.ColorTween.duration
-  fullName: Kiwi.Utility.ColorTween.duration
-  nameWithType: ColorTween.duration
-- uid: Kiwi.Utility.ColorTween.duration*
-  name: duration
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_duration_
-  commentId: Overload:Kiwi.Utility.ColorTween.duration
-  isSpec: "True"
-  fullName: Kiwi.Utility.ColorTween.duration
-  nameWithType: ColorTween.duration
-- uid: Kiwi.Utility.ColorTween.ignoreTimeScale
-  name: ignoreTimeScale
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_ignoreTimeScale
-  commentId: P:Kiwi.Utility.ColorTween.ignoreTimeScale
-  fullName: Kiwi.Utility.ColorTween.ignoreTimeScale
-  nameWithType: ColorTween.ignoreTimeScale
-- uid: Kiwi.Utility.ColorTween.ignoreTimeScale*
-  name: ignoreTimeScale
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_ignoreTimeScale_
-  commentId: Overload:Kiwi.Utility.ColorTween.ignoreTimeScale
-  isSpec: "True"
-  fullName: Kiwi.Utility.ColorTween.ignoreTimeScale
-  nameWithType: ColorTween.ignoreTimeScale
-- uid: Kiwi.Utility.ColorTween.startColor
-  name: startColor
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_startColor
-  commentId: P:Kiwi.Utility.ColorTween.startColor
-  fullName: Kiwi.Utility.ColorTween.startColor
-  nameWithType: ColorTween.startColor
-- uid: Kiwi.Utility.ColorTween.startColor*
-  name: startColor
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_startColor_
-  commentId: Overload:Kiwi.Utility.ColorTween.startColor
-  isSpec: "True"
-  fullName: Kiwi.Utility.ColorTween.startColor
-  nameWithType: ColorTween.startColor
-- uid: Kiwi.Utility.ColorTween.targetColor
-  name: targetColor
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_targetColor
-  commentId: P:Kiwi.Utility.ColorTween.targetColor
-  fullName: Kiwi.Utility.ColorTween.targetColor
-  nameWithType: ColorTween.targetColor
-- uid: Kiwi.Utility.ColorTween.targetColor*
-  name: targetColor
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_targetColor_
-  commentId: Overload:Kiwi.Utility.ColorTween.targetColor
-  isSpec: "True"
-  fullName: Kiwi.Utility.ColorTween.targetColor
-  nameWithType: ColorTween.targetColor
-- uid: Kiwi.Utility.ColorTween.tweenMode
-  name: tweenMode
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_tweenMode
-  commentId: P:Kiwi.Utility.ColorTween.tweenMode
-  fullName: Kiwi.Utility.ColorTween.tweenMode
-  nameWithType: ColorTween.tweenMode
-- uid: Kiwi.Utility.ColorTween.tweenMode*
-  name: tweenMode
-  href: api/Kiwi.Utility.ColorTween.html#Kiwi_Utility_ColorTween_tweenMode_
-  commentId: Overload:Kiwi.Utility.ColorTween.tweenMode
-  isSpec: "True"
-  fullName: Kiwi.Utility.ColorTween.tweenMode
-  nameWithType: ColorTween.tweenMode
 - uid: Kiwi.Utility.Editor
   name: Kiwi.Utility.Editor
   href: api/Kiwi.Utility.Editor.html
@@ -672,6 +500,60 @@ references:
   commentId: T:Kiwi.Utility.Editor.EditorToolbarExtender
   fullName: Kiwi.Utility.Editor.EditorToolbarExtender
   nameWithType: EditorToolbarExtender
+- uid: Kiwi.Utility.Editor.EditorUtil
+  name: EditorUtil
+  href: api/Kiwi.Utility.Editor.EditorUtil.html
+  commentId: T:Kiwi.Utility.Editor.EditorUtil
+  fullName: Kiwi.Utility.Editor.EditorUtil
+  nameWithType: EditorUtil
+- uid: Kiwi.Utility.Editor.EditorUtil.GetAssets*
+  name: GetAssets
+  href: api/Kiwi.Utility.Editor.EditorUtil.html#Kiwi_Utility_Editor_EditorUtil_GetAssets_
+  commentId: Overload:Kiwi.Utility.Editor.EditorUtil.GetAssets
+  isSpec: "True"
+  fullName: Kiwi.Utility.Editor.EditorUtil.GetAssets
+  nameWithType: EditorUtil.GetAssets
+- uid: Kiwi.Utility.Editor.EditorUtil.GetAssets``1(System.String,System.String)
+  name: GetAssets<T>(string, string)
+  href: api/Kiwi.Utility.Editor.EditorUtil.html#Kiwi_Utility_Editor_EditorUtil_GetAssets__1_System_String_System_String_
+  commentId: M:Kiwi.Utility.Editor.EditorUtil.GetAssets``1(System.String,System.String)
+  name.vb: GetAssets(Of T)(String, String)
+  fullName: Kiwi.Utility.Editor.EditorUtil.GetAssets<T>(string, string)
+  fullName.vb: Kiwi.Utility.Editor.EditorUtil.GetAssets(Of T)(String, String)
+  nameWithType: EditorUtil.GetAssets<T>(string, string)
+  nameWithType.vb: EditorUtil.GetAssets(Of T)(String, String)
+- uid: Kiwi.Utility.Editor.EditorUtil.GetBounds(UnityEngine.GameObject)
+  name: GetBounds(GameObject)
+  href: api/Kiwi.Utility.Editor.EditorUtil.html#Kiwi_Utility_Editor_EditorUtil_GetBounds_UnityEngine_GameObject_
+  commentId: M:Kiwi.Utility.Editor.EditorUtil.GetBounds(UnityEngine.GameObject)
+  fullName: Kiwi.Utility.Editor.EditorUtil.GetBounds(UnityEngine.GameObject)
+  nameWithType: EditorUtil.GetBounds(GameObject)
+- uid: Kiwi.Utility.Editor.EditorUtil.GetBounds*
+  name: GetBounds
+  href: api/Kiwi.Utility.Editor.EditorUtil.html#Kiwi_Utility_Editor_EditorUtil_GetBounds_
+  commentId: Overload:Kiwi.Utility.Editor.EditorUtil.GetBounds
+  isSpec: "True"
+  fullName: Kiwi.Utility.Editor.EditorUtil.GetBounds
+  nameWithType: EditorUtil.GetBounds
+- uid: Kiwi.Utility.Editor.EditorUtil.GetPath(UnityEngine.GameObject)
+  name: GetPath(GameObject)
+  href: api/Kiwi.Utility.Editor.EditorUtil.html#Kiwi_Utility_Editor_EditorUtil_GetPath_UnityEngine_GameObject_
+  commentId: M:Kiwi.Utility.Editor.EditorUtil.GetPath(UnityEngine.GameObject)
+  fullName: Kiwi.Utility.Editor.EditorUtil.GetPath(UnityEngine.GameObject)
+  nameWithType: EditorUtil.GetPath(GameObject)
+- uid: Kiwi.Utility.Editor.EditorUtil.GetPath(UnityEngine.Transform)
+  name: GetPath(Transform)
+  href: api/Kiwi.Utility.Editor.EditorUtil.html#Kiwi_Utility_Editor_EditorUtil_GetPath_UnityEngine_Transform_
+  commentId: M:Kiwi.Utility.Editor.EditorUtil.GetPath(UnityEngine.Transform)
+  fullName: Kiwi.Utility.Editor.EditorUtil.GetPath(UnityEngine.Transform)
+  nameWithType: EditorUtil.GetPath(Transform)
+- uid: Kiwi.Utility.Editor.EditorUtil.GetPath*
+  name: GetPath
+  href: api/Kiwi.Utility.Editor.EditorUtil.html#Kiwi_Utility_Editor_EditorUtil_GetPath_
+  commentId: Overload:Kiwi.Utility.Editor.EditorUtil.GetPath
+  isSpec: "True"
+  fullName: Kiwi.Utility.Editor.EditorUtil.GetPath
+  nameWithType: EditorUtil.GetPath
 - uid: Kiwi.Utility.Editor.IPreviewModule
   name: IPreviewModule
   href: api/Kiwi.Utility.Editor.IPreviewModule.html
@@ -1133,202 +1015,71 @@ references:
   isSpec: "True"
   fullName: Kiwi.Utility.Editor.PreviewEvt.Execute
   nameWithType: PreviewEvt.Execute
-- uid: Kiwi.Utility.FloatTween
-  name: FloatTween
-  href: api/Kiwi.Utility.FloatTween.html
-  commentId: T:Kiwi.Utility.FloatTween
-  fullName: Kiwi.Utility.FloatTween
-  nameWithType: FloatTween
-- uid: Kiwi.Utility.FloatTween.AddOnChangedCallback(UnityEngine.Events.UnityAction{System.Single})
-  name: AddOnChangedCallback(UnityAction<float>)
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_AddOnChangedCallback_UnityEngine_Events_UnityAction_System_Single__
-  commentId: M:Kiwi.Utility.FloatTween.AddOnChangedCallback(UnityEngine.Events.UnityAction{System.Single})
-  name.vb: AddOnChangedCallback(UnityAction(Of Single))
-  fullName: Kiwi.Utility.FloatTween.AddOnChangedCallback(UnityEngine.Events.UnityAction<float>)
-  fullName.vb: Kiwi.Utility.FloatTween.AddOnChangedCallback(UnityEngine.Events.UnityAction(Of Single))
-  nameWithType: FloatTween.AddOnChangedCallback(UnityAction<float>)
-  nameWithType.vb: FloatTween.AddOnChangedCallback(UnityAction(Of Single))
-- uid: Kiwi.Utility.FloatTween.AddOnChangedCallback*
-  name: AddOnChangedCallback
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_AddOnChangedCallback_
-  commentId: Overload:Kiwi.Utility.FloatTween.AddOnChangedCallback
+- uid: Kiwi.Utility.Editor.ProcessHelper
+  name: ProcessHelper
+  href: api/Kiwi.Utility.Editor.ProcessHelper.html
+  commentId: T:Kiwi.Utility.Editor.ProcessHelper
+  fullName: Kiwi.Utility.Editor.ProcessHelper
+  nameWithType: ProcessHelper
+- uid: Kiwi.Utility.Editor.ProcessHelper.ExecuteCommand(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean)
+  name: ExecuteCommand(string, string, string, bool, bool, bool)
+  href: api/Kiwi.Utility.Editor.ProcessHelper.html#Kiwi_Utility_Editor_ProcessHelper_ExecuteCommand_System_String_System_String_System_String_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:Kiwi.Utility.Editor.ProcessHelper.ExecuteCommand(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean)
+  name.vb: ExecuteCommand(String, String, String, Boolean, Boolean, Boolean)
+  fullName: Kiwi.Utility.Editor.ProcessHelper.ExecuteCommand(string, string, string, bool, bool, bool)
+  fullName.vb: Kiwi.Utility.Editor.ProcessHelper.ExecuteCommand(String, String, String, Boolean, Boolean, Boolean)
+  nameWithType: ProcessHelper.ExecuteCommand(string, string, string, bool, bool, bool)
+  nameWithType.vb: ProcessHelper.ExecuteCommand(String, String, String, Boolean, Boolean, Boolean)
+- uid: Kiwi.Utility.Editor.ProcessHelper.ExecuteCommand*
+  name: ExecuteCommand
+  href: api/Kiwi.Utility.Editor.ProcessHelper.html#Kiwi_Utility_Editor_ProcessHelper_ExecuteCommand_
+  commentId: Overload:Kiwi.Utility.Editor.ProcessHelper.ExecuteCommand
   isSpec: "True"
-  fullName: Kiwi.Utility.FloatTween.AddOnChangedCallback
-  nameWithType: FloatTween.AddOnChangedCallback
-- uid: Kiwi.Utility.FloatTween.FloatTweenCallback
-  name: FloatTween.FloatTweenCallback
-  href: api/Kiwi.Utility.FloatTween.FloatTweenCallback.html
-  commentId: T:Kiwi.Utility.FloatTween.FloatTweenCallback
-  fullName: Kiwi.Utility.FloatTween.FloatTweenCallback
-  nameWithType: FloatTween.FloatTweenCallback
-- uid: Kiwi.Utility.FloatTween.GetDuration
-  name: GetDuration()
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_GetDuration
-  commentId: M:Kiwi.Utility.FloatTween.GetDuration
-  fullName: Kiwi.Utility.FloatTween.GetDuration()
-  nameWithType: FloatTween.GetDuration()
-- uid: Kiwi.Utility.FloatTween.GetDuration*
-  name: GetDuration
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_GetDuration_
-  commentId: Overload:Kiwi.Utility.FloatTween.GetDuration
+  fullName: Kiwi.Utility.Editor.ProcessHelper.ExecuteCommand
+  nameWithType: ProcessHelper.ExecuteCommand
+- uid: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  name: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  href: api/Kiwi.Utility.Editor.SceneView.OverlayMenu.html
+  commentId: N:Kiwi.Utility.Editor.SceneView.OverlayMenu
+  fullName: Kiwi.Utility.Editor.SceneView.OverlayMenu
+  nameWithType: Kiwi.Utility.Editor.SceneView.OverlayMenu
+- uid: Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline
+  name: GraphicRaycastOutline
+  href: api/Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline.html
+  commentId: T:Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline
+  fullName: Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline
+  nameWithType: GraphicRaycastOutline
+- uid: Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline.Display
+  name: Display
+  href: api/Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline.html#Kiwi_Utility_Editor_SceneView_OverlayMenu_GraphicRaycastOutline_Display
+  commentId: F:Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline.Display
+  fullName: Kiwi.Utility.Editor.SceneView.OverlayMenu.GraphicRaycastOutline.Display
+  nameWithType: GraphicRaycastOutline.Display
+- uid: Kiwi.Utility.Editor.SceneView.OverlayMenu.UIQuickTools
+  name: UIQuickTools
+  href: api/Kiwi.Utility.Editor.SceneView.OverlayMenu.UIQuickTools.html
+  commentId: T:Kiwi.Utility.Editor.SceneView.OverlayMenu.UIQuickTools
+  fullName: Kiwi.Utility.Editor.SceneView.OverlayMenu.UIQuickTools
+  nameWithType: UIQuickTools
+- uid: Kiwi.Utility.Editor.SceneView.OverlayMenu.UISelector
+  name: UISelector
+  href: api/Kiwi.Utility.Editor.SceneView.OverlayMenu.UISelector.html
+  commentId: T:Kiwi.Utility.Editor.SceneView.OverlayMenu.UISelector
+  fullName: Kiwi.Utility.Editor.SceneView.OverlayMenu.UISelector
+  nameWithType: UISelector
+- uid: Kiwi.Utility.Editor.SceneView.OverlayMenu.UISelector.Enabled
+  name: Enabled
+  href: api/Kiwi.Utility.Editor.SceneView.OverlayMenu.UISelector.html#Kiwi_Utility_Editor_SceneView_OverlayMenu_UISelector_Enabled
+  commentId: P:Kiwi.Utility.Editor.SceneView.OverlayMenu.UISelector.Enabled
+  fullName: Kiwi.Utility.Editor.SceneView.OverlayMenu.UISelector.Enabled
+  nameWithType: UISelector.Enabled
+- uid: Kiwi.Utility.Editor.SceneView.OverlayMenu.UISelector.Enabled*
+  name: Enabled
+  href: api/Kiwi.Utility.Editor.SceneView.OverlayMenu.UISelector.html#Kiwi_Utility_Editor_SceneView_OverlayMenu_UISelector_Enabled_
+  commentId: Overload:Kiwi.Utility.Editor.SceneView.OverlayMenu.UISelector.Enabled
   isSpec: "True"
-  fullName: Kiwi.Utility.FloatTween.GetDuration
-  nameWithType: FloatTween.GetDuration
-- uid: Kiwi.Utility.FloatTween.GetIgnoreTimescale
-  name: GetIgnoreTimescale()
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_GetIgnoreTimescale
-  commentId: M:Kiwi.Utility.FloatTween.GetIgnoreTimescale
-  fullName: Kiwi.Utility.FloatTween.GetIgnoreTimescale()
-  nameWithType: FloatTween.GetIgnoreTimescale()
-- uid: Kiwi.Utility.FloatTween.GetIgnoreTimescale*
-  name: GetIgnoreTimescale
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_GetIgnoreTimescale_
-  commentId: Overload:Kiwi.Utility.FloatTween.GetIgnoreTimescale
-  isSpec: "True"
-  fullName: Kiwi.Utility.FloatTween.GetIgnoreTimescale
-  nameWithType: FloatTween.GetIgnoreTimescale
-- uid: Kiwi.Utility.FloatTween.TweenValue(System.Single)
-  name: TweenValue(float)
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_TweenValue_System_Single_
-  commentId: M:Kiwi.Utility.FloatTween.TweenValue(System.Single)
-  name.vb: TweenValue(Single)
-  fullName: Kiwi.Utility.FloatTween.TweenValue(float)
-  fullName.vb: Kiwi.Utility.FloatTween.TweenValue(Single)
-  nameWithType: FloatTween.TweenValue(float)
-  nameWithType.vb: FloatTween.TweenValue(Single)
-- uid: Kiwi.Utility.FloatTween.TweenValue*
-  name: TweenValue
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_TweenValue_
-  commentId: Overload:Kiwi.Utility.FloatTween.TweenValue
-  isSpec: "True"
-  fullName: Kiwi.Utility.FloatTween.TweenValue
-  nameWithType: FloatTween.TweenValue
-- uid: Kiwi.Utility.FloatTween.ValidTarget
-  name: ValidTarget()
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_ValidTarget
-  commentId: M:Kiwi.Utility.FloatTween.ValidTarget
-  fullName: Kiwi.Utility.FloatTween.ValidTarget()
-  nameWithType: FloatTween.ValidTarget()
-- uid: Kiwi.Utility.FloatTween.ValidTarget*
-  name: ValidTarget
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_ValidTarget_
-  commentId: Overload:Kiwi.Utility.FloatTween.ValidTarget
-  isSpec: "True"
-  fullName: Kiwi.Utility.FloatTween.ValidTarget
-  nameWithType: FloatTween.ValidTarget
-- uid: Kiwi.Utility.FloatTween.duration
-  name: duration
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_duration
-  commentId: P:Kiwi.Utility.FloatTween.duration
-  fullName: Kiwi.Utility.FloatTween.duration
-  nameWithType: FloatTween.duration
-- uid: Kiwi.Utility.FloatTween.duration*
-  name: duration
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_duration_
-  commentId: Overload:Kiwi.Utility.FloatTween.duration
-  isSpec: "True"
-  fullName: Kiwi.Utility.FloatTween.duration
-  nameWithType: FloatTween.duration
-- uid: Kiwi.Utility.FloatTween.ignoreTimeScale
-  name: ignoreTimeScale
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_ignoreTimeScale
-  commentId: P:Kiwi.Utility.FloatTween.ignoreTimeScale
-  fullName: Kiwi.Utility.FloatTween.ignoreTimeScale
-  nameWithType: FloatTween.ignoreTimeScale
-- uid: Kiwi.Utility.FloatTween.ignoreTimeScale*
-  name: ignoreTimeScale
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_ignoreTimeScale_
-  commentId: Overload:Kiwi.Utility.FloatTween.ignoreTimeScale
-  isSpec: "True"
-  fullName: Kiwi.Utility.FloatTween.ignoreTimeScale
-  nameWithType: FloatTween.ignoreTimeScale
-- uid: Kiwi.Utility.FloatTween.startValue
-  name: startValue
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_startValue
-  commentId: P:Kiwi.Utility.FloatTween.startValue
-  fullName: Kiwi.Utility.FloatTween.startValue
-  nameWithType: FloatTween.startValue
-- uid: Kiwi.Utility.FloatTween.startValue*
-  name: startValue
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_startValue_
-  commentId: Overload:Kiwi.Utility.FloatTween.startValue
-  isSpec: "True"
-  fullName: Kiwi.Utility.FloatTween.startValue
-  nameWithType: FloatTween.startValue
-- uid: Kiwi.Utility.FloatTween.targetValue
-  name: targetValue
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_targetValue
-  commentId: P:Kiwi.Utility.FloatTween.targetValue
-  fullName: Kiwi.Utility.FloatTween.targetValue
-  nameWithType: FloatTween.targetValue
-- uid: Kiwi.Utility.FloatTween.targetValue*
-  name: targetValue
-  href: api/Kiwi.Utility.FloatTween.html#Kiwi_Utility_FloatTween_targetValue_
-  commentId: Overload:Kiwi.Utility.FloatTween.targetValue
-  isSpec: "True"
-  fullName: Kiwi.Utility.FloatTween.targetValue
-  nameWithType: FloatTween.targetValue
-- uid: Kiwi.Utility.ITweenValue
-  name: ITweenValue
-  href: api/Kiwi.Utility.ITweenValue.html
-  commentId: T:Kiwi.Utility.ITweenValue
-  fullName: Kiwi.Utility.ITweenValue
-  nameWithType: ITweenValue
-- uid: Kiwi.Utility.ITweenValue.TweenValue(System.Single)
-  name: TweenValue(float)
-  href: api/Kiwi.Utility.ITweenValue.html#Kiwi_Utility_ITweenValue_TweenValue_System_Single_
-  commentId: M:Kiwi.Utility.ITweenValue.TweenValue(System.Single)
-  name.vb: TweenValue(Single)
-  fullName: Kiwi.Utility.ITweenValue.TweenValue(float)
-  fullName.vb: Kiwi.Utility.ITweenValue.TweenValue(Single)
-  nameWithType: ITweenValue.TweenValue(float)
-  nameWithType.vb: ITweenValue.TweenValue(Single)
-- uid: Kiwi.Utility.ITweenValue.TweenValue*
-  name: TweenValue
-  href: api/Kiwi.Utility.ITweenValue.html#Kiwi_Utility_ITweenValue_TweenValue_
-  commentId: Overload:Kiwi.Utility.ITweenValue.TweenValue
-  isSpec: "True"
-  fullName: Kiwi.Utility.ITweenValue.TweenValue
-  nameWithType: ITweenValue.TweenValue
-- uid: Kiwi.Utility.ITweenValue.ValidTarget
-  name: ValidTarget()
-  href: api/Kiwi.Utility.ITweenValue.html#Kiwi_Utility_ITweenValue_ValidTarget
-  commentId: M:Kiwi.Utility.ITweenValue.ValidTarget
-  fullName: Kiwi.Utility.ITweenValue.ValidTarget()
-  nameWithType: ITweenValue.ValidTarget()
-- uid: Kiwi.Utility.ITweenValue.ValidTarget*
-  name: ValidTarget
-  href: api/Kiwi.Utility.ITweenValue.html#Kiwi_Utility_ITweenValue_ValidTarget_
-  commentId: Overload:Kiwi.Utility.ITweenValue.ValidTarget
-  isSpec: "True"
-  fullName: Kiwi.Utility.ITweenValue.ValidTarget
-  nameWithType: ITweenValue.ValidTarget
-- uid: Kiwi.Utility.ITweenValue.duration
-  name: duration
-  href: api/Kiwi.Utility.ITweenValue.html#Kiwi_Utility_ITweenValue_duration
-  commentId: P:Kiwi.Utility.ITweenValue.duration
-  fullName: Kiwi.Utility.ITweenValue.duration
-  nameWithType: ITweenValue.duration
-- uid: Kiwi.Utility.ITweenValue.duration*
-  name: duration
-  href: api/Kiwi.Utility.ITweenValue.html#Kiwi_Utility_ITweenValue_duration_
-  commentId: Overload:Kiwi.Utility.ITweenValue.duration
-  isSpec: "True"
-  fullName: Kiwi.Utility.ITweenValue.duration
-  nameWithType: ITweenValue.duration
-- uid: Kiwi.Utility.ITweenValue.ignoreTimeScale
-  name: ignoreTimeScale
-  href: api/Kiwi.Utility.ITweenValue.html#Kiwi_Utility_ITweenValue_ignoreTimeScale
-  commentId: P:Kiwi.Utility.ITweenValue.ignoreTimeScale
-  fullName: Kiwi.Utility.ITweenValue.ignoreTimeScale
-  nameWithType: ITweenValue.ignoreTimeScale
-- uid: Kiwi.Utility.ITweenValue.ignoreTimeScale*
-  name: ignoreTimeScale
-  href: api/Kiwi.Utility.ITweenValue.html#Kiwi_Utility_ITweenValue_ignoreTimeScale_
-  commentId: Overload:Kiwi.Utility.ITweenValue.ignoreTimeScale
-  isSpec: "True"
-  fullName: Kiwi.Utility.ITweenValue.ignoreTimeScale
-  nameWithType: ITweenValue.ignoreTimeScale
+  fullName: Kiwi.Utility.Editor.SceneView.OverlayMenu.UISelector.Enabled
+  nameWithType: UISelector.Enabled
 - uid: Kiwi.Utility.KiwiExtend
   name: KiwiExtend
   href: api/Kiwi.Utility.KiwiExtend.html
@@ -2688,6 +2439,609 @@ references:
   isSpec: "True"
   fullName: Kiwi.Utility.SetPropertyUtility.SetVector3
   nameWithType: SetPropertyUtility.SetVector3
+- uid: Kiwi.Utility.Singleton
+  name: Kiwi.Utility.Singleton
+  href: api/Kiwi.Utility.Singleton.html
+  commentId: N:Kiwi.Utility.Singleton
+  fullName: Kiwi.Utility.Singleton
+  nameWithType: Kiwi.Utility.Singleton
+- uid: Kiwi.Utility.Singleton.ISingleton
+  name: ISingleton
+  href: api/Kiwi.Utility.Singleton.ISingleton.html
+  commentId: T:Kiwi.Utility.Singleton.ISingleton
+  fullName: Kiwi.Utility.Singleton.ISingleton
+  nameWithType: ISingleton
+- uid: Kiwi.Utility.Singleton.ISingleton.InitializeSingleton
+  name: InitializeSingleton()
+  href: api/Kiwi.Utility.Singleton.ISingleton.html#Kiwi_Utility_Singleton_ISingleton_InitializeSingleton
+  commentId: M:Kiwi.Utility.Singleton.ISingleton.InitializeSingleton
+  fullName: Kiwi.Utility.Singleton.ISingleton.InitializeSingleton()
+  nameWithType: ISingleton.InitializeSingleton()
+- uid: Kiwi.Utility.Singleton.ISingleton.InitializeSingleton*
+  name: InitializeSingleton
+  href: api/Kiwi.Utility.Singleton.ISingleton.html#Kiwi_Utility_Singleton_ISingleton_InitializeSingleton_
+  commentId: Overload:Kiwi.Utility.Singleton.ISingleton.InitializeSingleton
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.ISingleton.InitializeSingleton
+  nameWithType: ISingleton.InitializeSingleton
+- uid: Kiwi.Utility.Singleton.ISingleton.IsInitialized
+  name: IsInitialized
+  href: api/Kiwi.Utility.Singleton.ISingleton.html#Kiwi_Utility_Singleton_ISingleton_IsInitialized
+  commentId: P:Kiwi.Utility.Singleton.ISingleton.IsInitialized
+  fullName: Kiwi.Utility.Singleton.ISingleton.IsInitialized
+  nameWithType: ISingleton.IsInitialized
+- uid: Kiwi.Utility.Singleton.ISingleton.IsInitialized*
+  name: IsInitialized
+  href: api/Kiwi.Utility.Singleton.ISingleton.html#Kiwi_Utility_Singleton_ISingleton_IsInitialized_
+  commentId: Overload:Kiwi.Utility.Singleton.ISingleton.IsInitialized
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.ISingleton.IsInitialized
+  nameWithType: ISingleton.IsInitialized
+- uid: Kiwi.Utility.Singleton.ISingleton.ReleaseSingleton
+  name: ReleaseSingleton()
+  href: api/Kiwi.Utility.Singleton.ISingleton.html#Kiwi_Utility_Singleton_ISingleton_ReleaseSingleton
+  commentId: M:Kiwi.Utility.Singleton.ISingleton.ReleaseSingleton
+  fullName: Kiwi.Utility.Singleton.ISingleton.ReleaseSingleton()
+  nameWithType: ISingleton.ReleaseSingleton()
+- uid: Kiwi.Utility.Singleton.ISingleton.ReleaseSingleton*
+  name: ReleaseSingleton
+  href: api/Kiwi.Utility.Singleton.ISingleton.html#Kiwi_Utility_Singleton_ISingleton_ReleaseSingleton_
+  commentId: Overload:Kiwi.Utility.Singleton.ISingleton.ReleaseSingleton
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.ISingleton.ReleaseSingleton
+  nameWithType: ISingleton.ReleaseSingleton
+- uid: Kiwi.Utility.Singleton.ISingleton.ResetSingleton
+  name: ResetSingleton()
+  href: api/Kiwi.Utility.Singleton.ISingleton.html#Kiwi_Utility_Singleton_ISingleton_ResetSingleton
+  commentId: M:Kiwi.Utility.Singleton.ISingleton.ResetSingleton
+  fullName: Kiwi.Utility.Singleton.ISingleton.ResetSingleton()
+  nameWithType: ISingleton.ResetSingleton()
+- uid: Kiwi.Utility.Singleton.ISingleton.ResetSingleton*
+  name: ResetSingleton
+  href: api/Kiwi.Utility.Singleton.ISingleton.html#Kiwi_Utility_Singleton_ISingleton_ResetSingleton_
+  commentId: Overload:Kiwi.Utility.Singleton.ISingleton.ResetSingleton
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.ISingleton.ResetSingleton
+  nameWithType: ISingleton.ResetSingleton
+- uid: Kiwi.Utility.Singleton.ISingleton.canResetSingleton
+  name: canResetSingleton
+  href: api/Kiwi.Utility.Singleton.ISingleton.html#Kiwi_Utility_Singleton_ISingleton_canResetSingleton
+  commentId: P:Kiwi.Utility.Singleton.ISingleton.canResetSingleton
+  fullName: Kiwi.Utility.Singleton.ISingleton.canResetSingleton
+  nameWithType: ISingleton.canResetSingleton
+- uid: Kiwi.Utility.Singleton.ISingleton.canResetSingleton*
+  name: canResetSingleton
+  href: api/Kiwi.Utility.Singleton.ISingleton.html#Kiwi_Utility_Singleton_ISingleton_canResetSingleton_
+  commentId: Overload:Kiwi.Utility.Singleton.ISingleton.canResetSingleton
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.ISingleton.canResetSingleton
+  nameWithType: ISingleton.canResetSingleton
+- uid: Kiwi.Utility.Singleton.ISingletonFixedUpdate
+  name: ISingletonFixedUpdate
+  href: api/Kiwi.Utility.Singleton.ISingletonFixedUpdate.html
+  commentId: T:Kiwi.Utility.Singleton.ISingletonFixedUpdate
+  fullName: Kiwi.Utility.Singleton.ISingletonFixedUpdate
+  nameWithType: ISingletonFixedUpdate
+- uid: Kiwi.Utility.Singleton.ISingletonFixedUpdate.SingletonFixedUpdate(System.Single)
+  name: SingletonFixedUpdate(float)
+  href: api/Kiwi.Utility.Singleton.ISingletonFixedUpdate.html#Kiwi_Utility_Singleton_ISingletonFixedUpdate_SingletonFixedUpdate_System_Single_
+  commentId: M:Kiwi.Utility.Singleton.ISingletonFixedUpdate.SingletonFixedUpdate(System.Single)
+  name.vb: SingletonFixedUpdate(Single)
+  fullName: Kiwi.Utility.Singleton.ISingletonFixedUpdate.SingletonFixedUpdate(float)
+  fullName.vb: Kiwi.Utility.Singleton.ISingletonFixedUpdate.SingletonFixedUpdate(Single)
+  nameWithType: ISingletonFixedUpdate.SingletonFixedUpdate(float)
+  nameWithType.vb: ISingletonFixedUpdate.SingletonFixedUpdate(Single)
+- uid: Kiwi.Utility.Singleton.ISingletonFixedUpdate.SingletonFixedUpdate*
+  name: SingletonFixedUpdate
+  href: api/Kiwi.Utility.Singleton.ISingletonFixedUpdate.html#Kiwi_Utility_Singleton_ISingletonFixedUpdate_SingletonFixedUpdate_
+  commentId: Overload:Kiwi.Utility.Singleton.ISingletonFixedUpdate.SingletonFixedUpdate
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.ISingletonFixedUpdate.SingletonFixedUpdate
+  nameWithType: ISingletonFixedUpdate.SingletonFixedUpdate
+- uid: Kiwi.Utility.Singleton.ISingletonLateUpdate
+  name: ISingletonLateUpdate
+  href: api/Kiwi.Utility.Singleton.ISingletonLateUpdate.html
+  commentId: T:Kiwi.Utility.Singleton.ISingletonLateUpdate
+  fullName: Kiwi.Utility.Singleton.ISingletonLateUpdate
+  nameWithType: ISingletonLateUpdate
+- uid: Kiwi.Utility.Singleton.ISingletonLateUpdate.SingletonLateUpdate(System.Single)
+  name: SingletonLateUpdate(float)
+  href: api/Kiwi.Utility.Singleton.ISingletonLateUpdate.html#Kiwi_Utility_Singleton_ISingletonLateUpdate_SingletonLateUpdate_System_Single_
+  commentId: M:Kiwi.Utility.Singleton.ISingletonLateUpdate.SingletonLateUpdate(System.Single)
+  name.vb: SingletonLateUpdate(Single)
+  fullName: Kiwi.Utility.Singleton.ISingletonLateUpdate.SingletonLateUpdate(float)
+  fullName.vb: Kiwi.Utility.Singleton.ISingletonLateUpdate.SingletonLateUpdate(Single)
+  nameWithType: ISingletonLateUpdate.SingletonLateUpdate(float)
+  nameWithType.vb: ISingletonLateUpdate.SingletonLateUpdate(Single)
+- uid: Kiwi.Utility.Singleton.ISingletonLateUpdate.SingletonLateUpdate*
+  name: SingletonLateUpdate
+  href: api/Kiwi.Utility.Singleton.ISingletonLateUpdate.html#Kiwi_Utility_Singleton_ISingletonLateUpdate_SingletonLateUpdate_
+  commentId: Overload:Kiwi.Utility.Singleton.ISingletonLateUpdate.SingletonLateUpdate
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.ISingletonLateUpdate.SingletonLateUpdate
+  nameWithType: ISingletonLateUpdate.SingletonLateUpdate
+- uid: Kiwi.Utility.Singleton.ISingletonUpdate
+  name: ISingletonUpdate
+  href: api/Kiwi.Utility.Singleton.ISingletonUpdate.html
+  commentId: T:Kiwi.Utility.Singleton.ISingletonUpdate
+  fullName: Kiwi.Utility.Singleton.ISingletonUpdate
+  nameWithType: ISingletonUpdate
+- uid: Kiwi.Utility.Singleton.ISingletonUpdate.SingletonUpdate(System.Single)
+  name: SingletonUpdate(float)
+  href: api/Kiwi.Utility.Singleton.ISingletonUpdate.html#Kiwi_Utility_Singleton_ISingletonUpdate_SingletonUpdate_System_Single_
+  commentId: M:Kiwi.Utility.Singleton.ISingletonUpdate.SingletonUpdate(System.Single)
+  name.vb: SingletonUpdate(Single)
+  fullName: Kiwi.Utility.Singleton.ISingletonUpdate.SingletonUpdate(float)
+  fullName.vb: Kiwi.Utility.Singleton.ISingletonUpdate.SingletonUpdate(Single)
+  nameWithType: ISingletonUpdate.SingletonUpdate(float)
+  nameWithType.vb: ISingletonUpdate.SingletonUpdate(Single)
+- uid: Kiwi.Utility.Singleton.ISingletonUpdate.SingletonUpdate*
+  name: SingletonUpdate
+  href: api/Kiwi.Utility.Singleton.ISingletonUpdate.html#Kiwi_Utility_Singleton_ISingletonUpdate_SingletonUpdate_
+  commentId: Overload:Kiwi.Utility.Singleton.ISingletonUpdate.SingletonUpdate
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.ISingletonUpdate.SingletonUpdate
+  nameWithType: ISingletonUpdate.SingletonUpdate
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1
+  name: MonoSingleton<T>
+  href: api/Kiwi.Utility.Singleton.MonoSingleton-1.html
+  commentId: T:Kiwi.Utility.Singleton.MonoSingleton`1
+  name.vb: MonoSingleton(Of T)
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T)
+  nameWithType: MonoSingleton<T>
+  nameWithType.vb: MonoSingleton(Of T)
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1.Exists
+  name: Exists
+  href: api/Kiwi.Utility.Singleton.MonoSingleton-1.html#Kiwi_Utility_Singleton_MonoSingleton_1_Exists
+  commentId: P:Kiwi.Utility.Singleton.MonoSingleton`1.Exists
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>.Exists
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T).Exists
+  nameWithType: MonoSingleton<T>.Exists
+  nameWithType.vb: MonoSingleton(Of T).Exists
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1.Exists*
+  name: Exists
+  href: api/Kiwi.Utility.Singleton.MonoSingleton-1.html#Kiwi_Utility_Singleton_MonoSingleton_1_Exists_
+  commentId: Overload:Kiwi.Utility.Singleton.MonoSingleton`1.Exists
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>.Exists
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T).Exists
+  nameWithType: MonoSingleton<T>.Exists
+  nameWithType.vb: MonoSingleton(Of T).Exists
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1.GetInstance
+  name: GetInstance()
+  href: api/Kiwi.Utility.Singleton.MonoSingleton-1.html#Kiwi_Utility_Singleton_MonoSingleton_1_GetInstance
+  commentId: M:Kiwi.Utility.Singleton.MonoSingleton`1.GetInstance
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>.GetInstance()
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T).GetInstance()
+  nameWithType: MonoSingleton<T>.GetInstance()
+  nameWithType.vb: MonoSingleton(Of T).GetInstance()
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1.GetInstance*
+  name: GetInstance
+  href: api/Kiwi.Utility.Singleton.MonoSingleton-1.html#Kiwi_Utility_Singleton_MonoSingleton_1_GetInstance_
+  commentId: Overload:Kiwi.Utility.Singleton.MonoSingleton`1.GetInstance
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>.GetInstance
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T).GetInstance
+  nameWithType: MonoSingleton<T>.GetInstance
+  nameWithType.vb: MonoSingleton(Of T).GetInstance
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1.Instance
+  name: Instance
+  href: api/Kiwi.Utility.Singleton.MonoSingleton-1.html#Kiwi_Utility_Singleton_MonoSingleton_1_Instance
+  commentId: P:Kiwi.Utility.Singleton.MonoSingleton`1.Instance
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>.Instance
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T).Instance
+  nameWithType: MonoSingleton<T>.Instance
+  nameWithType.vb: MonoSingleton(Of T).Instance
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1.Instance*
+  name: Instance
+  href: api/Kiwi.Utility.Singleton.MonoSingleton-1.html#Kiwi_Utility_Singleton_MonoSingleton_1_Instance_
+  commentId: Overload:Kiwi.Utility.Singleton.MonoSingleton`1.Instance
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>.Instance
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T).Instance
+  nameWithType: MonoSingleton<T>.Instance
+  nameWithType.vb: MonoSingleton(Of T).Instance
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1.IsInitialized
+  name: IsInitialized
+  href: api/Kiwi.Utility.Singleton.MonoSingleton-1.html#Kiwi_Utility_Singleton_MonoSingleton_1_IsInitialized
+  commentId: P:Kiwi.Utility.Singleton.MonoSingleton`1.IsInitialized
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>.IsInitialized
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T).IsInitialized
+  nameWithType: MonoSingleton<T>.IsInitialized
+  nameWithType.vb: MonoSingleton(Of T).IsInitialized
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1.IsInitialized*
+  name: IsInitialized
+  href: api/Kiwi.Utility.Singleton.MonoSingleton-1.html#Kiwi_Utility_Singleton_MonoSingleton_1_IsInitialized_
+  commentId: Overload:Kiwi.Utility.Singleton.MonoSingleton`1.IsInitialized
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>.IsInitialized
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T).IsInitialized
+  nameWithType: MonoSingleton<T>.IsInitialized
+  nameWithType.vb: MonoSingleton(Of T).IsInitialized
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1.OnSingletonInitialize
+  name: OnSingletonInitialize()
+  href: api/Kiwi.Utility.Singleton.MonoSingleton-1.html#Kiwi_Utility_Singleton_MonoSingleton_1_OnSingletonInitialize
+  commentId: M:Kiwi.Utility.Singleton.MonoSingleton`1.OnSingletonInitialize
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>.OnSingletonInitialize()
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T).OnSingletonInitialize()
+  nameWithType: MonoSingleton<T>.OnSingletonInitialize()
+  nameWithType.vb: MonoSingleton(Of T).OnSingletonInitialize()
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1.OnSingletonInitialize*
+  name: OnSingletonInitialize
+  href: api/Kiwi.Utility.Singleton.MonoSingleton-1.html#Kiwi_Utility_Singleton_MonoSingleton_1_OnSingletonInitialize_
+  commentId: Overload:Kiwi.Utility.Singleton.MonoSingleton`1.OnSingletonInitialize
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>.OnSingletonInitialize
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T).OnSingletonInitialize
+  nameWithType: MonoSingleton<T>.OnSingletonInitialize
+  nameWithType.vb: MonoSingleton(Of T).OnSingletonInitialize
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1.OnSingletonRelease
+  name: OnSingletonRelease()
+  href: api/Kiwi.Utility.Singleton.MonoSingleton-1.html#Kiwi_Utility_Singleton_MonoSingleton_1_OnSingletonRelease
+  commentId: M:Kiwi.Utility.Singleton.MonoSingleton`1.OnSingletonRelease
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>.OnSingletonRelease()
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T).OnSingletonRelease()
+  nameWithType: MonoSingleton<T>.OnSingletonRelease()
+  nameWithType.vb: MonoSingleton(Of T).OnSingletonRelease()
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1.OnSingletonRelease*
+  name: OnSingletonRelease
+  href: api/Kiwi.Utility.Singleton.MonoSingleton-1.html#Kiwi_Utility_Singleton_MonoSingleton_1_OnSingletonRelease_
+  commentId: Overload:Kiwi.Utility.Singleton.MonoSingleton`1.OnSingletonRelease
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>.OnSingletonRelease
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T).OnSingletonRelease
+  nameWithType: MonoSingleton<T>.OnSingletonRelease
+  nameWithType.vb: MonoSingleton(Of T).OnSingletonRelease
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1.OnSingletonReset
+  name: OnSingletonReset()
+  href: api/Kiwi.Utility.Singleton.MonoSingleton-1.html#Kiwi_Utility_Singleton_MonoSingleton_1_OnSingletonReset
+  commentId: M:Kiwi.Utility.Singleton.MonoSingleton`1.OnSingletonReset
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>.OnSingletonReset()
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T).OnSingletonReset()
+  nameWithType: MonoSingleton<T>.OnSingletonReset()
+  nameWithType.vb: MonoSingleton(Of T).OnSingletonReset()
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1.OnSingletonReset*
+  name: OnSingletonReset
+  href: api/Kiwi.Utility.Singleton.MonoSingleton-1.html#Kiwi_Utility_Singleton_MonoSingleton_1_OnSingletonReset_
+  commentId: Overload:Kiwi.Utility.Singleton.MonoSingleton`1.OnSingletonReset
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>.OnSingletonReset
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T).OnSingletonReset
+  nameWithType: MonoSingleton<T>.OnSingletonReset
+  nameWithType.vb: MonoSingleton(Of T).OnSingletonReset
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1.canResetSingleton
+  name: canResetSingleton
+  href: api/Kiwi.Utility.Singleton.MonoSingleton-1.html#Kiwi_Utility_Singleton_MonoSingleton_1_canResetSingleton
+  commentId: P:Kiwi.Utility.Singleton.MonoSingleton`1.canResetSingleton
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>.canResetSingleton
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T).canResetSingleton
+  nameWithType: MonoSingleton<T>.canResetSingleton
+  nameWithType.vb: MonoSingleton(Of T).canResetSingleton
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1.canResetSingleton*
+  name: canResetSingleton
+  href: api/Kiwi.Utility.Singleton.MonoSingleton-1.html#Kiwi_Utility_Singleton_MonoSingleton_1_canResetSingleton_
+  commentId: Overload:Kiwi.Utility.Singleton.MonoSingleton`1.canResetSingleton
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>.canResetSingleton
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T).canResetSingleton
+  nameWithType: MonoSingleton<T>.canResetSingleton
+  nameWithType.vb: MonoSingleton(Of T).canResetSingleton
+- uid: Kiwi.Utility.Singleton.SingletonInitializationStatus
+  name: SingletonInitializationStatus
+  href: api/Kiwi.Utility.Singleton.SingletonInitializationStatus.html
+  commentId: T:Kiwi.Utility.Singleton.SingletonInitializationStatus
+  fullName: Kiwi.Utility.Singleton.SingletonInitializationStatus
+  nameWithType: SingletonInitializationStatus
+- uid: Kiwi.Utility.Singleton.SingletonInitializationStatus.Initialized
+  name: Initialized
+  href: api/Kiwi.Utility.Singleton.SingletonInitializationStatus.html#Kiwi_Utility_Singleton_SingletonInitializationStatus_Initialized
+  commentId: F:Kiwi.Utility.Singleton.SingletonInitializationStatus.Initialized
+  fullName: Kiwi.Utility.Singleton.SingletonInitializationStatus.Initialized
+  nameWithType: SingletonInitializationStatus.Initialized
+- uid: Kiwi.Utility.Singleton.SingletonInitializationStatus.Initializing
+  name: Initializing
+  href: api/Kiwi.Utility.Singleton.SingletonInitializationStatus.html#Kiwi_Utility_Singleton_SingletonInitializationStatus_Initializing
+  commentId: F:Kiwi.Utility.Singleton.SingletonInitializationStatus.Initializing
+  fullName: Kiwi.Utility.Singleton.SingletonInitializationStatus.Initializing
+  nameWithType: SingletonInitializationStatus.Initializing
+- uid: Kiwi.Utility.Singleton.SingletonInitializationStatus.None
+  name: None
+  href: api/Kiwi.Utility.Singleton.SingletonInitializationStatus.html#Kiwi_Utility_Singleton_SingletonInitializationStatus_None
+  commentId: F:Kiwi.Utility.Singleton.SingletonInitializationStatus.None
+  fullName: Kiwi.Utility.Singleton.SingletonInitializationStatus.None
+  nameWithType: SingletonInitializationStatus.None
+- uid: Kiwi.Utility.Singleton.SingletonManager
+  name: SingletonManager
+  href: api/Kiwi.Utility.Singleton.SingletonManager.html
+  commentId: T:Kiwi.Utility.Singleton.SingletonManager
+  fullName: Kiwi.Utility.Singleton.SingletonManager
+  nameWithType: SingletonManager
+- uid: Kiwi.Utility.Singleton.SingletonManager.Driver
+  name: SingletonManager.Driver
+  href: api/Kiwi.Utility.Singleton.SingletonManager.Driver.html
+  commentId: T:Kiwi.Utility.Singleton.SingletonManager.Driver
+  fullName: Kiwi.Utility.Singleton.SingletonManager.Driver
+  nameWithType: SingletonManager.Driver
+- uid: Kiwi.Utility.Singleton.SingletonManager.GetMonoSingleton*
+  name: GetMonoSingleton
+  href: api/Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_GetMonoSingleton_
+  commentId: Overload:Kiwi.Utility.Singleton.SingletonManager.GetMonoSingleton
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.SingletonManager.GetMonoSingleton
+  nameWithType: SingletonManager.GetMonoSingleton
+- uid: Kiwi.Utility.Singleton.SingletonManager.GetMonoSingleton``1
+  name: GetMonoSingleton<T>()
+  href: api/Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_GetMonoSingleton__1
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.GetMonoSingleton``1
+  name.vb: GetMonoSingleton(Of T)()
+  fullName: Kiwi.Utility.Singleton.SingletonManager.GetMonoSingleton<T>()
+  fullName.vb: Kiwi.Utility.Singleton.SingletonManager.GetMonoSingleton(Of T)()
+  nameWithType: SingletonManager.GetMonoSingleton<T>()
+  nameWithType.vb: SingletonManager.GetMonoSingleton(Of T)()
+- uid: Kiwi.Utility.Singleton.SingletonManager.GetSingleton*
+  name: GetSingleton
+  href: api/Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_GetSingleton_
+  commentId: Overload:Kiwi.Utility.Singleton.SingletonManager.GetSingleton
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.SingletonManager.GetSingleton
+  nameWithType: SingletonManager.GetSingleton
+- uid: Kiwi.Utility.Singleton.SingletonManager.GetSingleton``1
+  name: GetSingleton<T>()
+  href: api/Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_GetSingleton__1
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.GetSingleton``1
+  name.vb: GetSingleton(Of T)()
+  fullName: Kiwi.Utility.Singleton.SingletonManager.GetSingleton<T>()
+  fullName.vb: Kiwi.Utility.Singleton.SingletonManager.GetSingleton(Of T)()
+  nameWithType: SingletonManager.GetSingleton<T>()
+  nameWithType.vb: SingletonManager.GetSingleton(Of T)()
+- uid: Kiwi.Utility.Singleton.SingletonManager.ReleaseAllSingletons
+  name: ReleaseAllSingletons()
+  href: api/Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_ReleaseAllSingletons
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.ReleaseAllSingletons
+  fullName: Kiwi.Utility.Singleton.SingletonManager.ReleaseAllSingletons()
+  nameWithType: SingletonManager.ReleaseAllSingletons()
+- uid: Kiwi.Utility.Singleton.SingletonManager.ReleaseAllSingletons*
+  name: ReleaseAllSingletons
+  href: api/Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_ReleaseAllSingletons_
+  commentId: Overload:Kiwi.Utility.Singleton.SingletonManager.ReleaseAllSingletons
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.SingletonManager.ReleaseAllSingletons
+  nameWithType: SingletonManager.ReleaseAllSingletons
+- uid: Kiwi.Utility.Singleton.SingletonManager.ResetAllSingletons
+  name: ResetAllSingletons()
+  href: api/Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_ResetAllSingletons
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.ResetAllSingletons
+  fullName: Kiwi.Utility.Singleton.SingletonManager.ResetAllSingletons()
+  nameWithType: SingletonManager.ResetAllSingletons()
+- uid: Kiwi.Utility.Singleton.SingletonManager.ResetAllSingletons*
+  name: ResetAllSingletons
+  href: api/Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_ResetAllSingletons_
+  commentId: Overload:Kiwi.Utility.Singleton.SingletonManager.ResetAllSingletons
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.SingletonManager.ResetAllSingletons
+  nameWithType: SingletonManager.ResetAllSingletons
+- uid: Kiwi.Utility.Singleton.SingletonManager.StartCoroutine(System.Collections.IEnumerator)
+  name: StartCoroutine(IEnumerator)
+  href: api/Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_StartCoroutine_System_Collections_IEnumerator_
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.StartCoroutine(System.Collections.IEnumerator)
+  fullName: Kiwi.Utility.Singleton.SingletonManager.StartCoroutine(System.Collections.IEnumerator)
+  nameWithType: SingletonManager.StartCoroutine(IEnumerator)
+- uid: Kiwi.Utility.Singleton.SingletonManager.StartCoroutine(System.String)
+  name: StartCoroutine(string)
+  href: api/Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_StartCoroutine_System_String_
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.StartCoroutine(System.String)
+  name.vb: StartCoroutine(String)
+  fullName: Kiwi.Utility.Singleton.SingletonManager.StartCoroutine(string)
+  fullName.vb: Kiwi.Utility.Singleton.SingletonManager.StartCoroutine(String)
+  nameWithType: SingletonManager.StartCoroutine(string)
+  nameWithType.vb: SingletonManager.StartCoroutine(String)
+- uid: Kiwi.Utility.Singleton.SingletonManager.StartCoroutine*
+  name: StartCoroutine
+  href: api/Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_StartCoroutine_
+  commentId: Overload:Kiwi.Utility.Singleton.SingletonManager.StartCoroutine
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.SingletonManager.StartCoroutine
+  nameWithType: SingletonManager.StartCoroutine
+- uid: Kiwi.Utility.Singleton.SingletonManager.StopAllCoroutines
+  name: StopAllCoroutines()
+  href: api/Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_StopAllCoroutines
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.StopAllCoroutines
+  fullName: Kiwi.Utility.Singleton.SingletonManager.StopAllCoroutines()
+  nameWithType: SingletonManager.StopAllCoroutines()
+- uid: Kiwi.Utility.Singleton.SingletonManager.StopAllCoroutines*
+  name: StopAllCoroutines
+  href: api/Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_StopAllCoroutines_
+  commentId: Overload:Kiwi.Utility.Singleton.SingletonManager.StopAllCoroutines
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.SingletonManager.StopAllCoroutines
+  nameWithType: SingletonManager.StopAllCoroutines
+- uid: Kiwi.Utility.Singleton.SingletonManager.StopCoroutine(System.String)
+  name: StopCoroutine(string)
+  href: api/Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_StopCoroutine_System_String_
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.StopCoroutine(System.String)
+  name.vb: StopCoroutine(String)
+  fullName: Kiwi.Utility.Singleton.SingletonManager.StopCoroutine(string)
+  fullName.vb: Kiwi.Utility.Singleton.SingletonManager.StopCoroutine(String)
+  nameWithType: SingletonManager.StopCoroutine(string)
+  nameWithType.vb: SingletonManager.StopCoroutine(String)
+- uid: Kiwi.Utility.Singleton.SingletonManager.StopCoroutine(UnityEngine.Coroutine)
+  name: StopCoroutine(Coroutine)
+  href: api/Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_StopCoroutine_UnityEngine_Coroutine_
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.StopCoroutine(UnityEngine.Coroutine)
+  fullName: Kiwi.Utility.Singleton.SingletonManager.StopCoroutine(UnityEngine.Coroutine)
+  nameWithType: SingletonManager.StopCoroutine(Coroutine)
+- uid: Kiwi.Utility.Singleton.SingletonManager.StopCoroutine*
+  name: StopCoroutine
+  href: api/Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_StopCoroutine_
+  commentId: Overload:Kiwi.Utility.Singleton.SingletonManager.StopCoroutine
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.SingletonManager.StopCoroutine
+  nameWithType: SingletonManager.StopCoroutine
+- uid: Kiwi.Utility.Singleton.Singleton`1
+  name: Singleton<T>
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html
+  commentId: T:Kiwi.Utility.Singleton.Singleton`1
+  name.vb: Singleton(Of T)
+  fullName: Kiwi.Utility.Singleton.Singleton<T>
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T)
+  nameWithType: Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+- uid: Kiwi.Utility.Singleton.Singleton`1.#ctor
+  name: Singleton()
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1__ctor
+  commentId: M:Kiwi.Utility.Singleton.Singleton`1.#ctor
+  name.vb: New()
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.Singleton()
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).New()
+  nameWithType: Singleton<T>.Singleton()
+  nameWithType.vb: Singleton(Of T).New()
+- uid: Kiwi.Utility.Singleton.Singleton`1.#ctor*
+  name: Singleton
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1__ctor_
+  commentId: Overload:Kiwi.Utility.Singleton.Singleton`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.Singleton
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).New
+  nameWithType: Singleton<T>.Singleton
+  nameWithType.vb: Singleton(Of T).New
+- uid: Kiwi.Utility.Singleton.Singleton`1.Exists
+  name: Exists
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1_Exists
+  commentId: P:Kiwi.Utility.Singleton.Singleton`1.Exists
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.Exists
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).Exists
+  nameWithType: Singleton<T>.Exists
+  nameWithType.vb: Singleton(Of T).Exists
+- uid: Kiwi.Utility.Singleton.Singleton`1.Exists*
+  name: Exists
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1_Exists_
+  commentId: Overload:Kiwi.Utility.Singleton.Singleton`1.Exists
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.Exists
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).Exists
+  nameWithType: Singleton<T>.Exists
+  nameWithType.vb: Singleton(Of T).Exists
+- uid: Kiwi.Utility.Singleton.Singleton`1.GetInstance
+  name: GetInstance()
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1_GetInstance
+  commentId: M:Kiwi.Utility.Singleton.Singleton`1.GetInstance
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.GetInstance()
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).GetInstance()
+  nameWithType: Singleton<T>.GetInstance()
+  nameWithType.vb: Singleton(Of T).GetInstance()
+- uid: Kiwi.Utility.Singleton.Singleton`1.GetInstance*
+  name: GetInstance
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1_GetInstance_
+  commentId: Overload:Kiwi.Utility.Singleton.Singleton`1.GetInstance
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.GetInstance
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).GetInstance
+  nameWithType: Singleton<T>.GetInstance
+  nameWithType.vb: Singleton(Of T).GetInstance
+- uid: Kiwi.Utility.Singleton.Singleton`1.Instance
+  name: Instance
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1_Instance
+  commentId: P:Kiwi.Utility.Singleton.Singleton`1.Instance
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.Instance
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).Instance
+  nameWithType: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+- uid: Kiwi.Utility.Singleton.Singleton`1.Instance*
+  name: Instance
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1_Instance_
+  commentId: Overload:Kiwi.Utility.Singleton.Singleton`1.Instance
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.Instance
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).Instance
+  nameWithType: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+- uid: Kiwi.Utility.Singleton.Singleton`1.IsInitialized
+  name: IsInitialized
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1_IsInitialized
+  commentId: P:Kiwi.Utility.Singleton.Singleton`1.IsInitialized
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.IsInitialized
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).IsInitialized
+  nameWithType: Singleton<T>.IsInitialized
+  nameWithType.vb: Singleton(Of T).IsInitialized
+- uid: Kiwi.Utility.Singleton.Singleton`1.IsInitialized*
+  name: IsInitialized
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1_IsInitialized_
+  commentId: Overload:Kiwi.Utility.Singleton.Singleton`1.IsInitialized
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.IsInitialized
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).IsInitialized
+  nameWithType: Singleton<T>.IsInitialized
+  nameWithType.vb: Singleton(Of T).IsInitialized
+- uid: Kiwi.Utility.Singleton.Singleton`1.OnSingletonInitialize
+  name: OnSingletonInitialize()
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1_OnSingletonInitialize
+  commentId: M:Kiwi.Utility.Singleton.Singleton`1.OnSingletonInitialize
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.OnSingletonInitialize()
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).OnSingletonInitialize()
+  nameWithType: Singleton<T>.OnSingletonInitialize()
+  nameWithType.vb: Singleton(Of T).OnSingletonInitialize()
+- uid: Kiwi.Utility.Singleton.Singleton`1.OnSingletonInitialize*
+  name: OnSingletonInitialize
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1_OnSingletonInitialize_
+  commentId: Overload:Kiwi.Utility.Singleton.Singleton`1.OnSingletonInitialize
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.OnSingletonInitialize
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).OnSingletonInitialize
+  nameWithType: Singleton<T>.OnSingletonInitialize
+  nameWithType.vb: Singleton(Of T).OnSingletonInitialize
+- uid: Kiwi.Utility.Singleton.Singleton`1.OnSingletonRelease
+  name: OnSingletonRelease()
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1_OnSingletonRelease
+  commentId: M:Kiwi.Utility.Singleton.Singleton`1.OnSingletonRelease
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.OnSingletonRelease()
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).OnSingletonRelease()
+  nameWithType: Singleton<T>.OnSingletonRelease()
+  nameWithType.vb: Singleton(Of T).OnSingletonRelease()
+- uid: Kiwi.Utility.Singleton.Singleton`1.OnSingletonRelease*
+  name: OnSingletonRelease
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1_OnSingletonRelease_
+  commentId: Overload:Kiwi.Utility.Singleton.Singleton`1.OnSingletonRelease
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.OnSingletonRelease
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).OnSingletonRelease
+  nameWithType: Singleton<T>.OnSingletonRelease
+  nameWithType.vb: Singleton(Of T).OnSingletonRelease
+- uid: Kiwi.Utility.Singleton.Singleton`1.OnSingletonReset
+  name: OnSingletonReset()
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1_OnSingletonReset
+  commentId: M:Kiwi.Utility.Singleton.Singleton`1.OnSingletonReset
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.OnSingletonReset()
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).OnSingletonReset()
+  nameWithType: Singleton<T>.OnSingletonReset()
+  nameWithType.vb: Singleton(Of T).OnSingletonReset()
+- uid: Kiwi.Utility.Singleton.Singleton`1.OnSingletonReset*
+  name: OnSingletonReset
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1_OnSingletonReset_
+  commentId: Overload:Kiwi.Utility.Singleton.Singleton`1.OnSingletonReset
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.OnSingletonReset
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).OnSingletonReset
+  nameWithType: Singleton<T>.OnSingletonReset
+  nameWithType.vb: Singleton(Of T).OnSingletonReset
+- uid: Kiwi.Utility.Singleton.Singleton`1.canResetSingleton
+  name: canResetSingleton
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1_canResetSingleton
+  commentId: P:Kiwi.Utility.Singleton.Singleton`1.canResetSingleton
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.canResetSingleton
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).canResetSingleton
+  nameWithType: Singleton<T>.canResetSingleton
+  nameWithType.vb: Singleton(Of T).canResetSingleton
+- uid: Kiwi.Utility.Singleton.Singleton`1.canResetSingleton*
+  name: canResetSingleton
+  href: api/Kiwi.Utility.Singleton.Singleton-1.html#Kiwi_Utility_Singleton_Singleton_1_canResetSingleton_
+  commentId: Overload:Kiwi.Utility.Singleton.Singleton`1.canResetSingleton
+  isSpec: "True"
+  fullName: Kiwi.Utility.Singleton.Singleton<T>.canResetSingleton
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T).canResetSingleton
+  nameWithType: Singleton<T>.canResetSingleton
+  nameWithType.vb: Singleton(Of T).canResetSingleton
 - uid: Kiwi.Utility.Stopwatch
   name: Stopwatch
   href: api/Kiwi.Utility.Stopwatch.html
@@ -2755,31 +3109,6 @@ references:
   isSpec: "True"
   fullName: Kiwi.Utility.Stopwatch.Stop
   nameWithType: Stopwatch.Stop
-- uid: Kiwi.Utility.Test.Editor
-  name: Kiwi.Utility.Test.Editor
-  href: api/Kiwi.Utility.Test.Editor.html
-  commentId: N:Kiwi.Utility.Test.Editor
-  fullName: Kiwi.Utility.Test.Editor
-  nameWithType: Kiwi.Utility.Test.Editor
-- uid: Kiwi.Utility.Test.Editor.TimeConvertTest
-  name: TimeConvertTest
-  href: api/Kiwi.Utility.Test.Editor.TimeConvertTest.html
-  commentId: T:Kiwi.Utility.Test.Editor.TimeConvertTest
-  fullName: Kiwi.Utility.Test.Editor.TimeConvertTest
-  nameWithType: TimeConvertTest
-- uid: Kiwi.Utility.Test.Editor.TimeConvertTest.Test
-  name: Test()
-  href: api/Kiwi.Utility.Test.Editor.TimeConvertTest.html#Kiwi_Utility_Test_Editor_TimeConvertTest_Test
-  commentId: M:Kiwi.Utility.Test.Editor.TimeConvertTest.Test
-  fullName: Kiwi.Utility.Test.Editor.TimeConvertTest.Test()
-  nameWithType: TimeConvertTest.Test()
-- uid: Kiwi.Utility.Test.Editor.TimeConvertTest.Test*
-  name: Test
-  href: api/Kiwi.Utility.Test.Editor.TimeConvertTest.html#Kiwi_Utility_Test_Editor_TimeConvertTest_Test_
-  commentId: Overload:Kiwi.Utility.Test.Editor.TimeConvertTest.Test
-  isSpec: "True"
-  fullName: Kiwi.Utility.Test.Editor.TimeConvertTest.Test
-  nameWithType: TimeConvertTest.Test
 - uid: Kiwi.Utility.TimeUtility
   name: TimeUtility
   href: api/Kiwi.Utility.TimeUtility.html
@@ -3581,79 +3910,3 @@ references:
   isSpec: "True"
   fullName: Kiwi.Utility.TimeUtility.UnixTime
   nameWithType: TimeUtility.UnixTime
-- uid: Kiwi.Utility.TweenRunner`1
-  name: TweenRunner<T>
-  href: api/Kiwi.Utility.TweenRunner-1.html
-  commentId: T:Kiwi.Utility.TweenRunner`1
-  name.vb: TweenRunner(Of T)
-  fullName: Kiwi.Utility.TweenRunner<T>
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T)
-  nameWithType: TweenRunner<T>
-  nameWithType.vb: TweenRunner(Of T)
-- uid: Kiwi.Utility.TweenRunner`1.Init(UnityEngine.MonoBehaviour)
-  name: Init(MonoBehaviour)
-  href: api/Kiwi.Utility.TweenRunner-1.html#Kiwi_Utility_TweenRunner_1_Init_UnityEngine_MonoBehaviour_
-  commentId: M:Kiwi.Utility.TweenRunner`1.Init(UnityEngine.MonoBehaviour)
-  fullName: Kiwi.Utility.TweenRunner<T>.Init(UnityEngine.MonoBehaviour)
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T).Init(UnityEngine.MonoBehaviour)
-  nameWithType: TweenRunner<T>.Init(MonoBehaviour)
-  nameWithType.vb: TweenRunner(Of T).Init(MonoBehaviour)
-- uid: Kiwi.Utility.TweenRunner`1.Init*
-  name: Init
-  href: api/Kiwi.Utility.TweenRunner-1.html#Kiwi_Utility_TweenRunner_1_Init_
-  commentId: Overload:Kiwi.Utility.TweenRunner`1.Init
-  isSpec: "True"
-  fullName: Kiwi.Utility.TweenRunner<T>.Init
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T).Init
-  nameWithType: TweenRunner<T>.Init
-  nameWithType.vb: TweenRunner(Of T).Init
-- uid: Kiwi.Utility.TweenRunner`1.StartTween(`0)
-  name: StartTween(T)
-  href: api/Kiwi.Utility.TweenRunner-1.html#Kiwi_Utility_TweenRunner_1_StartTween__0_
-  commentId: M:Kiwi.Utility.TweenRunner`1.StartTween(`0)
-  fullName: Kiwi.Utility.TweenRunner<T>.StartTween(T)
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T).StartTween(T)
-  nameWithType: TweenRunner<T>.StartTween(T)
-  nameWithType.vb: TweenRunner(Of T).StartTween(T)
-- uid: Kiwi.Utility.TweenRunner`1.StartTween*
-  name: StartTween
-  href: api/Kiwi.Utility.TweenRunner-1.html#Kiwi_Utility_TweenRunner_1_StartTween_
-  commentId: Overload:Kiwi.Utility.TweenRunner`1.StartTween
-  isSpec: "True"
-  fullName: Kiwi.Utility.TweenRunner<T>.StartTween
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T).StartTween
-  nameWithType: TweenRunner<T>.StartTween
-  nameWithType.vb: TweenRunner(Of T).StartTween
-- uid: Kiwi.Utility.TweenRunner`1.StopTween
-  name: StopTween()
-  href: api/Kiwi.Utility.TweenRunner-1.html#Kiwi_Utility_TweenRunner_1_StopTween
-  commentId: M:Kiwi.Utility.TweenRunner`1.StopTween
-  fullName: Kiwi.Utility.TweenRunner<T>.StopTween()
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T).StopTween()
-  nameWithType: TweenRunner<T>.StopTween()
-  nameWithType.vb: TweenRunner(Of T).StopTween()
-- uid: Kiwi.Utility.TweenRunner`1.StopTween*
-  name: StopTween
-  href: api/Kiwi.Utility.TweenRunner-1.html#Kiwi_Utility_TweenRunner_1_StopTween_
-  commentId: Overload:Kiwi.Utility.TweenRunner`1.StopTween
-  isSpec: "True"
-  fullName: Kiwi.Utility.TweenRunner<T>.StopTween
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T).StopTween
-  nameWithType: TweenRunner<T>.StopTween
-  nameWithType.vb: TweenRunner(Of T).StopTween
-- uid: Kiwi.Utility.TweenRunner`1.m_CoroutineContainer
-  name: m_CoroutineContainer
-  href: api/Kiwi.Utility.TweenRunner-1.html#Kiwi_Utility_TweenRunner_1_m_CoroutineContainer
-  commentId: F:Kiwi.Utility.TweenRunner`1.m_CoroutineContainer
-  fullName: Kiwi.Utility.TweenRunner<T>.m_CoroutineContainer
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T).m_CoroutineContainer
-  nameWithType: TweenRunner<T>.m_CoroutineContainer
-  nameWithType.vb: TweenRunner(Of T).m_CoroutineContainer
-- uid: Kiwi.Utility.TweenRunner`1.m_Tween
-  name: m_Tween
-  href: api/Kiwi.Utility.TweenRunner-1.html#Kiwi_Utility_TweenRunner_1_m_Tween
-  commentId: F:Kiwi.Utility.TweenRunner`1.m_Tween
-  fullName: Kiwi.Utility.TweenRunner<T>.m_Tween
-  fullName.vb: Kiwi.Utility.TweenRunner(Of T).m_Tween
-  nameWithType: TweenRunner<T>.m_Tween
-  nameWithType.vb: TweenRunner(Of T).m_Tween

@@ -1,32 +1,34 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Kiwi.Utility.Test.Editor.TimeConvertTest
-  commentId: T:Kiwi.Utility.Test.Editor.TimeConvertTest
-  id: TimeConvertTest
-  parent: Kiwi.Utility.Test.Editor
+- uid: Kiwi.Utility.Editor.ProcessHelper
+  commentId: T:Kiwi.Utility.Editor.ProcessHelper
+  id: ProcessHelper
+  parent: Kiwi.Utility.Editor
   children:
-  - Kiwi.Utility.Test.Editor.TimeConvertTest.Test
+  - Kiwi.Utility.Editor.ProcessHelper.ExecuteCommand(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean)
   langs:
   - csharp
   - vb
-  name: TimeConvertTest
-  nameWithType: TimeConvertTest
-  fullName: Kiwi.Utility.Test.Editor.TimeConvertTest
+  name: ProcessHelper
+  nameWithType: ProcessHelper
+  fullName: Kiwi.Utility.Editor.ProcessHelper
   type: Class
   source:
     remote:
-      path: Packages/com.kiwi.utility/Tests/Editor/TimeConvertTest.cs
+      path: Packages/com.kiwi.utility/Editor/Common/ProcessHelper.cs
       branch: main
       repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
-    id: TimeConvertTest
-    path: ../Packages/com.kiwi.utility/Tests/Editor/TimeConvertTest.cs
+    id: ProcessHelper
+    path: ../Packages/com.kiwi.utility/Editor/Common/ProcessHelper.cs
     startLine: 10
   assemblies:
-  - com.kiwi.utility.editor.test
-  namespace: Kiwi.Utility.Test.Editor
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 程序执行辅助器
+  example: []
   syntax:
-    content: public class TimeConvertTest
-    content.vb: Public Class TimeConvertTest
+    content: public static class ProcessHelper
+    content.vb: Public Module ProcessHelper
   inheritance:
   - System.Object
   inheritedMembers:
@@ -37,49 +39,66 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: Kiwi.Utility.Test.Editor.TimeConvertTest.Test
-  commentId: M:Kiwi.Utility.Test.Editor.TimeConvertTest.Test
-  id: Test
-  parent: Kiwi.Utility.Test.Editor.TimeConvertTest
+- uid: Kiwi.Utility.Editor.ProcessHelper.ExecuteCommand(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:Kiwi.Utility.Editor.ProcessHelper.ExecuteCommand(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean)
+  id: ExecuteCommand(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean)
+  parent: Kiwi.Utility.Editor.ProcessHelper
   langs:
   - csharp
   - vb
-  name: Test()
-  nameWithType: TimeConvertTest.Test()
-  fullName: Kiwi.Utility.Test.Editor.TimeConvertTest.Test()
+  name: ExecuteCommand(string, string, string, bool, bool, bool)
+  nameWithType: ProcessHelper.ExecuteCommand(string, string, string, bool, bool, bool)
+  fullName: Kiwi.Utility.Editor.ProcessHelper.ExecuteCommand(string, string, string, bool, bool, bool)
   type: Method
   source:
     remote:
-      path: Packages/com.kiwi.utility/Tests/Editor/TimeConvertTest.cs
+      path: Packages/com.kiwi.utility/Editor/Common/ProcessHelper.cs
       branch: main
       repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
-    id: Test
-    path: ../Packages/com.kiwi.utility/Tests/Editor/TimeConvertTest.cs
-    startLine: 60
+    id: ExecuteCommand
+    path: ../Packages/com.kiwi.utility/Editor/Common/ProcessHelper.cs
+    startLine: 22
   assemblies:
-  - com.kiwi.utility.editor.test
-  namespace: Kiwi.Utility.Test.Editor
+  - com.kiwi.utility.editor
+  namespace: Kiwi.Utility.Editor
+  summary: 执行命令行
+  example: []
   syntax:
-    content: >-
-      [Test]
-
-      public void Test()
-    content.vb: >-
-      <Test>
-
-      Public Sub Test()
-  overload: Kiwi.Utility.Test.Editor.TimeConvertTest.Test*
-  attributes:
-  - type: NUnit.Framework.TestAttribute
-    ctor: NUnit.Framework.TestAttribute.#ctor
-    arguments: []
+    content: public static string ExecuteCommand(string folderPath, string fileName, string args = null, bool useShellExecute = true, bool noWindow = false, bool printException = false)
+    parameters:
+    - id: folderPath
+      type: System.String
+      description: 要执行文件的路径
+    - id: fileName
+      type: System.String
+      description: 要执行的文件名称(带扩展名)
+    - id: args
+      type: System.String
+      description: 参数
+    - id: useShellExecute
+      type: System.Boolean
+      description: 是否打开程序或者文件或者其他任何能够打开的东西（如网址）
+    - id: noWindow
+      type: System.Boolean
+      description: 是否显示窗口
+    - id: printException
+      type: System.Boolean
+      description: 是否打印错误
+    return:
+      type: System.String
+      description: CMD output 信息
+    content.vb: Public Shared Function ExecuteCommand(folderPath As String, fileName As String, args As String = Nothing, useShellExecute As Boolean = True, noWindow As Boolean = False, printException As Boolean = False) As String
+  overload: Kiwi.Utility.Editor.ProcessHelper.ExecuteCommand*
+  nameWithType.vb: ProcessHelper.ExecuteCommand(String, String, String, Boolean, Boolean, Boolean)
+  fullName.vb: Kiwi.Utility.Editor.ProcessHelper.ExecuteCommand(String, String, String, Boolean, Boolean, Boolean)
+  name.vb: ExecuteCommand(String, String, String, Boolean, Boolean, Boolean)
 references:
-- uid: Kiwi.Utility.Test.Editor
-  commentId: N:Kiwi.Utility.Test.Editor
+- uid: Kiwi.Utility.Editor
+  commentId: N:Kiwi.Utility.Editor
   href: Kiwi.html
-  name: Kiwi.Utility.Test.Editor
-  nameWithType: Kiwi.Utility.Test.Editor
-  fullName: Kiwi.Utility.Test.Editor
+  name: Kiwi.Utility.Editor
+  nameWithType: Kiwi.Utility.Editor
+  fullName: Kiwi.Utility.Editor
   spec.csharp:
   - uid: Kiwi
     name: Kiwi
@@ -89,13 +108,9 @@ references:
     name: Utility
     href: Kiwi.Utility.html
   - name: .
-  - uid: Kiwi.Utility.Test
-    name: Test
-    href: Kiwi.Utility.Test.html
-  - name: .
-  - uid: Kiwi.Utility.Test.Editor
+  - uid: Kiwi.Utility.Editor
     name: Editor
-    href: Kiwi.Utility.Test.Editor.html
+    href: Kiwi.Utility.Editor.html
   spec.vb:
   - uid: Kiwi
     name: Kiwi
@@ -105,13 +120,9 @@ references:
     name: Utility
     href: Kiwi.Utility.html
   - name: .
-  - uid: Kiwi.Utility.Test
-    name: Test
-    href: Kiwi.Utility.Test.html
-  - name: .
-  - uid: Kiwi.Utility.Test.Editor
+  - uid: Kiwi.Utility.Editor
     name: Editor
-    href: Kiwi.Utility.Test.Editor.html
+    href: Kiwi.Utility.Editor.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -349,9 +360,31 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Kiwi.Utility.Test.Editor.TimeConvertTest.Test*
-  commentId: Overload:Kiwi.Utility.Test.Editor.TimeConvertTest.Test
-  href: Kiwi.Utility.Test.Editor.TimeConvertTest.html#Kiwi_Utility_Test_Editor_TimeConvertTest_Test
-  name: Test
-  nameWithType: TimeConvertTest.Test
-  fullName: Kiwi.Utility.Test.Editor.TimeConvertTest.Test
+- uid: Kiwi.Utility.Editor.ProcessHelper.ExecuteCommand*
+  commentId: Overload:Kiwi.Utility.Editor.ProcessHelper.ExecuteCommand
+  href: Kiwi.Utility.Editor.ProcessHelper.html#Kiwi_Utility_Editor_ProcessHelper_ExecuteCommand_System_String_System_String_System_String_System_Boolean_System_Boolean_System_Boolean_
+  name: ExecuteCommand
+  nameWithType: ProcessHelper.ExecuteCommand
+  fullName: Kiwi.Utility.Editor.ProcessHelper.ExecuteCommand
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

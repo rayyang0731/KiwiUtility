@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.Singleton
+  commentId: N:Kiwi.Utility.Singleton
+  id: Kiwi.Utility.Singleton
+  children:
+  - Kiwi.Utility.Singleton.ISingleton
+  - Kiwi.Utility.Singleton.ISingletonFixedUpdate
+  - Kiwi.Utility.Singleton.ISingletonLateUpdate
+  - Kiwi.Utility.Singleton.ISingletonUpdate
+  - Kiwi.Utility.Singleton.MonoSingleton`1
+  - Kiwi.Utility.Singleton.SingletonInitializationStatus
+  - Kiwi.Utility.Singleton.SingletonManager
+  - Kiwi.Utility.Singleton.SingletonManager.Driver
+  - Kiwi.Utility.Singleton.Singleton`1
+  langs:
+  - csharp
+  - vb
+  name: Kiwi.Utility.Singleton
+  nameWithType: Kiwi.Utility.Singleton
+  fullName: Kiwi.Utility.Singleton
+  type: Namespace
+  assemblies:
+  - com.kiwi.utility.runtime
+references:
+- uid: Kiwi.Utility.Singleton.MonoSingleton`1
+  commentId: T:Kiwi.Utility.Singleton.MonoSingleton`1
+  href: Kiwi.Utility.Singleton.MonoSingleton-1.html
+  name: MonoSingleton<T>
+  nameWithType: MonoSingleton<T>
+  fullName: Kiwi.Utility.Singleton.MonoSingleton<T>
+  nameWithType.vb: MonoSingleton(Of T)
+  fullName.vb: Kiwi.Utility.Singleton.MonoSingleton(Of T)
+  name.vb: MonoSingleton(Of T)
+  spec.csharp:
+  - uid: Kiwi.Utility.Singleton.MonoSingleton`1
+    name: MonoSingleton
+    href: Kiwi.Utility.Singleton.MonoSingleton-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Kiwi.Utility.Singleton.MonoSingleton`1
+    name: MonoSingleton
+    href: Kiwi.Utility.Singleton.MonoSingleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Kiwi.Utility.Singleton.ISingleton
+  commentId: T:Kiwi.Utility.Singleton.ISingleton
+  parent: Kiwi.Utility.Singleton
+  href: Kiwi.Utility.Singleton.ISingleton.html
+  name: ISingleton
+  nameWithType: ISingleton
+  fullName: Kiwi.Utility.Singleton.ISingleton
+- uid: Kiwi.Utility.Singleton.ISingletonUpdate
+  commentId: T:Kiwi.Utility.Singleton.ISingletonUpdate
+  href: Kiwi.Utility.Singleton.ISingletonUpdate.html
+  name: ISingletonUpdate
+  nameWithType: ISingletonUpdate
+  fullName: Kiwi.Utility.Singleton.ISingletonUpdate
+- uid: Kiwi.Utility.Singleton.ISingletonLateUpdate
+  commentId: T:Kiwi.Utility.Singleton.ISingletonLateUpdate
+  href: Kiwi.Utility.Singleton.ISingletonLateUpdate.html
+  name: ISingletonLateUpdate
+  nameWithType: ISingletonLateUpdate
+  fullName: Kiwi.Utility.Singleton.ISingletonLateUpdate
+- uid: Kiwi.Utility.Singleton.ISingletonFixedUpdate
+  commentId: T:Kiwi.Utility.Singleton.ISingletonFixedUpdate
+  href: Kiwi.Utility.Singleton.ISingletonFixedUpdate.html
+  name: ISingletonFixedUpdate
+  nameWithType: ISingletonFixedUpdate
+  fullName: Kiwi.Utility.Singleton.ISingletonFixedUpdate
+- uid: Kiwi.Utility.Singleton.SingletonInitializationStatus
+  commentId: T:Kiwi.Utility.Singleton.SingletonInitializationStatus
+  parent: Kiwi.Utility.Singleton
+  href: Kiwi.Utility.Singleton.SingletonInitializationStatus.html
+  name: SingletonInitializationStatus
+  nameWithType: SingletonInitializationStatus
+  fullName: Kiwi.Utility.Singleton.SingletonInitializationStatus
+- uid: Kiwi.Utility.Singleton.Singleton`1
+  commentId: T:Kiwi.Utility.Singleton.Singleton`1
+  href: Kiwi.Utility.Singleton.Singleton-1.html
+  name: Singleton<T>
+  nameWithType: Singleton<T>
+  fullName: Kiwi.Utility.Singleton.Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+  fullName.vb: Kiwi.Utility.Singleton.Singleton(Of T)
+  name.vb: Singleton(Of T)
+  spec.csharp:
+  - uid: Kiwi.Utility.Singleton.Singleton`1
+    name: Singleton
+    href: Kiwi.Utility.Singleton.Singleton-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Kiwi.Utility.Singleton.Singleton`1
+    name: Singleton
+    href: Kiwi.Utility.Singleton.Singleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Kiwi.Utility.Singleton.SingletonManager
+  commentId: T:Kiwi.Utility.Singleton.SingletonManager
+  href: Kiwi.Utility.Singleton.SingletonManager.html
+  name: SingletonManager
+  nameWithType: SingletonManager
+  fullName: Kiwi.Utility.Singleton.SingletonManager
+- uid: Kiwi.Utility.Singleton.SingletonManager.Driver
+  commentId: T:Kiwi.Utility.Singleton.SingletonManager.Driver
+  href: Kiwi.Utility.Singleton.SingletonManager.html
+  name: SingletonManager.Driver
+  nameWithType: SingletonManager.Driver
+  fullName: Kiwi.Utility.Singleton.SingletonManager.Driver
+  spec.csharp:
+  - uid: Kiwi.Utility.Singleton.SingletonManager
+    name: SingletonManager
+    href: Kiwi.Utility.Singleton.SingletonManager.html
+  - name: .
+  - uid: Kiwi.Utility.Singleton.SingletonManager.Driver
+    name: Driver
+    href: Kiwi.Utility.Singleton.SingletonManager.Driver.html
+  spec.vb:
+  - uid: Kiwi.Utility.Singleton.SingletonManager
+    name: SingletonManager
+    href: Kiwi.Utility.Singleton.SingletonManager.html
+  - name: .
+  - uid: Kiwi.Utility.Singleton.SingletonManager.Driver
+    name: Driver
+    href: Kiwi.Utility.Singleton.SingletonManager.Driver.html
+- uid: Kiwi.Utility.Singleton
+  commentId: N:Kiwi.Utility.Singleton
+  href: Kiwi.html
+  name: Kiwi.Utility.Singleton
+  nameWithType: Kiwi.Utility.Singleton
+  fullName: Kiwi.Utility.Singleton
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Singleton
+    name: Singleton
+    href: Kiwi.Utility.Singleton.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Singleton
+    name: Singleton
+    href: Kiwi.Utility.Singleton.html

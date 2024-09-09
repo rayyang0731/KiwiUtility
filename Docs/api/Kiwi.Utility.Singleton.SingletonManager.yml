@@ -1,0 +1,716 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kiwi.Utility.Singleton.SingletonManager
+  commentId: T:Kiwi.Utility.Singleton.SingletonManager
+  id: SingletonManager
+  parent: Kiwi.Utility.Singleton
+  children:
+  - Kiwi.Utility.Singleton.SingletonManager.GetMonoSingleton``1
+  - Kiwi.Utility.Singleton.SingletonManager.GetSingleton``1
+  - Kiwi.Utility.Singleton.SingletonManager.ReleaseAllSingletons
+  - Kiwi.Utility.Singleton.SingletonManager.ResetAllSingletons
+  - Kiwi.Utility.Singleton.SingletonManager.StartCoroutine(System.Collections.IEnumerator)
+  - Kiwi.Utility.Singleton.SingletonManager.StartCoroutine(System.String)
+  - Kiwi.Utility.Singleton.SingletonManager.StopAllCoroutines
+  - Kiwi.Utility.Singleton.SingletonManager.StopCoroutine(System.String)
+  - Kiwi.Utility.Singleton.SingletonManager.StopCoroutine(UnityEngine.Coroutine)
+  langs:
+  - csharp
+  - vb
+  name: SingletonManager
+  nameWithType: SingletonManager
+  fullName: Kiwi.Utility.Singleton.SingletonManager
+  type: Class
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: SingletonManager
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+    startLine: 14
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  summary: 单例管理器
+  example: []
+  syntax:
+    content: public static class SingletonManager
+    content.vb: Public Module SingletonManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Kiwi.Utility.Singleton.SingletonManager.GetSingleton``1
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.GetSingleton``1
+  id: GetSingleton``1
+  parent: Kiwi.Utility.Singleton.SingletonManager
+  langs:
+  - csharp
+  - vb
+  name: GetSingleton<T>()
+  nameWithType: SingletonManager.GetSingleton<T>()
+  fullName: Kiwi.Utility.Singleton.SingletonManager.GetSingleton<T>()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetSingleton
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+    startLine: 188
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  summary: 获取单例
+  example: []
+  syntax:
+    content: 'public static T GetSingleton<T>() where T : class, ISingleton, new()'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetSingleton(Of T As {Class, ISingleton, New})() As T
+  overload: Kiwi.Utility.Singleton.SingletonManager.GetSingleton*
+  nameWithType.vb: SingletonManager.GetSingleton(Of T)()
+  fullName.vb: Kiwi.Utility.Singleton.SingletonManager.GetSingleton(Of T)()
+  name.vb: GetSingleton(Of T)()
+- uid: Kiwi.Utility.Singleton.SingletonManager.GetMonoSingleton``1
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.GetMonoSingleton``1
+  id: GetMonoSingleton``1
+  parent: Kiwi.Utility.Singleton.SingletonManager
+  langs:
+  - csharp
+  - vb
+  name: GetMonoSingleton<T>()
+  nameWithType: SingletonManager.GetMonoSingleton<T>()
+  fullName: Kiwi.Utility.Singleton.SingletonManager.GetMonoSingleton<T>()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: GetMonoSingleton
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+    startLine: 199
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  summary: 获取 Mono 单例
+  example: []
+  syntax:
+    content: 'public static T GetMonoSingleton<T>() where T : MonoBehaviour, ISingleton'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetMonoSingleton(Of T As {MonoBehaviour, ISingleton})() As T
+  overload: Kiwi.Utility.Singleton.SingletonManager.GetMonoSingleton*
+  nameWithType.vb: SingletonManager.GetMonoSingleton(Of T)()
+  fullName.vb: Kiwi.Utility.Singleton.SingletonManager.GetMonoSingleton(Of T)()
+  name.vb: GetMonoSingleton(Of T)()
+- uid: Kiwi.Utility.Singleton.SingletonManager.ResetAllSingletons
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.ResetAllSingletons
+  id: ResetAllSingletons
+  parent: Kiwi.Utility.Singleton.SingletonManager
+  langs:
+  - csharp
+  - vb
+  name: ResetAllSingletons()
+  nameWithType: SingletonManager.ResetAllSingletons()
+  fullName: Kiwi.Utility.Singleton.SingletonManager.ResetAllSingletons()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ResetAllSingletons
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+    startLine: 210
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  summary: 重置所有单例
+  example: []
+  syntax:
+    content: public static void ResetAllSingletons()
+    content.vb: Public Shared Sub ResetAllSingletons()
+  overload: Kiwi.Utility.Singleton.SingletonManager.ResetAllSingletons*
+- uid: Kiwi.Utility.Singleton.SingletonManager.ReleaseAllSingletons
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.ReleaseAllSingletons
+  id: ReleaseAllSingletons
+  parent: Kiwi.Utility.Singleton.SingletonManager
+  langs:
+  - csharp
+  - vb
+  name: ReleaseAllSingletons()
+  nameWithType: SingletonManager.ReleaseAllSingletons()
+  fullName: Kiwi.Utility.Singleton.SingletonManager.ReleaseAllSingletons()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: ReleaseAllSingletons
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+    startLine: 219
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  summary: 释放所有单例
+  example: []
+  syntax:
+    content: public static void ReleaseAllSingletons()
+    content.vb: Public Shared Sub ReleaseAllSingletons()
+  overload: Kiwi.Utility.Singleton.SingletonManager.ReleaseAllSingletons*
+- uid: Kiwi.Utility.Singleton.SingletonManager.StartCoroutine(System.Collections.IEnumerator)
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.StartCoroutine(System.Collections.IEnumerator)
+  id: StartCoroutine(System.Collections.IEnumerator)
+  parent: Kiwi.Utility.Singleton.SingletonManager
+  langs:
+  - csharp
+  - vb
+  name: StartCoroutine(IEnumerator)
+  nameWithType: SingletonManager.StartCoroutine(IEnumerator)
+  fullName: Kiwi.Utility.Singleton.SingletonManager.StartCoroutine(System.Collections.IEnumerator)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: StartCoroutine
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+    startLine: 237
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  summary: 开启一个协程
+  example: []
+  syntax:
+    content: public static Coroutine StartCoroutine(IEnumerator coroutine)
+    parameters:
+    - id: coroutine
+      type: System.Collections.IEnumerator
+    return:
+      type: UnityEngine.Coroutine
+    content.vb: Public Shared Function StartCoroutine(coroutine As IEnumerator) As Coroutine
+  overload: Kiwi.Utility.Singleton.SingletonManager.StartCoroutine*
+- uid: Kiwi.Utility.Singleton.SingletonManager.StartCoroutine(System.String)
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.StartCoroutine(System.String)
+  id: StartCoroutine(System.String)
+  parent: Kiwi.Utility.Singleton.SingletonManager
+  langs:
+  - csharp
+  - vb
+  name: StartCoroutine(string)
+  nameWithType: SingletonManager.StartCoroutine(string)
+  fullName: Kiwi.Utility.Singleton.SingletonManager.StartCoroutine(string)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: StartCoroutine
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+    startLine: 242
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  summary: 开启一个协程
+  example: []
+  syntax:
+    content: public static Coroutine StartCoroutine(string methodName)
+    parameters:
+    - id: methodName
+      type: System.String
+    return:
+      type: UnityEngine.Coroutine
+    content.vb: Public Shared Function StartCoroutine(methodName As String) As Coroutine
+  overload: Kiwi.Utility.Singleton.SingletonManager.StartCoroutine*
+  nameWithType.vb: SingletonManager.StartCoroutine(String)
+  fullName.vb: Kiwi.Utility.Singleton.SingletonManager.StartCoroutine(String)
+  name.vb: StartCoroutine(String)
+- uid: Kiwi.Utility.Singleton.SingletonManager.StopCoroutine(UnityEngine.Coroutine)
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.StopCoroutine(UnityEngine.Coroutine)
+  id: StopCoroutine(UnityEngine.Coroutine)
+  parent: Kiwi.Utility.Singleton.SingletonManager
+  langs:
+  - csharp
+  - vb
+  name: StopCoroutine(Coroutine)
+  nameWithType: SingletonManager.StopCoroutine(Coroutine)
+  fullName: Kiwi.Utility.Singleton.SingletonManager.StopCoroutine(UnityEngine.Coroutine)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: StopCoroutine
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+    startLine: 255
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  summary: 停止一个协程
+  example: []
+  syntax:
+    content: public static void StopCoroutine(Coroutine coroutine)
+    parameters:
+    - id: coroutine
+      type: UnityEngine.Coroutine
+    content.vb: Public Shared Sub StopCoroutine(coroutine As Coroutine)
+  overload: Kiwi.Utility.Singleton.SingletonManager.StopCoroutine*
+- uid: Kiwi.Utility.Singleton.SingletonManager.StopCoroutine(System.String)
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.StopCoroutine(System.String)
+  id: StopCoroutine(System.String)
+  parent: Kiwi.Utility.Singleton.SingletonManager
+  langs:
+  - csharp
+  - vb
+  name: StopCoroutine(string)
+  nameWithType: SingletonManager.StopCoroutine(string)
+  fullName: Kiwi.Utility.Singleton.SingletonManager.StopCoroutine(string)
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: StopCoroutine
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+    startLine: 260
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  summary: 停止一个协程
+  example: []
+  syntax:
+    content: public static void StopCoroutine(string methodName)
+    parameters:
+    - id: methodName
+      type: System.String
+    content.vb: Public Shared Sub StopCoroutine(methodName As String)
+  overload: Kiwi.Utility.Singleton.SingletonManager.StopCoroutine*
+  nameWithType.vb: SingletonManager.StopCoroutine(String)
+  fullName.vb: Kiwi.Utility.Singleton.SingletonManager.StopCoroutine(String)
+  name.vb: StopCoroutine(String)
+- uid: Kiwi.Utility.Singleton.SingletonManager.StopAllCoroutines
+  commentId: M:Kiwi.Utility.Singleton.SingletonManager.StopAllCoroutines
+  id: StopAllCoroutines
+  parent: Kiwi.Utility.Singleton.SingletonManager
+  langs:
+  - csharp
+  - vb
+  name: StopAllCoroutines()
+  nameWithType: SingletonManager.StopAllCoroutines()
+  fullName: Kiwi.Utility.Singleton.SingletonManager.StopAllCoroutines()
+  type: Method
+  source:
+    remote:
+      path: Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+      branch: main
+      repo: https://github.com/rayyang0731/KiwiEditorUtitlity.git
+    id: StopAllCoroutines
+    path: ../Packages/com.kiwi.utility/Runtime/Common/Singleton/SingletonManager.cs
+    startLine: 271
+  assemblies:
+  - com.kiwi.utility.runtime
+  namespace: Kiwi.Utility.Singleton
+  summary: 停止所有协程
+  example: []
+  syntax:
+    content: public static void StopAllCoroutines()
+    content.vb: Public Shared Sub StopAllCoroutines()
+  overload: Kiwi.Utility.Singleton.SingletonManager.StopAllCoroutines*
+references:
+- uid: Kiwi.Utility.Singleton
+  commentId: N:Kiwi.Utility.Singleton
+  href: Kiwi.html
+  name: Kiwi.Utility.Singleton
+  nameWithType: Kiwi.Utility.Singleton
+  fullName: Kiwi.Utility.Singleton
+  spec.csharp:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Singleton
+    name: Singleton
+    href: Kiwi.Utility.Singleton.html
+  spec.vb:
+  - uid: Kiwi
+    name: Kiwi
+    href: Kiwi.html
+  - name: .
+  - uid: Kiwi.Utility
+    name: Utility
+    href: Kiwi.Utility.html
+  - name: .
+  - uid: Kiwi.Utility.Singleton
+    name: Singleton
+    href: Kiwi.Utility.Singleton.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Kiwi.Utility.Singleton.SingletonManager.GetSingleton*
+  commentId: Overload:Kiwi.Utility.Singleton.SingletonManager.GetSingleton
+  href: Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_GetSingleton__1
+  name: GetSingleton
+  nameWithType: SingletonManager.GetSingleton
+  fullName: Kiwi.Utility.Singleton.SingletonManager.GetSingleton
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Kiwi.Utility.Singleton.SingletonManager.GetMonoSingleton*
+  commentId: Overload:Kiwi.Utility.Singleton.SingletonManager.GetMonoSingleton
+  href: Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_GetMonoSingleton__1
+  name: GetMonoSingleton
+  nameWithType: SingletonManager.GetMonoSingleton
+  fullName: Kiwi.Utility.Singleton.SingletonManager.GetMonoSingleton
+- uid: Kiwi.Utility.Singleton.SingletonManager.ResetAllSingletons*
+  commentId: Overload:Kiwi.Utility.Singleton.SingletonManager.ResetAllSingletons
+  href: Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_ResetAllSingletons
+  name: ResetAllSingletons
+  nameWithType: SingletonManager.ResetAllSingletons
+  fullName: Kiwi.Utility.Singleton.SingletonManager.ResetAllSingletons
+- uid: Kiwi.Utility.Singleton.SingletonManager.ReleaseAllSingletons*
+  commentId: Overload:Kiwi.Utility.Singleton.SingletonManager.ReleaseAllSingletons
+  href: Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_ReleaseAllSingletons
+  name: ReleaseAllSingletons
+  nameWithType: SingletonManager.ReleaseAllSingletons
+  fullName: Kiwi.Utility.Singleton.SingletonManager.ReleaseAllSingletons
+- uid: Kiwi.Utility.Singleton.SingletonManager.StartCoroutine*
+  commentId: Overload:Kiwi.Utility.Singleton.SingletonManager.StartCoroutine
+  href: Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_StartCoroutine_System_Collections_IEnumerator_
+  name: StartCoroutine
+  nameWithType: SingletonManager.StartCoroutine
+  fullName: Kiwi.Utility.Singleton.SingletonManager.StartCoroutine
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerator
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: UnityEngine.Coroutine
+  commentId: T:UnityEngine.Coroutine
+  parent: UnityEngine
+  isExternal: true
+  name: Coroutine
+  nameWithType: Coroutine
+  fullName: UnityEngine.Coroutine
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Kiwi.Utility.Singleton.SingletonManager.StopCoroutine*
+  commentId: Overload:Kiwi.Utility.Singleton.SingletonManager.StopCoroutine
+  href: Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_StopCoroutine_UnityEngine_Coroutine_
+  name: StopCoroutine
+  nameWithType: SingletonManager.StopCoroutine
+  fullName: Kiwi.Utility.Singleton.SingletonManager.StopCoroutine
+- uid: Kiwi.Utility.Singleton.SingletonManager.StopAllCoroutines*
+  commentId: Overload:Kiwi.Utility.Singleton.SingletonManager.StopAllCoroutines
+  href: Kiwi.Utility.Singleton.SingletonManager.html#Kiwi_Utility_Singleton_SingletonManager_StopAllCoroutines
+  name: StopAllCoroutines
+  nameWithType: SingletonManager.StopAllCoroutines
+  fullName: Kiwi.Utility.Singleton.SingletonManager.StopAllCoroutines
