@@ -12,7 +12,7 @@ namespace Kiwi.Utility.Editor
 		[ MenuItem("GameObject/Kiwi/Copy Hierarchy Path" , false , -10) ]
 		public static void Copy()
 		{
-			var path = GetPath(Selection.activeGameObject);
+			var path = EditorUtil.GetPath(Selection.activeGameObject);
 			EditorGUIUtility.systemCopyBuffer = path;
 
 			Debug.Log($"复制 {Selection.activeGameObject.name} 路径到剪贴板: {path}");
@@ -20,22 +20,5 @@ namespace Kiwi.Utility.Editor
 
 		[ MenuItem("GameObject/Kiwi/Copy Hierarchy Path" , true) ]
 		public static bool CopyValidate() => Selection.activeGameObject != null;
-
-		/// <summary>
-		/// 获取路径
-		/// </summary>
-		private static string GetPath(GameObject gameObject)
-		{
-			var path   = gameObject.name;
-			var parent = gameObject.transform.parent;
-
-			while (parent != null)
-			{
-				path   = $"{parent.name}/{path}";
-				parent = parent.parent;
-			}
-
-			return path;
-		}
 	}
 }
