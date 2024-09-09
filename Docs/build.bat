@@ -1,1 +1,1 @@
-docfx build docfx.json --serve  --open-browser
+docfx docfx.json --serve  --open-browser
