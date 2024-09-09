@@ -4,3 +4,7 @@
   href: EditorToolbarExtender 使用说明.md
 - name: 模型预览编辑器
   href: PreviewEditor 使用说明.md
+- name: 编辑器图标浏览器
+  href: EditorIconsBrowser 使用说明.md
+- name: 注册表浏览器
+  href: PlayerPrefsBrowser 使用说明.md
