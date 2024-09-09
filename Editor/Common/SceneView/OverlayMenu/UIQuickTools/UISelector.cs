@@ -13,6 +13,9 @@ namespace Kiwi.Utility.Editor.SceneView.OverlayMenu
 	{
 		private static bool _enabled = false;
 
+		/// <summary>
+		/// 是否启用
+		/// </summary>
 		public static bool Enabled
 		{
 			get => _enabled;
