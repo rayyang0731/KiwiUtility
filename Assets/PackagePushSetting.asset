@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 876301d20bbb4c5697e3251168429c70, type: 3}
   m_Name: PackagePushSetting
   m_EditorClassIdentifier: 
-  PackageFolder: {fileID: 0}
+  PackageFolder: {fileID: 102900000, guid: 5ebfce07aba5426b2beb112f0d3cb09a, type: 3}
