@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.kiwi.package": "https://github.com/rayyang0731/KiwiPackageTool.git#1.0.3",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.feature.development": "1.0.1",
     "com.unity.test-framework": "1.4.5",
