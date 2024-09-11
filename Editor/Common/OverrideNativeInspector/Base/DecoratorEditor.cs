@@ -23,7 +23,7 @@ namespace Kiwi.Utility.Editor.OverrideNativeInspector
 	public abstract class DecoratorEditor : UnityEditor.Editor
 	{
 		// empty array for invoking methods using reflection
-		private static readonly object[] EMPTY_ARRAY = new object[0];
+		private static readonly object[ ] EMPTY_ARRAY = Array.Empty<object>();
 
 		#region Editor Fields
 
@@ -35,92 +35,82 @@ namespace Kiwi.Utility.Editor.OverrideNativeInspector
 		/// <summary>
 		/// Type object for the object that is edited by this editor.
 		/// </summary>
-		private Type editedObjectType;
+		private Type _editedObjectType;
 
-		private UnityEditor.Editor editorInstance;
+		private UnityEditor.Editor _editorInstance;
 
 		#endregion
 
-		private static Dictionary<string, MethodInfo> decoratedMethods = new();
+		private static readonly Dictionary<string , MethodInfo> DecoratedMethods = new();
 
-		private static Assembly editorAssembly = Assembly.GetAssembly(typeof(UnityEditor.Editor));
+		private static readonly Assembly EditorAssembly = Assembly.GetAssembly(typeof(UnityEditor.Editor));
 
 		protected UnityEditor.Editor EditorInstance
 		{
 			get
 			{
-				if (editorInstance == null && targets != null && targets.Length > 0)
+				if (_editorInstance == null && targets is {Length: > 0})
 				{
-					editorInstance = CreateEditor(targets, decoratedEditorType);
+					_editorInstance = CreateEditor(targets , decoratedEditorType);
 				}
 
-				if (editorInstance == null)
+				if (_editorInstance == null)
 				{
 					Debug.LogError("Could not create editor !");
 				}
 
-				return editorInstance;
+				return _editorInstance;
 			}
 		}
 
-		public DecoratorEditor(string editorTypeName)
+		protected DecoratorEditor(string editorTypeName)
 		{
-			decoratedEditorType = editorAssembly.GetTypes().Where(t => t.Name == editorTypeName).FirstOrDefault();
+			decoratedEditorType = EditorAssembly.GetTypes().FirstOrDefault(t => t.Name == editorTypeName);
 
 			Init();
 
 			// Check CustomEditor types.
 			var originalEditedType = GetCustomEditorType(decoratedEditorType);
 
-			if (originalEditedType != editedObjectType)
+			if (originalEditedType != _editedObjectType)
 			{
-				throw new ArgumentException(string.Format("Type {0} does not match the editor {1} type {2}",
-				                                          editedObjectType, editorTypeName, originalEditedType));
-			}
-		}
-
-		public DecoratorEditor(Type editorType)
-		{
-			decoratedEditorType = editorType;
-
-			Init();
-
-			// Check CustomEditor types.
-			var originalEditedType = GetCustomEditorType(decoratedEditorType);
-
-			if (originalEditedType != editedObjectType)
-			{
-				throw new ArgumentException(string.Format("Type {0} does not match the editor {1} type {2}",
-				                                          editedObjectType, editorType.Name, originalEditedType));
+				throw new ArgumentException($"Type {_editedObjectType} does not match the editor {editorTypeName} type {originalEditedType}");
 			}
 		}
 
 		private Type GetCustomEditorType(Type type)
 		{
-			var flags = BindingFlags.NonPublic | BindingFlags.Instance;
+			const BindingFlags flags = BindingFlags.NonPublic | BindingFlags.Instance;
 
-			var attributes = type.GetCustomAttributes(typeof(CustomEditor), true) as CustomEditor[];
-			var field      = attributes.Select(editor => editor.GetType().GetField("m_InspectedType", flags)).First();
+			var attributes = type.GetCustomAttributes(typeof(CustomEditor) , true) as CustomEditor[ ];
 
-			return field.GetValue(attributes[0]) as Type;
+			if (attributes == null)
+				return null;
+			var field = attributes.Select(editor => editor.GetType().GetField("m_InspectedType" , flags)).First();
+
+			if (field != null)
+				return field.GetValue(attributes[0]) as Type;
+
+			return null;
 		}
 
 		private void Init()
 		{
-			var flags = BindingFlags.NonPublic | BindingFlags.Instance;
+			const BindingFlags flags = BindingFlags.NonPublic | BindingFlags.Instance;
 
-			var attributes = GetType().GetCustomAttributes(typeof(CustomEditor), true) as CustomEditor[];
-			var field      = attributes.Select(editor => editor.GetType().GetField("m_InspectedType", flags)).First();
+			if (GetType().GetCustomAttributes(typeof(CustomEditor) , true) is not CustomEditor[ ] attributes)
+				return;
 
-			editedObjectType = field.GetValue(attributes[0]) as Type;
+			var field = attributes.Select(editor => editor.GetType().GetField("m_InspectedType" , flags)).First();
+
+			if (field != null)
+				_editedObjectType = field.GetValue(attributes[0]) as Type;
 		}
 
-		void OnDisable()
+		private void OnDisable()
 		{
-			if (editorInstance != null)
-			{
-				DestroyImmediate(editorInstance);
-			}
+			if (_editorInstance != null)
+				DestroyImmediate(_editorInstance);
 		}
 
 		/// <summary>
@@ -128,64 +118,95 @@ namespace Kiwi.Utility.Editor.OverrideNativeInspector
 		/// </summary>
 		protected void CallInspectorMethod(string methodName)
 		{
-			MethodInfo method = null;
+			MethodInfo method;
 
 			// Add MethodInfo to cache
-			if (!decoratedMethods.ContainsKey(methodName))
+			if (!DecoratedMethods.TryGetValue(methodName , out var decoratedMethod))
 			{
-				var flags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.NonPublic | BindingFlags.Public;
+				const BindingFlags flags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.NonPublic | BindingFlags.Public;
 
-				method = decoratedEditorType.GetMethod(methodName, flags);
+				method = decoratedEditorType.GetMethod(methodName , flags);
 
 				if (method != null)
-				{
-					decoratedMethods[methodName] = method;
-				}
-				else
-				{
-					Debug.LogError(string.Format("Could not find method {0}", method));
-				}
+					DecoratedMethods[methodName] = method;
 			}
 			else
 			{
-				method = decoratedMethods[methodName];
+				method = decoratedMethod;
 			}
 
 			if (method != null)
-			{
-				method.Invoke(EditorInstance, EMPTY_ARRAY);
-			}
+				method.Invoke(EditorInstance , EMPTY_ARRAY);
 		}
 
-		public void OnSceneGUI() { CallInspectorMethod("OnSceneGUI"); }
-
-		protected override void OnHeaderGUI() { CallInspectorMethod("OnHeaderGUI"); }
-
-		public override void OnInspectorGUI() { EditorInstance.OnInspectorGUI(); }
-
-		public override void DrawPreview(Rect previewArea) { EditorInstance.DrawPreview(previewArea); }
-
-		public override string GetInfoString() { return EditorInstance.GetInfoString(); }
-
-		public override GUIContent GetPreviewTitle() { return EditorInstance.GetPreviewTitle(); }
-
-		public override bool HasPreviewGUI() { return EditorInstance.HasPreviewGUI(); }
-
-		public override void OnInteractivePreviewGUI(Rect r, GUIStyle background) { EditorInstance.OnInteractivePreviewGUI(r, background); }
-
-		public override void OnPreviewGUI(Rect r, GUIStyle background) { EditorInstance.OnPreviewGUI(r, background); }
-
-		public override void OnPreviewSettings() { EditorInstance.OnPreviewSettings(); }
-
-		public override void ReloadPreviewInstances() { EditorInstance.ReloadPreviewInstances(); }
-
-		public override Texture2D RenderStaticPreview(string assetPath, Object[] subAssets, int width, int height)
+		public void OnSceneGUI()
 		{
-			return EditorInstance.RenderStaticPreview(assetPath, subAssets, width, height);
+			CallInspectorMethod("OnSceneGUI");
 		}
 
-		public override bool RequiresConstantRepaint() { return EditorInstance.RequiresConstantRepaint(); }
+		protected override void OnHeaderGUI()
+		{
+			CallInspectorMethod("OnHeaderGUI");
+		}
 
-		public override bool UseDefaultMargins() { return EditorInstance.UseDefaultMargins(); }
+		public override void OnInspectorGUI()
+		{
+			EditorInstance.OnInspectorGUI();
+		}
+
+		public override void DrawPreview(Rect previewArea)
+		{
+			EditorInstance.DrawPreview(previewArea);
+		}
+
+		public override string GetInfoString()
+		{
+			return EditorInstance.GetInfoString();
+		}
+
+		public override GUIContent GetPreviewTitle()
+		{
+			return EditorInstance.GetPreviewTitle();
+		}
+
+		public override bool HasPreviewGUI()
+		{
+			return EditorInstance.HasPreviewGUI();
+		}
+
+		public override void OnInteractivePreviewGUI(Rect r , GUIStyle background)
+		{
+			EditorInstance.OnInteractivePreviewGUI(r , background);
+		}
+
+		public override void OnPreviewGUI(Rect r , GUIStyle background)
+		{
+			EditorInstance.OnPreviewGUI(r , background);
+		}
+
+		public override void OnPreviewSettings()
+		{
+			EditorInstance.OnPreviewSettings();
+		}
+
+		public override void ReloadPreviewInstances()
+		{
+			EditorInstance.ReloadPreviewInstances();
+		}
+
+		public override Texture2D RenderStaticPreview(string assetPath , Object[ ] subAssets , int width , int height)
+		{
+			return EditorInstance.RenderStaticPreview(assetPath , subAssets , width , height);
+		}
+
+		public override bool RequiresConstantRepaint()
+		{
+			return EditorInstance.RequiresConstantRepaint();
+		}
+
+		public override bool UseDefaultMargins()
+		{
+			return EditorInstance.UseDefaultMargins();
+		}
 	}
 }
