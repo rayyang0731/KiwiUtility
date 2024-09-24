@@ -139,10 +139,10 @@ namespace Kiwi.Utility.Editor.OverrideNativeInspector
 				method.Invoke(EditorInstance , EMPTY_ARRAY);
 		}
 
-		public void OnSceneGUI()
-		{
-			CallInspectorMethod("OnSceneGUI");
-		}
+		// public void OnSceneGUI()
+		// {
+		// 	CallInspectorMethod("OnSceneGUI");
+		// }
 
 		protected override void OnHeaderGUI()
 		{
